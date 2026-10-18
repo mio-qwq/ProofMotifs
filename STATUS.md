@@ -1,7 +1,7 @@
 # Current research status
 
 Updated: 2026-10-18. Branch: `research/ongoing`; `main` remains the stable baseline.
-Last remotely verified mathematical checkpoint: `bf3bbf5cd39b6059694d3abbb7d7bb3e9b2aa994`.
+Last remotely verified mathematical checkpoint: `aca4bff2caf13c501c880f397f6cb750ea4295b2`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
 ## Controlling research priority: AI success, cancellation and tool need
@@ -33,6 +33,13 @@ square and interpolation geometry are currently supplied by hand. Freeze a
 previously unread target before testing transfer; the64 graphs and c3
 perturbation are calibration. Do not restart old finite-field orbit scans or
 report any macro hypothesis solved.
+
+Verified delivery: mathematical commitaca4bff2caf13c501c880f397f6cb750ea4295b2,
+tree4a62d405c4f551cbbba520b3d44b7c2c8299ca58. Fresh remote ref and commit
+reads match the local tree. Run39143063017/job117721260238 completed/success;
+unit tests and all26 replay blocks succeeded, including four new construction
+checks. Receipt: docs/reviews/CI_CONSTRUCTION_CHECKPOINT.json. The current
+containing receipt commit changes recovery/evidence only.
 
 Macro checkpoint2972e186d95ed60f5731bdb45167bd8ecc56556f is remotely verified
 with tree99b59aabf41d995869c13de6e7187c2adf75b1f5. Hosted run39139767580,

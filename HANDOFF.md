@@ -1,7 +1,7 @@
 # Recovery handoff
 
 Read AGENTS, STATUS, ROADMAP, CLAIMS and fresh remote refs before writing.
-Last verified remote mathematical checkpoint: `bf3bbf5cd39b6059694d3abbb7d7bb3e9b2aa994`.
+Last verified remote mathematical checkpoint: `aca4bff2caf13c501c880f397f6cb750ea4295b2`.
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
@@ -29,6 +29,13 @@ LP/NulLA/interpolation on the same supplied information. The unresolved
 operation is choosing useful representations/auxiliary objects, not solving
 an already supplied coefficient system. Select/freeze a previously unread
 target before any held-out claim;64 graph scopes/c3 are calibration.
+
+Delivery independently read back: mathematical commitaca4bff2caf13c501c880f397f6cb750ea4295b2,
+tree4a62d405c4f551cbbba520b3d44b7c2c8299ca58. Actual hosted
+CI39143063017/job117721260238 completed successfully: unit step and26 replay
+blocks, four new. CI_CONSTRUCTION_CHECKPOINT.json retains exact job/step
+records and scope limits. Freshly resolve the live head, including the
+containing evidence receipt, before resuming.
 
 Latest verified macro checkpoint:2972e186d95ed60f5731bdb45167bd8ecc56556f,
 tree99b59aabf41d995869c13de6e7187c2adf75b1f5. CI39139767580/job117711598203

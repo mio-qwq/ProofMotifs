@@ -114,3 +114,14 @@ an unread target before running transfer. The present phase, prescribed square,
 hole templates and contraction evaluations were informed by inspected proofs;
 they cannot supply a held-out claim. PM-H1..H5 remain open; supporting orbit
 questions and archived connected-normal material remain in their prior status.
+
+## Verified hosted delivery
+
+Mathematical commit: aca4bff2caf13c501c880f397f6cb750ea4295b2.
+Local/API tree: 4a62d405c4f551cbbba520b3d44b7c2c8299ca58, matched before
+ordinary non-force expected-parent ref update. Fresh commit/ref reads matched;
+main stayed063f99f67aba436c11feeb8157c1689bd8e82961 and no branch was added.
+Actual run39143063017 and job117721260238 were read after completion/success.
+Every recorded step succeeded: unit tests and26 replay blocks, including all
+four new construction checks. Exact receipt: CI_CONSTRUCTION_CHECKPOINT.json.
+No hosted Lean build, human review or upstream headline audit is inferred.

@@ -1,0 +1,243 @@
+{
+  "schema": "proofmotifs-ci-receipt-v1",
+  "date_utc": "2026-10-18",
+  "repository": "mio-qwq/ProofMotifs",
+  "branch": "research/ongoing",
+  "mathematical_commit": "aca4bff2caf13c501c880f397f6cb750ea4295b2",
+  "tree": "4a62d405c4f551cbbba520b3d44b7c2c8299ca58",
+  "parent": "44d83247bae4deb1f6369c7d150f00801393c547",
+  "ref_update": {
+    "force": false,
+    "expected_parent_checked": true,
+    "local_and_remote_tree_equal": true,
+    "main_unchanged": "063f99f67aba436c11feeb8157c1689bd8e82961"
+  },
+  "run": {
+    "id": 39143063017,
+    "url": "https://github.com/mio-qwq/ProofMotifs/actions/runs/39143063017",
+    "status": "completed",
+    "conclusion": "success",
+    "started_at": "2026-10-18T16:00:51Z",
+    "updated_at": "2026-10-18T16:01:34Z"
+  },
+  "job": {
+    "id": 117721260238,
+    "name": "exact",
+    "status": "completed",
+    "conclusion": "success",
+    "run_id": 39143063017,
+    "logs_url": null,
+    "steps": [
+      {
+        "name": "Set up job",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 1
+      },
+      {
+        "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 2
+      },
+      {
+        "name": "Unit tests",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 3
+      },
+      {
+        "name": "Replay deterministic experiments",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 4
+      },
+      {
+        "name": "Replay ternary classification",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 5
+      },
+      {
+        "name": "Replay preserver classification experiments",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 6
+      },
+      {
+        "name": "Replay constructive witness experiments",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 7
+      },
+      {
+        "name": "Replay generator witness experiments",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 8
+      },
+      {
+        "name": "Replay nonadditive preserver experiments",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 9
+      },
+      {
+        "name": "Replay incidence rank certificates",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 10
+      },
+      {
+        "name": "Replay color certificate with independent arithmetic",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 11
+      },
+      {
+        "name": "Replay Freiman completion controls",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 12
+      },
+      {
+        "name": "Replay cyclotomic incidence controls",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 13
+      },
+      {
+        "name": "Replay Fourier incidence spectra",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 14
+      },
+      {
+        "name": "Replay polynomial cyclic certificate",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 15
+      },
+      {
+        "name": "Replay two-subspace obstruction",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 16
+      },
+      {
+        "name": "Replay single-orbit certificates",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 17
+      },
+      {
+        "name": "Independently check connected-orbit polynomial gcd",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 18
+      },
+      {
+        "name": "Independently check nonlinear trace separator",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 19
+      },
+      {
+        "name": "Replay linearized odd-degree seed certificate",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 20
+      },
+      {
+        "name": "Independently check odd-degree field and trace witness",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 21
+      },
+      {
+        "name": "Replay normal-character basecase certificate",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 22
+      },
+      {
+        "name": "Replay normal-character bound arithmetic",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 23
+      },
+      {
+        "name": "Replay normal quartic boundary",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 24
+      },
+      {
+        "name": "Independently check normal obstructions and quartic witness",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 25
+      },
+      {
+        "name": "Replay construction and interaction certificates",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 26
+      },
+      {
+        "name": "Replay triangle grammar and failed transfer",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 27
+      },
+      {
+        "name": "Independently check damaged construction hypotheses",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 28
+      },
+      {
+        "name": "Independently interpolate and check the hole Gram",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 29
+      },
+      {
+        "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 58
+      },
+      {
+        "name": "Complete job",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 59
+      }
+    ]
+  },
+  "scope": {
+    "local_unit_tests": 120,
+    "hosted_unit_step": "success",
+    "historical_replay_blocks": 22,
+    "new_replay_blocks": 4,
+    "total_replay_blocks": 26,
+    "new_steps": [
+      "Replay construction and interaction certificates",
+      "Replay triangle grammar and failed transfer",
+      "Independently check damaged construction hypotheses",
+      "Independently interpolate and check the hole Gram"
+    ],
+    "independent_ai_proof_review": true,
+    "human_peer_review": false,
+    "new_lean_build": false,
+    "novel_general_tool_claim": false,
+    "held_out_transfer_claim": false
+  },
+  "limitations": [
+    "Hosted CI verifies the versioned Python tests and replay certificates, not upstream headline theorems.",
+    "The four mathematical propositions have manual proofs and scoped independent AI reviews; formalization is NOT_STARTED.",
+    "The source-informed graph panel and c3 perturbation are calibration, not held-out transfer.",
+    "Historical novelty, necessity of a new tool and AI causal hypotheses remain unproved."
+  ]
+}
