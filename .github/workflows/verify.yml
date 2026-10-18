@@ -56,3 +56,11 @@ jobs:
         run: |
           python3 tools/freiman_completion.py > /tmp/freiman-completion-results.json
           diff -u research/experiments/freiman-completion-results.json /tmp/freiman-completion-results.json
+      - name: Replay cyclotomic incidence controls
+        run: |
+          python3 tools/cyclotomic_incidence.py > /tmp/cyclotomic-incidence-results.json
+          diff -u research/experiments/cyclotomic-incidence-results.json /tmp/cyclotomic-incidence-results.json
+      - name: Replay Fourier incidence spectra
+        run: |
+          python3 tools/fourier_incidence_spectrum.py > /tmp/fourier-incidence-spectrum.json
+          diff -u research/experiments/fourier-incidence-spectrum.json /tmp/fourier-incidence-spectrum.json

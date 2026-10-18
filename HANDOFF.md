@@ -1,7 +1,7 @@
 # Recovery handoff
 
 Read AGENTS, STATUS, ROADMAP, CLAIMS and fresh remote refs before writing.
-Last verified remote predecessor: `029a65ff5920f6f9bc05e5102ee3cd5d2f545154`.
+Last verified remote predecessor: `31f3d3936c654fc4d24c8246144c3308bb0570f7`.
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
@@ -33,6 +33,19 @@ The arbitrary preserver group has order `2^((q-1)/2)*(q-1)*m/2`.
 F_9 remains exceptional (384 arbitrary preservers); F_3 has S_3.
 PM-CONJECTURE-0002 is proved, not still open. Read the full self-contained
 proof in workstreams/SC-009/RESULTS.md before changing this status.
+
+SC-009 also has a second uniform proof in `FOURIER_PROOF.md`. The square
+subgroup diagonalizes the incidence kernel into characters `u->u^k`. Root
+bounds and Frobenius-orbit dynamics leave only
+`k=0,1,3,...,3^(m-1)`; a cubic Weil sum excludes the even-degree order-two
+candidate. Task F independently accepted every step. This covers all `m>=3`
+without finite base certificates.
+
+SC-010 proves PM-THEOREM-0014. For an index-`d` multiplicative subgroup, the
+condition `q-[6(d-1)^2+8(d-1)^3+3(d-1)^4]sqrt(q)-4d^3>0` forces the
+line-incidence kernel to be affine. Its exact automorphism group is then
+`Stab_GL(m,3)(H)`. Do not replace this by scalar--Frobenius for `d>2` without
+a separate generalized-Paley theorem.
 
 ## Why the general proof works
 
@@ -81,10 +94,14 @@ diff -u research/experiments/incidence-rank-results.json /tmp/incidence-rank-res
 python tools/color_refinement_certificate.py --check research/experiments/color-certificate.json
 python tools/freiman_completion.py > /tmp/freiman-completion-results.json
 diff -u research/experiments/freiman-completion-results.json /tmp/freiman-completion-results.json
+python tools/fourier_incidence_spectrum.py > /tmp/fourier-incidence-spectrum.json
+diff -u research/experiments/fourier-incidence-spectrum.json /tmp/fourier-incidence-spectrum.json
+python tools/cyclotomic_incidence.py > /tmp/cyclotomic-incidence-results.json
+diff -u research/experiments/cyclotomic-incidence-results.json /tmp/cyclotomic-incidence-results.json
 ```
 
-All 65 integrated tests passed; log research/experiments/sc009-tests.log.
-The workflow replays all historical reports plus all SC-009 reports.
+All 74 integrated tests passed; log research/experiments/sc010-tests.log.
+The workflow replays all historical reports plus the SC-009 and SC-010 reports.
 Mathematical commit 029a65ff5920f6f9bc05e5102ee3cd5d2f545154 was delivered
 with matching local/remote tree 4afcd66a268a42f18f4fd4f7f8a09ebaba5a5298.
 Hosted run39109178633/job117621402329 passed the full suite and all nine
@@ -107,15 +124,13 @@ predecessor string was corrected to 2e990a70585e0fd7230a2c8b47d34627722a011b.
 
 ## Exact next operation and limits
 
-Perform a bounded direct-prior-art/value audit of the all-degree incidence
-kernel theorem, using partial affine geometry codes, deterministic squares
-as Freiman sets, and quadratic-residue preserver literature. The standard
-Freiman difference extension and Weil completion are already known methods;
-no absence of search results certifies originality. Compare primary theorem
-hypotheses before deciding novelty or a new application. If directly covered,
-retain the proof as infrastructure and choose a held-out target or a minimal
-formalizable core. Do not return to unmotivated finite enumerations, SC-007
-constant polishing, or the deferred SC-004 expansion.
+The direct value audit is complete: SC-009 is provisionally Level 1 and
+historical priority remains unverified. Next compare the uniform
+Fourier/cyclic-code proof with defining-characteristic cyclic-code and
+punctured Reed--Muller literature. Identify a direct spectral theorem or the
+precise residual step. Do not optimize SC-010's sufficient bound or add more
+subgroup enumeration without an application. If Lean becomes available, the
+abstract completion-to-affinity lemma is the compact formalization target.
 
 One full publicly extracted Zhihu answer was read via Parallel Search; not
 all33 answers or comments. The evidence gate rejects universal cancellation
@@ -124,8 +139,8 @@ research/literature/DISCUSSION_GATE_20261018.md.
 
 Architecture remains one coordinator with actual task-scoped subagents,
 independent views, adversarial checks and a single shared roadmap. See
-SIXTH_CYCLE.md and SC009_GENERAL_AUDIT.md for accepted handoffs, withdrawn
-objection and incomplete counting subtask. Distinguish software certificates,
+SEVENTH_CYCLE.md, SIXTH_CYCLE.md and SC009_GENERAL_AUDIT.md for accepted
+handoffs, objections and decisions. Distinguish software certificates,
 AI review, human review, Lean and historical novelty.
 
 ## Delivery and scheduling

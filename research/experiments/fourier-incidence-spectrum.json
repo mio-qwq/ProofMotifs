@@ -1,0 +1,112 @@
+{
+  "randomized": false,
+  "reports": [
+    {
+      "admissible_exponents": [
+        0,
+        1,
+        3,
+        9
+      ],
+      "arithmetic": "exact shared finite-field tables",
+      "degree": 3,
+      "expected_affine_exponents": [
+        0,
+        1,
+        3,
+        9
+      ],
+      "expected_relation_size": 7,
+      "limitations": "finite sanity check, not the uniform Fourier proof",
+      "modulus": [
+        1,
+        2,
+        0,
+        1
+      ],
+      "nonsquare_s_with_square_s2_plus_1": 6,
+      "order_two_exponent": null,
+      "order_two_failure": null,
+      "q": 27,
+      "relation_size": 7,
+      "spectrum_matches": true,
+      "square_subgroup_size": 13
+    },
+    {
+      "admissible_exponents": [
+        0,
+        1,
+        3,
+        9,
+        27
+      ],
+      "arithmetic": "exact shared finite-field tables",
+      "degree": 4,
+      "expected_affine_exponents": [
+        0,
+        1,
+        3,
+        9,
+        27
+      ],
+      "expected_relation_size": 19,
+      "limitations": "finite sanity check, not the uniform Fourier proof",
+      "modulus": [
+        2,
+        0,
+        1,
+        0,
+        1
+      ],
+      "nonsquare_s_with_square_s2_plus_1": 24,
+      "order_two_exponent": 20,
+      "order_two_failure": [
+        4,
+        7,
+        2
+      ],
+      "q": 81,
+      "relation_size": 19,
+      "spectrum_matches": true,
+      "square_subgroup_size": 40
+    },
+    {
+      "admissible_exponents": [
+        0,
+        1,
+        3,
+        9,
+        27,
+        81
+      ],
+      "arithmetic": "exact shared finite-field tables",
+      "degree": 5,
+      "expected_affine_exponents": [
+        0,
+        1,
+        3,
+        9,
+        27,
+        81
+      ],
+      "expected_relation_size": 61,
+      "limitations": "finite sanity check, not the uniform Fourier proof",
+      "modulus": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "nonsquare_s_with_square_s2_plus_1": 60,
+      "order_two_exponent": null,
+      "order_two_failure": null,
+      "q": 243,
+      "relation_size": 61,
+      "spectrum_matches": true,
+      "square_subgroup_size": 121
+    }
+  ],
+  "schema": 1
+}

@@ -21,6 +21,13 @@ space of affine restrictions. Consequently PM-CONJECTURE-0002 holds for
 every m>=3. Sections 5–6 prove this using classical character sums and
 Freiman extension, with exact rank certificates for m=3,4.
 
+An independent uniform proof is now recorded in
+[FOURIER_PROOF.md](FOURIER_PROOF.md). It diagonalizes the kernel under the
+square subgroup, classifies the admissible character exponents by root bounds
+and Frobenius orbits, and uses one cubic Weil sum for the even-degree boundary.
+It covers every m>=3 without the finite base certificates. The two proofs are
+kept separately for audit; neither is Lean or a historical-originality claim.
+
 Status: full written proofs and exact finite certificates; separate AI
 structural and adversarial reviews accepted the general argument.
 Independent AI review, human review, formal verification and originality are

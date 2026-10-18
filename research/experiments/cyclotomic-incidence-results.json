@@ -1,0 +1,142 @@
+{
+  "purpose": "negative controls showing the large-field hypothesis is essential",
+  "randomized": false,
+  "reports": [
+    {
+      "affine_kernel_holds": false,
+      "affine_restriction_dimension": 5,
+      "degree": 4,
+      "edge_count": 0,
+      "incidence_nullity": 20,
+      "incidence_rank": 0,
+      "index": 4,
+      "limitations": "finite exact control only; the SC-010 theorem uses a multiplicative-character proof",
+      "modulus": [
+        2,
+        0,
+        1,
+        0,
+        1
+      ],
+      "q": 81,
+      "subgroup_size": 20
+    },
+    {
+      "affine_kernel_holds": false,
+      "affine_restriction_dimension": 5,
+      "degree": 4,
+      "edge_count": 16,
+      "incidence_nullity": 6,
+      "incidence_rank": 10,
+      "index": 5,
+      "limitations": "finite exact control only; the SC-010 theorem uses a multiplicative-character proof",
+      "modulus": [
+        2,
+        0,
+        1,
+        0,
+        1
+      ],
+      "q": 81,
+      "subgroup_size": 16
+    },
+    {
+      "affine_kernel_holds": false,
+      "affine_restriction_dimension": 5,
+      "degree": 4,
+      "edge_count": 0,
+      "incidence_nullity": 10,
+      "incidence_rank": 0,
+      "index": 8,
+      "limitations": "finite exact control only; the SC-010 theorem uses a multiplicative-character proof",
+      "modulus": [
+        2,
+        0,
+        1,
+        0,
+        1
+      ],
+      "q": 81,
+      "subgroup_size": 10
+    },
+    {
+      "affine_kernel_holds": true,
+      "affine_restriction_dimension": 3,
+      "degree": 4,
+      "edge_count": 8,
+      "incidence_nullity": 3,
+      "incidence_rank": 5,
+      "index": 10,
+      "limitations": "finite exact control only; the SC-010 theorem uses a multiplicative-character proof",
+      "modulus": [
+        2,
+        0,
+        1,
+        0,
+        1
+      ],
+      "q": 81,
+      "subgroup_size": 8
+    },
+    {
+      "affine_kernel_holds": true,
+      "affine_restriction_dimension": 5,
+      "degree": 4,
+      "edge_count": 0,
+      "incidence_nullity": 5,
+      "incidence_rank": 0,
+      "index": 16,
+      "limitations": "finite exact control only; the SC-010 theorem uses a multiplicative-character proof",
+      "modulus": [
+        2,
+        0,
+        1,
+        0,
+        1
+      ],
+      "q": 81,
+      "subgroup_size": 5
+    },
+    {
+      "affine_kernel_holds": false,
+      "affine_restriction_dimension": 6,
+      "degree": 5,
+      "edge_count": 0,
+      "incidence_nullity": 22,
+      "incidence_rank": 0,
+      "index": 11,
+      "limitations": "finite exact control only; the SC-010 theorem uses a multiplicative-character proof",
+      "modulus": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "q": 243,
+      "subgroup_size": 22
+    },
+    {
+      "affine_kernel_holds": false,
+      "affine_restriction_dimension": 6,
+      "degree": 5,
+      "edge_count": 0,
+      "incidence_nullity": 11,
+      "incidence_rank": 0,
+      "index": 22,
+      "limitations": "finite exact control only; the SC-010 theorem uses a multiplicative-character proof",
+      "modulus": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "q": 243,
+      "subgroup_size": 11
+    }
+  ],
+  "schema": 1
+}

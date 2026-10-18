@@ -1,0 +1,18 @@
+{
+  "algorithm": "SHA256",
+  "files": {
+    "docs/reviews/SEVENTH_CYCLE.md": "5d4eee81b8bf0e0dc6c04fbe014b54173b18b8049bb561cb68ee2056169c023e",
+    "research/experiments/cyclotomic-incidence-results.json": "5a18deb4dea41f1a26783d6b5f2ec6223e479f6d399b81ca985728dbecc46146",
+    "research/experiments/fourier-incidence-spectrum.json": "389edb76c50cb06548ce7acb92225ff449ef242a95ab45848bd86fde1ae99d9f",
+    "research/experiments/sc010-tests.log": "7656c9671178b6c220991e6c80263689dd670c62c02b7639bb9cebae3a330038",
+    "research/literature/INCIDENCE_VALUE_GATE_20261018.md": "cd0623f8bfbb36221891289280d3862b7525583f295a2c4054534fc9dd04181f",
+    "tests/test_cyclotomic_incidence.py": "9860bb957e901e05483bcd600fa8df96b38a0a8e9bb2bea89db28576646e57c7",
+    "tests/test_fourier_incidence_spectrum.py": "9dc57e103cfaa60025f24252f978076ded3c8339ed418fca5310ce58ac4ad5f7",
+    "tools/cyclotomic_incidence.py": "411d326f7adc10d8ccb91b09e090a32955301e4a4213d30f167f14fb785ef75b",
+    "tools/fourier_incidence_spectrum.py": "6d9510b3caea0a3d642cab6c2662ec153320044702851249963d26af721e8cdf",
+    "workstreams/SC-009/FOURIER_PROOF.md": "70d38dc16765c002e40c1ca197f37d364e8304d98b62060b3072c44d6fff9dc2",
+    "workstreams/SC-009/RESULTS.md": "39ba01fde0a974cabe0ebf9b6afaffe8e3b04dde5050cdc52e4862ab4dfef6f8",
+    "workstreams/SC-010/RESULTS.md": "7f934f5253bff7c28e7c066428195dfa4ebccc981a0ea1eeda67d23f71a589f0"
+  },
+  "schema": 1
+}

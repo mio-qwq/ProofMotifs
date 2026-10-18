@@ -1,7 +1,7 @@
 # Current research status
 
 Updated: 2026-10-18. Branch: `research/ongoing`; `main` remains the stable baseline.
-Last remotely verified predecessor: `029a65ff5920f6f9bc05e5102ee3cd5d2f545154`.
+Last remotely verified predecessor: `31f3d3936c654fc4d24c8246144c3308bb0570f7`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
 ## Current mathematical result
@@ -34,6 +34,20 @@ Classical tools, general proof, finite evidence, AI reviews and novelty are
 separate. Historical originality, human peer review and formalization remain
 unestablished. No universal new cancellation theory is claimed.
 
+SC-009 now also has an independent uniform proof. Multiplicative Fourier
+decomposition reduces the kernel to exponents `k` satisfying
+`1+a^k+(-1-a)^k=0` on the square relation. Root bounds and Frobenius-orbit
+dynamics leave `0,1,3,...,3^(m-1)`; one cubic Weil sum excludes the sole
+even-degree order-two candidate. This route works for every `m>=3` without
+the finite `m=3,4` rank certificates. It is manual and AI-reviewed, not Lean.
+
+SC-010 proves a controlled extension. For an index-`d>=2` multiplicative
+subgroup `H`, let `B4=6(d-1)^2+8(d-1)^3+3(d-1)^4`. If
+`q-B4*sqrt(q)-4d^3>0`, its internal zero-sum-line kernel is exactly the affine
+restrictions. The hypergraph automorphism group is the linear setwise
+stabilizer of `H`; scalar--Frobenius needs an additional generalized-Paley
+normality hypothesis and is not inferred from incidence affinity alone.
+
 ## Acceptance of recovered work
 
 SC-008 arrived through remote commits f172123 (mathematics), b82c344 (workflow)
@@ -50,8 +64,8 @@ full predecessor string was corrected: its actual predecessor was
 
 ## Actual verification
 
-All 65 tests passed in the integrated local suite; log:
-research/experiments/sc009-tests.log. New deterministic reports record exact
+All 74 tests passed in the integrated local suite; current log:
+research/experiments/sc010-tests.log. New deterministic reports record exact
 rank minors and kernel vectors, full color traces and an independent arithmetic
 receipt, and completion-gadget checks. F_27/F_81 cover all 780/28,880 nontrivial
 ordered relations; F_243's 7,080 normalized representatives cover 856,680
@@ -59,9 +73,18 @@ relations by square scaling. All 218,124 instantiated gadgets pass; F_9 supplies
 real failing completions and a nonaffine kernel function. Finite enumeration
 is not the proof for unbounded degree.
 
+The new reports `fourier-incidence-spectrum.json` and
+`cyclotomic-incidence-results.json` check the spectral exponents and preserve
+small-field subgroup failures. In `F_81`, the index-5 kernel has dimension six
+versus affine dimension five; the index-16 subgroup has minimal kernel but a
+linear stabilizer `S_5` larger than scalar--Frobenius. These are negative
+controls, not counterexamples to the stated large-field theorem.
+
 Actual independent AI tasks A/B/C/D/E and coordinator decisions are recorded
 in docs/reviews/SIXTH_CYCLE.md; E's complete proof audit is preserved separately.
 A counting subtask that was interrupted is not counted as a completed review.
+The six value/Fourier/cyclotomic tasks and the coordinator's endpoint decision
+are recorded in docs/reviews/SEVENTH_CYCLE.md.
 No Lean/Lake/Elan tool is installed; no formal-verification claim is made.
 The mathematical tree was delivered as 029a65ff5920f6f9bc05e5102ee3cd5d2f545154,
 with local/remote tree 4afcd66a268a42f18f4fd4f7f8a09ebaba5a5298. Hosted run
@@ -83,14 +106,18 @@ precise theorem. The bounded source audit does not establish corpus-wide
 prevalence, AI/human differences or a missing universal mathematical tool.
 See research/literature/DISCUSSION_GATE_20261018.md.
 
-Next: compare the exact incidence-affinity statement with restricted Freiman
-extension, partial affine geometry codes and quadratic-residue preserver
-literature. Identify a direct prior theorem or the precise uncovered step.
-Conlon–Gowers' difference-extension mechanism and prescribed-character-pattern
-completion are established background. Do not optimize SC-007 constants or
-repeat small-field enumeration without a new validation need. If the result
-is covered, retain it as infrastructure and select a genuinely new application
-or a small formalizable core. SC-004 remains deferred.
+The completed value gate provisionally classifies SC-009 as Level 1. Full
+affine Reed--Muller duality, the full nonzero zero-sum design, the square
+embedding, Freiman extension and Paley/Carlitz theory are close but do not
+directly imply the induced-square incidence kernel. This bounded outcome does
+not establish priority. See `INCIDENCE_VALUE_GATE_20261018.md`.
+
+Next: compare the uniform Fourier/cyclic-code proof with
+defining-characteristic cyclic-code and punctured Reed--Muller literature.
+Identify a direct spectral precedent or the precise residual step. Do not
+optimize SC-010's sufficient threshold or add more subgroup enumeration
+without an application. A compact `completion_to_affine` formalization remains
+valuable when a real Lean toolchain is available; none is installed here.
 
 ## Scheduling and delivery
 

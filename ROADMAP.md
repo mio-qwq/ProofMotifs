@@ -79,3 +79,28 @@ small-field classification or SC-007 constant optimization without a concrete
 new purpose. Continue the single coordinator, scoped independent views and
 adversarial review architecture. A broad forum analogy is motivation, not
 proof of a universal cancellation tool gap or an AI/human prevalence claim.
+
+## Update after the value gate and cyclotomic extension
+
+The bounded direct comparison found no theorem that immediately supplies the
+defining-characteristic kernel of three-point affine lines induced on the
+nonzero squares. Full affine Reed--Muller duality, the full nonzero zero-sum
+design, the square embedding, random-set Freiman extension and Paley/Carlitz
+theory are close but omit the induced-subdesign extension. SC-009 is therefore
+provisionally Level 1 with `NOVELTY_UNVERIFIED`, not a historical-first or
+Level 2 claim.
+
+A second multiplicative-Fourier proof gives the SC-009 kernel uniformly in all
+degrees, independent of the four-edge/Freiman route and finite base ranks.
+Immediate gate: compare this spectral argument with defining-characteristic
+cyclic-code and punctured Reed--Muller literature. Its classical tools are not
+candidate novelty.
+
+SC-010 extends incidence affinity to arbitrary-index multiplicative subgroups
+under an explicit character-sum threshold. Its endpoint is the linear setwise
+stabilizer, not automatically scalar--Frobenius. Exact `F_81` counterexamples
+and generalized-Paley literature show that a stronger endpoint needs a
+separate normality theorem. Do not optimize the threshold or enumerate more
+small subgroups without a natural application. A compact formalization of the
+abstract completion-to-affinity lemma remains the preferred alternative once
+a real Lean toolchain exists.
