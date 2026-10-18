@@ -2,6 +2,15 @@
 
 ## Latest: representation-to-readout gate and classical adaptive bridge
 
+Delivery verified: mathematical commit847fbe53bf5520e0ae32f0d86d905ec01257630b,
+treec65253d2e4e7399001ad9036c79b2764d34cc06d. Actual hosted
+CI39177518097/job117823143390 completed/success: all58 steps including
+unit tests and53 deterministic replay blocks succeeded.195 local tests
+passed. Exact scope: docs/reviews/CI_FACTOR_READOUT_CHECKPOINT.json.
+The containing receipt changes recovery/evidence only; the immutable
+factor-readout-manifest.json belongs to the mathematical tree. Resolve the
+live containing SHA independently; main063f99f remains unchanged.
+
 Read research/mechanisms/FACTOR_READOUT.md and
 docs/reviews/FACTOR_READOUT_CHECKPOINT.md before older next-step entries.
 Public freeze765fa48b0eb907c4c6fc30541dbfafc42ca9d29c preceded family142
@@ -37,9 +46,8 @@ Seek a resource-preserving theorem transporting discovery, not merely an
 already found certificate. Freeze any new external test before access.
 Do not resume q-seed variants, field tables, odd-curve/zero-free optimization
 or generic kernel renaming. PM-H1..H5 all OPEN; macro objective unchanged.
-Last verified delivery predecessor for this pending mathematical tree:
-3a7ffa9098fd024ff44df3aa0704f4faab4ed143, tree465126b0322def525343c1084597ec7b4acabec4.
-Resolve actual latest ref and subsequent math/CI receipt independently.
+Verified mathematical checkpoint:847fbe53bf5520e0ae32f0d86d905ec01257630b.
+Resolve actual latest ref, including the containing receipt, independently.
 
 
 ## Latest: implicit representation generation and closed mixed-seed gate
