@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-19 Asia/Singapore",
+  "rule": "Primary theorem/proof read ranges; no no-hit novelty inference; original scans not redistributed.",
+  "sources": [
+    {
+      "id": "diaz_pariguan",
+      "title": "On the q-meromorphic Weyl algebra",
+      "authors": "Rafael Díaz, Eddy Pariguan",
+      "version": "arXiv:0804.0183v2,23Jun2009; publisher PDF São Paulo J.Math.Sci.3(2)(2009),283–298",
+      "url": "https://arxiv.org/html/0804.0183v2",
+      "publisher_pdf": "https://revistas.usp.br/spjournal/en/article/download/48/46/91",
+      "read_root": "§3 Definition4, Theorems5/6, Jackson identity and proof context; publisher Theorem6 p291",
+      "read_reviewer": "C: stamped arXiv v2 §3 pp6–8 through Lemma7",
+      "coverage": "Exact quadratic base relation and Jackson representation already classical. Normalize I=(q-1)J_z. Analytic discussion 0<q<1 does not alone justify arbitrary fields; independent coefficient proof supplied.",
+      "correction": "Integral representation is Theorem6, not Theorem7 in retrieved v2."
+    },
+    {
+      "id": "lopes",
+      "title": "Noncommutative algebra and representation theory: symmetry, structure invariants",
+      "author": "Samuel A. Lopes",
+      "version": "arXiv:2307.16808v2,20Dec2023; retrieved publisher PDF",
+      "url": "https://cm.episciences.org/12727/pdf",
+      "read_root": "§3 Example3.1, printed p84 (PDF index21), and relevant quantum-plane definition",
+      "coverage": "Explicit triangular generator change y+(q-1)^-1 x identifies q-meromorphic Weyl algebra with quantum plane. Not a novelty gap."
+    },
+    {
+      "id": "bell_rogalski",
+      "title": "Free subalgebras of quotient rings of Ore extensions",
+      "version": "Algebra & Number Theory6:7(2012),1349–1368; DOI10.2140/ant.2012.6.1349",
+      "url": "https://msp.org/ant/2012/6-7/ant-v6-n7-p03-p.pdf",
+      "read_root": "Intro, Notation2.1 and Theorem2.2 statement; pp1349–1352",
+      "read_reviewer": "C: pp1349–1356 theorem/proof context",
+      "coverage": "Specified fraction generators need additional conditions; ambient division localization can increase growth and does not imply our pair free."
+    },
+    {
+      "id": "lorenz",
+      "title": "On free subalgebras of certain division algebras",
+      "version": "MPI/SFB84-60 preprint,1984; journal version NOT read",
+      "url": "https://archive.mpim-bonn.mpg.de/2907/1/preprint_1984_60.pdf",
+      "read_root": "Fetched primary preprint and initial extracted context only; no complete proof audit claimed",
+      "read_reviewer": "C: statement, Lemmas1–2/proofs, opening proof through printed p9",
+      "coverage": "Ambient existence with chosen orbit data is not freeness of every rational pair."
+    },
+    {
+      "id": "moeller_buchberger1982",
+      "title": "The Construction of Multivariate Polynomials with Pre-assigned Zeros",
+      "version": "EUROCAM1982,LNCS144,24–31; DOI10.1007/3-540-11607-9_3",
+      "url": "https://www3.risc.jku.at/people/buchberger/papers/1982-04-00-A.pdf",
+      "author_record": "https://www3.risc.jku.at/people/buchberger/refereed_publications.html",
+      "read_root": "Author bibliographic record and original scan fetched; root extraction had no usable text/image payload, NOT independently read in full",
+      "read_reviewer": "C reports visual reading of all9 scanned manuscript pages: Algorithm2 pp3–4, correctness p5, degree refinement §§5–6 pp7–8, identity(9)",
+      "coverage": "Direct raw-point implicit evaluation/interpolation baseline. Do not use publisher digitization2005 as origin date. No field-operation speedup claim for our simpler output."
+    },
+    {
+      "id": "abkr2000",
+      "title": "Computing Ideals of Points",
+      "authors": "J. Abbott, A. Bigatti, M. Kreuzer, L. Robbiano",
+      "version": "J.Symbolic Computation30(4)(2000),341–356; DOI10.1006/jsco.2000.0411",
+      "url": "https://www.researchgate.net/publication/220161059_Computing_Ideals_of_Points",
+      "primary_status": "Full original article text uploaded by author Anna Maria Bigatti; not a third-party summary",
+      "read_root": "Intro; §2 AlgorithmC, Theorem2.2, separator variant/Cor2.3, remarks on Q coefficient growth; lines243–356, printed343–344; further modular proof context through347",
+      "coverage": "Original exact matching evaluation/border and separator construction; field arithmetic vs bit growth already distinguished. Not new implicit-generation theory."
+    },
+    {
+      "id": "just_stigler2006",
+      "title": "Computing Gröbner Bases of Ideals of Few Points in High Dimensions",
+      "authors": "Winfried Just, Brandilyn Stigler",
+      "version": "arXiv:math/0606189v2,13Nov2006",
+      "url": "https://arxiv.org/pdf/math/0606189",
+      "read_root": "Intro/§2 algorithm, relevant §3/Thm8 proof and §5 comparison; PDF pp1–6",
+      "coverage": "Essential-variable BM variant and O(nm^3+m^6) bound; warns against attributing modern novelty/speedup to our simpler field-operation calculation."
+    }
+  ],
+  "other_evidence": "Previously read families197/107/157/116 remain calibration. No newly unread transfer target consumed.",
+  "novelty": "UNVERIFIED; results classified as classical applications/synthesis and exact boundary certificates."
+}

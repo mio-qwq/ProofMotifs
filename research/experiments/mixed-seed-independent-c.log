@@ -1,0 +1,9 @@
+PASS universal free-polynomial certificate over Z[q,c]
+P*S + R1*A + c*B*R0 - (A+(q-1)B+c(q-1)BA)*R1 = 0
+PASS universally cleared rational telescoping kernel
+PASS all 18 input monomials modulo z^18: Q,q=2,c=1
+PASS all 12 input monomials modulo z^12: Q,q=3,c=0
+PASS all 9 input monomials modulo z^9: F_2(t),q=t,c=1
+PASS all 9 input monomials modulo z^9: F_3(t),q=t,c=1
+PASS all 9 input monomials modulo z^9: F_5(t),q=t,c=1
+No finite-order q specialization, no word-rank scan, no floating point.

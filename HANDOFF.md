@@ -1,11 +1,43 @@
 # Recovery handoff
 
+## Latest: implicit representation generation and closed mixed-seed gate
+
+Read research/mechanisms/REPRESENTATION_TRANSPORT.md and
+docs/reviews/REPRESENTATION_CHECKPOINT.md first.
+The bounded J_z,J_(z/(1-z)) question is CLOSED_NONFAITHFUL by an explicit
+all-series cubic identity, extended to a monomial-resolvent family. A universal
+free-polynomial transport certificate uses a genuine multiplier unit and
+never inverts an integration operator. The Jackson base relation and generator
+change are already covered in primary literature; no novelty is inferred.
+
+The research then returned to raw-input auxiliary-space discovery: from m
+distinct points in K^n, degree-frontier multiplication generates a minimum-
+degree evaluation representation using at most nm offers and O(nm^3) field
+operations. Inverse rows and complete degree-safe border tables certify
+minimum degree against ALL polynomials. A five-point counterexample refutes
+unjustified pruning of every multiple of a rejected monomial. The method is
+classical Buchberger–Möller territory, not a missing general tool or an
+algorithmic speedup claim. Q/prime prototypes, all-field proofs, source197
+Gram/failure controls and adversarial implementation review are saved.
+
+169 local tests and45 deterministic replay blocks passed (39 historical,
+6 new blocks/7 new programs). Hosted delivery must be read from the subsequent
+exact CI receipt, not inferred. Three actual GPT-6.1-Sol/Ultra child tasks
+handled two phases; six notes do not mean six independent researchers. Main
+model/effort remains unverified from readable runtime configuration.
+
+Next: freeze a genuinely unread external target and its available input,
+grammar, readout, cost and strongest same-input baseline BEFORE transfer.
+Check actual multiplication-congruence or unit hypotheses; preserve failure
+if absent. No more q-seed variants, toy point panels, generic kernel names or
+unfrozen transfer claims. PM-H1..H5 remain OPEN; macro objective unchanged.
+
 Read AGENTS, STATUS, ROADMAP, CLAIMS and fresh remote refs before writing.
 Last verified remote mathematical checkpoint: `12bc767a00c11fe43dd2b80076d6891408f367d2`.
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
-## Latest recovery: q-seed synthesis and polynomial grammar obstruction
+## Previous recovery: q-seed synthesis and polynomial grammar obstruction
 
 Verified mathematical delivery12bc767a00c11fe43dd2b80076d6891408f367d2,
 treeb1bc8e113c4a2a3bcfca78fc60e68b08a48290d4; actual CI39163792129/

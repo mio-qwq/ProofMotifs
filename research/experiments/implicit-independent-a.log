@@ -1,0 +1,5 @@
+singleton over Q: PASS; ranks=[1], minimum_degree=0, candidates=0
+duplicate coordinate functions over Q: PASS; ranks=[1, 2, 3, 4], minimum_degree=3, candidates=5
+five explicit non-Cartesian F2 points: PASS; ranks=[1, 4, 5], minimum_degree=2, candidates=5
+fifteen irrelevant coordinates over Q: PASS; ranks=[1, 2, 3, 4], minimum_degree=3, candidates=48
+non-Cartesian Q points: PASS; ranks=[1, 3, 5], minimum_degree=2, candidates=6

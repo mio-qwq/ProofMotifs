@@ -1,0 +1,110 @@
++ python3 tools/run_experiments.py
++ diff -u research/experiments/startup-results.json /tmp/startup-results.json
++ python3 tools/ternary_differences.py
++ diff -u research/experiments/ternary-results.json /tmp/ternary-results.json
++ python3 tools/order_preservers.py
++ diff -u research/experiments/preserver-results.json /tmp/preserver-results.json
++ python3 tools/constructive_witness.py
++ diff -u research/experiments/constructive-results.json /tmp/constructive-results.json
++ python3 tools/generator_witness.py
++ diff -u research/experiments/generator-results.json /tmp/generator-results.json
++ python3 tools/nonadditive_preservers.py
++ diff -u research/experiments/nonadditive-results.json /tmp/nonadditive-results.json
++ python3 tools/incidence_rank_certificate.py
++ diff -u research/experiments/incidence-rank-results.json /tmp/incidence-rank-results.json
++ python3 tools/color_refinement_certificate.py
++ diff -u research/experiments/color-certificate.json /tmp/color-certificate.json
++ python3 tools/color_refinement_certificate.py --check research/experiments/color-certificate.json
++ diff -u research/experiments/color-verification.json /tmp/color-verification.json
++ python3 tools/freiman_completion.py
++ diff -u research/experiments/freiman-completion-results.json /tmp/freiman-completion-results.json
++ python3 tools/cyclotomic_incidence.py
++ diff -u research/experiments/cyclotomic-incidence-results.json /tmp/cyclotomic-incidence-results.json
++ python3 tools/fourier_incidence_spectrum.py
++ diff -u research/experiments/fourier-incidence-spectrum.json /tmp/fourier-incidence-spectrum.json
++ python3 tools/cyclic_incidence_certificate.py
++ diff -u research/experiments/cyclic-incidence-certificate.json /tmp/cyclic-incidence-certificate.json
++ python3 tools/cyclic_incidence_certificate.py --check research/experiments/cyclic-incidence-certificate.json
++ diff -u research/experiments/cyclic-incidence-verification.json /tmp/cyclic-incidence-verification.json
++ python3 tools/two_subspace_obstruction.py
++ diff -u research/experiments/two-subspace-results.json /tmp/two-subspace-results.json
++ python3 tools/single_orbit_search.py
++ diff -u research/experiments/single-orbit-report.json /tmp/single-orbit-report.json
++ python3 tools/single_orbit_search.py --check research/experiments/single-orbit-report.json
++ diff -u research/experiments/single-orbit-verification.json /tmp/single-orbit-verification.json
++ python3 tools/single_orbit_independent_check.py
++ diff -u research/experiments/single-orbit-independent-check.json /tmp/single-orbit-independent-check.json
++ python3 tools/single_orbit_trace_check.py
++ diff -u research/experiments/single-orbit-trace-check.json /tmp/single-orbit-trace-check.json
++ python3 tools/linearized_seed_certificate.py
++ diff -u research/experiments/linearized-seed-certificate.json /tmp/linearized-seed-certificate.json
++ python3 tools/linearized_seed_certificate.py --verify research/experiments/linearized-seed-certificate.json
++ diff -u research/experiments/linearized-seed-verification.json /tmp/linearized-seed-verification.json
++ python3 tools/linearized_seed_independent_check.py
++ diff -u research/experiments/linearized-seed-independent-check.json /tmp/linearized-seed-independent-check.json
++ python3 tools/normal_pattern_certificate.py
++ diff -u research/experiments/normal-pattern-certificate.json /tmp/normal-pattern-certificate.json
++ python3 tools/normal_pattern_certificate.py --check research/experiments/normal-pattern-certificate.json
++ diff -u research/experiments/normal-pattern-verification.json /tmp/normal-pattern-verification.json
++ python3 tools/normal_character_bound.py
++ diff -u research/experiments/normal-character-bound.json /tmp/normal-character-bound.json
++ python3 tools/normal_quartic_boundary.py
++ diff -u research/experiments/normal-quartic-boundary.json /tmp/normal-quartic-boundary.json
++ python3 tools/normal_pattern_independent_check.py
++ diff -u research/experiments/normal-pattern-independent-check.json /tmp/normal-pattern-independent-check.json
++ python3 tools/construction_contracts.py
++ diff -u research/experiments/construction-contracts.json /tmp/construction-contracts.json
++ python3 tools/triangle_contracts.py
++ diff -u research/experiments/triangle-contracts.json /tmp/triangle-contracts.json
++ python3 tools/construction_boundary_check.py
++ diff -u research/experiments/construction-boundary-check.json /tmp/construction-boundary-check.json
++ python3 tools/construction_independent_field.py
++ diff -u research/experiments/construction-independent-field.json /tmp/construction-independent-field.json
++ python3 tools/feature_repair.py
++ diff -u research/experiments/feature-repair-report.json /tmp/feature-repair-report.json
++ python3 tools/feature_repair_boundary.py
++ diff -u research/experiments/feature-repair-boundary.json /tmp/feature-repair-boundary.json
++ python3 tools/feature_repair_independent.py
++ diff -u research/experiments/feature-repair-independent.json /tmp/feature-repair-independent.json
++ python3 tools/feature_repair_coefficient_bound.py
++ diff -u research/experiments/feature-repair-coefficient-bound.json /tmp/feature-repair-coefficient-bound.json
++ python3 tools/feature_repair_reference.py
++ diff -u research/experiments/feature-repair-reference.json /tmp/feature-repair-reference.json
++ python3 tools/feature_repair_crosscheck.py
++ diff -u research/experiments/feature-repair-crosscheck.log /tmp/feature-repair-crosscheck.log
++ python3 tools/feature_repair_monomial.py
++ diff -u research/experiments/feature-repair-monomial-report.json /tmp/feature-repair-monomial-report.json
++ python3 tools/feature_repair_monomial_check.py
++ diff -u research/experiments/feature-repair-monomial-check.json /tmp/feature-repair-monomial-check.json
++ python3 tools/reachable_series.py
++ diff -u research/experiments/reachable-series-report.json /tmp/reachable-series-report.json
++ python3 tools/acyclic_jet.py --demo
++ diff -u research/experiments/acyclic-jet-report.json /tmp/acyclic-jet-report.json
++ python3 tools/acyclic_jet_independent.py
++ diff -u research/experiments/acyclic-jet-independent.json /tmp/acyclic-jet-independent.json
++ python3 tools/finite_algebra_jet.py
++ diff -u research/experiments/finite-algebra-jet-report.json /tmp/finite-algebra-jet-report.json
++ python3 tools/finite_algebra_jet_independent.py
++ diff -u research/experiments/finite-algebra-jet-independent.json /tmp/finite-algebra-jet-independent.json
++ python3 tools/q_seed_synthesis.py
++ diff -u research/experiments/q-seed-report.json /tmp/q-seed-report.json
++ python3 tools/q_seed_independent.py
++ diff -u research/experiments/q-seed-independent.json /tmp/q-seed-independent.json
++ python3 tools/q_polynomial_obstruction.py
++ diff -u research/experiments/q-polynomial-report.json /tmp/q-polynomial-report.json
++ python3 tools/q_polynomial_independent.py
++ diff -u research/experiments/q-polynomial-independent.json /tmp/q-polynomial-independent.json
++ python3 tools/resolvent_certificate.py
++ diff -u research/experiments/resolvent-certificate.json /tmp/resolvent-certificate.json
++ python3 tools/mixed_seed_independent_b.py
++ diff -u research/experiments/mixed-seed-independent-b.log /tmp/mixed-seed-independent-b.log
++ python3 tools/mixed_seed_independent_c.py
++ diff -u research/experiments/mixed-seed-independent-c.log /tmp/mixed-seed-independent-c.log
++ python3 tools/implicit_evaluation.py
++ diff -u research/experiments/implicit-evaluation.json /tmp/implicit-evaluation.json
++ python3 tools/implicit_independent_a.py
++ diff -u research/experiments/implicit-independent-a.log /tmp/implicit-independent-a.log
++ python3 tools/implicit_independent_b.py
++ diff -u research/experiments/implicit-independent-b.log /tmp/implicit-independent-b.log
++ python3 tools/implicit_independent_c.py
++ diff -u research/experiments/implicit-independent-c.log /tmp/implicit-independent-c.log

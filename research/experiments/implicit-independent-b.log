@@ -1,0 +1,6 @@
+PASS: seven small rational/prime-field filtered-rank and dual-certificate panels
+PASS: individual cardinal degrees [2,2,2,1] on off-line 4-point panel
+PASS: F7 generated degree-2 cardinal map, punctured Gram -I4, all 56 line Grams zero
+PASS: F7 collinear same-budget obstruction lambda=[1,4,3,6], moments=[0,0,0,1]
+PASS: n=40,m=9,d*=8; offers=281; ambient monomials=377348994; not enumerated
+PASS: duplicate-input rejection

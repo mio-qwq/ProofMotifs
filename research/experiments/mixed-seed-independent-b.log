@@ -1,0 +1,4 @@
+PASS: 432 exact generalized monomial-action controls
+PASS: omitted-cubic control has leading coefficient -1/21 at z^3
+PASS: unary faithful-leading-term controls for A and B
+PASS: 378 exact coefficient telescoping controls

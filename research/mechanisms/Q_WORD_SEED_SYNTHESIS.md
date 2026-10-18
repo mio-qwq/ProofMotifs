@@ -368,12 +368,10 @@ The remaining macro gap is generating a useful representation grammar from
 an actual problem, with the appropriate target property and resource promise;
 it is not a missing residue solver, matroid optimizer or generic kernel.
 
-Next bounded gate: determine K-operator faithfulness of the explicit pair
-J_z,J_(z/(1-z)). Its strong residue rank is1 rather than2, which does NOT
-decide the weaker target. Compare primary free-subalgebra/Ore-localization
-criteria before attempting it; this is a project question, not a claim of
-a historically open problem. Finite word ranks would not settle it. Give
-this one bounded proof/obstruction attempt, then return to cross-mechanism
-197/107/157 representation discovery if no reusable gain appears. No new
-unread external transfer target has been consumed. Do not revive old field
-scans or call the strong residue condition necessary for all faithfulness.
+This next bounded gate is now CLOSED by PM-MIX0001 in
+REPRESENTATION_TRANSPORT.md: J_z,J_(z/(1-z)) obey an explicit cubic operator
+identity on all formal series. Strong residue rank1 alone did not decide it.
+The follow-up returned to raw-point implicit representation generation and
+identified its classical BM coverage. No new unread external transfer target
+was consumed. Continue the macro freeze/transfer gate, not q-seed variants,
+old field scans or a claim that strong rank is necessary for all faithfulness.

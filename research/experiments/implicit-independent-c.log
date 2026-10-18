@@ -1,0 +1,4 @@
+PASS premature-rejection, degree-order, finite-field-separator, and non-ideal-pruning controls
+PASS all 255 nonempty subsets of F_2^3 against exhaustive small-degree oracle
+PASS F_3^2, seven rational collinear points, and mixed hole geometry
+The production algorithm generated only coordinate-products of retained frontier vectors.

@@ -192,3 +192,29 @@ jobs:
         run: |
           python3 tools/q_polynomial_independent.py > /tmp/q-polynomial-independent.json
           diff -u research/experiments/q-polynomial-independent.json /tmp/q-polynomial-independent.json
+      - name: Replay universal resolvent transport certificate
+        run: |
+          python3 tools/resolvent_certificate.py > /tmp/resolvent-certificate.json
+          diff -u research/experiments/resolvent-certificate.json /tmp/resolvent-certificate.json
+      - name: Independently check mixed rational seed identities
+        run: |
+          python3 tools/mixed_seed_independent_b.py > /tmp/mixed-seed-independent-b.log
+          diff -u research/experiments/mixed-seed-independent-b.log /tmp/mixed-seed-independent-b.log
+          python3 tools/mixed_seed_independent_c.py > /tmp/mixed-seed-independent-c.log
+          diff -u research/experiments/mixed-seed-independent-c.log /tmp/mixed-seed-independent-c.log
+      - name: Replay implicit minimum-degree representation
+        run: |
+          python3 tools/implicit_evaluation.py > /tmp/implicit-evaluation.json
+          diff -u research/experiments/implicit-evaluation.json /tmp/implicit-evaluation.json
+      - name: Independently check degree-safe frontier closure
+        run: |
+          python3 tools/implicit_independent_a.py > /tmp/implicit-independent-a.log
+          diff -u research/experiments/implicit-independent-a.log /tmp/implicit-independent-a.log
+      - name: Independently check cardinal maps and Gram transfer
+        run: |
+          python3 tools/implicit_independent_b.py > /tmp/implicit-independent-b.log
+          diff -u research/experiments/implicit-independent-b.log /tmp/implicit-independent-b.log
+      - name: Adversarially check implicit pruning and degree completeness
+        run: |
+          python3 tools/implicit_independent_c.py > /tmp/implicit-independent-c.log
+          diff -u research/experiments/implicit-independent-c.log /tmp/implicit-independent-c.log

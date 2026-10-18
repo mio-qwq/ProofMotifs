@@ -15,6 +15,25 @@ All five remain OPEN; this is a research agenda, not a completed preregistration
 | PM-H4 | Precise gap beyond established mathematical tools | Original theorem/hypothesis comparisons are required; a failed search is not a gap proof |
 | PM-H5 | Additional value of a candidate instrument | Held-out results against fixed existing-tool/resource baselines remain outstanding |
 
+## Implicit representation generation and relation transport
+
+Complete proofs: [representation transport](research/mechanisms/REPRESENTATION_TRANSPORT.md).
+Independent A/B views and separate C adversary in each phase; exact implementation
+checks and resolved objections. All are manual/classical-method results, not
+human review, Lean, historical priority, AI causality or successful unread transfer.
+
+| ID | Scoped conclusion | Evidence and limit |
+| --- | --- | --- |
+| PM-MIX0001 | A=J_(a z^r), B=J_(a z^r/(1-c a z^r)), Q=q^r obey AB-QBA+(Q-1)(B²+cBAB)=0 on all K[[z]] | Infinite q, a!=0,r>=1; explicit nonzero free polynomial resolves prior mixed gate NEGATIVELY, not all rational alphabets |
+| PM-MIX0002 | P*S=H*R1-R1*A-c*B*R0 transports the quadratic relation through genuine unit S | Universal exact free-algebra certificate; no-unit scalar counterexample; generic equality checker does not establish semantic/unit hypotheses |
+| PM-IMPLICIT0001 | Raw m distinct points in K^n yield all-target minimum-total-degree evaluation normal forms with <=nm offers and O(nm³) field operations | Degree-frontier proof over any effective field; classical BM/evaluation algebra, no bit/speedup/locality optimality claim |
+| PM-IMPLICIT0002 | Actual evaluations, inverse, constant and degree-safe coordinate-border identities certify the whole polynomial filtration and inverse-row dual minimality | Standalone finite verifier, O(nm²) prototype table; not a sampled cutoff argument; source197 consequence only within square/degree contract |
+| PM-IMPLICIT0003 | Rejected monomials under arbitrary degree ties need not form a monomial ideal | Exact five-point counterexample ranks1,3,4,5; unsupported divisor-pruning shortcut rejected |
+
+169 unit tests and45 local replay blocks passed. Hosted ref/run/job receipt is
+separate. PM-H1..H5 OPEN: classical methods now cover a genuine raw-input
+implicit-discovery operation as well as supplied-dictionary coefficient solving.
+
 ## Q-word seed discovery and polynomial grammar boundary
 
 Proofs: [q-seed contracts](research/mechanisms/Q_WORD_SEED_SYNTHESIS.md).
@@ -29,7 +48,7 @@ code checks. No human review, Lean, historical originality or unseen transfer.
 | PM-QSEED0004 | Raw finite split-rational dictionary admits exact minimum-cost strongly word-free subset or rank/repair certificate | Classical residue extraction + weighted linear matroid; verified split factors and effective orbit test, not arbitrary representation discovery |
 | PM-QSEED0005 | >=2 polynomial seeds never give a free K-operator algebra; unary nonzero seed does; at most quadratic filtered growth | Complete all-series/characteristic-free proof, polynomial-size identity constructor in expanded degree; classical growth obstruction |
 | PM-QSEED0006 | J_z,J_(z^2) generate precisely a quantum plane after C=B+A^2 | Complete normal-basis proof; false down-up companion explicitly refuted; no named-algebra novelty claim |
-| PM-QSEED-NEXT | Weaker K-operator faithfulness of J_z,J_(z/(1-z)) | PROJECT_OPEN; strong-rank1 does not settle it, not claimed historically open |
+| PM-QSEED-NEXT | Weaker K-operator faithfulness of J_z,J_(z/(1-z)) | RESOLVED_NONFAITHFUL by PM-MIX0001's actual cubic, not by strong-rank1; not claimed historically open |
 
 156 local unit tests; four new deterministic replays configured. Hosted run
 receipt checked separately. PM-H1..H5 remain OPEN: these theorems narrow a

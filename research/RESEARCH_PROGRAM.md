@@ -27,7 +27,25 @@ transporting a mechanism while preserving its actual hypotheses. These remain
 candidates; new mathematics and better synthesis with known mathematics are
 separate possible outcomes.
 
-## Latest operational finding (19 October 2026)
+## Latest: a genuine implicit-generation operation is already classical
+
+REPRESENTATION_TRANSPORT.md closes the bounded mixed-q-seed gate with an
+all-series nonfaithfulness identity and safe constant-size relation transport.
+It then returns to auxiliary-object discovery: raw point coordinates generate
+an individually minimum-degree interpolation representation with <=nm offers,
+O(nm^3) field operations and all-degree border/dual certificates, without a
+prelisted ambient monomial dictionary. The original BM/interpolation baseline
+directly covers this operation; no new general tool, speedup, or PM-H4/H5
+success follows. A five-point invalid-divisor-pruning example and exact
+source197 Gram/failure controls expose the actual hypotheses.
+
+Next must be a publicly frozen UNREAD external transfer with input/grammar/
+readout/cost and strongest same-input classical baseline fixed before use.
+Multiplication congruence and genuine unit conditions are required, not
+silently supplied. Do not continue neighboring q seeds or toy point tables.
+All five hypotheses remain OPEN; the central objective above is unchanged.
+
+## Previous operational finding (19 October 2026)
 
 Read Q_WORD_SEED_SYNTHESIS.md and Q_SEED_CHECKPOINT.md. The q-word case now
 has a complete strong seed-class criterion and exact finite rational-dictionary

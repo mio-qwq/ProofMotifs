@@ -1,0 +1,188 @@
+{
+  "JSON_roundtrip": true,
+  "coefficient_ring": "Z[q,c], q,c central; A,B,Z free",
+  "drop_unit_counterexample": {
+    "A": 0,
+    "B": 1,
+    "P": 1,
+    "R0": 0,
+    "R1": 0,
+    "S": 0,
+    "Z": 1,
+    "c": 1,
+    "q": 2
+  },
+  "identity": "P*S = H*R1 - R1*A - c*B*R0",
+  "mod_prime_symbolic_q_controls": [
+    2,
+    3,
+    5
+  ],
+  "not_claimed": [
+    "Lean verification",
+    "inverting A or B",
+    "full defining ideal",
+    "new general method",
+    "unread transfer success"
+  ],
+  "omitted_cubic_rejected": true,
+  "polynomials": {
+    "A": [
+      {
+        "c_degree": 0,
+        "integer": 1,
+        "q_degree": 0,
+        "word": "A"
+      }
+    ],
+    "B": [
+      {
+        "c_degree": 0,
+        "integer": 1,
+        "q_degree": 0,
+        "word": "B"
+      }
+    ],
+    "H": [
+      {
+        "c_degree": 0,
+        "integer": 1,
+        "q_degree": 0,
+        "word": "A"
+      },
+      {
+        "c_degree": 0,
+        "integer": -1,
+        "q_degree": 0,
+        "word": "B"
+      },
+      {
+        "c_degree": 1,
+        "integer": -1,
+        "q_degree": 0,
+        "word": "BA"
+      },
+      {
+        "c_degree": 0,
+        "integer": 1,
+        "q_degree": 1,
+        "word": "B"
+      },
+      {
+        "c_degree": 1,
+        "integer": 1,
+        "q_degree": 1,
+        "word": "BA"
+      }
+    ],
+    "P": [
+      {
+        "c_degree": 0,
+        "integer": 1,
+        "q_degree": 0,
+        "word": "AB"
+      },
+      {
+        "c_degree": 0,
+        "integer": -1,
+        "q_degree": 0,
+        "word": "BB"
+      },
+      {
+        "c_degree": 1,
+        "integer": -1,
+        "q_degree": 0,
+        "word": "BAB"
+      },
+      {
+        "c_degree": 0,
+        "integer": -1,
+        "q_degree": 1,
+        "word": "BA"
+      },
+      {
+        "c_degree": 0,
+        "integer": 1,
+        "q_degree": 1,
+        "word": "BB"
+      },
+      {
+        "c_degree": 1,
+        "integer": 1,
+        "q_degree": 1,
+        "word": "BAB"
+      }
+    ],
+    "R0": [
+      {
+        "c_degree": 0,
+        "integer": 1,
+        "q_degree": 0,
+        "word": "AA"
+      },
+      {
+        "c_degree": 0,
+        "integer": 1,
+        "q_degree": 0,
+        "word": "ZA"
+      },
+      {
+        "c_degree": 0,
+        "integer": -1,
+        "q_degree": 1,
+        "word": "AA"
+      },
+      {
+        "c_degree": 0,
+        "integer": -1,
+        "q_degree": 1,
+        "word": "AZ"
+      }
+    ],
+    "R1": [
+      {
+        "c_degree": 0,
+        "integer": -1,
+        "q_degree": 0,
+        "word": "A"
+      },
+      {
+        "c_degree": 0,
+        "integer": 1,
+        "q_degree": 0,
+        "word": "B"
+      },
+      {
+        "c_degree": 1,
+        "integer": -1,
+        "q_degree": 0,
+        "word": "BZ"
+      }
+    ],
+    "S": [
+      {
+        "c_degree": 0,
+        "integer": 1,
+        "q_degree": 0,
+        "word": ""
+      },
+      {
+        "c_degree": 1,
+        "integer": -1,
+        "q_degree": 0,
+        "word": "Z"
+      }
+    ],
+    "c": [
+      {
+        "c_degree": 1,
+        "integer": 1,
+        "q_degree": 0,
+        "word": ""
+      }
+    ]
+  },
+  "status": "PASS",
+  "unit_hypothesis": "S=1-cZ must be a genuine unit (or otherwise right-cancellable) to conclude P=0",
+  "universal_remainder": []
+}
