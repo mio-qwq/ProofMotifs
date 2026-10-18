@@ -1,5 +1,17 @@
 # Research roadmap
 
+Current next operation: PM-QUESTION-0001, the existence of one cyclic edge
+orbit spanning the square-set incidence code in every degree m>=3. Check
+cyclic-code/trinomial-gcd precedents first; preserve the exact F_81 bad-orbit
+control. Earlier entries below record the chronological research decisions.
+
+SC-011 now supplies a polynomial-only Bezout certificate reducing one F_243
+test system to 121 edges. Its equal-kernel/different-group example prevents
+recovering combinatorial symmetries from the code alone. SC-012 supplies an
+infinite two-subspace obstruction with one surviving order-two character,
+showing the minimal-kernel criterion is sufficient but not necessary. These
+are classical infrastructure/boundary results, not new-method claims.
+
 Updated: 2026-10-18. No unified new theory is presumed.
 
 ## Priorities

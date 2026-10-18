@@ -1,0 +1,21 @@
+{
+  "algorithm": "SHA256",
+  "files": {
+    "docs/reviews/EIGHTH_CYCLE.md": "e3729c83b5b2d1f0284a417cce99dc50cee1209bc4b967b0d48b1d9cdca27808",
+    "docs/reviews/EIGHTH_CYCLE_FOURIER_AUDIT.md": "7a38a0a1919179a0b4619f1680dbd5234bdd93bea95f47e0b159962a11aefd59",
+    "docs/reviews/EIGHTH_CYCLE_SAVED_AUDIT.md": "264681dc84856b2c7077d4c364a56cf9bf5dbf945c6eccf4fafc23741520d33e",
+    "docs/reviews/EIGHTH_CYCLE_SUBSPACE_AUDIT.md": "6c155e685bcd581c9d4afd95c26bc5be56f2a9336dcf773bd05cbe09769a1162",
+    "research/experiments/cyclic-incidence-certificate.json": "0afc681d847f36838f2383366f09da137de6ffbd259f1805726872006c410dea",
+    "research/experiments/cyclic-incidence-verification.json": "011e06c0a2bb6a9c440ac17e54d630322954c271fa2846ce79223108fea05c49",
+    "research/experiments/sc010-acceptance-tests.log": "210a66e05f88c12f9a26d44ee0e6a5e4fbfdaf3b810708dfb3b94cbb576f2a0b",
+    "research/experiments/sc012-tests.log": "df192097875ae2d576351fb1621f4c4e537c4f2a1ba2260723d7b4080f22deb4",
+    "research/experiments/two-subspace-results.json": "42a42458cc0ef4e1ed7da2fd59e3a5155ad7829b6161b011d808cdc7d449d571",
+    "tests/test_cyclic_incidence_certificate.py": "ece8c912bd8a6cffb8965a8c32212bf79c5dc4ff8ea6e8662ab62f284a1c4e83",
+    "tests/test_two_subspace_obstruction.py": "3aab8767b14453cbca369305ae3449d8971eddc48c1abacfcbfe2dc29d88259e",
+    "tools/cyclic_incidence_certificate.py": "d34726be7a02e42c83504bf7d372949bb28e78b5a8eb4d1e52da476592c4a5d7",
+    "tools/two_subspace_obstruction.py": "a9ac2252c82b32c3ba5ef3078d83ebc75cf228e4897abffe7240bcf6d64070fa",
+    "workstreams/SC-011/RESULTS.md": "8d2cc4e9a0dd7c01f555ac44672b576514b5b8d90f0613948b55f79cc5dc25d0",
+    "workstreams/SC-012/RESULTS.md": "daf54a69fc67bca1ea60b1ba91fb1c3d6aa299b2500ea54c22f36db87483bfba"
+  },
+  "schema": 1
+}

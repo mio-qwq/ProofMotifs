@@ -64,3 +64,13 @@ jobs:
         run: |
           python3 tools/fourier_incidence_spectrum.py > /tmp/fourier-incidence-spectrum.json
           diff -u research/experiments/fourier-incidence-spectrum.json /tmp/fourier-incidence-spectrum.json
+      - name: Replay polynomial cyclic certificate
+        run: |
+          python3 tools/cyclic_incidence_certificate.py > /tmp/cyclic-incidence-certificate.json
+          diff -u research/experiments/cyclic-incidence-certificate.json /tmp/cyclic-incidence-certificate.json
+          python3 tools/cyclic_incidence_certificate.py --check research/experiments/cyclic-incidence-certificate.json > /tmp/cyclic-incidence-verification.json
+          diff -u research/experiments/cyclic-incidence-verification.json /tmp/cyclic-incidence-verification.json
+      - name: Replay two-subspace obstruction
+        run: |
+          python3 tools/two_subspace_obstruction.py > /tmp/two-subspace-results.json
+          diff -u research/experiments/two-subspace-results.json /tmp/two-subspace-results.json

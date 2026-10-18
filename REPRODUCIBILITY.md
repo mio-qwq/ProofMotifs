@@ -1,6 +1,6 @@
 # Reproducibility
 
-Latest checkpoint: SC-009, **65 passing tests**. Counts in the chronological
+Latest checkpoint: SC-012, **89 passing tests**. Counts in the chronological
 sections below describe their original checkpoints. The newest report,
 certificate and independent-arithmetic commands are at the end.
 
@@ -113,3 +113,27 @@ SC-008's recovered files were independently replayed and accepted; hosted
 run 39108039870 at b82c344 succeeded. Its receipt and the new external
 acceptance report are in `docs/reviews`. Inspect the containing SC-009 run
 separately before reporting its hosted status.
+
+## Cyclic certificate and two-subspace continuation
+
+The latest 89-test run is saved as research/experiments/sc012-tests.log.
+The recovered SC-010 increment also has a fresh 74-test acceptance log and
+exact byte-identical Fourier/cyclotomic report replays. New checks are:
+
+```sh
+python tools/cyclic_incidence_certificate.py > /tmp/cyclic-incidence-certificate.json
+diff -u research/experiments/cyclic-incidence-certificate.json /tmp/cyclic-incidence-certificate.json
+python tools/cyclic_incidence_certificate.py --check research/experiments/cyclic-incidence-certificate.json > /tmp/cyclic-incidence-verification.json
+diff -u research/experiments/cyclic-incidence-verification.json /tmp/cyclic-incidence-verification.json
+python tools/two_subspace_obstruction.py > /tmp/two-subspace-results.json
+diff -u research/experiments/two-subspace-results.json /tmp/two-subspace-results.json
+```
+
+The cyclic check verifies polynomial identities rather than trusting a reported
+gcd or matrix rank; its path imports no project modules. The supplied field
+irreducibility, exact generator order, zero-sum edge and Frobenius patterns
+are checked. Full group conclusions retain written affine/Carlitz dependencies.
+The vector-coordinate obstruction enumerates only an eight-point component;
+its larger group orders follow from the proved wreath formula. Old manifests
+belong to their historical commits; sc012-SHA256.json records the new files.
+Neither software checks nor hosted CI imply Lean, human review or originality.

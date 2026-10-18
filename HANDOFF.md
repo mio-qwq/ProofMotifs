@@ -1,7 +1,7 @@
 # Recovery handoff
 
 Read AGENTS, STATUS, ROADMAP, CLAIMS and fresh remote refs before writing.
-Last verified remote mathematical commit: `3ab50849fa7a61ff3cae220dd21ea1feb74fc97d`.
+Last verified remote checkpoint: `21999eb36433620d4557f01627f8ff53fc5a9fa7`.
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
@@ -46,6 +46,36 @@ condition `q-[6(d-1)^2+8(d-1)^3+3(d-1)^4]sqrt(q)-4d^3>0` forces the
 line-incidence kernel to be affine. Its exact automorphism group is then
 `Stab_GL(m,3)(H)`. Do not replace this by scalar--Frobenius for `d>2` without
 a separate generalized-Paley theorem.
+
+## New accepted continuation
+
+Read SC-011/RESULTS.md and SC-012/RESULTS.md. PM0015 is classical cyclic
+incidence coding: rank=N-deg(gcd(Z^N-1,p_e)). A standalone F3 polynomial
+certificate proves the F_243 seed {0,4,68} has rank115 and six-dimensional
+affine kernel. Only121 cyclic edges suffice for the full1210-edge row code.
+Yet the seed's group is C121 and the full group's order is605. Equal kernels
+do not recover the hyperedge collection. Preserve all five Frobenius patterns
+and the F_81 rank25 bad-orbit versus rank35 good-orbit control.
+
+PM0016 gives H=F_s* union beta F_s*, beta² a nonsquare inF_s, s=3^e,e>=2.
+Its hypergraph is two connected punctured e-spaces; kernel2e+2, affine2e+1,
+Aut=GL(e,3) wreath S2 equals the ambient linear stabilizer. Extra mode is
+u^(s-1). For e1 the union has four isolated vertices and AutS4. This shows
+minimal affine kernel is sufficient, not necessary, for linear extension.
+These are Level0 structural/coding boundaries, not certified original work.
+
+All89 tests passed; research/experiments/sc012-tests.log records the run.
+New reports: cyclic-incidence-certificate.json, cyclic-incidence-verification.json,
+two-subspace-results.json. The cyclic --check path imports no project code;
+the two-axis program uses no extension-field arithmetic. Its e2 component
+checks all40320 permutations, while full4608 and e3 group252315648 follow
+from the wreath theorem, not full-group enumeration. sc012-SHA256.json is the
+current new-file manifest; old manifests describe historical source versions.
+
+Recovered21999eb was accepted through a74-test replay, both exact report
+diffs, allSC010 manifest hashes and fresh run39113374667/job117634030262
+reads. Audits and task ledger are in EIGHTH_CYCLE.md and its three full audit
+files. New containing mathematical CI still needs its own verification.
 
 ## Why the general proof works
 
@@ -132,13 +162,14 @@ predecessor string was corrected to 2e990a70585e0fd7230a2c8b47d34627722a011b.
 
 ## Exact next operation and limits
 
-The direct value audit is complete: SC-009 is provisionally Level 1 and
-historical priority remains unverified. Next compare the uniform
-Fourier/cyclic-code proof with defining-characteristic cyclic-code and
-punctured Reed--Muller literature. Identify a direct spectral theorem or the
-precise residual step. Do not optimize SC-010's sufficient bound or add more
-subgroup enumeration without an application. If Lean becomes available, the
-abstract completion-to-affinity lemma is the compact formalization target.
+Continue PM-QUESTION-0001: for every m>=3, does some single multiplicative
+orbit of square zero-sum triples span the complete row code? First compare
+cyclic-code/trinomial-gcd literature, then prove existence with explicit
+hypotheses or find a counterexample. m=3,4,5 have positive instances; an
+arbitrary orbit can already fail inF_81. Do not confuse equal row code with
+equal hypergraph automorphisms. The infinite two-axis family is a negative
+control for overextending square-subgroup arguments. No unmotivated subgroup
+tables or threshold polishing; formalize a small core only with a real compiler.
 
 One full publicly extracted Zhihu answer was read via Parallel Search; not
 all33 answers or comments. The evidence gate rejects universal cancellation
@@ -159,9 +190,11 @@ the expected predecessor, match local `git write-tree` with remote tree,
 create a child commit, update the ref non-forced with expected_sha, fetch and
 verify live SHA. Never overwrite unexpected remote changes.
 
-The existing 90-minute task was successfully re-enabled and updated on
-2026-10-18, timezone Asia/Singapore. Its recorded last invocation is 07:34:32UTC;
-this is not proof of a particular output or continuous background work.
-Every research window resumes from fresh live state. No other repository,
-permissions, expenses, external correspondence, DOI or final academic
-release is authorized by ordinary checkpoint permission.
+A fresh self-continuation task was created in this research conversation,
+enabled=true, first scheduled start2026-10-18 19:10:12Asia/Singapore,
+recurring every90minutes. Its instruction resumes actual work here and
+prohibits reminders/wake-ups in other conversations. Do not reuse inherited
+automation IDs from another chat. Real scoped subagents here remain allowed.
+Every window reads fresh remote state; no between-window process is claimed.
+Ordinary checkpoint pushing remains authorized, without permission changes,
+other repositories, expenses, correspondence, DOI or final paper releases.

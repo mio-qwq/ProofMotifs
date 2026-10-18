@@ -30,6 +30,12 @@ Write a complete checkpoint after important proof steps, counterexamples, litera
 
 Scheduled invocations, if enabled, are separate research windows, not a continuously running process. Begin each window with fresh remote reads. If another execution has advanced the branch, reconcile before writing. Save useful work even when network or verification tools fail.
 
+Continuation tasks belong only to the research conversation that created
+them. Their instruction is to resume the researcher's work, not to send a
+reminder to the user or another conversation. Check the task's actual binding;
+do not reuse an automation identifier inherited from a different conversation.
+Task-scoped subagents within the active research conversation remain allowed.
+
 ## Safety and publication
 
 Routine project research and non-destructive project Git writes are in scope. External submissions, DOI deposits, final academic releases, outbound correspondence, expenses, permission changes, history rewriting and writes to unrelated repositories require separate authorization. Public technical documents must not contain private prompts, hidden context, credentials or conversational management language.

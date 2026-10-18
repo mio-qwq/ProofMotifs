@@ -1,0 +1,96 @@
+{
+  "arithmetic": "F_3 polynomial identities only; no project imports",
+  "bezout_degrees": [
+    61,
+    114
+  ],
+  "canonical_certificate_sha256": "8bd4e9ff0534f8c13ec46762f3ce2d09e975a313fe604e36def2858a41b79448",
+  "field_modulus": [
+    2,
+    2,
+    0,
+    0,
+    0,
+    1
+  ],
+  "field_modulus_irreducible": true,
+  "frobenius_orbit_patterns": [
+    [
+      0,
+      4,
+      68
+    ],
+    [
+      0,
+      12,
+      83
+    ],
+    [
+      0,
+      7,
+      36
+    ],
+    [
+      0,
+      13,
+      34
+    ],
+    [
+      0,
+      19,
+      58
+    ]
+  ],
+  "full_hypergraph_edges_from_proved_formula": 1210,
+  "full_hypergraph_incidence_rank": 115,
+  "full_kernel_is_affine": true,
+  "gcd": [
+    1,
+    0,
+    2,
+    0,
+    0,
+    2,
+    1
+  ],
+  "gcd_degree": 6,
+  "generator_order": 121,
+  "generator_power_11": [
+    0,
+    1,
+    2,
+    1
+  ],
+  "seed_automorphism_classification_dependency": "affine-kernel extension and classical Carlitz; see SC-011 proof",
+  "seed_cyclic_orbit_size": 121,
+  "seed_exponents": [
+    0,
+    4,
+    68
+  ],
+  "seed_field_coordinates": [
+    [
+      1
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    [
+      2,
+      0,
+      0,
+      0,
+      2
+    ]
+  ],
+  "seed_orbit_incidence_rank": 115,
+  "seed_orbit_kernel_dimension": 6,
+  "seed_orbit_semilinear_stabilizer_order": 121,
+  "seed_orbit_stabilizing_frobenius_exponents": [
+    0
+  ]
+}

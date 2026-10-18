@@ -1,7 +1,7 @@
 # Current research status
 
 Updated: 2026-10-18. Branch: `research/ongoing`; `main` remains the stable baseline.
-Last remotely verified mathematical commit: `3ab50849fa7a61ff3cae220dd21ea1feb74fc97d`.
+Last remotely verified checkpoint: `21999eb36433620d4557f01627f8ff53fc5a9fa7`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
 ## Current mathematical result
@@ -47,6 +47,39 @@ subgroup `H`, let `B4=6(d-1)^2+8(d-1)^3+3(d-1)^4`. If
 restrictions. The hypergraph automorphism group is the linear setwise
 stabilizer of `H`; scalar--Frobenius needs an additional generalized-Paley
 normality hypothesis and is not inferred from incidence affinity alone.
+
+## New continuation: SC-011 and SC-012
+
+The recovered Fourier/SC-010 increment was independently accepted in this
+window. All 74 previous tests passed, both new JSON reports regenerated
+byte-for-byte, every SC-010 manifest hash matched, and fresh hosted run/job
+reads confirmed success. The full branch inventory found only main and
+research/ongoing; the increment was on research/ongoing. See EIGHTH_CYCLE.md.
+
+SC-011 supplies a polynomial-only F_243 certificate. The gcd of Z^121-1
+and 1+Z^4+Z^68 is (Z-1)(Z^5+2Z+2), of degree six. Supplied Bezout and
+divisibility witnesses prove rank 115 using one 121-edge orbit instead of
+all 1,210 edges. The verifier imports no other project modules and checks
+field irreducibility, subgroup order and the actual seed. The sparse and
+full hypergraphs have identical kernels but automorphism orders 121 and605,
+respectively; the preserved Frobenius-pattern obstruction is essential.
+
+SC-012 explains the index-five F_81 failure by an infinite two-subspace
+subgroup family, s=3^e,e>=2. Its kernel dimension2e+2 exceeds ambient affine
+2e+1 by one, but Aut=GL(e,3) wreath S2 still equals the ambient linear
+stabilizer. The additional direction is the order-two character u^(s-1).
+The e=1 two-axis hypergraph is empty and has S4, not the wreath group.
+Both new workstreams are conservatively classified as classical
+infrastructure/boundaries, without a priority or new-method claim.
+
+The combined local suite passed 89 tests, log sc012-tests.log. Exact new
+reports are cyclic-incidence-certificate.json, cyclic-incidence-verification.json
+and two-subspace-results.json. The two-subspace program uses direct F3
+coordinates, enumerates only the eight-point component, and derives large
+group orders from the written theorem. Source/report/review hashes are in
+sc012-SHA256.json. Mathematical and code reviews are preserved in the
+EIGHTH_CYCLE audit documents. New hosted CI must be read at the actual new
+mathematical commit after delivery; no Lean or human review is claimed.
 
 ## Acceptance of recovered work
 
@@ -122,23 +155,24 @@ embedding, Freiman extension and Paley/Carlitz theory are close but do not
 directly imply the induced-square incidence kernel. This bounded outcome does
 not establish priority. See `INCIDENCE_VALUE_GATE_20261018.md`.
 
-Next: compare the uniform Fourier/cyclic-code proof with
-defining-characteristic cyclic-code and punctured Reed--Muller literature.
-Identify a direct spectral precedent or the precise residual step. Do not
-optimize SC-010's sufficient threshold or add more subgroup enumeration
-without an application. A compact `completion_to_affine` formalization remains
-valuable when a real Lean toolchain is available; none is installed here.
+Next precise target is PM-QUESTION-0001: does every m>=3 admit at least
+one square-multiplication edge orbit spanning the full incidence row code?
+Express the question as a trinomial gcd, compare cyclic-code precedents
+first, and distinguish existence from the refuted claim that any orbit works.
+Known positive cases m=3,4,5 and the F_81 bad seed must remain controls.
+Select a proof route or a counterexample; do not generate more subgroup
+tables or optimize SC-010 constants without a mathematical purpose.
 
 ## Scheduling and delivery
 
-The existing 90-minute task was observed disabled, then successfully re-enabled
-and updated on 2026-10-18 with latest recovery and research instructions.
-Timezone: Asia/Singapore. The service records a last invocation at
-2026-10-18 07:34:32 UTC; this timestamp alone does not identify its outputs.
-A single coordinator owns integration and publication; genuine short-lived
-subagents remain allowed. Every invocation checks live state and reconciles
-external increments before writing. Scheduling does not imply computation
-between invocations.
+A new 90-minute self-continuation task was created in this research
+conversation on 2026-10-18, with first scheduled start 19:10:12
+Asia/Singapore. Creation returned enabled=true and the current conversation
+binding. It instructs the researcher to execute work here and prohibits
+reminders or research wake-ups in other conversations. An inherited task
+identifier from a different conversation must not be reused. Short-lived
+subagents inside this conversation remain allowed. Every invocation checks
+live state; scheduling does not imply computation between invocations.
 
 Immediate ordinary project pushes are explicitly authorized. Terminal Git
 lacks push credentials; authorized GitHub tree/commit/ref operations are used

@@ -20,6 +20,9 @@ The unified `research/ongoing` branch contains current research. `main` is the s
 | SC-007 | Power-basis generator test with 2m-3 admissible defect values; linear lower bound for deterministic defect-only decision | Novelty not established; query-model restrictions are essential |
 | SC-008 | Arbitrary ternary-order preservers factor through independent signs and the square zero-sum hypergraph; essential F_9 exception | Novelty not established; recovered external checkpoint accepted by fresh replay |
 | SC-009 | Complete finite-field arbitrary-preserver classification: the quotient is square-scaling/Frobenius for every m>=3; incidence-affinity proof and two exact F_243 certificates | Novelty not established; classical Weil/Freiman/Carlitz tools credited |
+| SC-010 | A sufficient large-field bound makes fixed-index subgroup line kernels affine; automorphisms are the linear setwise stabilizer | Provisional Level 1; broader semilinearity needs separate hypotheses |
+| SC-011 | A polynomial-only certificate reduces F_243 checks to one 121-edge orbit; equal incidence kernels can have automorphism orders 121 and 605 | Classical cyclic-code infrastructure and a precise boundary example |
+| SC-012 | An infinite two-subspace subgroup family has an extra order-two kernel mode while every automorphism still extends linearly | Classical structural boundary; no historical-first claim |
 
 The current verification system uses exact arithmetic and deterministic enumeration, including a separate F_27 multiplication algorithm. The first research checkpoint was replayed successfully on GitHub Actions. CI success is not human peer review or proof-assistant verification; each run's commit and scope are recorded explicitly.
 
