@@ -1,0 +1,154 @@
+{
+  "branch": "research/ongoing",
+  "conclusion": "success",
+  "deterministic_replay_steps": 16,
+  "jobs": [
+    {
+      "conclusion": "success",
+      "id": 117661432531,
+      "logs_url": null,
+      "name": "exact",
+      "run_id": 39122726149,
+      "status": "completed",
+      "steps": [
+        {
+          "conclusion": "success",
+          "name": "Set up job",
+          "number": 1,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "number": 2,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Unit tests",
+          "number": 3,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Replay deterministic experiments",
+          "number": 4,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Replay ternary classification",
+          "number": 5,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Replay preserver classification experiments",
+          "number": 6,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Replay constructive witness experiments",
+          "number": 7,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Replay generator witness experiments",
+          "number": 8,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Replay nonadditive preserver experiments",
+          "number": 9,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Replay incidence rank certificates",
+          "number": 10,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Replay color certificate with independent arithmetic",
+          "number": 11,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Replay Freiman completion controls",
+          "number": 12,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Replay cyclotomic incidence controls",
+          "number": 13,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Replay Fourier incidence spectra",
+          "number": 14,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Replay polynomial cyclic certificate",
+          "number": 15,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Replay two-subspace obstruction",
+          "number": 16,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Replay single-orbit certificates",
+          "number": 17,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Independently check connected-orbit polynomial gcd",
+          "number": 18,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Independently check nonlinear trace separator",
+          "number": 19,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "number": 38,
+          "status": "completed"
+        },
+        {
+          "conclusion": "success",
+          "name": "Complete job",
+          "number": 39,
+          "status": "completed"
+        }
+      ]
+    }
+  ],
+  "limits": "Hosted software checks and independent AI reviews are not Lean formalization, human peer review, historical novelty or a general single-orbit existence theorem.",
+  "local_unit_tests": 102,
+  "mathematical_commit": "7e12402671c6c2f30bf91f6eadb3d2729fbc35df",
+  "predecessor": "e35f0dfcb8e5446be3e0840d54c8f89e9967b34e",
+  "repository": "mio-qwq/ProofMotifs",
+  "run_id": 39122726149,
+  "run_url": "https://github.com/mio-qwq/ProofMotifs/actions/runs/39122726149",
+  "status": "completed",
+  "tree": "30e78c285996baacee9acf8bb458d9df492b4737",
+  "verification_method": "Fresh GitHub workflow run and job endpoint reads; matching mathematical head and local/remote tree; every job step successful.",
+  "verified_at_utc": "2026-10-18 11:19:53 UTC"
+}

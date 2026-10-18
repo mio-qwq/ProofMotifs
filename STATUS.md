@@ -1,7 +1,7 @@
 # Current research status
 
 Updated: 2026-10-18. Branch: `research/ongoing`; `main` remains the stable baseline.
-Last remotely verified mathematical checkpoint: `1da34c83c3b528d745c96e23834e570cdddae0de`.
+Last remotely verified mathematical checkpoint: `7e12402671c6c2f30bf91f6eadb3d2729fbc35df`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
 ## Latest accepted continuation: SC-013
@@ -30,9 +30,13 @@ NINTH_CYCLE.md and SINGLE_ORBIT_GATE_20261018.md.
 
 The integrated local suite passed 102 tests; log sc013-tests.log. New
 reports, independent-check outputs and command log are in research/experiments;
-sc013-SHA256.json records this checkpoint's source/evidence hashes. The
-current mathematical checkpoint's hosted CI must be read at its actual SHA
-after delivery; a prior successful run does not certify the new tree.
+sc013-SHA256.json records this checkpoint's source/evidence hashes. Mathematical commit 7e12402671c6c2f30bf91f6eadb3d2729fbc35df was delivered
+with matching local/remote tree 30e78c285996baacee9acf8bb458d9df492b4737.
+Fresh reads confirmed hosted run39122726149/job117661432531 success: the
+unit suite and all16 deterministic replay steps passed. Receipt:
+docs/reviews/CI_SINGLE_ORBIT_CHECKPOINT.json. This containing receipt
+checkpoint changes evidence/recovery only. The SC-013 manifest records
+the mathematical commit, before this metadata update.
 Classical tools, finite evidence, independent AI review, historical novelty,
 human review and Lean remain separate.
 
