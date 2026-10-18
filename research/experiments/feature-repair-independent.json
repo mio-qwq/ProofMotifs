@@ -1,0 +1,52 @@
+{
+  "oracle": "target nullspace + tracked exact Fourier-Motzkin",
+  "panels": [
+    {
+      "id": "signed-repair",
+      "all_masks_checked": 4,
+      "feasible_masks": 1,
+      "reported_certificates_replayed": 3,
+      "adaptive_cuts_replayed": 2,
+      "independent_optimal_mask": 3,
+      "independent_optimal_cost": "3"
+    },
+    {
+      "id": "categorical-rays",
+      "all_masks_checked": 2,
+      "feasible_masks": 0,
+      "reported_certificates_replayed": 1,
+      "adaptive_cuts_replayed": 0,
+      "independent_optimal_mask": null,
+      "independent_optimal_cost": null
+    },
+    {
+      "id": "weighted-cover",
+      "all_masks_checked": 32,
+      "feasible_masks": 11,
+      "reported_certificates_replayed": 6,
+      "adaptive_cuts_replayed": 5,
+      "independent_optimal_mask": 14,
+      "independent_optimal_cost": "5"
+    },
+    {
+      "id": "coordinate-zero-union",
+      "all_masks_checked": 64,
+      "feasible_masks": 32,
+      "reported_certificates_replayed": 14,
+      "adaptive_cuts_replayed": 13,
+      "independent_optimal_mask": 32,
+      "independent_optimal_cost": "5"
+    },
+    {
+      "id": "coordinate-zero-union-without-top",
+      "all_masks_checked": 32,
+      "feasible_masks": 0,
+      "reported_certificates_replayed": 1,
+      "adaptive_cuts_replayed": 0,
+      "independent_optimal_mask": null,
+      "independent_optimal_cost": null
+    }
+  ],
+  "total_masks_checked": 134,
+  "all_assertions_passed": true
+}

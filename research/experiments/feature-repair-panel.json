@@ -1,0 +1,59 @@
+{
+  "schema": "proofmotifs-feature-repair-panel-v1",
+  "date": "2026-10-19",
+  "status": "designed calibration; frozen before primary optimizer execution",
+  "not_held_out": "The coordinator derived these test families before freezing this file. This is not external unseen transfer or an empirical AI experiment.",
+  "contract": "Finite rational feature rows on Omega, nonempty target D. Free rows plus costed optional row blocks. Select minimum-cost blocks admitting W_D=0 and W_off>=1; clear denominators to get integral product-stable weights.",
+  "panels": [
+    {
+      "id": "signed-repair",
+      "omega": ["d", "p", "q"],
+      "target_indices": [0],
+      "base_rows": [[1, 1, 1]],
+      "blocks": [
+        {"name": "signed", "cost": 1, "rows": [[0, 1, -1]]},
+        {"name": "repair", "cost": 2, "rows": [[0, 0, 1]]}
+      ]
+    },
+    {
+      "id": "categorical-rays",
+      "omega": ["d1", "d2", "p", "q"],
+      "target_indices": [0, 1],
+      "base_rows": [[1, 0, 1, 0], [0, 1, 0, 1]],
+      "blocks": [
+        {"name": "crossed-readout", "cost": 1, "rows": [[1, 0, 0, 1], [0, 1, 1, 0]]}
+      ]
+    },
+    {
+      "id": "weighted-cover",
+      "omega": ["d", "1", "2", "3", "4", "5", "6"],
+      "target_indices": [0],
+      "base_rows": [[1, 1, 1, 1, 1, 1, 1]],
+      "blocks": [
+        {"name": "a", "cost": 3, "rows": [[0, 1, 1, 1, 0, 0, 0]]},
+        {"name": "b", "cost": 2, "rows": [[0, 0, 1, 0, 1, 0, 0]]},
+        {"name": "c", "cost": 2, "rows": [[0, 0, 0, 1, 0, 1, 0]]},
+        {"name": "d", "cost": 1, "rows": [[0, 1, 0, 0, 0, 0, 1]]},
+        {"name": "e", "cost": 5, "rows": [[0, 0, 0, 0, 1, 1, 1]]}
+      ]
+    }
+  ],
+  "generated_target": {
+    "id": "coordinate-zero-union",
+    "dimension": 2,
+    "grid": [-1, 0, 1],
+    "target": "at least one coordinate is zero",
+    "free_rows": "constant and coordinate monomials of total degree <=1",
+    "optional_blocks": "one row per reduced monomial with each exponent 0..2 and total degree >=2",
+    "cost": "1 for every optional monomial except exponent (2,2), whose cost is 5",
+    "supplied_residual": null,
+    "tests": ["full dictionary minimum cost", "remove total degree4 feature", "separate analytic degree lower bound for every dimension"]
+  },
+  "frozen_baselines": [
+    "Exact facial feasibility on the same feature matrix",
+    "Exhaustive mask search with the identical exact oracle",
+    "Full-stack feasibility before optimization",
+    "Static original-ray hitting as an explicitly rejected shortcut"
+  ],
+  "cost_scope": "Optional-block costs only. Record oracle calls and master candidates separately. No wall-clock or asymptotic speed improvement is asserted. The exact reference oracle may enumerate convex-hull faces."
+}

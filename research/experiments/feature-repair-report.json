@@ -1,0 +1,553 @@
+{
+  "oracle": "rational target-span projection and convex-hull face enumeration",
+  "panels": [
+    {
+      "adaptive": {
+        "certificate": {
+          "coefficients": [
+            "0",
+            "1",
+            "2"
+          ],
+          "faces_examined": 3,
+          "kind": "selector",
+          "weights": [
+            "0",
+            "1",
+            "1"
+          ]
+        },
+        "cost": "3",
+        "history": [
+          {
+            "cost": "0",
+            "mandatory_cut_mask": 1,
+            "mask": 0,
+            "trade": {
+              "faces_examined": 1,
+              "kind": "trade",
+              "trade": [
+                "-1",
+                "1",
+                "0"
+              ]
+            }
+          },
+          {
+            "cost": "1",
+            "mandatory_cut_mask": 2,
+            "mask": 1,
+            "trade": {
+              "faces_examined": 3,
+              "kind": "trade",
+              "trade": [
+                "-1",
+                "1/2",
+                "1/2"
+              ]
+            }
+          }
+        ],
+        "mask": 3,
+        "master_masks_examined": 7,
+        "oracle_calls": 4,
+        "selected": [
+          "signed",
+          "repair"
+        ],
+        "status": "optimal"
+      },
+      "exhaustive": {
+        "cost": "3",
+        "mask": 3,
+        "oracle_calls": 4,
+        "status": "optimal"
+      },
+      "id": "signed-repair"
+    },
+    {
+      "adaptive": {
+        "certificate": {
+          "faces_examined": 3,
+          "kind": "trade",
+          "trade": [
+            "-1/2",
+            "-1/2",
+            "1/2",
+            "1/2"
+          ]
+        },
+        "full_mask": 1,
+        "oracle_calls": 1,
+        "status": "dictionary_impossible"
+      },
+      "exhaustive": {
+        "oracle_calls": 2,
+        "status": "dictionary_impossible"
+      },
+      "id": "categorical-rays"
+    },
+    {
+      "adaptive": {
+        "certificate": {
+          "coefficients": [
+            "0",
+            "1",
+            "1",
+            "1"
+          ],
+          "faces_examined": 22,
+          "kind": "selector",
+          "weights": [
+            "0",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1"
+          ]
+        },
+        "cost": "5",
+        "history": [
+          {
+            "cost": "0",
+            "mandatory_cut_mask": 9,
+            "mask": 0,
+            "trade": {
+              "faces_examined": 1,
+              "kind": "trade",
+              "trade": [
+                "-1",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            }
+          },
+          {
+            "cost": "1",
+            "mandatory_cut_mask": 3,
+            "mask": 8,
+            "trade": {
+              "faces_examined": 2,
+              "kind": "trade",
+              "trade": [
+                "-1",
+                "0",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            }
+          },
+          {
+            "cost": "3",
+            "mandatory_cut_mask": 18,
+            "mask": 1,
+            "trade": {
+              "faces_examined": 4,
+              "kind": "trade",
+              "trade": [
+                "-1",
+                "0",
+                "0",
+                "0",
+                "1",
+                "0",
+                "0"
+              ]
+            }
+          },
+          {
+            "cost": "3",
+            "mandatory_cut_mask": 5,
+            "mask": 10,
+            "trade": {
+              "faces_examined": 3,
+              "kind": "trade",
+              "trade": [
+                "-1",
+                "0",
+                "0",
+                "1",
+                "0",
+                "0",
+                "0"
+              ]
+            }
+          },
+          {
+            "cost": "5",
+            "mandatory_cut_mask": 20,
+            "mask": 3,
+            "trade": {
+              "faces_examined": 5,
+              "kind": "trade",
+              "trade": [
+                "-1",
+                "0",
+                "0",
+                "0",
+                "0",
+                "1",
+                "0"
+              ]
+            }
+          }
+        ],
+        "mask": 14,
+        "master_masks_examined": 36,
+        "oracle_calls": 7,
+        "selected": [
+          "b",
+          "c",
+          "d"
+        ],
+        "status": "optimal"
+      },
+      "exhaustive": {
+        "cost": "5",
+        "mask": 14,
+        "oracle_calls": 12,
+        "status": "optimal"
+      },
+      "id": "weighted-cover"
+    },
+    {
+      "adaptive": {
+        "certificate": {
+          "coefficients": [
+            "0",
+            "0",
+            "0",
+            "1"
+          ],
+          "faces_examined": 1,
+          "kind": "selector",
+          "weights": [
+            "1",
+            "0",
+            "1",
+            "0",
+            "0",
+            "0",
+            "1",
+            "0",
+            "1"
+          ]
+        },
+        "cost": "5",
+        "history": [
+          {
+            "cost": "0",
+            "mandatory_cut_mask": 54,
+            "mask": 0,
+            "trade": {
+              "faces_examined": 1,
+              "kind": "trade",
+              "trade": [
+                "1",
+                "-1",
+                "0",
+                "-1",
+                "1",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            }
+          },
+          {
+            "cost": "1",
+            "mandatory_cut_mask": 37,
+            "mask": 2,
+            "trade": {
+              "faces_examined": 5,
+              "kind": "trade",
+              "trade": [
+                "1/2",
+                "-1",
+                "1/2",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0"
+              ]
+            }
+          },
+          {
+            "cost": "1",
+            "mandatory_cut_mask": 56,
+            "mask": 4,
+            "trade": {
+              "faces_examined": 6,
+              "kind": "trade",
+              "trade": [
+                "1/2",
+                "0",
+                "0",
+                "-1",
+                "0",
+                "0",
+                "1/2",
+                "0",
+                "0"
+              ]
+            }
+          },
+          {
+            "cost": "2",
+            "mandatory_cut_mask": 48,
+            "mask": 12,
+            "trade": {
+              "faces_examined": 6,
+              "kind": "trade",
+              "trade": [
+                "1/2",
+                "-1/2",
+                "0",
+                "-1",
+                "1",
+                "0",
+                "1/2",
+                "-1/2",
+                "0"
+              ]
+            }
+          },
+          {
+            "cost": "2",
+            "mandatory_cut_mask": 36,
+            "mask": 17,
+            "trade": {
+              "faces_examined": 5,
+              "kind": "trade",
+              "trade": [
+                "1/2",
+                "-1",
+                "1/2",
+                "-1/2",
+                "1",
+                "-1/2",
+                "0",
+                "0",
+                "0"
+              ]
+            }
+          },
+          {
+            "cost": "2",
+            "mandatory_cut_mask": 43,
+            "mask": 20,
+            "trade": {
+              "faces_examined": 7,
+              "kind": "trade",
+              "trade": [
+                "1/2",
+                "0",
+                "0",
+                "0",
+                "-1",
+                "0",
+                "0",
+                "0",
+                "1/2"
+              ]
+            }
+          },
+          {
+            "cost": "3",
+            "mandatory_cut_mask": 42,
+            "mask": 21,
+            "trade": {
+              "faces_examined": 7,
+              "kind": "trade",
+              "trade": [
+                "1/2",
+                "0",
+                "0",
+                "-1/2",
+                "0",
+                "-1/2",
+                "0",
+                "0",
+                "1/2"
+              ]
+            }
+          },
+          {
+            "cost": "3",
+            "mandatory_cut_mask": 41,
+            "mask": 22,
+            "trade": {
+              "faces_examined": 15,
+              "kind": "trade",
+              "trade": [
+                "1/4",
+                "0",
+                "1/4",
+                "0",
+                "-1",
+                "0",
+                "1/4",
+                "0",
+                "1/4"
+              ]
+            }
+          },
+          {
+            "cost": "3",
+            "mandatory_cut_mask": 35,
+            "mask": 28,
+            "trade": {
+              "faces_examined": 7,
+              "kind": "trade",
+              "trade": [
+                "1/2",
+                "-1/2",
+                "0",
+                "0",
+                "0",
+                "0",
+                "0",
+                "-1/2",
+                "1/2"
+              ]
+            }
+          },
+          {
+            "cost": "4",
+            "mandatory_cut_mask": 40,
+            "mask": 23,
+            "trade": {
+              "faces_examined": 15,
+              "kind": "trade",
+              "trade": [
+                "1/4",
+                "0",
+                "1/4",
+                "-1/2",
+                "0",
+                "-1/2",
+                "1/4",
+                "0",
+                "1/4"
+              ]
+            }
+          },
+          {
+            "cost": "4",
+            "mandatory_cut_mask": 34,
+            "mask": 29,
+            "trade": {
+              "faces_examined": 7,
+              "kind": "trade",
+              "trade": [
+                "1/2",
+                "-1/2",
+                "0",
+                "-1/2",
+                "1",
+                "-1/2",
+                "0",
+                "-1/2",
+                "1/2"
+              ]
+            }
+          },
+          {
+            "cost": "4",
+            "mandatory_cut_mask": 33,
+            "mask": 30,
+            "trade": {
+              "faces_examined": 15,
+              "kind": "trade",
+              "trade": [
+                "1/4",
+                "-1/2",
+                "1/4",
+                "0",
+                "0",
+                "0",
+                "1/4",
+                "-1/2",
+                "1/4"
+              ]
+            }
+          },
+          {
+            "cost": "5",
+            "mandatory_cut_mask": 32,
+            "mask": 31,
+            "trade": {
+              "faces_examined": 15,
+              "kind": "trade",
+              "trade": [
+                "1/4",
+                "-1/2",
+                "1/4",
+                "-1/2",
+                "1",
+                "-1/2",
+                "1/4",
+                "-1/2",
+                "1/4"
+              ]
+            }
+          }
+        ],
+        "mask": 32,
+        "master_masks_examined": 273,
+        "oracle_calls": 15,
+        "selected": [
+          "monomial_22"
+        ],
+        "status": "optimal"
+      },
+      "exhaustive": {
+        "cost": "5",
+        "mask": 32,
+        "oracle_calls": 33,
+        "status": "optimal"
+      },
+      "id": "coordinate-zero-union"
+    },
+    {
+      "adaptive": {
+        "certificate": {
+          "faces_examined": 15,
+          "kind": "trade",
+          "trade": [
+            "1/4",
+            "-1/2",
+            "1/4",
+            "-1/2",
+            "1",
+            "-1/2",
+            "1/4",
+            "-1/2",
+            "1/4"
+          ]
+        },
+        "full_mask": 31,
+        "oracle_calls": 1,
+        "status": "dictionary_impossible"
+      },
+      "exhaustive": {
+        "oracle_calls": 32,
+        "status": "dictionary_impossible"
+      },
+      "id": "coordinate-zero-union-without-top"
+    }
+  ],
+  "scope": "exact designed calibration, not held-out transfer or speedup claim"
+}

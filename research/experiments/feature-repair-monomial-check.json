@@ -1,0 +1,132 @@
+{
+  "designed_original": {
+    "feasible": true,
+    "objective": [
+      4,
+      3,
+      82
+    ],
+    "dual_cuts_verified": 19,
+    "independent_six_even_features_lower_bound": [
+      4,
+      3,
+      82
+    ]
+  },
+  "designed_restricted": {
+    "feasible": true,
+    "objective": [
+      9,
+      4,
+      102
+    ],
+    "dual_cuts_verified": 141,
+    "independent_six_even_features_lower_bound": [
+      9,
+      4,
+      102
+    ]
+  },
+  "odd_only": {
+    "feasible": false,
+    "dual_cuts_verified": 20
+  },
+  "coordinator_family_audit": [
+    {
+      "p": 1,
+      "r": 1,
+      "points": 3,
+      "low_degree_monomials_annihilated": 2,
+      "sharp_nonnegative_degree": 2,
+      "signed_degree": 1,
+      "bad_signed_product_length": 2,
+      "only_nonzero_reduced_moment": [
+        [
+          [
+            2
+          ],
+          2
+        ]
+      ]
+    },
+    {
+      "p": 2,
+      "r": 2,
+      "points": 9,
+      "low_degree_monomials_annihilated": 8,
+      "sharp_nonnegative_degree": 4,
+      "signed_degree": 2,
+      "bad_signed_product_length": 2,
+      "only_nonzero_reduced_moment": [
+        [
+          [
+            2,
+            2
+          ],
+          4
+        ]
+      ]
+    },
+    {
+      "p": 3,
+      "r": 3,
+      "points": 27,
+      "low_degree_monomials_annihilated": 26,
+      "sharp_nonnegative_degree": 6,
+      "signed_degree": 3,
+      "bad_signed_product_length": 2,
+      "only_nonzero_reduced_moment": [
+        [
+          [
+            2,
+            2,
+            2
+          ],
+          8
+        ]
+      ]
+    },
+    {
+      "p": 4,
+      "r": 4,
+      "points": 81,
+      "low_degree_monomials_annihilated": 80,
+      "sharp_nonnegative_degree": 8,
+      "signed_degree": 4,
+      "bad_signed_product_length": 2,
+      "only_nonzero_reduced_moment": [
+        [
+          [
+            2,
+            2,
+            2,
+            2
+          ],
+          16
+        ]
+      ]
+    },
+    {
+      "p": 6,
+      "r": 2,
+      "points": 729,
+      "low_degree_monomials_annihilated": 78,
+      "sharp_nonnegative_degree": 4,
+      "signed_degree": 2,
+      "bad_signed_product_length": 2,
+      "only_nonzero_reduced_moment": [
+        [
+          [
+            2,
+            2,
+            0,
+            0,
+            0,
+            0
+          ],
+          4
+        ]
+      ]
+    }
+  ]
+}

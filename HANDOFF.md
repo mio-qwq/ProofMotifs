@@ -7,6 +7,29 @@ never force-push. Unified branch: `research/ongoing`; main stays stable.
 
 ## Primary recovery instruction
 
+Read FEATURE_REPAIR.md and FEATURE_REPAIR_CHECKPOINT.md before the older
+construction next-step entries. The finite-dictionary operation now has an
+exact minimum-cost selector/trade algorithm, a failed static-ray shortcut,
+NP-completeness, a sharp degree2r grid target and a valid Cramer-bounded MILP
+baseline. All are existing-method applications with precise proofs/negative
+certificates, not a new general theory. The root does not claim that a
+provided monomial dictionary amounts to discovering arbitrary representations.
+
+Fresh recovery found only main and research/ongoing, head5a70bf8 and a clean
+workspace; no unseen external branch work or live execution. Three scoped
+independent tasks supplied proofs, separate designed controls and adversarial
+review. Source/readout and integralized-coefficient qualifications matter.
+127 local tests and the new exact scripts passed; hosted evidence must be
+read at the delivered mathematical commit, separately from local success.
+
+Next mathematical operation: freeze an unread external target, then seek a
+structural rule to generate/compress its legal feature or auxiliary-object
+dictionary under an explicit parametric cost model. Existing original2022
+combinatorial-degeneration integer programming already constructs this type
+of composition-compatible weight. A new tool claim needs a residual operation
+or transfer/cost gain beyond that and sparse feature selection. No new
+small-field scans, repeated panel scans or unsupported held-out claim.
+
 New continuation to read first: research/mechanisms/CONSTRUCTION_CONTRACTS.md
 and docs/reviews/CONSTRUCTION_CHECKPOINT.md. Four locally proved/independently
 challenged construction contracts replace the previous compare-three-sources

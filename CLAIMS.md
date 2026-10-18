@@ -34,7 +34,30 @@ separate adversary C accepted the respective proofs; coordinator integrated
 their objections. Formalization NOT_STARTED; no human review or held-out
 transfer. PM-H1 through PM-H5 remain OPEN.
 
-## Supporting mathematical claims
+## Costed representation repair
+
+Complete proofs and prior-art mapping: [feature repair](research/mechanisms/FEATURE_REPAIR.md).
+These are Level0 classical separation/optimization/finite-difference results
+and a reproducible reference implementation, not a new universal instrument.
+
+| ID | Precise statement | Evidence and limits |
+| --- | --- | --- |
+| PM-REPAIR-0001 | A finite rational selected feature stack admits a zero-target positive selector iff no normalized off-positive, target-free-sign annihilating trade exists | Complete homogeneous-separation proof; ordinary polytope-face terminology requires a legal constant row; independent distinct exact oracles |
+| PM-REPAIR-0002 | Full-stack feasibility decides dictionary existence; adaptive valid trade cuts with an exact cheapest-mask master return a globally minimum-cost repair in at most2^p incumbent checks | Independent A/B proposals and C audit; weighted set cover embeds, decision NP-complete; binary-master lower bound must also be checked |
+| PM-REPAIR-0003 | Breaking every initial extreme bad trade individually can leave a surviving positive combination | Exact3-point and categorical one-hot4-point counterexamples; invalid static-ray shortcut rejected |
+| PM-REPAIR-0004 | On the rational grid{-1,0,1}^r, a polynomial zero on the coordinate-zero union and positive elsewhere has minimum degree2r; its reduced all-squared monomial is mandatory | Parametric tensor-moment proof and independent direct moment checks; automatic r2 dictionary selection and deletion failure; designed calibration, not external held-out transfer |
+| PM-REPAIR-0005 | After integralizing R feature rows bounded by H>=1, every feasible mask admits integer coefficients bounded by R!H^(R-1), yielding a complete conventional bounded MILP | Independent Cramer proofs;756 finite coefficient-bound controls; bound applies to integralized rows; no polynomial-time optimizer claim |
+
+All five are PROVED_MANUALLY within their statements, with independent
+mathematical views and separate adversarial acceptance. Formalization
+NOT_STARTED; no human peer review or historical novelty claim. Primary panel
+verification covers134 masks,25 stored certificates and20 adaptive cuts using
+a distinct Fourier–Motzkin oracle;336 other stacks cross-check another exact
+oracle. An independent designed monomial panel verifies180 cuts and shows no
+oracle-count improvement. Counts are computational checks, not AI solve rates.
+All PM-H hypotheses remain OPEN.
+
+## Earlier supporting mathematical claims
 
 | ID | Statement | Mathematics | Computation | Formalization | Independent review | Novelty |
 | --- | --- | --- | --- | --- | --- | --- |

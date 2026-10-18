@@ -1,0 +1,1 @@
+PASS: 336 fixed-stack cross-checks on 80 separate deterministic integer dictionaries; empty feature stacks, empty optional blocks, all-target domains, dependent rows, and multi-target spans included.

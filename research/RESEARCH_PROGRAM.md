@@ -169,6 +169,19 @@ After two cycles without new evidence, reassess the hypothesis or direction.
 
 ## Recovery
 
+19 October construction continuation: FEATURE_REPAIR.md proves and implements
+costed finite-dictionary selection with exact primal/dual and master-optimality
+certificates. Static initial-ray hitting fails; minimum cost embeds set cover;
+an explicit Cramer bound supplies a complete ordinary MILP baseline. A designed
+rational-grid family has sharp positive degree2r and a mandatory top feature.
+Original2022 combinatorial-degeneration work already constructs the same type
+of zero-target positive local weights by integer programming. Thus no missing
+general finite-dictionary operation is established. The next target is
+structural generation/compression of legal representations from a problem's
+succinct input, on an unread external target frozen before solving, with
+explicit cost and equal-information existing-tool baselines. All hypotheses
+remain open; the current designed panels are not held-out evidence.
+
 Completed construction gate (18 October 2026): CONSTRUCTION_CONTRACTS.md
 contains PM-CONSTRUCTION-0001..0004, with complete proofs, primal/dual exact
 checks and independent adversarial review. The fixed-phase interaction graph,

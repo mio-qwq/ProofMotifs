@@ -1,0 +1,39 @@
+{
+  "all_assertions_passed": true,
+  "exhaustive_unit_entry_cases": [
+    {
+      "rows": 1,
+      "points": 3,
+      "all_matrices_checked": 27,
+      "feasible_matrices": 2,
+      "bound_M": 1
+    },
+    {
+      "rows": 2,
+      "points": 3,
+      "all_matrices_checked": 729,
+      "feasible_matrices": 200,
+      "bound_M": 2
+    }
+  ],
+  "tight_R2_H1_example": {
+    "rows": [
+      [
+        0,
+        1,
+        -1
+      ],
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "integer_coefficients": [
+      1,
+      2
+    ],
+    "bound_M": 2
+  },
+  "qualification": "Bound is for integralized feature rows."
+}

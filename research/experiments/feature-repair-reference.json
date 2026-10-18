@@ -1,0 +1,95 @@
+{
+  "initial_extreme_ray_counterexample": {
+    "chosen": [
+      0,
+      1
+    ],
+    "cost": 2,
+    "selector": [
+      "0",
+      "3",
+      "2"
+    ],
+    "values": [
+      "0",
+      "1",
+      "1"
+    ],
+    "cuts": [
+      [
+        0,
+        1
+      ],
+      [
+        1
+      ],
+      [
+        0
+      ]
+    ],
+    "hidden_trade": [
+      "-1",
+      "1/2",
+      "1/2"
+    ]
+  },
+  "signed_target_trade": [
+    "1",
+    "-2",
+    "1"
+  ],
+  "set_cover_instances_checked": 40,
+  "signed_rational_instances_checked": 30,
+  "large_coefficient_example": {
+    "H": 7,
+    "selector": [
+      "7",
+      "6"
+    ]
+  },
+  "later_coordinator_grid_audit": {
+    "tensor_moment_checks": [
+      {
+        "r": 1,
+        "points": 3,
+        "target_points": 1,
+        "off_points": 2,
+        "reduced_monomials_annihilated": 2
+      },
+      {
+        "r": 2,
+        "points": 9,
+        "target_points": 5,
+        "off_points": 4,
+        "reduced_monomials_annihilated": 8
+      },
+      {
+        "r": 3,
+        "points": 27,
+        "target_points": 19,
+        "off_points": 8,
+        "reduced_monomials_annihilated": 26
+      },
+      {
+        "r": 4,
+        "points": 81,
+        "target_points": 65,
+        "off_points": 16,
+        "reduced_monomials_annihilated": 80
+      },
+      {
+        "r": 5,
+        "points": 243,
+        "target_points": 211,
+        "off_points": 32,
+        "reduced_monomials_annihilated": 242
+      }
+    ],
+    "r2_selected_monomial": [
+      2,
+      2
+    ],
+    "r2_optimum_unit_cost": 1
+  },
+  "all_checks": "PASS"
+}

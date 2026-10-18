@@ -132,3 +132,27 @@ jobs:
         run: |
           python3 tools/construction_independent_field.py > /tmp/construction-independent-field.json
           diff -u research/experiments/construction-independent-field.json /tmp/construction-independent-field.json
+      - name: Replay costed feature repair
+        run: |
+          python3 tools/feature_repair.py > /tmp/feature-repair-report.json
+          diff -u research/experiments/feature-repair-report.json /tmp/feature-repair-report.json
+      - name: Independently check repair masks and coefficient bounds
+        run: |
+          python3 tools/feature_repair_boundary.py > /tmp/feature-repair-boundary.json
+          diff -u research/experiments/feature-repair-boundary.json /tmp/feature-repair-boundary.json
+          python3 tools/feature_repair_independent.py > /tmp/feature-repair-independent.json
+          diff -u research/experiments/feature-repair-independent.json /tmp/feature-repair-independent.json
+          python3 tools/feature_repair_coefficient_bound.py > /tmp/feature-repair-coefficient-bound.json
+          diff -u research/experiments/feature-repair-coefficient-bound.json /tmp/feature-repair-coefficient-bound.json
+      - name: Cross-check independent repair solvers
+        run: |
+          python3 tools/feature_repair_reference.py > /tmp/feature-repair-reference.json
+          diff -u research/experiments/feature-repair-reference.json /tmp/feature-repair-reference.json
+          python3 tools/feature_repair_crosscheck.py > /tmp/feature-repair-crosscheck.log
+          diff -u research/experiments/feature-repair-crosscheck.log /tmp/feature-repair-crosscheck.log
+      - name: Replay separate monomial discovery calibration
+        run: |
+          python3 tools/feature_repair_monomial.py > /tmp/feature-repair-monomial-report.json
+          diff -u research/experiments/feature-repair-monomial-report.json /tmp/feature-repair-monomial-report.json
+          python3 tools/feature_repair_monomial_check.py > /tmp/feature-repair-monomial-check.json
+          diff -u research/experiments/feature-repair-monomial-check.json /tmp/feature-repair-monomial-check.json

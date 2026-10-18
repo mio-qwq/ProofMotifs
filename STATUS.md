@@ -1,10 +1,39 @@
 # Current research status
 
-Updated: 2026-10-18. Branch: `research/ongoing`; `main` remains the stable baseline.
+Updated: 2026-10-19 (Asia/Singapore). Branch: `research/ongoing`; `main` remains the stable baseline.
 Last remotely verified mathematical checkpoint: `aca4bff2caf13c501c880f397f6cb750ea4295b2`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
 ## Controlling research priority: AI success, cancellation and tool need
+
+Latest mathematical continuation: FEATURE_REPAIR.md and FEATURE_REPAIR_CHECKPOINT.md.
+The next operation has an exact finite implementation: choose minimum-cost
+optional features, rather than recover coefficients of a supplied residual.
+It returns a selector or normalized signed trade, uses adaptive necessary
+cuts, proves optimality with a checked binary master, and detects full-dictionary
+impossibility. Static initial-ray hitting is disproved even for categorical
+one-hot blocks. Weighted set cover gives NP-completeness; a Cramer bound gives
+an explicit complete conventional MILP baseline. On a designed rational-grid
+family the sharp positive degree is2r and the all-squared feature is mandatory.
+
+Existing-tool coverage is now more direct: the original2022 combinatorial-
+degeneration paper explicitly synthesizes integer zero-target/positive-complement
+weights by integer programming;1998 feature-selection and Benders methods
+also overlap. No missing general finite-dictionary optimizer is established.
+127 unit tests passed; four additional replay blocks are prepared, for30 total.
+Primary and independent exact reports preserve134 masks/25 certificates/20cuts,
+336 separate stack comparisons,756 coefficient-bound cases and an independent
+monomial control with no adaptive oracle advantage. Designed tests are not
+held-out transfer. Resolve the current hosted head/run separately.
+
+Next: move beyond this now-explicit established-method baseline. Freeze an
+unread external target and its available input before solving; investigate
+structural generation/compression of a legal dictionary or auxiliary map with
+a parametric cost bound. Compare against combinatorial-degeneration, sparse
+feature-selection and polynomial-synthesis methods at equal information.
+Do not repeat these five small panels or call bounded sparse separation a
+new tool. All macro hypotheses remain open. Last verified predecessor remains
+5a70bf8d8b5105d9eb08a4df2eb0dc1be2be4e7c until this tree's delivery is read back.
 
 New mathematical continuation: CONSTRUCTION_CONTRACTS.md proves four exact
 construction/composition criteria. Fixed-phase positive local selection has

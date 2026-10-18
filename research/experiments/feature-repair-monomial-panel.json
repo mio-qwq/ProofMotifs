@@ -1,0 +1,16 @@
+{
+  "task": "PM-REPAIR-B",
+  "status": "frozen before numerical or symbolic instance solving",
+  "classification": "designed calibration, not external heldout",
+  "name": "alternating six-node zero-set on a signed integer grid",
+  "omega_rule": "all integer t from -6 through 6, inclusive",
+  "target_rule": "abs(t) is in {1,3,5}",
+  "base_exponents": [0,1],
+  "optional_blocks_rule": "for j=0,...,9: include exponents 2*(j+1), 2*((3*j+4)%11+1), 2*j+3; block cost 1+((7*j+3)%5); remove duplicate exponents within a block",
+  "coefficient_domain": "arbitrary rational coefficients in the span of selected monomials; no residual, square, or sign pattern supplied",
+  "objective": "minimum total cost of selected blocks, then fewest blocks, then increasing bitmask",
+  "success": "W=0 on the target and W>=1 on every off-target point; clearing rational denominators gives integral all-product stable weight",
+  "negative_control": "remove the three even exponents of smallest numerical size that occur in any optimum found; recompute optimum or full infeasibility, without changing support or target",
+  "baseline": "same exact oracle, exhaustive subset search sorted by the same objective",
+  "stopping": "solve all 1024 architectures at most; exact certificates for every oracle answer; no claim of distributional generalization"
+}

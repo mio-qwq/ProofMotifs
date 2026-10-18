@@ -9,6 +9,17 @@ theorem/tool with a new target. Capability/selection audits, the codebook and
 neutral sampling support this mathematical task; they do not replace it or
 block it while attempt-level data are missing.
 
+19Oct continuation: the bounded feature-repair operation is now specified,
+proved and implemented with exact optimality/failure certificates. Read
+FEATURE_REPAIR.md. General sparse separation, adaptive Benders cuts and
+combinatorial degeneration already cover it; an explicit determinant bound
+makes the conventional MILP baseline complete. The sharp rational-grid2r
+degree family is designed calibration. Move next to structural dictionary or
+auxiliary-map generation/compression on a frozen unread external target,
+with a declared parameterized cost and equal-information baselines. A given
+finite feature list is not automatic discovery from a raw problem statement.
+Do not continue finite-mask optimization as though it were a missing theory.
+
 PM-QUESTION-0001 and PM-QUESTION-0002 remain supporting questions. Preserve the
 pending connected-normal proof and certificates; further degree/orbit work is
 deferred unless it contributes directly to the macro program. Earlier entries
