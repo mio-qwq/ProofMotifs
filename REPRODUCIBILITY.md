@@ -164,3 +164,34 @@ E also independently reconstructs every normalized orbit and gcd degree for m=3.
 full scans stop at m=6; m=7,8 provide selected positive certificates only.
 The command log and sc013-SHA256.json preserve execution and file scope.
 No formal proof-assistant or human review is implied.
+
+## Linearized sieve and odd-degree obstruction
+
+The latest integrated suite passes111 tests, including9 new certificate
+tests; actual log research/experiments/sc014-tests.log. Reproduce with:
+
+```sh
+python tools/linearized_seed_certificate.py > /tmp/linearized-seed-certificate.json
+diff -u research/experiments/linearized-seed-certificate.json /tmp/linearized-seed-certificate.json
+python tools/linearized_seed_certificate.py --verify research/experiments/linearized-seed-certificate.json > /tmp/linearized-seed-verification.json
+diff -u research/experiments/linearized-seed-verification.json /tmp/linearized-seed-verification.json
+python tools/linearized_seed_independent_check.py > /tmp/linearized-seed-independent-check.json
+diff -u research/experiments/linearized-seed-independent-check.json /tmp/linearized-seed-independent-check.json
+```
+
+The degree13 checker uses coefficient-list arithmetic and a13-by13 F3
+matrix, not a whole-field table or797161-row matrix. It verifies Rabin
+irreducibility, prime square-group order, all81 linear-kernel points,
+the complete78-parameter B85 partition and explicit trace separator.
+Generation and verification share its arithmetic; E's separate program
+imports no project modules and reconstructs the field and kernel itself.
+Run the independent program without Python -O because it uses assertions.
+Mutation tests reject damaged field, coordinates, parameter coverage,
+basis, prime bound, trace and orbit receipts. The repeated-factor m6
+control prevents silently using semisimplicity of Frobenius when3|m.
+No exact degree13 sparse nullity or whole-field seed census is asserted.
+The manual group argument explains all78 parameters from one checked
+point; the81-element enumeration is an independent finite corroboration.
+Command log: sc014-commands.log; historical snapshot hashes: sc014-SHA256.json.
+Software checks, manual proof, AI review, human review, Lean and priority
+remain distinct.

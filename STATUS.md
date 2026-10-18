@@ -4,7 +4,45 @@ Updated: 2026-10-18. Branch: `research/ongoing`; `main` remains the stable basel
 Last remotely verified mathematical checkpoint: `7e12402671c6c2f30bf91f6eadb3d2729fbc35df`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
-## Latest accepted continuation: SC-013
+## Latest accepted continuation: SC-014
+
+Fresh Git and GitHub reads recovered e19781a36e1267f1850751cc4a9ad18e025588f3,
+with only main and research/ongoing present and no conflicting work. The
+predecessor's actual mathematical CI at 7e12402 was freshly confirmed
+successful. This does not certify the new tree before its own hosted run.
+
+PM-THEOREM-0018 gives a symbolic sieve: quadratic digitweight frequencies
+never survive; cubic ones reduce exactly to a linearized kernel, whose
+dimension is a small polynomial gcd degree even when 3 divides m. A
+square-character filter and sixfold normalization give exact bad-parameter
+and differential-fiber criteria. Full proof: SC-014/RESULTS.md.
+
+PM-COUNTEREXAMPLE-0008 uses this mechanism in odd degree13, with
+K=F3[X]/(X13+2X+1), prime square order797161 and frequency85. An explicit
+connected seed has sparse kernel dimension at least27 versus full14.
+Tr(u85) obeys its orbit but takes1,1,0 on a true omitted edge. The
+four-dimensional linearized kernel has81 elements, of which78 give all
+parameters of B85, hence13 seed orbits. A transitive78-element group proves
+that one passing parameter forces all78; Frobenius is transitive on the
+13 seed orbits. This is not a complete degree13 bad-frequency census.
+
+Independent E arithmetic reproduces the field, basis, square conditions,
+prime order and trace separator without project/B imports. A and E accepted
+the structural proof, including its nonsemisimple and constant-frequency
+qualifications. The integrated suite passed111 tests; log sc014-tests.log.
+Certificate, verification, independent receipt and command log are in
+research/experiments; sc014-SHA256.json records this mathematical checkpoint.
+Hosted verification of the new commit is still to be read after delivery.
+No exact sparse dimension27, general existence, novelty, human-review or
+Lean claim is made. PM-QUESTION-0001 stays OPEN.
+
+Next operation: use the proven linearized description to eliminate cubic
+blockers simultaneously, with normal-element/character conditions checked
+rather than assumed; then derive and control the quartic-digitweight
+obstruction. Do not replace the all-frequency problem with another positive
+degree table or infer existence from separate frequency exclusions.
+
+## Previous continuation: SC-013
 
 Recovered e35f0dfcb8e5446be3e0840d54c8f89e9967b34e after fresh Git and
 GitHub reads of all branches (main and research/ongoing only). No unseen

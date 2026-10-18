@@ -5,7 +5,42 @@ Last verified remote mathematical checkpoint: `7e12402671c6c2f30bf91f6eadb3d2729
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
-## Latest accepted continuation: SC-013
+## Latest accepted continuation: SC-014
+
+Recovered true head e19781a36e1267f1850751cc4a9ad18e025588f3 after all-branch
+and working-tree checks. No external increment or other active main task
+was found. Read SC-014/RESULTS.md and COMPUTATION.md before repeating any
+search. The predecessor mathematical CI at7e12402 was re-read successfully.
+
+PM0018: P_(3r+3s)=-(a-1)^(3r+3s), using3r to denote3^r; cubic digitweight
+gives Pk=-(a-1)^k L((a-1)^-1). The L-kernel dimension is deg gcd(Tm-1,G),
+proved via linearized composition and separable roots, without a squarefree
+assumption on Tm-1. Exact square filtering, proper-subfield and sixfold
+differential-fiber exclusions are in the proof. Do not label every cubic
+representation extra: some are constant/Frobenius residues.
+
+PM-COUNTEREXAMPLE0008: m13, modulusX13+2X+1, N797161prime, k85.
+y=X2+X3+X9; a=2X5+2X11+X12; b=2+X5+X11+2X12. Both vertices are squares,
+1+a+b=1+a85+b85=0, and a!=1 generates the prime-order square group.
+The sparse kernel is at least27, full kernel14. Tr(u85) takes1,1,0 on the
+true edge with coordinates1,112,223. No exact sparse rank is claimed.
+
+All81 points of the four-dimensional L-kernel were checked;78 outsideF3
+give exactlyB85 and13 seed orbits. The group y->+-y^(3j)+c of order78 acts
+freely/transitively, preserves the square filter, and proves all78 from one
+point. Quotienting the six normalizations gives Frobenius transitivity on
+the13 seed orbits. Independent E arithmetic and A/E proofs accepted;
+TENTH_CYCLE reviews preserve methods and limits. The111-test suite passed;
+sc014-tests.log and three new JSON outputs record actual execution.
+
+General existence remainsOPEN, as does historical originality. The next
+operation is a simultaneous cubic sieve using normal-element/character
+conditions or a controlled quartic obstruction; details in ROADMAP. Do not
+reopen the refuted odd-degree connectedness route, scan the full m13 field,
+or compute exact nullity merely to sharpen an unused number. Read the new
+commit's hosted CI at its actual SHA after publication.
+
+## Previous continuation: SC-013
 
 Recovered e35f0dfcb8e5446be3e0840d54c8f89e9967b34e after fresh Git and
 GitHub reads of all branches (main and research/ongoing only). No unseen

@@ -1,0 +1,85 @@
+{
+  "task": "PM-CYCLE10-E",
+  "field_modulus": [
+    1,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "rabin_irreducible": true,
+  "square_order_prime": 797161,
+  "linear_gcd": [
+    1,
+    1,
+    0,
+    0,
+    1
+  ],
+  "kernel_basis": [
+    1,
+    300,
+    732,
+    19719
+  ],
+  "kernel_dimension": 4,
+  "kernel_size": 81,
+  "square_filtered_count": 78,
+  "selected": {
+    "y": 19719,
+    "a": 886221,
+    "b": 1240274
+  },
+  "extra_frobenius_orbit": [
+    85,
+    255,
+    765,
+    2295,
+    6885,
+    20655,
+    61965,
+    185895,
+    557685,
+    78733,
+    236199,
+    708597,
+    531469
+  ],
+  "affine_frobenius_orbit": [
+    0,
+    1,
+    3,
+    9,
+    27,
+    81,
+    243,
+    729,
+    2187,
+    6561,
+    19683,
+    59049,
+    177147,
+    531441
+  ],
+  "kernel_lower_bound": 27,
+  "omitted_edge": [
+    1,
+    112,
+    223
+  ],
+  "omitted_trace_values": [
+    1,
+    1,
+    0
+  ],
+  "omitted_trace_sum": 2
+}

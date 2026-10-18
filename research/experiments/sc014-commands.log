@@ -1,0 +1,33 @@
+Working directory: ProofMotifs repository root
+Date: 2026-10-18
+
+$ git fetch --all --prune
+exit=0; remote inventory main and research/ongoing only
+starting research head=e19781a36e1267f1850751cc4a9ad18e025588f3
+
+$ python tools/linearized_seed_certificate.py > research/experiments/linearized-seed-certificate.json
+exit=0; generator also verifies its output
+
+$ python tools/linearized_seed_certificate.py --verify research/experiments/linearized-seed-certificate.json > research/experiments/linearized-seed-verification.json
+exit=0
+
+$ python tools/linearized_seed_independent_check.py > research/experiments/linearized-seed-independent-check.json
+exit=0; independent arithmetic, no project imports
+
+$ python -m unittest discover -s tests -v > research/experiments/sc014-tests.log 2>&1
+exit=0; Ran111 tests in11.315s; OK (complete actual output saved separately)
+
+$ python tools/linearized_seed_certificate.py > /tmp/pm-sc014-replay.json
+$ diff -u research/experiments/linearized-seed-certificate.json /tmp/pm-sc014-replay.json
+exit=0; byte-identical
+
+$ python tools/linearized_seed_certificate.py --verify research/experiments/linearized-seed-certificate.json > /tmp/pm-sc014-verify-replay.json
+$ diff -u research/experiments/linearized-seed-verification.json /tmp/pm-sc014-verify-replay.json
+exit=0; byte-identical
+
+$ python tools/linearized_seed_independent_check.py > /tmp/pm-sc014-independent-replay.json
+$ diff -u research/experiments/linearized-seed-independent-check.json /tmp/pm-sc014-independent-replay.json
+exit=0; byte-identical
+
+$ git diff --check
+exit=0

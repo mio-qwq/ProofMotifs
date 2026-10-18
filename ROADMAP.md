@@ -140,3 +140,29 @@ factor-covering route yields no new checkable information for two cycles,
 redirect to a compact completion-to-affinity formalization with a working
 compiler or a genuinely held-out cancellation application. Preserve the
 known sparse/full automorphism distinction and the subgroup endpoint caveat.
+
+## Update after the linearized sieve
+
+SC-014 removes all quadratic digitweight frequencies and parameterizes cubic
+bad sets by a Frobenius-linear kernel plus three quadratic-character values.
+The dimension is an ordinary small-polynomial gcd degree, with repeated
+factors retained. This mechanism produces an odd-degree connected failure
+in F_(3^13), not an infinite existence proof. Its complete B85 has78
+parameters/13 seed orbits, with transitivity proved structurally. The lower
+bound27 on sparse nullity is sufficient; do not compute its exact value
+without a new mathematical reason.
+
+Next precise route: a normal element y has linearly independent Frobenius
+conjugates, so no nonzero three-term linearized operator can kill it.
+Determine whether such y can satisfy chi(y-1)=chi(y)=chi(y+1), and check
+connectivity of a=1+1/y separately. Existence of these normal, character-
+restricted elements must be proved or bounded, not assumed; small-degree
+constant-frequency collisions can obstruct it. Compare primary normal-
+element character-pattern results before proposing a new theorem.
+
+Even a successful cubic sieve leaves higher digit weights. The parallel
+structural operation is to expand Pk for four Frobenius powers in h=a-1
+and identify the resulting quadratic constraint on y=1/h, keeping the
+square filter. A bound on cubic blockers alone cannot solve simultaneous
+avoidance of every nonaffine frequency. If neither route yields new
+checkable information in two cycles, use the established redirection rule.

@@ -88,3 +88,13 @@ jobs:
         run: |
           python3 tools/single_orbit_trace_check.py > /tmp/single-orbit-trace-check.json
           diff -u research/experiments/single-orbit-trace-check.json /tmp/single-orbit-trace-check.json
+      - name: Replay linearized odd-degree seed certificate
+        run: |
+          python3 tools/linearized_seed_certificate.py > /tmp/linearized-seed-certificate.json
+          diff -u research/experiments/linearized-seed-certificate.json /tmp/linearized-seed-certificate.json
+          python3 tools/linearized_seed_certificate.py --verify research/experiments/linearized-seed-certificate.json > /tmp/linearized-seed-verification.json
+          diff -u research/experiments/linearized-seed-verification.json /tmp/linearized-seed-verification.json
+      - name: Independently check odd-degree field and trace witness
+        run: |
+          python3 tools/linearized_seed_independent_check.py > /tmp/linearized-seed-independent-check.json
+          diff -u research/experiments/linearized-seed-independent-check.json /tmp/linearized-seed-independent-check.json
