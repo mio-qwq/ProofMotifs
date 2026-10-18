@@ -40,3 +40,9 @@ Current short-term priority: isolate the punctured-cone repair lemma and exact F
 Medium term: test whether a sharp query lower bound is meaningful for the restricted family of square defects, or identify a genuinely new application where the explicit witness adds value. Do not assume arbitrary quadratic maps are realizable as these defects. Formalize the accepted core when an actual compiler is available.
 
 Long term remains a substantive result or transfer with documented distance from prior work. If the bridge and algorithm are already covered, classify and retain them as infrastructure, then redirect effort to a different explicit mathematical obstruction. Do not generate higher-difference expansion tables without a structural target.
+
+## Update after the generator-row cycle
+
+SC-007 reduces the defect-value bound to 2m-3 with a supplied power basis. A transvection adversary proves floor(m/2) queries necessary for deterministic decision from Q values alone. The asymptotic order is therefore linear in that restricted oracle model. Do not continue searching for a quadratic lower bound or imply a lower bound for direct access to T: its m basis images already determine it.
+
+The next gate is a value and prior-art review of this exact oracle problem, rather than polishing constants indefinitely. Investigate whether useful additional structure remains when additivity is removed, beginning with the unavoidable independent sign choices on opposite pairs. Any proposed arbitrary-permutation classification must account for those symmetries and should be compared with finite-geometric and quadratic-residue preserver results. Until examined, that is a research target, not an accepted theorem. Keep actual formalization and a genuinely new application as medium-term alternatives.

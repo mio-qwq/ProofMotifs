@@ -34,3 +34,7 @@ jobs:
         run: |
           python3 tools/constructive_witness.py > /tmp/constructive-results.json
           diff -u research/experiments/constructive-results.json /tmp/constructive-results.json
+      - name: Replay generator witness experiments
+        run: |
+          python3 tools/generator_witness.py > /tmp/generator-results.json
+          diff -u research/experiments/generator-results.json /tmp/generator-results.json

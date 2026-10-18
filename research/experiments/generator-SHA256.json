@@ -1,0 +1,13 @@
+{
+  "files": {
+    "research/experiments/generator-results.json": "e7edb0d4daa56bba0e11ea2fb39c928c54c49203704c88891317807829ef73a5",
+    "research/experiments/generator-tests.log": "146770afaacf8b6d573cc1bde3898627d425b2d3fdd2db15f493789707bd6051",
+    "tests/test_generator_witness.py": "4f5020412c96b79f23e02591c5f45a7ceddf8bba2107795330cd7b1304da83a0",
+    "tools/cancellation.py": "b1ac3f361c72037216b1b1a9c2af2524d0d526cb5cd57a49cb292d4fc47b45aa",
+    "tools/constructive_witness.py": "c82f5d57cb88f10a0176ab0d36f04aa921020fdefc2ca7c0d3aabbcbd8316b76",
+    "tools/generator_witness.py": "f1414fd99438a9d0c2b55a1be2e33e0a11c194d3006926068db9dd52fe4f5d6b",
+    "workstreams/SC-007/RESULTS.md": "4f67ccea5947a6039ace2a485eaf804cd9d034a26f7e3d1abfe7255eab8e121e"
+  },
+  "python": "3.12.14",
+  "schema": 1
+}

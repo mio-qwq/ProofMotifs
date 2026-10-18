@@ -1,9 +1,9 @@
 # Project status
 
-Checkpoint: constructive witnesses, arbitrary-field extension and independent AI review, 2026-10-18. Coordinator: PM-ROOT-20261018.
+Checkpoint: linear generator test and restricted-oracle lower bound, 2026-10-18. Coordinator: PM-ROOT-20261018.
 
 Stable branch: `main`. Unified research branch: `research/ongoing`.
-Last remotely verified predecessor: `4f6db95fe5b72c12bdbfc875026f47698735f817`. Resolve the live ref for the containing checkpoint; no file predicts its own future SHA.
+Last remotely verified predecessor: `a434475c0863a80e79ebadc98ae563c07a20253c`. Resolve the live ref for the containing checkpoint; no file predicts its own future SHA.
 
 ## Current verified work
 
@@ -16,16 +16,26 @@ SC-006 adds two complete written results:
 
 Historical novelty remains unverified. Lester's 1977 full-cone preserver theorem is a closer classical precedent than the earlier Carlitz-only comparison. The missing-coordinate/punctured-cone bridge, precise F_9 exception and extractor need source-specific further comparison. No new general theory or public-conjecture solution is asserted.
 
+## Generator-row results
+
+SC-007 adds PM-THEOREM-0007: given a genuine degree-m power basis, 2m-3 directly evaluated defect values suffice, all at admissible order-7 conic parameters. The first nonzero value yields a strict 7-to-5 witness with no extra repair. This uses the special multiplicativity-defect structure; it is false for arbitrary quadratic maps.
+
+PM-THEOREM-0008 proves at least floor(m/2) queries necessary for deterministic decision with access only to the defect Q, no T images or description. An annihilator transvection imitates the identity's zero transcript below that bound. Thus query growth is Theta(m) in precisely this model, with no exact-constant, randomized, direct-T or bit-complexity conclusion. PM-COUNTEREXAMPLE-0004 preserves failures caused by omitting closure or using a proper-subfield multiplier. All have separate AI challenges; historical novelty and formalization remain unresolved.
+
 ## Actual verification and collaboration
 
-29 unit tests passed; actual log: research/experiments/constructive-tests.log. All 432 normalized F_27 additive bijections were classified by the extractor: 3 semilinear, 429 with complete-moment-verified 7-to-5 witnesses. Maximum observed extraction: 3 defect queries and 6 distinct map-oracle calls. New deterministic output also records 18 selected F_81 transvections, an explicit degenerate-parameter repair, 20 scaled-Frobenius controls and the six normalized F_9 cases. Tests additionally check all 416 scaled-Frobenius controls on the four fields. This does not enumerate GL(4,3).
+41 unit tests passed; actual log: research/experiments/generator-tests.log. The generator scan checks all 432 normalized F_27 maps: 408 non-preservers rejected after one Q query, 21 after two, and three semilinear maps accepted after three. All 429 returned witnesses are checked by complete actual moment vectors. Further output covers 68 selected maps across two F_81 presentations and F_243, 38 scaled-Frobenius controls, and 81 one-query adversary instances comprising eight distinct maps. None is an exhaustive GL(4,3) or GL(5,3) enumeration.
 
-Four actual task-scoped AI subagents were used: independent proof review, constructive theory, adversarial/prior-art review and computation. All have returned their handoffs; none is asserted to remain running. See docs/reviews/THIRD_CYCLE.md. Task A accepted the saved SC-006 proof and code and independently replayed its nine new tests. These are separate AI checks, not human peer review or Lean verification.
+Four task-scoped AI researchers independently challenged proof, construction, access model, prior art and code. All have returned handoffs; none remains asserted to run. Task A accepted the saved manuscript/code and independently replayed all 12 new tests. See docs/reviews/FOURTH_CYCLE.md. Shared finite-field arithmetic remains a common dependency; no Lean or human peer review is claimed.
 
-Earlier hosted CI succeeded for mathematical commit 037ea1c, run 39102950233. The new mathematical commit requires its own hosted run; no future CI outcome is assumed here. Exact source/result hashes accompany the constructive experiment. No Lean, Lake or Elan executable is available in this window. A normal local Git clone succeeded.
+Remote commit a434475c delivered the exact previous mathematical tree, and hosted CI 39105407423 passed every verification step. Its receipt is persisted. The new generator checkpoint requires a separate hosted run. Ordinary terminal Git push lacks credentials; authorized GitHub API tree/commit/ref writes work and are verified. No Lean/Lake/Elan tool is available.
 
 ## Scheduling and next decision
 
 The existing 90-minute task was found disabled and successfully re-enabled on 2026-10-18; its stored first future start remains 15:14:59 Asia/Shanghai. No future execution has yet been observed. Every window reads live remote state before writing. Unified coordinator ownership, independent mathematical views, adversarial review and checkpoint requirements are in AGENTS and the task instructions. This does not imply computation between invocations.
 
-Next priority: assess the exact punctured-cone extension and witness test against additive cone preservers and quadratic identity-testing literature; then examine whether the current query bound has a meaningful lower bound or a genuinely new application. Do not repeat the completed F_27 enumeration without an evidence-driven reason. SC-004 remains deferred. No project-wide license, DOI, external correspondence or final academic release was enacted.
+Next priority: assess the exact restricted-oracle result against prior art, then review value before further constant optimization. For a broader preserver question, begin by testing independent sign changes on opposite pairs and do not assume additivity follows from ternary-order preservation. This is a next research target, not an accepted arbitrary-permutation classification. SC-004 remains deferred. No license decision, DOI, external correspondence or final academic release was enacted.
+
+## Delivery and authorization
+
+The project owner explicitly authorized immediate public delivery on 2026-10-18. The mathematical contents of local checkpoint 310b87a were delivered with identical tree as remote a434475c; the local-only e8b2051 blocker note is historical and superseded. No publication-authorization blocker remains. Continue ordinary project checkpoints under the charter, checking live refs before each non-forced update. No prior result is claimed Lean-verified or historically original.

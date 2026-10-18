@@ -1,0 +1,18 @@
+{
+  "commit": "a434475c0863a80e79ebadc98ae563c07a20253c",
+  "local_mathematical_source": "310b87ad5ea582da69df068b7fd6c2f6bc271077",
+  "identical_tree": "6275963256aaa91b47b37ff082fdec2da0dd4066",
+  "run_id": 39105407423,
+  "job_id": 117610052289,
+  "url": "https://github.com/mio-qwq/ProofMotifs/actions/runs/39105407423",
+  "conclusion": "success",
+  "steps_observed_successful": [
+    "Unit tests",
+    "Replay deterministic experiments",
+    "Replay ternary classification",
+    "Replay preserver classification experiments",
+    "Replay constructive witness experiments"
+  ],
+  "observed_date": "2026-10-18",
+  "scope": "Exact tests and four deterministic replays; no Lean, novelty or human-review certification."
+}

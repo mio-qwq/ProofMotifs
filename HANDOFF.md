@@ -1,6 +1,6 @@
 # Recovery handoff
 
-Read AGENTS, STATUS, ROADMAP, CLAIMS, then fresh remote refs, recent commits and working tree. Last remotely verified predecessor: 4f6db95fe5b72c12bdbfc875026f47698735f817. Resolve the live containing commit independently. Preserve unexpected changes and never force-push.
+Read AGENTS, STATUS, ROADMAP, CLAIMS, then fresh remote refs, recent commits and working tree. Last remotely verified predecessor: a434475c0863a80e79ebadc98ae563c07a20253c. Resolve the live containing commit independently. Preserve unexpected changes and never force-push.
 
 ## Mathematical state and exact notation
 
@@ -30,13 +30,35 @@ Independent tasks A/B/C/D completed; task scopes, objections, resolution and rev
 
 Historical baseline commands remain available: python tools/run_experiments.py; python tools/ternary_differences.py; python tools/order_preservers.py. Do not repeat large enumerations just to appear active. CI run 39102950233 covers 037ea1c only; verify each later run separately. The workflow now also replays constructive-results.json.
 
+## Generator-row advance: SC-007
+
+Read workstreams/SC-007/RESULTS.md. With a genuine power basis (1,alpha,...,alpha^(m-1)), polar defects H(alpha,x)=A*T(alpha*x)-T(alpha)*T(x) need only vanish on that row. After normalizing S=T/A, S(alpha*x)=S(alpha)S(x) on every x forces multiplicativity by iteration and polynomial expansion. The endpoint alpha^(m-1) enforces the degree-m defining relation and cannot be dropped.
+
+PM-THEOREM-0007 uses Q(alpha), then two parameters for each u=alpha^k, 2<=k<m. Let F={x:x^9=x}. If u in F, query alpha+u and alpha-u. Else if alpha+u in F, query u and alpha-u. Otherwise query u and alpha+u. With Q(alpha)=0, parallelogram recovers the original row conditions from each chosen pair. All queried points lie outside F and are directly admissible. Total <=2m-3 Q evaluations, no repair. This is not a universal quadratic-form test or an optimal T-query bound; m T-basis images already determine T.
+
+PM-THEOREM-0008: deterministic Q-only decision with no T images/matrix/description needs >=floor(m/2) queries. On a shorter all-zero transcript choose phi annihilating span{1,t_i,t_i²}, define S(x)=x+phi(x). N²=0 implies invertibility, it fixes queried inputs and squares, and its fixedspace dimension m-1 excludes nontrivial Frobenius. Adaptive transcript is identical to identity. With the upper bound this gives Theta(m) ONLY for that decision model; no promised-negative witness-only, randomized, exact-constant or richer-input lower bound is asserted.
+
+Negative controls: F27 columns(1,9,15) passes Q(alpha)=0 but fails the final generator-row relation. F81 modulus(2,0,1,0,1), columns(1,4,9,36), i=11, has H(i,x)=0 for every x while Q(alpha)=5. A coordinate quadratic x_2*x_3 shows why generic quadratic maps cannot use the smaller test.
+
+## New reproduction commands and actual evidence
+
+python -m unittest discover -s tests -v
+python tools/generator_witness.py > /tmp/generator-results.json
+diff -u research/experiments/generator-results.json /tmp/generator-results.json
+
+41 tests passed. Task A independently ran the 12 new tests and accepted saved proof/code. F27 generator scan: 408 rejected after one Q, 21 after two, 3 accepted after three; all 429 witnesses verified by all 27 moments. Selected larger cases: 18 maps on each of two F81 presentations and 32 on F243. Thirty-eight controls exercise full bounds. All 81 possible F81 single-query positions admit a constructed zero-answer adversary; these instances contain eight distinct maps, not 81 distinct maps. Complete-moment verification validates their separate extracted witnesses. Source/result hashes are in generator-SHA256.json, actual log in generator-tests.log. No new independent arithmetic engine or Lean run exists.
+
 ## Exact next mathematical operations
 
-1. Read research/literature/PRESERVER_AUDIT_20261018.md. Lester 1977 DOI10.4153/CJM-1977-124-1 already classifies FULL cone-preserving bijections in isotropic nonsingular spaces dim>=3. Once full-cone preservation is established, coordinatewise(T,T,T) gives the scalar-automorphism conclusion. That conclusion is classical. The project-specific candidate is the punctured-data repair/exact exception, whose historical priority is still unresolved.
-2. Search primary literature for that exact weakening and for quadratic basis identity tests, recording exact hypotheses. F9 T(1)=1,T(i)=1+i preserves ternary order but sends full-cone vector(0,1,i) off cone; direct Lester invocation before repair is invalid. Never infer originality from a failed search.
-3. Decide whether the N-test adapted-basis result admits an interesting sharp lower bound, or a new target where order-loss certificates add value. Distinguish arbitrary quadratic-map testing from the restricted square defects of additive bijections. Do not assume their coefficient spaces coincide. Preserve counterexamples if a proposed lower bound fails.
-4. Actual Lean formalization remains useful when a compiler is present. SC004 higher-difference formulas stay unverified/deferred. Do not upgrade uncompiled files or finite evidence to formal proof.
+1. Read research/literature/GENERATOR_TEST_AUDIT_20261018.md and the preserver audit. The generator-image/defining-relation principle and full-cone scalar-automorphism conclusion are classical. Historical priority of the exact Q-only oracle statement, conic packaging and F9 exception remains unverified. Search that precise statement in primary sources; absence of matches is not originality.
+2. A linear upper/lower order is now proved in the restricted deterministic Q model. Do NOT keep pursuing the obsolete quadratic lower-bound target or imply optimality for direct T access. Decide whether sharper constants have enough value before allocating another cycle.
+3. For a broader structural target, investigate arbitrary permutations only after checking unavoidable independent signs on opposite pairs. T(x)^2=x^2 pointwise suggests immediate nonadditive preservers, so additivity cannot be silently inferred. Begin with an exact small-field negative example and precise quotient relation, compare finite-geometric/quadratic-residue preserver theory, and retain it as a target until proved and reviewed.
+4. Genuine formalization or a new held-out application remain alternatives when they offer higher value. SC004 remains deferred. Maintain separate proof, AI-review, human-review, Lean and originality fields.
 
 ## Operational recovery
 
-Only ProofMotifs/research/ongoing is writable under this charter; main remains stable. Direct clone succeeded in this window; earlier DNS failure is historical, not a permanent assumption. Check both Git and connector access afresh. Nonforced connector updates with expected predecessor remain a fallback. The existing 90-minute scheduled task was actually re-enabled and its unified coordinator/short-task/adversarial-review instructions updated. The stored first start is 2026-10-18 07:14:59 UTC (15:14:59 Asia/Shanghai). No future run or continuous between-run process is asserted. No license decision, DOI, correspondence or final paper release has been made.
+Only ProofMotifs/research/ongoing is writable under this charter; main remains stable. Direct clone succeeded in this window; earlier DNS failure is historical, not a permanent assumption. Check both Git and connector access afresh. Nonforced connector updates with expected predecessor remain a fallback. The existing 90-minute scheduled task was actually re-enabled and its unified coordinator/short-task/adversarial-review instructions updated. The stored first start is 2026-10-18 07:14:59 UTC (15:14:59 Asia/Singapore). No future run or continuous between-run process is asserted. No license decision, DOI, correspondence or final paper release has been made.
+
+## Delivery resolution
+
+The user explicitly authorized immediate public pushing on 2026-10-18. Terminal Git push then failed for missing credentials, not an approval rejection. The authorized GitHub API delivered the exact original mathematical tree 6275963256aaa91b47b37ff082fdec2da0dd4066 as remote a434475c0863a80e79ebadc98ae563c07a20253c. Hosted run 39105407423, job 117610052289, passed all verification steps. Previous local commits 310b87a / e8b2051 remain in the saved bundle; their mathematical files are synchronized and the old blocker is superseded. The containing generator checkpoint must verify its own remote tree, ref and CI. The enabled 90-minute task was updated to use current remote recovery and no longer wait for already received authorization.

@@ -56,3 +56,18 @@ The new deterministic experiment checks all 432 normalized additive bijections o
 The extractor evaluates the input map from its basis columns. Witness verification uses a full map table as a second evaluation path and complete moments rather than the candidate order-classification formula. These paths still share finite-field arithmetic. The O(m^2) theorem counts defect/map-oracle queries; building Field's O(q^2) tables, validating inputs, obtaining a basis and computing full moments are separate costs. The optional adapted-basis improvement is proved in SC-006 but not implemented by this standard-basis extractor.
 
 The arbitrary-field extension has a written proof and separate AI challenges, with finite special-case computational evidence. No Lean, Lake or Elan executable is available in this window. A local ordinary Git clone succeeded; transport availability must be rechecked in subsequent windows. Hosted CI for each new mathematical commit must still be fetched separately before success is reported.
+
+## Generator-row checkpoint
+
+The current full suite has **41 passing tests**, including 12 new generator/adversary tests. The actual output is in research/experiments/generator-tests.log. Task A independently ran the 12 new tests and accepted the saved mathematical manuscript and implementation.
+
+```sh
+python tools/generator_witness.py > /tmp/generator-results.json
+diff -u research/experiments/generator-results.json /tmp/generator-results.json
+```
+
+The deterministic output verifies all 432 normalized F_27 maps, with 408 rejections after one defect query, 21 after two, and three semilinear acceptances after all three. Complete moments verify every returned 7-to-5 witness. It also checks 18 specified maps in each of two F_81 field presentations, 32 in F_243, 38 scaled-Frobenius controls, closure and nongenerator negative controls, and one-query adversaries at all 81 F_81 query positions. Those 81 constructed instances comprise eight distinct maps. No large-field general-linear-group exhaustiveness is claimed.
+
+The two F_81 moduli exercise both replacement branches; F_243 uses the ordinary branch. Field construction validates the explicitly recorded irreducible moduli. The 2m-3 count is for actual Q evaluations with a supplied power basis. The lower bound floor(m/2) concerns deterministic Q-only decision without T images or an input description. No randomized, exact-constant, direct-T or total-runtime lower bound follows. The same small-field arithmetic engine is shared by these tests.
+
+The previous constructive tree was delivered as a434475c, identical to local mathematical tree 6275963256aaa91b47b37ff082fdec2da0dd4066. Its hosted CI run 39105407423 succeeded in all five verification steps; see docs/reviews/CI_CONSTRUCTIVE_CHECKPOINT.json. The containing generator checkpoint needs its own fetched CI result. Git push lacked a terminal credential, so the authorized GitHub API is the working transport; tree equality, expected predecessor and remote ref are checked independently.
