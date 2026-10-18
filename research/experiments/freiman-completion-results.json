@@ -1,0 +1,220 @@
+{
+  "arithmetic": "exact repository finite-field tables",
+  "fields": [
+    {
+      "four_form_completions": {
+        "character_lower_bound_checked_for_every_examined_relation": true,
+        "complete_gadget_instances_checked": 0,
+        "completion_count_histogram": {},
+        "distinct_roots_checked_for_every_examined_relation": true,
+        "failed_relations": 0,
+        "first_failure": null,
+        "minimum_completions": null,
+        "ordered_relations_represented": 0,
+        "relations_examined": 0,
+        "scope": "all ordered nontrivial square pair-sum relations"
+      },
+      "modulus": [
+        0,
+        1
+      ],
+      "nonzero_squares": 1,
+      "q": 3,
+      "three_form_intersections": {
+        "character_lower_bound_checked_for_every_pair": true,
+        "empty_intersections": 2,
+        "first_failure": [
+          1,
+          1
+        ],
+        "intersection_count_histogram": {
+          "0": 2
+        },
+        "minimum_intersection": 0,
+        "nondegenerate_ordered_increment_pairs": 2
+      }
+    },
+    {
+      "four_form_completions": {
+        "character_lower_bound_checked_for_every_examined_relation": true,
+        "complete_gadget_instances_checked": 0,
+        "completion_count_histogram": {
+          "0": 8
+        },
+        "distinct_roots_checked_for_every_examined_relation": true,
+        "failed_relations": 8,
+        "first_failure": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "minimum_completions": 0,
+        "ordered_relations_represented": 8,
+        "relations_examined": 8,
+        "scope": "all ordered nontrivial square pair-sum relations"
+      },
+      "modulus": [
+        1,
+        0,
+        1
+      ],
+      "nonzero_squares": 4,
+      "q": 9,
+      "three_form_intersections": {
+        "character_lower_bound_checked_for_every_pair": true,
+        "empty_intersections": 32,
+        "first_failure": [
+          1,
+          1
+        ],
+        "intersection_count_histogram": {
+          "0": 32,
+          "1": 24
+        },
+        "minimum_intersection": 0,
+        "nondegenerate_ordered_increment_pairs": 56
+      }
+    },
+    {
+      "four_form_completions": {
+        "character_lower_bound_checked_for_every_examined_relation": true,
+        "complete_gadget_instances_checked": 1404,
+        "completion_count_histogram": {
+          "1": 312,
+          "2": 312,
+          "3": 156
+        },
+        "distinct_roots_checked_for_every_examined_relation": true,
+        "failed_relations": 0,
+        "first_failure": null,
+        "minimum_completions": 1,
+        "ordered_relations_represented": 780,
+        "relations_examined": 780,
+        "scope": "all ordered nontrivial square pair-sum relations"
+      },
+      "modulus": [
+        1,
+        2,
+        0,
+        1
+      ],
+      "nonzero_squares": 13,
+      "q": 27,
+      "three_form_intersections": {
+        "character_lower_bound_checked_for_every_pair": true,
+        "empty_intersections": 0,
+        "first_failure": null,
+        "intersection_count_histogram": {
+          "2": 312,
+          "3": 260,
+          "4": 78
+        },
+        "minimum_intersection": 2,
+        "nondegenerate_ordered_increment_pairs": 650
+      }
+    },
+    {
+      "four_form_completions": {
+        "character_lower_bound_checked_for_every_examined_relation": true,
+        "complete_gadget_instances_checked": 108240,
+        "completion_count_histogram": {
+          "2": 3840,
+          "3": 11840,
+          "4": 4160,
+          "5": 6960,
+          "6": 960,
+          "7": 1120
+        },
+        "distinct_roots_checked_for_every_examined_relation": true,
+        "failed_relations": 0,
+        "first_failure": null,
+        "minimum_completions": 2,
+        "ordered_relations_represented": 28880,
+        "relations_examined": 28880,
+        "scope": "all ordered nontrivial square pair-sum relations"
+      },
+      "modulus": [
+        2,
+        0,
+        1,
+        0,
+        1
+      ],
+      "nonzero_squares": 40,
+      "q": 81,
+      "three_form_intersections": {
+        "character_lower_bound_checked_for_every_pair": true,
+        "empty_intersections": 0,
+        "first_failure": null,
+        "intersection_count_histogram": {
+          "6": 40,
+          "8": 2160,
+          "9": 960,
+          "10": 1680,
+          "11": 1440,
+          "12": 40
+        },
+        "minimum_intersection": 6,
+        "nondegenerate_ordered_increment_pairs": 6320
+      }
+    },
+    {
+      "four_form_completions": {
+        "character_lower_bound_checked_for_every_examined_relation": true,
+        "complete_gadget_instances_checked": 108480,
+        "completion_count_histogram": {
+          "10": 80,
+          "11": 320,
+          "12": 440,
+          "13": 720,
+          "14": 960,
+          "15": 1180,
+          "16": 1200,
+          "17": 1040,
+          "18": 600,
+          "19": 220,
+          "20": 200,
+          "21": 120
+        },
+        "distinct_roots_checked_for_every_examined_relation": true,
+        "failed_relations": 0,
+        "first_failure": null,
+        "minimum_completions": 10,
+        "ordered_relations_represented": 856680,
+        "relations_examined": 7080,
+        "scope": "u=1 square-scaling representatives"
+      },
+      "modulus": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "nonzero_squares": 121,
+      "q": 243,
+      "three_form_intersections": {
+        "character_lower_bound_checked_for_every_pair": true,
+        "empty_intersections": 0,
+        "first_failure": null,
+        "intersection_count_histogram": {
+          "26": 3630,
+          "27": 7260,
+          "28": 3630,
+          "29": 14520,
+          "30": 11132,
+          "31": 3630,
+          "32": 10890,
+          "33": 3630
+        },
+        "minimum_intersection": 26,
+        "nondegenerate_ordered_increment_pairs": 58322
+      }
+    }
+  ],
+  "randomized": false,
+  "schema": 1,
+  "scope": "finite certificates; no infinite theorem inferred"
+}

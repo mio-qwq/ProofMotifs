@@ -1,77 +1,139 @@
 # Recovery handoff
 
-Read AGENTS, STATUS, ROADMAP, CLAIMS, then fresh remote refs, recent commits and working tree. Last remotely verified predecessor: 2e990a7c00899321dc202e3f6c083b3181481c67. Resolve the live containing commit independently. Preserve unexpected changes and never force-push.
+Read AGENTS, STATUS, ROADMAP, CLAIMS and fresh remote refs before writing.
+Last verified remote predecessor: `bfe32279b502fd07ec646d4a7f173808d0ad8a2a`.
+Resolve the containing live head separately. Preserve unexpected work;
+never force-push. Unified branch: `research/ongoing`; main stays stable.
 
-## Mathematical state and exact notation
+## Strongest accepted statements
 
-For a finite weight mu on a characteristic-three field K, M_n(mu)=sum_x mu(x)x^n, with x^0=1; ordinary order is the first nonzero moment, infinity only for the zero weight. Vandermonde on its s support nodes detects zero using moments 0 through s-1, including over infinite fields. Delta_a=delta_a-delta_0, C(a,b,c)=ord(Delta_a*Delta_b*Delta_c).
+C(a,b,c) is the ordinary-moment order of the convolution of three first
+finite-difference weights over a characteristic-three field. SC-003 proves:
+a zero direction gives infinity; otherwise, writing u=a²,v=b²,w=c²,
+equal squares give infinity, distinct zero-sum squares give 7, and all other
+cases give 5. SC-005/006 classify additive preservers and retain F_9 as the
+exception; the arbitrary-field additive result allows arbitrary field
+automorphisms, not only Frobenius powers.
 
-SC-003 gives M_0,...,M_4=M_6=0, M_5=-abc*e1 and M_7=-abc*e2, where e1=a²+b²+c² and e2=a²b²+a²c²+b²c². For abc!=0, order is 5 if e1!=0, 7 if e1=0,e2!=0, infinity otherwise; the last case has directions signed copies of one another. Zero directions also give infinity.
+SC-007 proves <=2m-3 admissible Q evaluations with a supplied power basis
+and >=floor(m/2) for deterministic decision from Q alone. Theta(m) is ONLY
+that oracle model; no direct-T, randomized or bit-complexity optimality.
 
-SC-005 classifies additive bijections of finite F_(3^m): scalar Frobenius if m!=2, all GL(2,3) if m=2. Its original polynomial proof and F9 exception have now passed actual independent AI review (not human or Lean).
+SC-008 gives all arbitrary preservers for finite q>3 as the independent-sign
+kernel over Aut(H_K), where H_K is the distinct zero-sum triples on
+S=(K*)². The sign swap on just {1,-1} in F_27 is nonadditive and preserves
+all 19,683 ordered triple labels. This obstruction must not be discarded.
 
-SC-006/RESULTS.md contains the current strongest proof. For a(t)=1-t²+t, b(t)=1-t²-t, c(t)=-1-t², one has e1=0 and e2=-(t-t³)². The zero-coordinate set E is empty unless K contains F9, in which case E=F9 minus F3. Identity: abc=-(t²+1)(t⁴+1), (t³-t)*abc=-(t⁹-t).
+SC-009 now proves PM-THEOREM-0013: every incidence-kernel function S->F_3
+is affine for m>=3. Combined with PM-THEOREM-0011 and classical Carlitz,
 
-For additive bijective T, A=T(1)!=0 and Q(t)=A*T(t²)-T(t)². Its polar is B(x,y)=2*(A*T(xy)-T(x)*T(y)); Q(1)=0,B(1,x)=0,Q(t+r)=Q(t) for r in F3. Q(t+u)+Q(t-u)=2Q(t)+2Q(u). Transformed conic sum of squares equals Q(t). A nonzero Q-value outside E automatically gives a strict source7->target5 witness; Q vanishes on F3, so no infinity source is hidden.
+`Aut(H_K)={u -> s*u^(3^j):s in S,0<=j<m}`.
 
-PM-THEOREM-0005: for basis (1,e1,...), test Q(e_i) and Q(e_i+e_j), i,j>=1. There are N=m(m-1)/2 tests. All zero implies Q identically zero by quadratic expansion, hence T/A is a field automorphism by square polarization. Otherwise obtain t. If t in E, choose basis element u outside F9: Q(u) or Q(t+u) or Q(t-u) is a usable nonzero value. Up to3 directly checked extras (2 if last is inferred). A basis adapted to (1,i,u,...) replaces the bad test i by i-u and proves an N-test bound, but that version is NOT implemented. Costs are oracle-query counts with field/basis setup, rank validation and full verification separate.
+The arbitrary preserver group has order `2^((q-1)/2)*(q-1)*m/2`.
+F_9 remains exceptional (384 arbitrary preservers); F_3 has S_3.
+PM-CONJECTURE-0002 is proved, not still open. Read the full self-contained
+proof in workstreams/SC-009/RESULTS.md before changing this status.
 
-PM-THEOREM-0006: the same repair proves the arbitrary-field classification K!=F9, T=lambda*sigma with sigma an arbitrary field automorphism. If a preserver had any nonzero Q, repair gives an admissible conic violation. Thus Q identically zero and polarization gives multiplicativity after normalization. No finiteness, perfectness or Frobenius-surjectivity assumption is used. Infinite-field sigma must NOT be restricted to Frobenius powers. F9 retains all 48 additive bijections.
+## Why the general proof works
 
-## Evidence and reproducibility
+The F_3 incidence kernel includes every affine restriction. If its dimension
+is m+1, coordinate pullbacks under any hypergraph automorphism extend
+uniquely to an affine map. Since S affinely spans K, its linear part is
+invertible. Sum S=0 and |S|=1 modulo3 kill the translation. Additivity and
+preservation of squares give square difference quotients, meeting Carlitz.
 
+For q>=243, a nontrivial u+v=w+z in S has four distinct roots
+0,-u,-w,z-u. A parameter a making a,-u-a,-w-a,u+a-z squares exists by
+`N4 >= (q-38-11sqrt(q))/16>0`. Four zero-sum triples give the Freiman
+identity. Repeated triples are automatic: characteristic three forces all
+entries equal and 3f=0. Do not exclude extra diagonal parameters.
+
+For x!=0, the exact difference count is
+`(q-3-(1+chi(-1))*chi(x))/4>0`. Thus define L(x)=f(a)-f(b) for a-b=x;
+Freiman relations make it well-defined. Three-square-translate intersections
+are at least `(q-15-2sqrt(q))/8>0`; telescoping gives additivity, with zero
+arguments and x+y=0 checked separately. Hence f is affine. Exact rank
+certificates for q=27 and 81 finish the two degrees below243.
+
+Weil's multiplicative-character version applies to distinct-root degree2/3/4
+polynomials here, without a degree-coprime-to-characteristic restriction.
+Primary statement: Kim–Yip–Yoo2024 Lemma2.1; final Carlitz step: Yip2024
+Theorem1.2 with the square subgroup. E independently checked the complete
+proof and primary sources; root accepted. No Lean or human review occurred.
+
+## Exact certificates and commands
+
+The rank reports are (q,vertices,edges,rank,nullity):
+(9,4,0,0,4), (27,13,13,9,4), (81,40,120,35,5),
+(243,121,1210,115,6). F_9 is the essential failing affine-rank control.
+
+F_243 has exactly605 quotient automorphisms. The rank certificate supplies
+matching nonzero minor and six independent kernel vectors. A separate
+color certificate fixes1, yielding cell counts2,3,15,25,25; fixing(1,9)
+yields3,6,121,121. The upper bound121*5*1 matches605 edge-preserving known
+actions. Its checker imports no other project module and reconstructs
+arithmetic from alpha^5=alpha+2 and a242-element cyclic-log table.
+
+```bash
 python -m unittest discover -s tests -v
-python tools/constructive_witness.py > /tmp/constructive-results.json
-diff -u research/experiments/constructive-results.json /tmp/constructive-results.json
+python tools/incidence_rank_certificate.py > /tmp/incidence-rank-results.json
+diff -u research/experiments/incidence-rank-results.json /tmp/incidence-rank-results.json
+python tools/color_refinement_certificate.py --check research/experiments/color-certificate.json
+python tools/freiman_completion.py > /tmp/freiman-completion-results.json
+diff -u research/experiments/freiman-completion-results.json /tmp/freiman-completion-results.json
+```
 
-29 tests passed. F27 all 432 normalized bijections: 3 semilinear, 429 strict witnesses verified by complete27 moments on each side, max 3 defect queries / 6 distinct extraction T calls. Selected F81 tests are 18 transvections, not a full GL(4,3) enumeration. An even-repair example uses modulus x⁴+x²+2, columns(1,4,16,27), initial t=9 repaired to12, source(39,51,28), image(38,46,28), verified7->5 by complete81 moments. Output and hashes: research/experiments/constructive-results.json and constructive-SHA256.json. The script constructs O(q²) field tables, so it makes NO O(m²) end-to-end runtime claim.
+All 65 integrated tests passed; log research/experiments/sc009-tests.log.
+The workflow replays all historical reports plus all SC-009 reports. Check
+its actual new run after delivery. Hashes: sc009-SHA256.json. Negative tests
+reject missing edges, unsafe color splits and altered Frobenius data; exact
+F_9 functions and missing completions witness the true exception.
 
-Independent tasks A/B/C/D completed; task scopes, objections, resolution and review limits are in docs/reviews/THIRD_CYCLE.md. A accepted the manuscript and implementation and ran all 9 new tests. Root fixed A's docstring objection that q moments are sufficient rather than necessary. Mathematical correctness, independent AI review, human review, formalization and novelty remain separate. No Lean/Lake/Elan tool is available.
+## Recovered external increment
 
-Historical baseline commands remain available: python tools/run_experiments.py; python tools/ternary_differences.py; python tools/order_preservers.py. Do not repeat large enumerations just to appear active. CI run 39102950233 covers 037ea1c only; verify each later run separately. The workflow now also replays constructive-results.json.
+Accepted f172123bd60e27bccbea31fb335994418d95d5d9 (SC-008),
+b82c344012c4af879f6e6e4d7a5320efb77d4f8b (workflow), and
+bfe32279b502fd07ec646d4a7f173808d0ad8a2a (receipt).
+Fresh run 39108039870/job 117618028562 reads confirmed success; local46-test
+replay, exact regenerated JSON and all saved hashes also passed.
+See docs/reviews/EXTERNAL_SC008_ACCEPTANCE.md. The producing execution's
+identity is not established by the shared Git author. The earlier mistaken
+predecessor string was corrected to 2e990a70585e0fd7230a2c8b47d34627722a011b.
 
-## Generator-row advance: SC-007
+## Exact next operation and limits
 
-Read workstreams/SC-007/RESULTS.md. With a genuine power basis (1,alpha,...,alpha^(m-1)), polar defects H(alpha,x)=A*T(alpha*x)-T(alpha)*T(x) need only vanish on that row. After normalizing S=T/A, S(alpha*x)=S(alpha)S(x) on every x forces multiplicativity by iteration and polynomial expansion. The endpoint alpha^(m-1) enforces the degree-m defining relation and cannot be dropped.
+Perform a bounded direct-prior-art/value audit of the all-degree incidence
+kernel theorem, using partial affine geometry codes, deterministic squares
+as Freiman sets, and quadratic-residue preserver literature. The standard
+Freiman difference extension and Weil completion are already known methods;
+no absence of search results certifies originality. Compare primary theorem
+hypotheses before deciding novelty or a new application. If directly covered,
+retain the proof as infrastructure and choose a held-out target or a minimal
+formalizable core. Do not return to unmotivated finite enumerations, SC-007
+constant polishing, or the deferred SC-004 expansion.
 
-PM-THEOREM-0007 uses Q(alpha), then two parameters for each u=alpha^k, 2<=k<m. Let F={x:x^9=x}. If u in F, query alpha+u and alpha-u. Else if alpha+u in F, query u and alpha-u. Otherwise query u and alpha+u. With Q(alpha)=0, parallelogram recovers the original row conditions from each chosen pair. All queried points lie outside F and are directly admissible. Total <=2m-3 Q evaluations, no repair. This is not a universal quadratic-form test or an optimal T-query bound; m T-basis images already determine T.
+One full publicly extracted Zhihu answer was read via Parallel Search; not
+all33 answers or comments. The evidence gate rejects universal cancellation
+or AI/human prevalence conclusions. Source and method comparisons:
+research/literature/DISCUSSION_GATE_20261018.md.
 
-PM-THEOREM-0008: deterministic Q-only decision with no T images/matrix/description needs >=floor(m/2) queries. On a shorter all-zero transcript choose phi annihilating span{1,t_i,t_i²}, define S(x)=x+phi(x). N²=0 implies invertibility, it fixes queried inputs and squares, and its fixedspace dimension m-1 excludes nontrivial Frobenius. Adaptive transcript is identical to identity. With the upper bound this gives Theta(m) ONLY for that decision model; no promised-negative witness-only, randomized, exact-constant or richer-input lower bound is asserted.
+Architecture remains one coordinator with actual task-scoped subagents,
+independent views, adversarial checks and a single shared roadmap. See
+SIXTH_CYCLE.md and SC009_GENERAL_AUDIT.md for accepted handoffs, withdrawn
+objection and incomplete counting subtask. Distinguish software certificates,
+AI review, human review, Lean and historical novelty.
 
-Negative controls: F27 columns(1,9,15) passes Q(alpha)=0 but fails the final generator-row relation. F81 modulus(2,0,1,0,1), columns(1,4,9,36), i=11, has H(i,x)=0 for every x while Q(alpha)=5. A coordinate quadratic x_2*x_3 shows why generic quadratic maps cannot use the smaller test.
+## Delivery and scheduling
 
-## New reproduction commands and actual evidence
+The user authorized immediate ordinary project pushes. Terminal Git lacks
+credentials; authorized GitHub API tree/commit/ref writes work. Fresh-read
+the expected predecessor, match local `git write-tree` with remote tree,
+create a child commit, update the ref non-forced with expected_sha, fetch and
+verify live SHA. Never overwrite unexpected remote changes.
 
-python -m unittest discover -s tests -v
-python tools/generator_witness.py > /tmp/generator-results.json
-diff -u research/experiments/generator-results.json /tmp/generator-results.json
-
-41 tests passed. Task A independently ran the 12 new tests and accepted saved proof/code. F27 generator scan: 408 rejected after one Q, 21 after two, 3 accepted after three; all 429 witnesses verified by all 27 moments. Selected larger cases: 18 maps on each of two F81 presentations and 32 on F243. Thirty-eight controls exercise full bounds. All 81 possible F81 single-query positions admit a constructed zero-answer adversary; these instances contain eight distinct maps, not 81 distinct maps. Complete-moment verification validates their separate extracted witnesses. Source/result hashes are in generator-SHA256.json, actual log in generator-tests.log. No new independent arithmetic engine or Lean run exists.
-
-## Exact next mathematical operations
-
-1. Read workstreams/SC-008/RESULTS.md, docs/reviews/FIFTH_CYCLE.md and research/literature/NONADDITIVE_AUDIT_20261018.md. The independent-sign obstruction and quotient theorem are complete; do not try to recover additivity from the original labels.
-2. PM-CONJECTURE-0002 asks whether every H_K automorphism is `u -> s*u^(3^j)` for m>=3. Full exact computations now establish it in F_27 and F_81. Next improve the enumerator/certificate for F_243 or derive a structural reduction; a first bounded F_243 attempt exceeded 30 seconds and was terminated with no result.
-3. Compare the exact 3-uniform square zero-sum hypergraph with restricted Freiman automorphisms, cyclotomic hypergraphs and additive designs. Buratti-Nakic's square embedding is classical background; their blocks have size four in PG(3,3), not the project's size-three relation.
-4. SC-007's Theta(m) result is retained only in deterministic exact Q-only access. Do not optimize constants without an external application, and do not imply direct-T or randomized optimality.
-5. Genuine formalization or a held-out application remain alternatives if the general hypergraph classification is covered or stalls. SC004 remains deferred. Maintain separate proof, computation, AI-review, human-review, Lean and originality fields.
-
-## SC-008 exact state
-
-For q>3, every arbitrary ternary-order preserver fixes zero, is odd, and induces an automorphism on `S=(K^*)^2`. Define H_K to have distinct zero-sum triples of S as edges. Then `Pres(C)=C_2^((q-1)/2) semidirect Aut(H_K)`. The proof uses SC-003 to show that nonzero labels are infinity for one square class, 7 for a distinct zero-sum triple, and 5 otherwise.
-
-The independent sign map swapping only 1 and -1 in F_27 is a complete negative example to additivity. It was compared on all 27^3 ordered triples. The quotient degree is `(q-6-3eta)/8`, eta=(-1)^m, and the edge count is `(q-1)(q-6-3eta)/48`.
-
-Exact small fields: F_9 has four quotient vertices, no edges, Aut=S_4 and 384 full preservers. F_27 has 13 quotient vertices and 13 edges; exhaustive forced-third backtracking gives 39 automorphisms, identical to square-scaling/Frobenius actions, and 319488 full preservers. F_81 has 40 vertices and 120 edges; the same complete enumerator gives exactly 160 automorphisms, again the semilinear actions, and 175921860444160 full preservers.
-
-Reproduce with `python -m unittest discover -s tests -v` and `python tools/nonadditive_preservers.py`. The expected files are research/experiments/nonadditive-results.json and nonadditive-tests.log; hashes are in nonadditive-SHA256.json. Current local suite: 46 tests.
-
-Remote SC-008 mathematical commit: `f172123bd60e27bccbea31fb335994418d95d5d9`. Workflow-extension commit `b82c344012c4af879f6e6e4d7a5320efb77d4f8b` passed hosted run 39108039870, job 117618028562, including the new nonadditive replay. The persisted receipt is docs/reviews/CI_NONADDITIVE_CHECKPOINT.json. Resolve the live containing receipt commit separately because a file cannot name its own future SHA.
-
-## Operational recovery
-
-Only ProofMotifs/research/ongoing is writable under this charter; main remains stable. Direct clone succeeded in this window; earlier DNS failure is historical, not a permanent assumption. Check both Git and connector access afresh. Nonforced connector updates with expected predecessor remain a fallback. The existing 90-minute scheduled task was actually re-enabled and its unified coordinator/short-task/adversarial-review instructions updated. The stored first start is 2026-10-18 07:14:59 UTC (15:14:59 Asia/Singapore). No future run or continuous between-run process is asserted. No license decision, DOI, correspondence or final paper release has been made.
-
-## Delivery resolution
-
-The user explicitly authorized immediate public pushing on 2026-10-18. Terminal Git push then failed for missing credentials, not an approval rejection. The authorized GitHub API delivered the exact original mathematical tree 6275963256aaa91b47b37ff082fdec2da0dd4066 as remote a434475c0863a80e79ebadc98ae563c07a20253c. Hosted run 39105407423, job 117610052289, passed all verification steps. Previous local commits 310b87a / e8b2051 remain in the saved bundle; their mathematical files are synchronized and the old blocker is superseded. The generator checkpoint 8836e298 was verified with tree afb1531b6718ee7e8fd03c5fe3737037610f7503 and successful CI run 39105897724, job 117611547104, including all five replay steps and the 41-test suite. See docs/reviews/CI_GENERATOR_CHECKPOINT.json. The containing receipt checkpoint changes only state/evidence records. The enabled 90-minute task was updated to use current remote recovery and no longer wait for already received authorization.
+The existing 90-minute task was successfully re-enabled and updated on
+2026-10-18, timezone Asia/Singapore. Its recorded last invocation is 07:34:32UTC;
+this is not proof of a particular output or continuous background work.
+Every research window resumes from fresh live state. No other repository,
+permissions, expenses, external correspondence, DOI or final academic
+release is authorized by ordinary checkpoint permission.

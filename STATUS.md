@@ -1,55 +1,106 @@
-# Project status
+# Current research status
 
-Checkpoint: arbitrary-preserver quotient obstruction and small-field classification, 2026-10-18. Coordinator: PM-ROOT-20261018.
+Updated: 2026-10-18. Branch: `research/ongoing`; `main` remains the stable baseline.
+Last remotely verified predecessor: `bfe32279b502fd07ec646d4a7f173808d0ad8a2a`.
+Resolve the live containing commit independently; no file names its own future SHA.
 
-Stable branch: `main`. Unified research branch: `research/ongoing`.
-Last remotely verified predecessor: `2e990a7c00899321dc202e3f6c083b3181481c67`. Resolve the live ref for the containing checkpoint; no file predicts its own future SHA.
+## Current mathematical result
 
-## Current verified work
+SC-009 completes the finite-field arbitrary ternary-order preserver classification.
+For K=F_(3^m), m>=3, S=(K*)^2, the zero-sum square hypergraph has
 
-SC-001/002 remain classical Level 0 infrastructure. SC-003 classifies ternary orders as 5, 7 or infinity and refutes rank/proper-order sufficiency. SC-005 classifies additive finite-field preservers, with the essential F_9 exception. Separate actual AI reviewers now accept the SC-003 core and SC-005 proof; human review and formalization are outstanding.
+`Aut(H_K)={u -> s*u^(3^j):s in S,0<=j<m}`.
 
-SC-006 adds two complete written results:
+The full group preserving every ordinary ternary cancellation order is
+`C_2^((q-1)/2) semidirect Aut(H_K)`, of order
+`2^((q-1)/2)*(q-1)*m/2`. Each map fixes zero and acts by a common scalar/Frobenius
+with an independent sign on each opposite pair. F_9 retains 384 arbitrary
+preservers; F_3 has all six permutations. Additivity is not implied.
 
-* PM-THEOREM-0005: on F_(3^m), m>=3, a non-scalar-Frobenius additive bijection has an explicit strict 7-to-5 witness detectable in at most m(m-1)/2+3 directly checked quadratic-defect values. The last repair check can be inferred, and a separately proved adapted-basis version needs only m(m-1)/2 tests. Only the conservative standard-basis version is implemented.
-* PM-THEOREM-0006: over ANY characteristic-three field K other than F_9, additive ternary-order preservers are exactly scalar times field automorphisms. The proof covers infinite and imperfect fields. For F_9 all 48 additive bijections remain preservers.
+PM-THEOREM-0011 reconstructs the affine ambient space when the F_3 incidence
+kernel has dimension m+1, then applies classical Carlitz. PM-THEOREM-0013 proves
+that kernel condition for every m>=3: four-edge character-sum completion and
+Freiman extension cover q>=243, and exact rank certificates cover m=3,4.
+The invoked Weil and Carlitz statements were checked against primary research
+sources. PM-CONJECTURE-0002 is proved within this precise model.
 
-Historical novelty remains unverified. Lester's 1977 full-cone preserver theorem is a closer classical precedent than the earlier Carlitz-only comparison. The missing-coordinate/punctured-cone bridge, precise F_9 exception and extractor need source-specific further comparison. No new general theory or public-conjecture solution is asserted.
+F_243 has rank 115, nullity 6 and exactly 605 quotient automorphisms. A separate
+color-refinement certificate proves the same group count; its checker uses
+independent alpha-recurrence/cyclic-log multiplication and checks all 1,210
+edges and 605 known actions. This is independent software arithmetic, not Lean.
 
-## Generator-row results
+Proofs and exceptions: workstreams/SC-009/RESULTS.md and COLOR_CERTIFICATE.md.
+Classical tools, general proof, finite evidence, AI reviews and novelty are
+separate. Historical originality, human peer review and formalization remain
+unestablished. No universal new cancellation theory is claimed.
 
-SC-007 adds PM-THEOREM-0007: given a genuine degree-m power basis, 2m-3 directly evaluated defect values suffice, all at admissible order-7 conic parameters. The first nonzero value yields a strict 7-to-5 witness with no extra repair. This uses the special multiplicativity-defect structure; it is false for arbitrary quadratic maps.
+## Acceptance of recovered work
 
-PM-THEOREM-0008 proves at least floor(m/2) queries necessary for deterministic decision with access only to the defect Q, no T images or description. An annihilator transvection imitates the identity's zero transcript below that bound. Thus query growth is Theta(m) in precisely this model, with no exact-constant, randomized, direct-T or bit-complexity conclusion. PM-COUNTEREXAMPLE-0004 preserves failures caused by omitting closure or using a proper-subfield multiplier. All have separate AI challenges; historical novelty and formalization remain unresolved.
+SC-008 arrived through remote commits f172123 (mathematics), b82c344 (workflow)
+and bfe3227 (CI receipt). It was accepted through proof inspection, fresh
+46-test replay, byte-identical nonadditive output and all four saved hash
+checks. Hosted run 39108039870, job 117618028562 was separately read and
+confirmed successful at b82c344. See docs/reviews/EXTERNAL_SC008_ACCEPTANCE.md.
+The Git author does not identify the exact producing execution.
 
-## Arbitrary-preserver quotient result
+The recovered general statement was only a conjecture; it was not treated as
+an existing theorem. SC-009 supplies the new proof. The recovered invalid
+full predecessor string was corrected: its actual predecessor was
+2e990a70585e0fd7230a2c8b47d34627722a011b.
 
-SC-008 proves PM-THEOREM-0009. For every F_(3^m) with q>3, arbitrary bijections preserving all ternary cancellation labels form
+## Actual verification
 
-`C_2^((q-1)/2) semidirect Aut(H_K)`,
+All 65 tests passed in the integrated local suite; log:
+research/experiments/sc009-tests.log. New deterministic reports record exact
+rank minors and kernel vectors, full color traces and an independent arithmetic
+receipt, and completion-gadget checks. F_27/F_81 cover all 780/28,880 nontrivial
+ordered relations; F_243's 7,080 normalized representatives cover 856,680
+relations by square scaling. All 218,124 instantiated gadgets pass; F_9 supplies
+real failing completions and a nonaffine kernel function. Finite enumeration
+is not the proof for unbounded degree.
 
-where H_K has the nonzero squares as vertices and distinct zero-sum triples as edges. The kernel is one genuinely independent sign choice on every opposite pair. This decisively refutes any attempt to infer additivity from order preservation alone. An explicit F_27 map swapping only 1 and -1 preserves all labels but is nonadditive.
+Actual independent AI tasks A/B/C/D/E and coordinator decisions are recorded
+in docs/reviews/SIXTH_CYCLE.md; E's complete proof audit is preserved separately.
+A counting subtask that was interrupted is not counted as a completed review.
+No Lean/Lake/Elan tool is installed; no formal-verification claim is made.
+The new workflow includes all deterministic reports. Its hosted result must
+be checked at the actual new commit after delivery.
 
-The quotient hypergraph is regular of degree `(q-6-3*(-1)^m)/8` and has `(q-1)(q-6-3*(-1)^m)/48` edges. F_9 has no edges and 384 arbitrary preservers. Exact F_27 and F_81 backtracking gives respectively 39 and 160 quotient automorphisms, exactly square-scalings and Frobenius; the full arbitrary-preserver counts are 319,488 and 175,921,860,444,160. The analogous semilinear quotient classification for every m>=3 is PM-CONJECTURE-0002, not a theorem.
+Prior successful mathematical CI: a434475c/run39105407423 (SC-006),
+8836e298/run39105897724 (SC-007), b82c344/run39108039870 (SC-008).
+Corresponding JSON receipts remain in docs/reviews.
 
-## Actual verification and collaboration
+## Discussion and next research gate
 
-46 unit tests passed in the current local checkpoint; actual log: research/experiments/nonadditive-tests.log. The new exact program compares all 19,683 F_27 triples for the one-pair sign flip and enumerates every quotient automorphism in F_9, F_27 and F_81. The respective quotient parameters `(vertices,edges,automorphisms)` are `(4,0,24)`, `(13,13,39)` and `(40,120,160)`. No general classification or F_243 count is claimed.
+Parallel Search extracted the body of one specified Zhihu answer. Other
+answers and comments were not read. Its request to explain structure behind
+identities is useful; its sweeping homology/cancellation claim is not a
+precise theorem. The bounded source audit does not establish corpus-wide
+prevalence, AI/human differences or a missing universal mathematical tool.
+See research/literature/DISCUSSION_GATE_20261018.md.
 
-The earlier generator scan remains valid: all 432 normalized F_27 maps were covered, together with selected F_81/F_243 cases and exact adversaries. Its separate actual log and receipt remain unchanged.
+Next: compare the exact incidence-affinity statement with restricted Freiman
+extension, partial affine geometry codes and quadratic-residue preserver
+literature. Identify a direct prior theorem or the precise uncovered step.
+Conlon–Gowers' difference-extension mechanism and prescribed-character-pattern
+completion are established background. Do not optimize SC-007 constants or
+repeat small-field enumeration without a new validation need. If the result
+is covered, retain it as infrastructure and select a genuinely new application
+or a small formalizable core. SC-004 remains deferred.
 
-Three new task-scoped AI researchers independently examined SC-007 prior art, the nonadditive structure and adversarial counterexamples. All returned handoffs; none remains asserted to run. Their scopes, objections and coordinator decisions are in docs/reviews/FIFTH_CYCLE.md. Shared finite-field arithmetic remains a common dependency; no Lean or human peer review is claimed.
+## Scheduling and delivery
 
-Remote commit a434475c delivered the exact previous mathematical tree, and hosted CI 39105407423 passed every verification step. Its receipt is persisted. The generator checkpoint 8836e298 passed hosted run 39105897724, job 117611547104: all 41 tests and five deterministic replay steps succeeded. Its receipt is in docs/reviews/CI_GENERATOR_CHECKPOINT.json; this containing receipt checkpoint changes state/evidence records only. Ordinary terminal Git push lacks credentials; authorized GitHub API tree/commit/ref writes work and are verified. No Lean/Lake/Elan tool is available.
+The existing 90-minute task was observed disabled, then successfully re-enabled
+and updated on 2026-10-18 with latest recovery and research instructions.
+Timezone: Asia/Singapore. The service records a last invocation at
+2026-10-18 07:34:32 UTC; this timestamp alone does not identify its outputs.
+A single coordinator owns integration and publication; genuine short-lived
+subagents remain allowed. Every invocation checks live state and reconciles
+external increments before writing. Scheduling does not imply computation
+between invocations.
 
-SC-008's mathematical tree was delivered as remote `f172123bd60e27bccbea31fb335994418d95d5d9`. The workflow extension `b82c344012c4af879f6e6e4d7a5320efb77d4f8b` passed hosted run 39108039870, job 117618028562: all 46 tests and every deterministic replay step succeeded, including byte-for-byte regeneration of the nonadditive result JSON. The receipt is docs/reviews/CI_NONADDITIVE_CHECKPOINT.json. This containing receipt checkpoint changes only state/evidence records.
-
-## Scheduling and next decision
-
-The existing 90-minute task was found disabled and successfully re-enabled on 2026-10-18; its stored first future start remains 15:14:59 Asia/Shanghai. No future execution has yet been observed. Every window reads live remote state before writing. Unified coordinator ownership, independent mathematical views, adversarial review and checkpoint requirements are in AGENTS and the task instructions. This does not imply computation between invocations.
-
-The SC-007 value gate is now resolved: retain its exact Q-only bound as a supporting proposition, not a standalone optimal-testing result, and do not optimize constants without an application. PM-CONJECTURE-0002 now has full exact support in degrees 3 and 4. Next priority is either a scalable F_243 certificate/search or a structural reduction to restricted Freiman/cyclotomic-hypergraph theory; a prototype F_243 backtracking run exceeded the 30-second bounded attempt and was terminated without a result. Buratti-Nakic's 2024 work already uses the same projective square embedding, so that embedding is established background. SC-004 remains deferred. No license decision, DOI, external correspondence or final academic release was enacted.
-
-## Delivery and authorization
-
-The project owner explicitly authorized immediate public delivery on 2026-10-18. The mathematical contents of local checkpoint 310b87a were delivered with identical tree as remote a434475c; the local-only e8b2051 blocker note is historical and superseded. No publication-authorization blocker remains. Continue ordinary project checkpoints under the charter, checking live refs before each non-forced update. No prior result is claimed Lean-verified or historically original.
+Immediate ordinary project pushes are explicitly authorized. Terminal Git
+lacks push credentials; authorized GitHub tree/commit/ref operations are used
+with an expected predecessor, matching local/remote tree and non-forced ref
+updates. No other repository, permissions, expenses, correspondence, DOI or
+final academic release is in scope.

@@ -1,0 +1,24 @@
+{
+  "algorithm": "SHA256",
+  "files": {
+    "docs/reviews/EXTERNAL_SC008_ACCEPTANCE.md": "f341a2fad06de1adfa10f7639e885a2c01a2bef911139d4b2baaef3fcf13fb4e",
+    "docs/reviews/SC009_GENERAL_AUDIT.md": "d1c635798f347c64b934bcc18209ca1209c54c0eb1c76184b5d4958277bf6e11",
+    "docs/reviews/SIXTH_CYCLE.md": "a258f2c7220a093ebf7a6cc64b3652bef129c9f4bc6f54c4b1e182836fa19677",
+    "research/experiments/color-certificate.json": "06eed2585eea209c28d0c66094c1e44683559f14c3e8f34620b7fb1eb6a9616a",
+    "research/experiments/color-verification.json": "54d90b62ad843183b2e3c7d1ce16f9541b5300bb2eb79a4002359553cb15b039",
+    "research/experiments/freiman-completion-results.json": "2a6ddc3f5b41a63af4912951ba34e3e22616228aa7ee9bcde5d64204830c6940",
+    "research/experiments/incidence-rank-results.json": "5424c107227b26c2f79d67852a90069fe8b186c741c81dd2da09a65d8c83a4a1",
+    "research/experiments/sc008-acceptance-tests.log": "6e3f07922289480f27a27e3f2a6d52635a11a4fd22220e5988f91f3477afb194",
+    "research/experiments/sc009-tests.log": "5365679873d71abab946e9bde9f6386598f2de7b12903995b67b5f819bf0494d",
+    "research/literature/DISCUSSION_GATE_20261018.md": "3729d72a31ccfaab657823b7242ac75de4ece6e599a6ac6b4ce56ec9431ae7ab",
+    "tests/test_color_refinement_certificate.py": "932d8f46bbf1cefca681b2b41003d0cc7df97834b26c10114d002d762104411a",
+    "tests/test_freiman_completion.py": "8f5ede765bd0dd5165cda4c21831df153eb61bca28b9e498ce64b3e8b66cfa01",
+    "tests/test_incidence_rank_certificate.py": "c6253ec72082a544a67d3281b768082c48b06ae8046f28ec167add4b94221270",
+    "tools/color_refinement_certificate.py": "1066ecb993072603d58a7ae8c88f80e44d978d291022615c3540cea3b16812bd",
+    "tools/freiman_completion.py": "d3f4d4e2a9ed67018134c0ef4a8c90f471db80a882eb3577e969791cc5fb0ab1",
+    "tools/incidence_rank_certificate.py": "74188c9791a8ce742d288cfe1feabfb5d723c4636d4c1d79e82f1e6d3e53f906",
+    "workstreams/SC-009/COLOR_CERTIFICATE.md": "20c40ee0361217f3740e8ac254e100eddc31d6e8bfdd6e44755f1a48947f4a84",
+    "workstreams/SC-009/RESULTS.md": "dd748b8e5cbd0122cd6b3ffbf8d2cb1e1379c004347add40674ae19f7faa3792"
+  },
+  "schema": 1
+}

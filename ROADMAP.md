@@ -56,3 +56,26 @@ The SC-007 prior-art/value gate is closed: retain the deterministic exact Q-only
 The full F_81 quotient automorphism group is now computed exactly: all 160 automorphisms are square-scalings composed with Frobenius. Together with F_27 this verifies the conjecture in degrees 3 and 4, but does not prove it generally. Immediate priority: obtain a scalable F_243 certificate or a structural theorem through restricted Freiman automorphisms and cyclotomic/additive design literature. The projective square embedding is already present in Buratti-Nakic (2024), so novelty can only lie in the size-three relation, its automorphism classification, or a new cancellation application.
 
 Stop or redirect after two cycles if the general group is covered by known design theory or no verifiable structural invariant emerges. Preserve the quotient theorem and negative sign example as useful boundary results. Formalization and a genuinely held-out application remain medium-term alternatives.
+
+## Update after incidence reconstruction and completion
+
+SC-009 proves the previously open all-degree quotient classification. The
+incidence kernel recovers affine coordinates; four-edge Weil completion and
+Freiman extension prove minimal kernel dimension for m>=5, while exact rank
+certificates cover m=3,4. Classical Carlitz finishes the semilinear group.
+F_243 has two different exact certificates and a separate arithmetic checker.
+The sign kernel and F_9/F_3 exceptions remain essential.
+
+Immediate gate: determine the relationship of this exact incidence-affinity
+theorem to prior partial-affine-geometry code and deterministic-square Freiman
+extension results. Conlon–Gowers already uses the difference-extension
+mechanism; prescribed character-pattern completion and Carlitz are classical.
+The bounded search has not established novelty. Seek a direct prior theorem
+or identify the precise uncovered step before packaging this as new research.
+
+If covered, classify it as reproduction/infrastructure and move to a genuinely
+held-out application or a compact formally verifiable core. Do not repeat
+small-field classification or SC-007 constant optimization without a concrete
+new purpose. Continue the single coordinator, scoped independent views and
+adversarial review architecture. A broad forum analogy is motivation, not
+proof of a universal cancellation tool gap or an AI/human prevalence claim.

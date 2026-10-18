@@ -42,3 +42,17 @@ jobs:
         run: |
           python3 tools/nonadditive_preservers.py > /tmp/nonadditive-results.json
           diff -u research/experiments/nonadditive-results.json /tmp/nonadditive-results.json
+      - name: Replay incidence rank certificates
+        run: |
+          python3 tools/incidence_rank_certificate.py > /tmp/incidence-rank-results.json
+          diff -u research/experiments/incidence-rank-results.json /tmp/incidence-rank-results.json
+      - name: Replay color certificate with independent arithmetic
+        run: |
+          python3 tools/color_refinement_certificate.py > /tmp/color-certificate.json
+          diff -u research/experiments/color-certificate.json /tmp/color-certificate.json
+          python3 tools/color_refinement_certificate.py --check research/experiments/color-certificate.json > /tmp/color-verification.json
+          diff -u research/experiments/color-verification.json /tmp/color-verification.json
+      - name: Replay Freiman completion controls
+        run: |
+          python3 tools/freiman_completion.py > /tmp/freiman-completion-results.json
+          diff -u research/experiments/freiman-completion-results.json /tmp/freiman-completion-results.json

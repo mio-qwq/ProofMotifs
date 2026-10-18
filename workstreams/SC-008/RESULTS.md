@@ -3,6 +3,10 @@
 Date: 18 October 2026. Source baseline: remote checkpoint `2e990a7` on
 `research/ongoing`.
 
+Follow-up: [SC-009](../SC-009/RESULTS.md) subsequently proves the general
+conjecture stated in Section 6. The open-status language below records the
+scope of the original SC-008 checkpoint, not the latest project state.
+
 This workstream removes additivity from the map but not from the underlying
 field. It first proves the obstruction that had to be checked before any broad
 classification: independent sign choices on opposite pairs are completely

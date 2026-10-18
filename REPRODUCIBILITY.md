@@ -1,5 +1,9 @@
 # Reproducibility
 
+Latest checkpoint: SC-009, **65 passing tests**. Counts in the chronological
+sections below describe their original checkpoints. The newest report,
+certificate and independent-arithmetic commands are at the end.
+
 ## Recorded environment and commands
 
 The startup run used Python 3.13.5, standard library only. All finite fields are constructed from explicitly supplied, irreducibility-checked monic polynomials. No floating-point arithmetic or random sampling is used.
@@ -71,3 +75,41 @@ The deterministic output verifies all 432 normalized F_27 maps, with 408 rejecti
 The two F_81 moduli exercise both replacement branches; F_243 uses the ordinary branch. Field construction validates the explicitly recorded irreducible moduli. The 2m-3 count is for actual Q evaluations with a supplied power basis. The lower bound floor(m/2) concerns deterministic Q-only decision without T images or an input description. No randomized, exact-constant, direct-T or total-runtime lower bound follows. The same small-field arithmetic engine is shared by these tests.
 
 The previous constructive tree was delivered as a434475c, identical to local mathematical tree 6275963256aaa91b47b37ff082fdec2da0dd4066. Its hosted CI run 39105407423 succeeded in all five verification steps; see docs/reviews/CI_CONSTRUCTIVE_CHECKPOINT.json. The containing generator checkpoint needs its own fetched CI result. Git push lacked a terminal credential, so the authorized GitHub API is the working transport; tree equality, expected predecessor and remote ref are checked independently.
+
+## Incidence and general-classification checkpoint
+
+The integrated suite has 65 passing tests. The actual log is
+`research/experiments/sc009-tests.log`; sources, reports and review hashes
+are listed in `sc009-SHA256.json` in that directory.
+
+```sh
+python tools/incidence_rank_certificate.py > /tmp/incidence-rank-results.json
+diff -u research/experiments/incidence-rank-results.json /tmp/incidence-rank-results.json
+python tools/color_refinement_certificate.py > /tmp/color-certificate.json
+diff -u research/experiments/color-certificate.json /tmp/color-certificate.json
+python tools/color_refinement_certificate.py --check research/experiments/color-certificate.json > /tmp/color-verification.json
+diff -u research/experiments/color-verification.json /tmp/color-verification.json
+python tools/freiman_completion.py > /tmp/freiman-completion-results.json
+diff -u research/experiments/freiman-completion-results.json /tmp/freiman-completion-results.json
+```
+
+Rank lower bounds use exact nonzero minors; independent affine kernel vectors
+give matching upper bounds in F_27/F_81/F_243. The F_9 criterion fails as
+required. The color checker reconstructs F_243 by alpha recurrence and cyclic
+log multiplication, imports no other project module in its `--check` path,
+checks every saved color transition, and transports every edge under all
+605 known actions. Tests reject omitted edges, unsafe color splits and a
+corrupted Frobenius permutation. The finite certificate alone concerns F_243.
+
+Completion tests check all nontrivial F_27/F_81 relations and the square-scaled
+u=1 representatives in F_243. They exercise repeated triples and retain true
+F_9 failures. The all-degree mathematical proof is separate: the classical
+Weil bound supplies completion for every q>=243, Freiman difference extension
+recovers affine functions, and the two exact smaller-field ranks finish the
+remaining degrees. Neither sampled fields nor a successful CI substitutes
+for that written proof. Originality, human review and Lean remain unresolved.
+
+SC-008's recovered files were independently replayed and accepted; hosted
+run 39108039870 at b82c344 succeeded. Its receipt and the new external
+acceptance report are in `docs/reviews`. Inspect the containing SC-009 run
+separately before reporting its hosted status.

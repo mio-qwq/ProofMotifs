@@ -1,0 +1,38 @@
+{
+  "all_automorphisms_are_semilinear": true,
+  "alpha_multiplicative_order": 242,
+  "arithmetic": "independent alpha recurrence and cyclic-log multiplication",
+  "automorphism_upper_bound": 605,
+  "canonical_certificate_sha256": "1040366d3bc411047a02a35e4b5c2b0cca14ac092a18c42cdef1f37240683703",
+  "exact_automorphism_count": 605,
+  "known_semilinear_actions_checked": 605,
+  "pair_refinement_cell_counts": [
+    3,
+    6,
+    121,
+    121
+  ],
+  "pivot_vertices": [
+    1,
+    9
+  ],
+  "point_stabilizer_upper_bound": 5,
+  "quotient_vertices": 121,
+  "root_refinement_cell_counts": [
+    2,
+    3,
+    15,
+    25,
+    25
+  ],
+  "root_second_vertex_cell": [
+    9,
+    15,
+    69,
+    148,
+    239
+  ],
+  "two_point_stabilizer_upper_bound": 1,
+  "vertex_degree": 30,
+  "zero_sum_edges": 1210
+}

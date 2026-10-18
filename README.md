@@ -18,6 +18,8 @@ The unified `research/ongoing` branch contains current research. `main` is the s
 | SC-005 | Additive bijections preserving every ternary cancellation order on F_{3^m}: scalar-Frobenius maps except for F_9, where all 48 additive bijections qualify | Novelty not established |
 | SC-006 | Construct strict order-loss witnesses using quadratic-basis tests; extend the preserver statement to arbitrary characteristic-three fields, retaining F_9 as the exception | Novelty not established; classical cone-preserver theory is close prior art |
 | SC-007 | Power-basis generator test with 2m-3 admissible defect values; linear lower bound for deterministic defect-only decision | Novelty not established; query-model restrictions are essential |
+| SC-008 | Arbitrary ternary-order preservers factor through independent signs and the square zero-sum hypergraph; essential F_9 exception | Novelty not established; recovered external checkpoint accepted by fresh replay |
+| SC-009 | Complete finite-field arbitrary-preserver classification: the quotient is square-scaling/Frobenius for every m>=3; incidence-affinity proof and two exact F_243 certificates | Novelty not established; classical Weil/Freiman/Carlitz tools credited |
 
 The current verification system uses exact arithmetic and deterministic enumeration, including a separate F_27 multiplication algorithm. The first research checkpoint was replayed successfully on GitHub Actions. CI success is not human peer review or proof-assistant verification; each run's commit and scope are recorded explicitly.
 
