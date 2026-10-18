@@ -1,0 +1,44 @@
+Working directory: ProofMotifs repository root
+Date: 2026-10-18
+
+$ git fetch --all --prune
+exit=0; exactly main and research/ongoing; clean starting research head
+10c06a57d5b4795c69fec819c832f141a0c8e863
+
+$ python tools/normal_character_bound.py > research/experiments/normal-character-bound.json
+exit=0; exact factor-count and induction-anchor arithmetic
+
+$ python tools/normal_quartic_boundary.py > research/experiments/normal-quartic-boundary.json
+exit=0; independent coordinate witness checks
+
+$ python tools/normal_pattern_certificate.py > research/experiments/normal-pattern-certificate.json
+exit=0; generated certificate internally verified
+
+$ python tools/normal_pattern_certificate.py --check research/experiments/normal-pattern-certificate.json > research/experiments/normal-pattern-verification.json
+exit=0
+
+$ python tools/normal_pattern_independent_check.py > research/experiments/normal-pattern-independent-check.json
+exit=0; no project imports, own m3/m4 arithmetic and targeted m8 witness
+
+$ python -m unittest discover -s tests -v > research/experiments/sc015-tests.log 2>&1
+exit=0; Ran120 tests in11.387s; OK (complete actual output saved)
+
+$ python tools/normal_pattern_certificate.py > /tmp/pm-sc015-normal-replay.json
+$ diff -u research/experiments/normal-pattern-certificate.json /tmp/pm-sc015-normal-replay.json
+exit=0; byte-identical
+
+$ python tools/normal_pattern_certificate.py --check research/experiments/normal-pattern-certificate.json > /tmp/pm-sc015-verification-replay.json
+$ diff -u research/experiments/normal-pattern-verification.json /tmp/pm-sc015-verification-replay.json
+exit=0; byte-identical
+
+$ python tools/normal_character_bound.py > /tmp/pm-sc015-bound-replay.json
+$ diff -u research/experiments/normal-character-bound.json /tmp/pm-sc015-bound-replay.json
+exit=0; byte-identical
+
+$ python tools/normal_quartic_boundary.py > /tmp/pm-sc015-quartic-replay.json
+$ diff -u research/experiments/normal-quartic-boundary.json /tmp/pm-sc015-quartic-replay.json
+exit=0; byte-identical
+
+$ python tools/normal_pattern_independent_check.py > /tmp/pm-sc015-independent-replay.json
+$ diff -u research/experiments/normal-pattern-independent-check.json /tmp/pm-sc015-independent-replay.json
+exit=0; byte-identical

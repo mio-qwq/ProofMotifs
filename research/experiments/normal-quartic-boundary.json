@@ -1,0 +1,103 @@
+{
+  "a": 4783,
+  "a_coefficients": [
+    1,
+    1,
+    0,
+    0,
+    2,
+    1,
+    0,
+    2
+  ],
+  "b": 2761,
+  "b_coefficients": [
+    1,
+    2,
+    0,
+    0,
+    1,
+    2,
+    0,
+    1
+  ],
+  "connectivity_index": 4,
+  "extra_frequency_orbit": [
+    820,
+    2460
+  ],
+  "field_modulus": [
+    2,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "gamma": 9,
+  "normal_conjugates": [
+    4863,
+    5384,
+    4109,
+    6146,
+    4227,
+    2754,
+    3736,
+    4501
+  ],
+  "normal_determinant": 2,
+  "omitted_edge": [
+    1,
+    81,
+    164
+  ],
+  "omitted_seed": [
+    0,
+    2,
+    1672
+  ],
+  "omitted_trace_sum": 2,
+  "omitted_trace_values": [
+    2,
+    1,
+    2
+  ],
+  "primitive_X_cycle_length": 6560,
+  "quadratic_value": 2,
+  "quartic_frequency": 820,
+  "quartic_positions": [
+    0,
+    2,
+    4,
+    6
+  ],
+  "seed_exponents": [
+    0,
+    76,
+    2368
+  ],
+  "sparse_trace_values": [
+    2,
+    2,
+    2
+  ],
+  "square_filter_characters": [
+    2,
+    2,
+    2
+  ],
+  "y": 4863,
+  "y_coefficients": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    2,
+    0,
+    2
+  ]
+}

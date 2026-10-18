@@ -166,3 +166,30 @@ and identify the resulting quadratic constraint on y=1/h, keeping the
 square filter. A bound on cubic blockers alone cannot solve simultaneous
 avoidance of every nonaffine frequency. If neither route yields new
 checkable information in two cycles, use the established redirection rule.
+
+## Update after the normal-character gate
+
+SC-015 closes the precise normal-filter existence question: in the range
+m>=3 the answer is yes exactly for m>=5. The analytical lower bound uses
+classical normal-element Fourier mass and Kloosterman, with exact m3/m4
+obstructions and m5/m8 witnesses. Do not repeat this gate or present its
+classical counting mechanism as new. Normality simultaneously excludes all
+nonaffine cubic representations and the quartic 2+2 pattern. Four-distinct
+quartic badness still occurs for a normal filtered but disconnected m8 seed.
+
+Immediate subproblem PM-QUESTION0002: enforce connectivity while retaining
+normality and the three-sign filter. A sufficient condition is that
+(y+1)/y have orderN=(3^m-1)/2. This is a generator of the square subgroup,
+often called 2-primitive in the full multiplicative group; a primitive
+orderq-1 requirement would contradict the square filter. Compare primary
+rational-image normal/2-primitive character sieves before deriving a bound.
+Normality of y alone and a separate primitive-element theorem do not choose
+the same y. Selected connected examples in5/8 are not the general proof.
+
+The next genuine spectral obstruction is
+(F^r y-F^s y)(F^r y-F^t y)=-1 for the 2+1+1 pattern, or the K-valued
+quadratic equation for four distinct indices. Keep normality, the square
+filter and multiplicative generation explicit. Failed bounded searches for
+a connected normal quartic counterexample are not evidence of sufficiency.
+Only a theorem or exact counterexample closes that route. The long-term
+full-frequency existence question remains PM-QUESTION0001.

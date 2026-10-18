@@ -98,3 +98,21 @@ jobs:
         run: |
           python3 tools/linearized_seed_independent_check.py > /tmp/linearized-seed-independent-check.json
           diff -u research/experiments/linearized-seed-independent-check.json /tmp/linearized-seed-independent-check.json
+      - name: Replay normal-character basecase certificate
+        run: |
+          python3 tools/normal_pattern_certificate.py > /tmp/normal-pattern-certificate.json
+          diff -u research/experiments/normal-pattern-certificate.json /tmp/normal-pattern-certificate.json
+          python3 tools/normal_pattern_certificate.py --check research/experiments/normal-pattern-certificate.json > /tmp/normal-pattern-verification.json
+          diff -u research/experiments/normal-pattern-verification.json /tmp/normal-pattern-verification.json
+      - name: Replay normal-character bound arithmetic
+        run: |
+          python3 tools/normal_character_bound.py > /tmp/normal-character-bound.json
+          diff -u research/experiments/normal-character-bound.json /tmp/normal-character-bound.json
+      - name: Replay normal quartic boundary
+        run: |
+          python3 tools/normal_quartic_boundary.py > /tmp/normal-quartic-boundary.json
+          diff -u research/experiments/normal-quartic-boundary.json /tmp/normal-quartic-boundary.json
+      - name: Independently check normal obstructions and quartic witness
+        run: |
+          python3 tools/normal_pattern_independent_check.py > /tmp/normal-pattern-independent-check.json
+          diff -u research/experiments/normal-pattern-independent-check.json /tmp/normal-pattern-independent-check.json

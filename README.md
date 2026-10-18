@@ -26,6 +26,7 @@ The unified `research/ongoing` branch contains current research. `main` is the s
 
 | SC-013 | Single-orbit generation requires connectivity, but F_729 has a connected orbit with an explicit nonlinear trace mode; certified positive instances through degree 8 | Classical coding/component tools; general existence and novelty remain unresolved |
 | SC-014 | Low-digitweight frequencies reduce to a linearized sieve; an explicit connected bad seed in odd degree 13 has a Tr(u^85) separator | Classical tools and exact boundary; sparse nullity at least 27, general existence remains open |
+| SC-015 | Normal parameters pass the three-square-character filter exactly from degree5; simultaneous cubic sieve, quartic reduction and a normal-but-disconnected boundary | Classical character-sum application with exact exceptions; connectivity and full-code existence remain open |
 
 The current verification system uses exact arithmetic and deterministic enumeration, including a separate F_27 multiplication algorithm. The first research checkpoint was replayed successfully on GitHub Actions. CI success is not human peer review or proof-assistant verification; each run's commit and scope are recorded explicitly.
 

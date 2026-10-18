@@ -1,0 +1,39 @@
+{
+  "degree_four_normal_pattern_count": 0,
+  "degree_four_pattern_count": 18,
+  "scope": {
+    "all_normal_seeds_connected_claimed": false,
+    "existence_degrees": [
+      5,
+      8
+    ],
+    "field_enumeration_used": false,
+    "nonexistence_degrees": [
+      4
+    ],
+    "single_orbit_full_rank_claimed": false
+  },
+  "verified": true,
+  "witnesses": [
+    {
+      "characters": [
+        -1,
+        -1,
+        -1
+      ],
+      "conjugate_rank": 5,
+      "m": 5,
+      "selected_seed_connectivity_index": 1
+    },
+    {
+      "characters": [
+        -1,
+        -1,
+        -1
+      ],
+      "conjugate_rank": 8,
+      "m": 8,
+      "selected_seed_connectivity_index": 1
+    }
+  ]
+}

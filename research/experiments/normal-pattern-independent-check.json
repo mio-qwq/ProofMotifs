@@ -1,0 +1,133 @@
+[
+  {
+    "intersection": [],
+    "m": 3,
+    "modulus": [
+      1,
+      2,
+      0,
+      1
+    ],
+    "normal_count": 18,
+    "pattern_alternating_trace_zero": [],
+    "pattern_count": 6,
+    "pattern_elements": [
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "pattern_rank_histogram": {
+      "2": 6
+    }
+  },
+  {
+    "intersection": [],
+    "m": 4,
+    "modulus": [
+      2,
+      1,
+      0,
+      0,
+      1
+    ],
+    "normal_count": 32,
+    "pattern_alternating_trace_zero": [
+      30,
+      31,
+      32,
+      51,
+      52,
+      53,
+      60,
+      61,
+      62,
+      66,
+      67,
+      68
+    ],
+    "pattern_count": 18,
+    "pattern_elements": [
+      30,
+      31,
+      32,
+      42,
+      43,
+      44,
+      51,
+      52,
+      53,
+      60,
+      61,
+      62,
+      66,
+      67,
+      68,
+      75,
+      76,
+      77
+    ],
+    "pattern_rank_histogram": {
+      "1": 2,
+      "2": 8,
+      "3": 8
+    }
+  },
+  {
+    "Rabin_and_primitive_X_checks": true,
+    "a": 4783,
+    "b": 2761,
+    "characters": [
+      -1,
+      -1,
+      -1
+    ],
+    "component_index": 4,
+    "component_kernel_lower_bound": 36,
+    "m": 8,
+    "modulus": [
+      2,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "normal_conjugates": [
+      4863,
+      5384,
+      4109,
+      6146,
+      4227,
+      2754,
+      3736,
+      4501
+    ],
+    "normal_determinant": 2,
+    "normal_rank": 8,
+    "quartic_Q": 2,
+    "quartic_frequency": 820,
+    "seed": [
+      0,
+      76,
+      2368
+    ],
+    "separating_edge": [
+      1,
+      81,
+      164
+    ],
+    "trace_sum": 2,
+    "trace_values": [
+      2,
+      1,
+      2
+    ],
+    "y": 4863
+  }
+]

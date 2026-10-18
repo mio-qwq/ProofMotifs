@@ -195,3 +195,42 @@ point; the81-element enumeration is an independent finite corroboration.
 Command log: sc014-commands.log; historical snapshot hashes: sc014-SHA256.json.
 Software checks, manual proof, AI review, human review, Lean and priority
 remain distinct.
+
+## Normal-character classification and quartic boundary
+
+The latest integrated suite passed120 tests, including9 new certificate
+tests; actual output is research/experiments/sc015-tests.log. New commands:
+
+```sh
+python tools/normal_pattern_certificate.py > /tmp/normal-pattern-certificate.json
+diff -u research/experiments/normal-pattern-certificate.json /tmp/normal-pattern-certificate.json
+python tools/normal_pattern_certificate.py --check research/experiments/normal-pattern-certificate.json > /tmp/normal-pattern-verification.json
+diff -u research/experiments/normal-pattern-verification.json /tmp/normal-pattern-verification.json
+python tools/normal_character_bound.py > /tmp/normal-character-bound.json
+diff -u research/experiments/normal-character-bound.json /tmp/normal-character-bound.json
+python tools/normal_quartic_boundary.py > /tmp/normal-quartic-boundary.json
+diff -u research/experiments/normal-quartic-boundary.json /tmp/normal-quartic-boundary.json
+python tools/normal_pattern_independent_check.py > /tmp/normal-pattern-independent-check.json
+diff -u research/experiments/normal-pattern-independent-check.json /tmp/normal-pattern-independent-check.json
+```
+
+The main basecase certificate uses F3 polynomial Bezout/divisibility and
+annihilator identities in degree4, plus direct normal witnesses in5/8;
+it does not enumerate those fields. Bound arithmetic checks exact small
+factor counts and two induction anchors, while the infinite range follows
+from the written induction and the classical Kloosterman theorem. It is
+not a numerical scan of an unbounded theorem. The quartic checker uses a
+6560-element primitive-X cycle and explicit coordinate arithmetic. The
+independent E program instead certifies its m8 field by Rabin and checks
+only the targeted witness, while exhaustively checking the small fields
+m3/m4 using its own multiplication and rank routines. No project imports
+occur in these four new tools.
+
+Run the independent audit, bound arithmetic and quartic boundary without
+Python-O because those programs use assertions. Main certificate mutation
+tests reject damaged gcd, Bezout, annihilator, field, normal basis/rank,
+characters, seed data, counts and scope. Five saved outputs were regenerated
+byte-identically. Source/proof/review/report hashes are sc015-SHA256.json;
+actual commands are sc015-commands.log. Hosted results must be read at the
+new mathematical commit. General connected-normal and full-code existence,
+human review, Lean and priority are not certified by these checks.

@@ -1,0 +1,348 @@
+{
+  "field_element_enumeration_used": false,
+  "finite_criterion_checks": [
+    {
+      "W": 2,
+      "criterion_positive": false,
+      "irreducible_factor_data": [
+        {
+          "count": 1,
+          "cyclotomic_index": 1,
+          "degree": 1
+        }
+      ],
+      "m": 3,
+      "omega": 1,
+      "positivity_integer_margin": -396,
+      "q": 27,
+      "radical_degree": 1,
+      "theta": [
+        2,
+        3
+      ]
+    },
+    {
+      "W": 8,
+      "criterion_positive": false,
+      "irreducible_factor_data": [
+        {
+          "count": 1,
+          "cyclotomic_index": 1,
+          "degree": 1
+        },
+        {
+          "count": 1,
+          "cyclotomic_index": 2,
+          "degree": 1
+        },
+        {
+          "count": 1,
+          "cyclotomic_index": 4,
+          "degree": 2
+        }
+      ],
+      "m": 4,
+      "omega": 3,
+      "positivity_integer_margin": -136800,
+      "q": 81,
+      "radical_degree": 4,
+      "theta": [
+        32,
+        81
+      ]
+    },
+    {
+      "W": 4,
+      "criterion_positive": false,
+      "irreducible_factor_data": [
+        {
+          "count": 1,
+          "cyclotomic_index": 1,
+          "degree": 1
+        },
+        {
+          "count": 1,
+          "cyclotomic_index": 5,
+          "degree": 4
+        }
+      ],
+      "m": 5,
+      "omega": 2,
+      "positivity_integer_margin": -21132,
+      "q": 243,
+      "radical_degree": 5,
+      "theta": [
+        160,
+        243
+      ]
+    },
+    {
+      "W": 4,
+      "criterion_positive": true,
+      "irreducible_factor_data": [
+        {
+          "count": 1,
+          "cyclotomic_index": 1,
+          "degree": 1
+        },
+        {
+          "count": 1,
+          "cyclotomic_index": 2,
+          "degree": 1
+        }
+      ],
+      "m": 6,
+      "omega": 2,
+      "positivity_integer_margin": 290880,
+      "q": 729,
+      "radical_degree": 2,
+      "theta": [
+        4,
+        9
+      ]
+    },
+    {
+      "W": 4,
+      "criterion_positive": true,
+      "irreducible_factor_data": [
+        {
+          "count": 1,
+          "cyclotomic_index": 1,
+          "degree": 1
+        },
+        {
+          "count": 1,
+          "cyclotomic_index": 7,
+          "degree": 6
+        }
+      ],
+      "m": 7,
+      "omega": 2,
+      "positivity_integer_margin": 4061268,
+      "q": 2187,
+      "radical_degree": 7,
+      "theta": [
+        1456,
+        2187
+      ]
+    },
+    {
+      "W": 32,
+      "criterion_positive": false,
+      "irreducible_factor_data": [
+        {
+          "count": 1,
+          "cyclotomic_index": 1,
+          "degree": 1
+        },
+        {
+          "count": 1,
+          "cyclotomic_index": 2,
+          "degree": 1
+        },
+        {
+          "count": 1,
+          "cyclotomic_index": 4,
+          "degree": 2
+        },
+        {
+          "count": 2,
+          "cyclotomic_index": 8,
+          "degree": 2
+        }
+      ],
+      "m": 8,
+      "omega": 5,
+      "positivity_integer_margin": -183976992,
+      "q": 6561,
+      "radical_degree": 8,
+      "theta": [
+        2048,
+        6561
+      ]
+    },
+    {
+      "W": 2,
+      "criterion_positive": true,
+      "irreducible_factor_data": [
+        {
+          "count": 1,
+          "cyclotomic_index": 1,
+          "degree": 1
+        }
+      ],
+      "m": 9,
+      "omega": 1,
+      "positivity_integer_margin": 386593812,
+      "q": 19683,
+      "radical_degree": 1,
+      "theta": [
+        2,
+        3
+      ]
+    },
+    {
+      "W": 16,
+      "criterion_positive": true,
+      "irreducible_factor_data": [
+        {
+          "count": 1,
+          "cyclotomic_index": 1,
+          "degree": 1
+        },
+        {
+          "count": 1,
+          "cyclotomic_index": 2,
+          "degree": 1
+        },
+        {
+          "count": 1,
+          "cyclotomic_index": 5,
+          "degree": 4
+        },
+        {
+          "count": 1,
+          "cyclotomic_index": 10,
+          "degree": 4
+        }
+      ],
+      "m": 10,
+      "omega": 4,
+      "positivity_integer_margin": 3008133216,
+      "q": 59049,
+      "radical_degree": 10,
+      "theta": [
+        25600,
+        59049
+      ]
+    },
+    {
+      "W": 8,
+      "criterion_positive": true,
+      "irreducible_factor_data": [
+        {
+          "count": 1,
+          "cyclotomic_index": 1,
+          "degree": 1
+        },
+        {
+          "count": 2,
+          "cyclotomic_index": 11,
+          "degree": 5
+        }
+      ],
+      "m": 11,
+      "omega": 3,
+      "positivity_integer_margin": 31067509428,
+      "q": 177147,
+      "radical_degree": 11,
+      "theta": [
+        117128,
+        177147
+      ]
+    },
+    {
+      "W": 8,
+      "criterion_positive": true,
+      "irreducible_factor_data": [
+        {
+          "count": 1,
+          "cyclotomic_index": 1,
+          "degree": 1
+        },
+        {
+          "count": 1,
+          "cyclotomic_index": 2,
+          "degree": 1
+        },
+        {
+          "count": 1,
+          "cyclotomic_index": 4,
+          "degree": 2
+        }
+      ],
+      "m": 12,
+      "omega": 3,
+      "positivity_integer_margin": 281488885920,
+      "q": 531441,
+      "radical_degree": 4,
+      "theta": [
+        32,
+        81
+      ]
+    },
+    {
+      "W": 32,
+      "criterion_positive": true,
+      "irreducible_factor_data": [
+        {
+          "count": 1,
+          "cyclotomic_index": 1,
+          "degree": 1
+        },
+        {
+          "count": 4,
+          "cyclotomic_index": 13,
+          "degree": 3
+        }
+      ],
+      "m": 13,
+      "omega": 5,
+      "positivity_integer_margin": 2486699063892,
+      "q": 1594323,
+      "radical_degree": 13,
+      "theta": [
+        913952,
+        1594323
+      ]
+    },
+    {
+      "W": 16,
+      "criterion_positive": true,
+      "irreducible_factor_data": [
+        {
+          "count": 1,
+          "cyclotomic_index": 1,
+          "degree": 1
+        },
+        {
+          "count": 1,
+          "cyclotomic_index": 2,
+          "degree": 1
+        },
+        {
+          "count": 1,
+          "cyclotomic_index": 7,
+          "degree": 6
+        },
+        {
+          "count": 1,
+          "cyclotomic_index": 14,
+          "degree": 6
+        }
+      ],
+      "m": 14,
+      "omega": 4,
+      "positivity_integer_margin": 22838021708256,
+      "q": 4782969,
+      "radical_degree": 14,
+      "theta": [
+        2119936,
+        4782969
+      ]
+    }
+  ],
+  "induction_anchors": [
+    {
+      "W_upper": 128,
+      "integer_margin": 1002962,
+      "m": 13
+    },
+    {
+      "W_upper": 256,
+      "integer_margin": 2420600,
+      "m": 14
+    }
+  ],
+  "infinite_range_uses_written_induction": true
+}

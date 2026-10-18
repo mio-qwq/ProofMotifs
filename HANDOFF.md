@@ -5,7 +5,40 @@ Last verified remote mathematical checkpoint: `f363f13cc3adfc9dc0b14c6e486e7754c
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
-## Latest accepted continuation: SC-014
+## Latest accepted continuation: SC-015
+
+Recovered actual10c06a57d5b4795c69fec819c832f141a0c8e863, no newer remote
+branch increment and no concurrent task. Read SC-015/RESULTS.md and its
+COMPUTATION.md before another normal-filter search. PM0019 is now proved:
+normal y with chi(y-1)=chi(y)=chi(y+1)!=0 exists iff m>=5, in the range
+m>=3. Count bound Theta/4[q-3-6(W-1)sqrt(q)] uses CRT Fourier coefficient
+mass and the classical field Kloosterman bound2sqrt(q), allows3|m. Integer
+checks plus induction cover m>=9 and6,7; direct normal witnesses cover5,8.
+Degree4 is impossible by a pure F3 three-input Bezout/annihilator certificate,
+not failed search; degree3 is impossible by the constant cubic frequency13.
+
+One parameter simultaneously excludes nonaffine cubic-representable frequencies.
+PM0020 gives quartic Q(y)=-1, and normality excludes 2+2 repetitions. Do not
+assume it controls 2+1+1 or four-distinct patterns. PM-COUNTEREXAMPLE0009:
+F6561 modulusX8+X3+2, y4863, a4783,b2761, gamma-seed{0,76,2368}, index4.
+Normal determinant2, all signs-1; quartic frequency820 survives. Trace witness
+on true edge{1,81,164} is2,1,2. Components force kernel at least36 versus
+full9. No exact sparse dimension or connected-normal counterexample claimed.
+
+A/C independently derived the count, D supplied polynomial basecases, B
+quartic structure/boundary, E independent proof and arithmetic audit. The
+120-test suite passed, sc015-tests.log. Five deterministic outputs match;
+sc015-SHA256.json records this mathematical snapshot. Verify its actual
+new hosted run after delivery, distinct from the previous f363f13 run.
+
+Next: PM-QUESTION0002, connected normal filtered parameters for every m>=5.
+Force a=(y+1)/y of orderN if a suitable rational-image sieve is available;
+full-group primitive orderq-1 is incompatible with a being square. Check
+primary 2-primitive/normal rational-image results and small exceptions before
+claiming any general connectedness. PM-QUESTION0001 remains open; even a
+connected normal seed needs genuine quartic/higher-frequency control.
+
+## Previous continuation: SC-014
 
 Recovered true head e19781a36e1267f1850751cc4a9ad18e025588f3 after all-branch
 and working-tree checks. No external increment or other active main task
