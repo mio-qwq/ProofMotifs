@@ -1,0 +1,361 @@
+{
+  "date": "2026-10-19 Asia/Singapore",
+  "mathematical_commit": "28b025bc6bf203e3a48ed30d47a01da485ac3555",
+  "tree": "83fbdc14e2d48a998a28a172f152b684654063ac",
+  "predecessor": "22825ce4970cd6c360ec1106d6822168cbc492f9",
+  "branch": "research/ongoing",
+  "main_unchanged": "063f99f67aba436c11feeb8157c1689bd8e82961",
+  "delivery": {
+    "non_force_update": true,
+    "expected_predecessor_checked": true,
+    "API_local_tree_equal": true,
+    "local_commit_object_exact_SHA_checked_before_ref_change": true,
+    "unrelated_work_overwritten": false,
+    "network_or_permissions_or_credentials_changed": false
+  },
+  "run": {
+    "id": 39170398607,
+    "head_sha": "28b025bc6bf203e3a48ed30d47a01da485ac3555",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2026-10-18T22:01:31Z",
+    "updated_at": "2026-10-18T22:02:43Z",
+    "html_url": "https://github.com/mio-qwq/ProofMotifs/actions/runs/39170398607"
+  },
+  "jobs": [
+    {
+      "id": 117802054516,
+      "name": "exact",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 39170398607,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Unit tests",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Replay deterministic experiments",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Replay ternary classification",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Replay preserver classification experiments",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Replay constructive witness experiments",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Replay generator witness experiments",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Replay nonadditive preserver experiments",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Replay incidence rank certificates",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10
+        },
+        {
+          "name": "Replay color certificate with independent arithmetic",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11
+        },
+        {
+          "name": "Replay Freiman completion controls",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12
+        },
+        {
+          "name": "Replay cyclotomic incidence controls",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13
+        },
+        {
+          "name": "Replay Fourier incidence spectra",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 14
+        },
+        {
+          "name": "Replay polynomial cyclic certificate",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15
+        },
+        {
+          "name": "Replay two-subspace obstruction",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16
+        },
+        {
+          "name": "Replay single-orbit certificates",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17
+        },
+        {
+          "name": "Independently check connected-orbit polynomial gcd",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 18
+        },
+        {
+          "name": "Independently check nonlinear trace separator",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19
+        },
+        {
+          "name": "Replay linearized odd-degree seed certificate",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 20
+        },
+        {
+          "name": "Independently check odd-degree field and trace witness",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 21
+        },
+        {
+          "name": "Replay normal-character basecase certificate",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 22
+        },
+        {
+          "name": "Replay normal-character bound arithmetic",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 23
+        },
+        {
+          "name": "Replay normal quartic boundary",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 24
+        },
+        {
+          "name": "Independently check normal obstructions and quartic witness",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 25
+        },
+        {
+          "name": "Replay construction and interaction certificates",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 26
+        },
+        {
+          "name": "Replay triangle grammar and failed transfer",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 27
+        },
+        {
+          "name": "Independently check damaged construction hypotheses",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 28
+        },
+        {
+          "name": "Independently interpolate and check the hole Gram",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 29
+        },
+        {
+          "name": "Replay costed feature repair",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 30
+        },
+        {
+          "name": "Independently check repair masks and coefficient bounds",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 31
+        },
+        {
+          "name": "Cross-check independent repair solvers",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 32
+        },
+        {
+          "name": "Replay separate monomial discovery calibration",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 33
+        },
+        {
+          "name": "Replay exact succinct word certificates",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 34
+        },
+        {
+          "name": "Replay path-aware rational jet bounds",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 35
+        },
+        {
+          "name": "Independently check DAG paths and characteristic parsing",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 36
+        },
+        {
+          "name": "Replay bounded constant-field algebra certificates",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 37
+        },
+        {
+          "name": "Independently check finite-algebra jet obstructions",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 38
+        },
+        {
+          "name": "Replay exact q-seed dictionary synthesis",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 39
+        },
+        {
+          "name": "Independently check q-residues and positive characteristic",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 40
+        },
+        {
+          "name": "Replay polynomial-seed operator obstructions",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 41
+        },
+        {
+          "name": "Independently check quantum-plane identities",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 42
+        },
+        {
+          "name": "Replay universal resolvent transport certificate",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 43
+        },
+        {
+          "name": "Independently check mixed rational seed identities",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 44
+        },
+        {
+          "name": "Replay implicit minimum-degree representation",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 45
+        },
+        {
+          "name": "Independently check degree-safe frontier closure",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 46
+        },
+        {
+          "name": "Independently check cardinal maps and Gram transfer",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 47
+        },
+        {
+          "name": "Adversarially check implicit pruning and degree completeness",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 48
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 96
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 97
+        }
+      ]
+    }
+  ],
+  "verification_scope": {
+    "local_unit_tests": 169,
+    "local_unit_status": "PASS",
+    "hosted_unit_step": "completed/success; same checked command/suite, not separately downloaded per-test log",
+    "historical_replay_blocks": 39,
+    "new_replay_blocks": 6,
+    "new_programs": 7,
+    "total_replay_blocks": 45,
+    "all_hosted_replay_steps": "completed/success",
+    "all_job_steps": 50,
+    "manifest": "research/experiments/representation-manifest.json",
+    "root_model_setting": "NOT verified from readable configuration",
+    "child_model_configuration": "3 actual children explicitly gpt-6.1-sol / ultra; two phases",
+    "not_claimed": [
+      "new general cancellation theory",
+      "historical priority",
+      "human peer review",
+      "Lean verification",
+      "successful unread transfer",
+      "AI capability cause"
+    ]
+  },
+  "proof": "research/mechanisms/REPRESENTATION_TRANSPORT.md",
+  "next": "Freeze genuinely unread external target and equal-input grammar/cost/classical baseline before transfer; no more q-seed or toy point variants."
+}

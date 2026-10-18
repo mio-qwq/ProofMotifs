@@ -2,6 +2,14 @@
 
 ## Latest: implicit representation generation and closed mixed-seed gate
 
+Delivery verified: mathematical commit28b025bc6bf203e3a48ed30d47a01da485ac3555,
+tree83fbdc14e2d48a998a28a172f152b684654063ac. Actual hosted CI39170398607,
+job117802054516 completed/success; all50 steps, including unit and45 replay
+blocks, succeeded.169 local tests passed. Exact scope and commands:
+docs/reviews/CI_REPRESENTATION_CHECKPOINT.json and representation-manifest.json.
+The containing metadata receipt does not replace the mathematical manifest;
+resolve its live SHA independently on recovery. Main remains unchanged.
+
 Read research/mechanisms/REPRESENTATION_TRANSPORT.md and
 docs/reviews/REPRESENTATION_CHECKPOINT.md.
 The bounded J_z,J_(z/(1-z)) question is CLOSED_NONFAITHFUL by an explicit
@@ -33,7 +41,7 @@ if absent. No more q-seed variants, toy point panels, generic kernel names or
 unfrozen transfer claims. PM-H1..H5 remain OPEN; macro objective unchanged.
 
 Updated: 2026-10-19 (Asia/Singapore). Branch: `research/ongoing`; `main` remains the stable baseline.
-Last remotely verified mathematical checkpoint: `12bc767a00c11fe43dd2b80076d6891408f367d2`.
+Last remotely verified mathematical checkpoint: `28b025bc6bf203e3a48ed30d47a01da485ac3555`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
 ## Previous accepted continuation: q-seed discovery and obstruction
