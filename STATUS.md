@@ -1,7 +1,7 @@
 # Current research status
 
 Updated: 2026-10-18. Branch: `research/ongoing`; `main` remains the stable baseline.
-Last remotely verified predecessor: `31f3d3936c654fc4d24c8246144c3308bb0570f7`.
+Last remotely verified mathematical commit: `3ab50849fa7a61ff3cae220dd21ea1feb74fc97d`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
 ## Current mathematical result
@@ -92,6 +92,16 @@ with local/remote tree 4afcd66a268a42f18f4fd4f7f8a09ebaba5a5298. Hosted run
 steps. The fresh run and job endpoints agree. The receipt is
 docs/reviews/CI_INCIDENCE_CHECKPOINT.json. The containing receipt checkpoint
 changes only recovery metadata and evidence, not mathematics or source code.
+
+The independent Fourier proof and SC-010 extension were delivered as
+`3ab50849fa7a61ff3cae220dd21ea1feb74fc97d`, with matching local/remote tree
+`635e39e6a3a18aaab45f69db89dacec3b283b2ea` and parent `31f3d393`. Hosted run
+39113374667, job 117634030262, passed the 74-test suite and all eleven
+deterministic replay steps. Its sole annotation is the hosted runner's Node 20
+deprecation warning for checkout; no test or mathematical check failed. The
+receipt is `docs/reviews/CI_CYCLOTOMIC_CHECKPOINT.json`. The containing receipt
+checkpoint changes recovery metadata and evidence only; distinguish its CI
+from this mathematical-commit run.
 
 Prior successful mathematical CI: a434475c/run39105407423 (SC-006),
 8836e298/run39105897724 (SC-007), b82c344/run39108039870 (SC-008).

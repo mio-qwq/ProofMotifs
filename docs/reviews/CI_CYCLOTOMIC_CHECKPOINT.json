@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "mathematical_commit": "3ab50849fa7a61ff3cae220dd21ea1feb74fc97d",
+  "tree_sha": "635e39e6a3a18aaab45f69db89dacec3b283b2ea",
+  "parent": "31f3d3936c654fc4d24c8246144c3308bb0570f7",
+  "workflow_run": 39113374667,
+  "workflow_url": "https://github.com/mio-qwq/ProofMotifs/actions/runs/39113374667",
+  "status": "completed",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 117634030262,
+      "name": "exact",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 39113374667,
+      "logs_url": null,
+      "steps": [
+        {"name": "Set up job", "status": "completed", "conclusion": "success", "number": 1},
+        {"name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262", "status": "completed", "conclusion": "success", "number": 2},
+        {"name": "Unit tests", "status": "completed", "conclusion": "success", "number": 3},
+        {"name": "Replay deterministic experiments", "status": "completed", "conclusion": "success", "number": 4},
+        {"name": "Replay ternary classification", "status": "completed", "conclusion": "success", "number": 5},
+        {"name": "Replay preserver classification experiments", "status": "completed", "conclusion": "success", "number": 6},
+        {"name": "Replay constructive witness experiments", "status": "completed", "conclusion": "success", "number": 7},
+        {"name": "Replay generator witness experiments", "status": "completed", "conclusion": "success", "number": 8},
+        {"name": "Replay nonadditive preserver experiments", "status": "completed", "conclusion": "success", "number": 9},
+        {"name": "Replay incidence rank certificates", "status": "completed", "conclusion": "success", "number": 10},
+        {"name": "Replay color certificate with independent arithmetic", "status": "completed", "conclusion": "success", "number": 11},
+        {"name": "Replay Freiman completion controls", "status": "completed", "conclusion": "success", "number": 12},
+        {"name": "Replay cyclotomic incidence controls", "status": "completed", "conclusion": "success", "number": 13},
+        {"name": "Replay Fourier incidence spectra", "status": "completed", "conclusion": "success", "number": 14},
+        {"name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262", "status": "completed", "conclusion": "success", "number": 28},
+        {"name": "Complete job", "status": "completed", "conclusion": "success", "number": 29}
+      ]
+    }
+  ],
+  "local_tests": 74,
+  "deterministic_replay_steps": 11,
+  "annotation": "One infrastructure-only warning: GitHub forced the checkout action from Node.js 20 to Node.js 24.",
+  "scope": "SC009 independent uniform Fourier proof, SC010 fixed-index cyclotomic kernel extension, exact negative controls and all historical deterministic replays; CI is not Lean, human review or priority certification"
+}

@@ -1,7 +1,7 @@
 # Recovery handoff
 
 Read AGENTS, STATUS, ROADMAP, CLAIMS and fresh remote refs before writing.
-Last verified remote predecessor: `31f3d3936c654fc4d24c8246144c3308bb0570f7`.
+Last verified remote mathematical commit: `3ab50849fa7a61ff3cae220dd21ea1feb74fc97d`.
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
@@ -110,6 +110,14 @@ docs/reviews/CI_INCIDENCE_CHECKPOINT.json. The containing receipt checkpoint
 changes evidence/recovery metadata only. Hashes: sc009-SHA256.json. Negative tests
 reject missing edges, unsafe color splits and altered Frobenius data; exact
 F_9 functions and missing completions witness the true exception.
+
+The Fourier/SC-010 mathematical checkpoint is remote
+`3ab50849fa7a61ff3cae220dd21ea1feb74fc97d`, tree
+`635e39e6a3a18aaab45f69db89dacec3b283b2ea`, parent `31f3d393`. Hosted run
+39113374667/job 117634030262 passed the 74-test suite and all eleven replay
+steps. The one Node 20 checkout annotation is infrastructure-only. See
+`docs/reviews/CI_CYCLOTOMIC_CHECKPOINT.json`; do not confuse a later metadata
+receipt run with this mathematical-commit CI.
 
 ## Recovered external increment
 
