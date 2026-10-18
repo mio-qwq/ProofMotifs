@@ -1,0 +1,12 @@
+{
+  "command_status": "both commands actually returned zero",
+  "files": {
+    "research/experiments/startup-results.json": "943b1e42b5e1656a8f86e8a0566b12899c33713ab0e1d7e81958957fb5a8a819",
+    "research/experiments/startup-tests.log": "f8184851daafb53d98656a6d7b5df342c1eb978f0028d9f15443ef096da51bd1",
+    "tests/test_cancellation.py": "5eb59b4c3917d17fa623fca97006b26bdbae257f4f6394faac9a2414b892be0d",
+    "tools/cancellation.py": "b1ac3f361c72037216b1b1a9c2af2524d0d526cb5cd57a49cb292d4fc47b45aa",
+    "tools/run_experiments.py": "cd637760290da4b36b9f8540703ea8d560c6edce069e8fa6708e1c645b21f976"
+  },
+  "python": "3.13.5",
+  "schema": 1
+}

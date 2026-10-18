@@ -1,15 +1,25 @@
 # Project status
 
-Checkpoint: initialization, 2026-10-18.
+Checkpoint: first mathematical cycle, 2026-10-18. Coordinator: PM-ROOT-20261018.
 
-Coordinator: PM-ROOT-20261018. Stable baseline: `main`; unified research branch: `research/ongoing` (to be created after governance initialization).
+Stable baseline: `main`. Unified research branch: `research/ongoing`.
+Last remotely verified predecessor: `063f99f67aba436c11feeb8157c1689bd8e82961` (governance baseline). Resolve the live ref for this checkpoint's actual commit.
 
-Last remotely verified commit: `96ca68caf554ed5e0ed7a0315d233dffcfbe01e4` (README root commit). Resolve live refs before continuing; this is a predecessor, not a prediction of this file's commit.
+## Completed
 
-Initial remote inspection found a public empty repository, no branch refs, and write permission. The root commit was created and fetched through the GitHub connector. The model container has Python 3.13.5 and Git 2.47.3. Direct `git clone` failed with DNS resolution of github.com; GitHub API reads/writes work. No `lean`, `lake` or `elan` command was found. No callable independent subagent interface is present; sequential review must not be labeled independent.
+SC-001: complete written proof of the characteristic-free convolution identity and exact leading-order criterion; exact F_2 annihilation and F_4 finite-jump counterexamples. Classified Level 0.
+SC-002: complete written proof of the saturated-difference/subspace dichotomy and exact order p^d-1, with Moore-determinant leading coefficient. Classified Level 0.
+Ten unit tests passed. Exhaustive checks cover all 66,281 weight pairs over F_2/F_3/F_4, 5,606 saturated direction tuples over five fields, and 40,000 Lucas comparisons. Logs, deterministic JSON and source hashes are in research/experiments.
+Five pinned pilot source cards, three detailed mechanism comparisons, withdrawal-date distinction and a candidate-specific literature review are recorded. No prevalence estimate is made.
 
-Active question: for finitely supported field-valued weights mu, nu with first nonzero moments r, s, determine the first nonzero moment of additive convolution, especially when a binomial coefficient vanishes in positive characteristic.
+## Active work
 
-Verified in this baseline: repository initialization only. Written proofs and exact experiments are in preparation, not yet accepted here. Formal verification, independent review and novelty are all outstanding.
+SC-003: unsaturated triple differences in characteristic three. Search found independent direction triples in the same F_27 with ordinary moment orders 5 and 7. The exact classification, persisted witnesses, expanded tests and focused novelty review are the next cycle; this lead is not yet a registered completed theorem.
 
-Next: finish the source audit; run SC-001 exact tests and adversarial cases; commit evidence on research/ongoing; then pursue the additive-subspace boundary in SC-002.
+## Verification boundaries
+
+No callable subagent interface, no independent researcher review and no local Lean/Lake/Elan compiler. Exact algorithms share a field implementation. GitHub connector works; direct container Git networking does not. A pinned CI workflow is provided but a remote successful run has not yet been observed. No project-wide license has been selected. No formal paper release or DOI exists for this work.
+
+## Next operation
+
+Prove the ternary formula M_5=-abc(a^2+b^2+c^2), M_7=-abc(a^2b^2+a^2c^2+b^2c^2), and classify the double-zero case; verify with an independent subset-expansion algorithm. Save a second research checkpoint after checking the F_27 witnesses.

@@ -1,0 +1,131 @@
+{
+  "F4_witness": {
+    "modulus": [
+      1,
+      1,
+      1
+    ],
+    "mu": [
+      1,
+      1,
+      0,
+      0
+    ],
+    "mu_moments": [
+      0,
+      1,
+      1,
+      1
+    ],
+    "nu": [
+      1,
+      0,
+      1,
+      0
+    ],
+    "nu_moments": [
+      0,
+      2,
+      3,
+      1
+    ],
+    "product": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "product_moments": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "self_product": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "arithmetic": "exact finite fields",
+  "lucas_checks": 40000,
+  "pair_experiments": [
+    {
+      "modulus": [
+        0,
+        1
+      ],
+      "nonzero_factor_equal": 8,
+      "nonzero_factor_finite_jump": 0,
+      "nonzero_factor_zero_product": 1,
+      "ordered_pairs": 16,
+      "q": 2,
+      "weight_vectors": 4
+    },
+    {
+      "modulus": [
+        0,
+        1
+      ],
+      "nonzero_factor_equal": 648,
+      "nonzero_factor_finite_jump": 0,
+      "nonzero_factor_zero_product": 28,
+      "ordered_pairs": 729,
+      "q": 3,
+      "weight_vectors": 27
+    },
+    {
+      "modulus": [
+        1,
+        1,
+        1
+      ],
+      "nonzero_factor_equal": 62208,
+      "nonzero_factor_finite_jump": 1728,
+      "nonzero_factor_zero_product": 1089,
+      "ordered_pairs": 65536,
+      "q": 4,
+      "weight_vectors": 256
+    }
+  ],
+  "randomized": false,
+  "saturated_experiments": [
+    {
+      "dependent": 5,
+      "direction_tuples": 7,
+      "independent": 2,
+      "max_direction_length": 2,
+      "q": 2
+    },
+    {
+      "dependent": 10,
+      "direction_tuples": 13,
+      "independent": 3,
+      "max_direction_length": 2,
+      "q": 3
+    },
+    {
+      "dependent": 75,
+      "direction_tuples": 85,
+      "independent": 10,
+      "max_direction_length": 3,
+      "q": 4
+    },
+    {
+      "dependent": 4463,
+      "direction_tuples": 4681,
+      "independent": 218,
+      "max_direction_length": 4,
+      "q": 8
+    },
+    {
+      "dependent": 763,
+      "direction_tuples": 820,
+      "independent": 57,
+      "max_direction_length": 3,
+      "q": 9
+    }
+  ],
+  "schema": 1
+}

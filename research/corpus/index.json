@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "read_date": "2026-10-18",
+  "sampling": "targeted; no prevalence inference",
+  "records": [
+    {
+      "id": "OAI-FF",
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "lean/OAI/RingTheory/DirectFiniteness/Pairing.lean",
+      "blob_sha": "44ccf572cb0b56403716cce53ff54479d761692c",
+      "read_lines": [
+        100,
+        153
+      ],
+      "mechanism": "finite-field power sums",
+      "scope": "complete read of relevant lemmas; not recompiled",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/RingTheory/DirectFiniteness/Pairing.lean",
+      "selection": "targeted pilot",
+      "redistributed": false
+    },
+    {
+      "id": "OAI-AN",
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "lean/OAI/Analysis/DiskMaximal/Cancellation.lean",
+      "blob_sha": "8a3ed37e0ed0d4864ba4cd45940e38bcc07f16a1",
+      "read_lines": [
+        1,
+        125
+      ],
+      "mechanism": "mean-zero local analytic estimate",
+      "scope": "relevant lemmas inspected; not recompiled",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Analysis/DiskMaximal/Cancellation.lean",
+      "selection": "targeted pilot",
+      "redistributed": false
+    },
+    {
+      "id": "OAI-CH",
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "lean/OAI/Combinatorics/Order/ChainToggle.lean",
+      "blob_sha": "26db7e393285534002aa405344afe1444b7ea839",
+      "read_lines": [
+        1,
+        171
+      ],
+      "mechanism": "join-stable sign-reversing involution",
+      "scope": "complete file inspected; not recompiled",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Order/ChainToggle.lean",
+      "selection": "targeted pilot",
+      "redistributed": false
+    },
+    {
+      "id": "OAI-WD",
+      "repository": "openai/math",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "path": "preprints/Algebraicity-of-Weil-classes-on-split-abelian-eightfolds-September-18-2026/README.md",
+      "blob_sha": "c7c9b6abcde71135b68582a318a23111b996494b",
+      "read_lines": null,
+      "mechanism": "negative proof-validity control",
+      "scope": "withdrawal notice read; archived proof not audited",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Algebraicity-of-Weil-classes-on-split-abelian-eightfolds-September-18-2026/README.md",
+      "selection": "targeted pilot",
+      "redistributed": false
+    },
+    {
+      "id": "MIO-MUB",
+      "repository": "mio-qwq/math",
+      "revision": "029e05b3f45f43690f19dd599834690bcbbf016e",
+      "path": "004-mub-triplets/flat-gram-cancellation.md",
+      "blob_sha": "d14c08e94c08f85293cf6989ca5d30d9283370a7",
+      "read_lines": [
+        1,
+        67
+      ],
+      "mechanism": "symmetry-restricted Gram/character cancellation",
+      "scope": "written endpoint inspected; upstream Lean not rerun",
+      "url": "https://github.com/mio-qwq/math/blob/029e05b3f45f43690f19dd599834690bcbbf016e/004-mub-triplets/flat-gram-cancellation.md",
+      "selection": "previously inspected external calibration; not held out or a human control",
+      "redistributed": false
+    }
+  ]
+}

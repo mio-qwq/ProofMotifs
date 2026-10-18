@@ -21,3 +21,9 @@ AI systems make substantive contributions to this project's research, exposition
 ## Licensing
 
 No project-wide license has been selected. This initialization does not relicense any third-party work. A code/documentation licensing proposal will be maintained separately for approval.
+
+## First research checkpoint
+
+[Claim register](CLAIMS.md) · [Research status](STATUS.md) · [Reproduction](REPRODUCIBILITY.md) · [Prior-art review](research/literature/INITIAL_REVIEW.md)
+
+The unified research branch contains written proofs of the classical leading-moment convolution criterion and saturated subspace-difference formula, exact counterexamples to unrestricted order additivity, and deterministic finite-field checks. They are classified as **Level 0 reproduction**, not new discoveries. A characteristic-three unsaturated case is under active investigation. No Lean verification or independent mathematical review has been completed.
