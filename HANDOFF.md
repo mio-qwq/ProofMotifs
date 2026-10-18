@@ -1,11 +1,20 @@
 # Recovery handoff
 
 Read AGENTS, STATUS, ROADMAP, CLAIMS and fresh remote refs before writing.
-Last verified remote mathematical checkpoint: `c899ec028f582cff09df3f211755765cc8e9b5e8`.
+Last verified remote mathematical checkpoint: `12bc767a00c11fe43dd2b80076d6891408f367d2`.
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
 ## Latest recovery: q-seed synthesis and polynomial grammar obstruction
+
+Verified mathematical delivery12bc767a00c11fe43dd2b80076d6891408f367d2,
+treeb1bc8e113c4a2a3bcfca78fc60e68b08a48290d4; actual CI39163792129/
+job117782405293 completed/success, all44 steps including unit and39 replays.
+156 local tests passed. CI_Q_SEED_CHECKPOINT.json preserves exact coverage;
+resolve current containing metadata head separately on recovery. Main stayed
+063f99f and the normal push checked expected predecessora51579c. Local unsigned
+object was reconstructed from API metadata only after exact SHA equality;
+no blocked network retry, permission change or credential extraction.
 
 Read Q_SEED_CHECKPOINT.md and Q_WORD_SEED_SYNTHESIS.md first. Fresh recovery
 found exactly main and research/ongoing, matching a51579c and a clean workspace,

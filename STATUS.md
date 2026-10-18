@@ -1,10 +1,17 @@
 # Current research status
 
 Updated: 2026-10-19 (Asia/Singapore). Branch: `research/ongoing`; `main` remains the stable baseline.
-Last remotely verified mathematical checkpoint: `c899ec028f582cff09df3f211755765cc8e9b5e8`.
+Last remotely verified mathematical checkpoint: `12bc767a00c11fe43dd2b80076d6891408f367d2`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
 ## Newest mathematical continuation: q-seed discovery and obstruction
+
+Delivery verified: commit12bc767a00c11fe43dd2b80076d6891408f367d2,
+treeb1bc8e113c4a2a3bcfca78fc60e68b08a48290d4. Actual hosted run39163792129
+and job117782405293 completed/success; unit and all39 replay steps succeeded.
+All44 job steps completed/success. Local suite156 tests passed. Exact scope:
+docs/reviews/CI_Q_SEED_CHECKPOINT.json. Containing receipt is metadata-only;
+the mathematical manifest remains the immutable record of its earlier tree.
 
 Read research/mechanisms/Q_WORD_SEED_SYNTHESIS.md and docs/reviews/Q_SEED_CHECKPOINT.md
 before older next-step entries. Actual full-paper comparison finds arbitrary-
