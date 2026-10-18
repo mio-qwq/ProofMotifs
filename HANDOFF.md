@@ -1,7 +1,7 @@
 # Recovery handoff
 
 Read AGENTS, STATUS, ROADMAP, CLAIMS and fresh remote refs before writing.
-Last verified remote mathematical checkpoint: `7e12402671c6c2f30bf91f6eadb3d2729fbc35df`.
+Last verified remote mathematical checkpoint: `f363f13cc3adfc9dc0b14c6e486e7754c3ba5ac5`.
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
@@ -12,7 +12,7 @@ and working-tree checks. No external increment or other active main task
 was found. Read SC-014/RESULTS.md and COMPUTATION.md before repeating any
 search. The predecessor mathematical CI at7e12402 was re-read successfully.
 
-PM0018: P_(3r+3s)=-(a-1)^(3r+3s), using3r to denote3^r; cubic digitweight
+PM0018: P_(3^r+3^s)=-(a-1)^(3^r+3^s); cubic digitweight
 gives Pk=-(a-1)^k L((a-1)^-1). The L-kernel dimension is deg gcd(Tm-1,G),
 proved via linearized composition and separable roots, without a squarefree
 assumption on Tm-1. Exact square filtering, proper-subfield and sixfold
@@ -37,8 +37,13 @@ General existence remainsOPEN, as does historical originality. The next
 operation is a simultaneous cubic sieve using normal-element/character
 conditions or a controlled quartic obstruction; details in ROADMAP. Do not
 reopen the refuted odd-degree connectedness route, scan the full m13 field,
-or compute exact nullity merely to sharpen an unused number. Read the new
-commit's hosted CI at its actual SHA after publication.
+or compute exact nullity merely to sharpen an unused number. Mathematical
+commit f363f13cc3adfc9dc0b14c6e486e7754c3ba5ac5 has matching local/remote
+tree ff3d03878cdd8c8fb5a7d2eb4886be6981470711. Fresh hosted
+run39128991481/job117680063593 reads confirmed the unit suite and all18
+deterministic replay steps passed. Receipt: CI_LINEARIZED_SEED_CHECKPOINT.json.
+This containing receipt checkpoint changes evidence/recovery only; the
+SC-014 manifest belongs to the mathematical tree, before metadata changes.
 
 ## Previous continuation: SC-013
 

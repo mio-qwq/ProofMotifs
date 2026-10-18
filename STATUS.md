@@ -1,7 +1,7 @@
 # Current research status
 
 Updated: 2026-10-18. Branch: `research/ongoing`; `main` remains the stable baseline.
-Last remotely verified mathematical checkpoint: `7e12402671c6c2f30bf91f6eadb3d2729fbc35df`.
+Last remotely verified mathematical checkpoint: `f363f13cc3adfc9dc0b14c6e486e7754c3ba5ac5`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
 ## Latest accepted continuation: SC-014
@@ -32,7 +32,13 @@ the structural proof, including its nonsemisimple and constant-frequency
 qualifications. The integrated suite passed111 tests; log sc014-tests.log.
 Certificate, verification, independent receipt and command log are in
 research/experiments; sc014-SHA256.json records this mathematical checkpoint.
-Hosted verification of the new commit is still to be read after delivery.
+Mathematical commit f363f13cc3adfc9dc0b14c6e486e7754c3ba5ac5 was delivered
+with matching tree ff3d03878cdd8c8fb5a7d2eb4886be6981470711. Fresh run/job
+reads confirmed CI39128991481/job117680063593 success: the unit suite and
+all18 deterministic replay steps passed. Receipt:
+docs/reviews/CI_LINEARIZED_SEED_CHECKPOINT.json. This containing receipt
+checkpoint changes evidence/recovery only; the SC-014 manifest records
+the mathematical commit before this metadata update.
 No exact sparse dimension27, general existence, novelty, human-review or
 Lean claim is made. PM-QUESTION-0001 stays OPEN.
 
