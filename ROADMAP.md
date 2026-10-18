@@ -30,3 +30,13 @@ The targeted startup cases cannot estimate prevalence. A future 20-family / 10-c
 The ternary order classification is written and tested. It refutes rank-only certificates. A stronger follow-up classified additive order-preserving bijections with an essential F_9 exception. The main immediate priority is now an audit of this precise theorem against preserver literature, followed by a constructive rejecting-witness procedure. Four-difference expansion (SC-004) is deferred, with its unverified formulas preserved.
 
 Do not treat this as a new universal method. The next increase in research value must be a verified improvement, a genuinely new application, a sharp obstruction, or a well-supported nontrivial comparison with prior results. A 90-minute scheduled recovery invocation exists; every window must read live state before further work.
+
+## Update after constructive witnesses and general-field proof
+
+SC-006 now supplies a quadratic-basis strict witness construction and an arbitrary characteristic-three-field preserver theorem, both challenged by genuine task-scoped AI researchers. The conservative standard-basis algorithm is implemented and checked on all normalized F_27 maps plus selected F_81 cases. The adapted-basis improvement is proved but not implemented. Formal verification and human review remain outstanding.
+
+Current short-term priority: isolate the punctured-cone repair lemma and exact F_9 exception in a targeted comparison with Lester's full-cone preserver theorem and its weakenings. The scalar-automorphism conclusion itself is classical. Compare the extractor against standard quadratic-map coefficient tests before claiming algorithmic novelty.
+
+Medium term: test whether a sharp query lower bound is meaningful for the restricted family of square defects, or identify a genuinely new application where the explicit witness adds value. Do not assume arbitrary quadratic maps are realizable as these defects. Formalize the accepted core when an actual compiler is available.
+
+Long term remains a substantive result or transfer with documented distance from prior work. If the bridge and algorithm are already covered, classify and retain them as infrastructure, then redirect effort to a different explicit mathematical obstruction. Do not generate higher-difference expansion tables without a structural target.

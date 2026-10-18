@@ -14,6 +14,8 @@ Select one precise question; check nearest prior art; develop a proof or a count
 
 Use genuinely available task-scoped researchers for literature, mathematical structure, independent proof, counterexamples, computation, formal verification and audit. Prefer independent proposals before cross-review. No role-play may be reported as an independent researcher. When no subagent interface is available, the coordinator performs separately labeled sequential passes; independent review remains outstanding.
 
+For important new propositions, organize at least two independent mathematical views and a separate adversarial proof or counterexample review when the interfaces are available. Preserve a task ledger and the coordinator's resolution of objections. The coordinator owns the common roadmap, integration, acceptance and publication; task-scoped collaboration does not create permanent distributed ownership.
+
 Every delegated task records TASK ID, RESEARCH QUESTION, KNOWN ASSUMPTIONS, AVAILABLE EVIDENCE, EXPECTED OUTPUT, ALLOWED SCOPE, INDEPENDENCE REQUIREMENT, STOP CONDITIONS and HANDOFF. Preserve objections, failed conjectures, revised assumptions and the reason for the final decision.
 
 ## Claims and evidence

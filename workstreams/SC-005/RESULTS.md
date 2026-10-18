@@ -1,6 +1,6 @@
 # SC-005: additive maps preserving ternary cancellation order
 
-**PM-THEOREM-0004.** Complete written proof; exhaustive normalized-map checks in F_3, F_9 and F_27. Formalization: NOT_STARTED. Independent mathematical review: outstanding. **NOVELTY_UNVERIFIED; no Level 2 or publication claim.**
+**PM-THEOREM-0004.** Complete written proof; exhaustive normalized-map checks in F_3, F_9 and F_27. Formalization: NOT_STARTED. Separate task-scoped AI reviews A/C accepted the proof on 2026-10-18; no human peer review is claimed. See [review](../../docs/reviews/THIRD_CYCLE.md). **NOVELTY_UNVERIFIED; no Level 2 or publication claim.**
 
 ## Question and definitions
 
@@ -101,7 +101,7 @@ Thus a proposed no-exception scalar-Frobenius classification is false. The actua
 
 Failed maps are rejected on their first order-changing triple; accepted maps are checked on all triples. The test uses 63,921 actual before/after label comparisons. A separate exact parameter-identity check covers 20,421 instances, including non-bijective maps. The unit tests also contain a non-semilinear rejection in F_81; that is one explicit check, not a GL(4,3) enumeration.
 
-These finite checks do not prove the theorem for all m; the root-bound argument does. The main experiments share arithmetic tables with earlier scripts. A second F_27 multiplication implementation, using a cyclic logarithm table generated from alpha^3=alpha+2 rather than polynomial division, also agrees on all 729 products in a unit test. This is an algorithmic cross-check by the same coordinator; no independent mathematical reviewer or Lean kernel has checked the statement.
+These finite checks do not prove the theorem for all m; the root-bound argument does. The main experiments share arithmetic tables with earlier scripts. A second F_27 multiplication implementation, using a cyclic logarithm table generated from alpha^3=alpha+2 rather than polynomial division, also agrees on all 729 products in a unit test. That original algorithmic cross-check was by the same coordinator. Separate AI mathematical reviews were subsequently completed as recorded above; no Lean kernel has checked the statement.
 
 ## Prior art and limitations
 
@@ -109,4 +109,4 @@ The source mechanism is classical combinatorial polarization; see [Drapal-Vojtec
 
 The conic parameterization, linearized-polynomial representation and polynomial root bound are established tools. The proof above is self-contained, but a self-contained derivation is not proof of historical originality. Record this as a proved project result with NOVELTY_UNVERIFIED, not a new general framework, a new finite-field automorphism theorem, or a solution of an identified public conjecture.
 
-The result concerns finite characteristic-three fields and additive bijections. Arbitrary permutations, infinite fields, other characteristics, weighted coefficients outside F_3 and approximate preservation require separate analysis. No cross-domain held-out problem has yet been solved by this result.
+The result here concerns finite characteristic-three fields and additive bijections. [SC-006](../SC-006/RESULTS.md) supplies the subsequent arbitrary-field extension and a quadratic-basis rejecting-witness construction. The new [prior-art audit](../../research/literature/PRESERVER_AUDIT_20261018.md) identifies Lester's 1977 full-cone theorem as closer precedent; extending the initial punctured-cone information is a distinct hypothesis step. Arbitrary permutations, other characteristics, weighted coefficients outside F_3 and approximate preservation require separate analysis. No cross-domain held-out problem has yet been solved by this result.

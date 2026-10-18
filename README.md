@@ -8,7 +8,7 @@ ProofMotifs investigates reusable mathematical proof mechanisms and the exact co
 
 ## Research checkpoints
 
-The unified `research/ongoing` branch contains current research. `main` is the stable governance baseline. All results below have written proofs and exact computational checks; none has been Lean-verified or independently reviewed by a separate mathematician.
+The unified `research/ongoing` branch contains current research. `main` is the stable governance baseline. The results have written proofs and exact finite computational checks. The ternary preserver results have separate task-scoped AI reviews; no Lean verification or human peer review is claimed.
 
 | Workstream | Result | Originality status |
 | --- | --- | --- |
@@ -16,6 +16,7 @@ The unified `research/ongoing` branch contains current research. `main` is the s
 | SC-002 | Saturated differences, finite additive subspaces and Moore leading coefficient | Classical reproduction |
 | SC-003 | Ternary first differences in characteristic three have finite order 5 or 7; rank and proper orders do not determine the outcome | Novelty not established |
 | SC-005 | Additive bijections preserving every ternary cancellation order on F_{3^m}: scalar-Frobenius maps except for F_9, where all 48 additive bijections qualify | Novelty not established |
+| SC-006 | Construct strict order-loss witnesses using quadratic-basis tests; extend the preserver statement to arbitrary characteristic-three fields, retaining F_9 as the exception | Novelty not established; classical cone-preserver theory is close prior art |
 
 The current verification system uses exact arithmetic and deterministic enumeration, including a separate F_27 multiplication algorithm. The first research checkpoint was replayed successfully on GitHub Actions. CI success is not human peer review or proof-assistant verification; each run's commit and scope are recorded explicitly.
 

@@ -30,3 +30,7 @@ jobs:
         run: |
           python3 tools/order_preservers.py > /tmp/preserver-results.json
           diff -u research/experiments/preserver-results.json /tmp/preserver-results.json
+      - name: Replay constructive witness experiments
+        run: |
+          python3 tools/constructive_witness.py > /tmp/constructive-results.json
+          diff -u research/experiments/constructive-results.json /tmp/constructive-results.json

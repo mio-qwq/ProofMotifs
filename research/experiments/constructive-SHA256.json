@@ -1,0 +1,15 @@
+{
+  "arithmetic": "exact finite fields; standard library",
+  "files": {
+    "research/experiments/constructive-results.json": "3f74ef3499ad3bd4f469ecaf94d4da880c73367ebd01646274819cf0d0588e18",
+    "research/experiments/constructive-tests.log": "3cad7b4876fb4684c8a135f06c08da90f133fa191993cd9cc3fedcb1363ed0b9",
+    "tests/test_constructive_witness.py": "d22033b77073629e94753864054d3abc50cc977408eb0c66b9e183286efaf951",
+    "tools/cancellation.py": "b1ac3f361c72037216b1b1a9c2af2524d0d526cb5cd57a49cb292d4fc47b45aa",
+    "tools/constructive_witness.py": "c82f5d57cb88f10a0176ab0d36f04aa921020fdefc2ca7c0d3aabbcbd8316b76",
+    "tools/order_preservers.py": "609af39e2e1cbb7ca4a44123fe0774d693679eeb0ee16fb58883d3a7df3b6f2d",
+    "tools/ternary_differences.py": "56575ac7b074edc261ca6d230e1a680b5cb862d2c96002caf4beef9ecfd19c30",
+    "workstreams/SC-006/RESULTS.md": "0723cce8e266ee5f69c3052983eb70f273b7f118308a15f05ce2db4ab26b3938"
+  },
+  "python": "3.12.14",
+  "schema": 1
+}
