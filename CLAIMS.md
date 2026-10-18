@@ -15,6 +15,25 @@ All five remain OPEN; this is a research agenda, not a completed preregistration
 | PM-H4 | Precise gap beyond established mathematical tools | Original theorem/hypothesis comparisons are required; a failed search is not a gap proof |
 | PM-H5 | Additional value of a candidate instrument | Held-out results against fixed existing-tool/resource baselines remain outstanding |
 
+## Representation-to-readout and discovery gate
+
+Proofs: [factor readout](research/mechanisms/FACTOR_READOUT.md). These are
+classical/manual methods with independent A/B views and separate C adversary,
+not Lean, human review, historical priority, AI causality or a new factorizer.
+
+| ID | Exact scoped conclusion | Evidence and limitation |
+| --- | --- | --- |
+| PM-TRANSFER142 | Publicly frozen finite representation operation meets uniform raw-input factor-readout target | FAILURE before proof exposure at3a7ffa9, freeze765fa48; no source refutation/lower bound |
+| PM-READOUT0001 | Supplied tests with verified finite known label sets induce coprime gcd blocks; completeness iff count=Frobenius-fixed dimension=generated-algebra dimension | All-input CRT proof, prototype rechecks labels/dimension, costs include label/circuit/closure lengths; no discovery |
+| PM-READOUT0002 | Minimum binary family length ceil(log2r); synthesis polynomial-time equivalent to squarefree factoring; arbitrary Fp-valued minimum ceil(log_pr) | Complete coding/CRT reductions incl r1,char2; no unconditional hardness or factoring algorithm |
+| PM-READOUT0003 | Full observable-algebra rank alone need not make supplied cheap tests complete | Exact large-prime Euler collision and repair; fixed-test pigeonhole scope only, no adaptive lower bound |
+| PM-READOUT0004 | A defined uniform arithmetic/zero-query program with different transcript-determined discrete outputs yields a proper factor by quotient simulation | Complete common-prefix proof, acyclic prototype, unit/extension/output-grammar controls; classical dynamic evaluation; supplied distinguishing program, not its synthesis |
+| PM-ORIENTATION0001 | A totally split squarefree evenN polynomial admits root-free tensor-mask/trace proper splitting given checked full2-primary data | Constructive digit-mask proof O(N6(logp)^2)Fp, equivalent supplied-nonresidue input; corner-unit/half-mask/odd-cycle controls; not primary-data discovery or headline142 acceptance |
+
+195 local tests and53 replay blocks passed. Hosted evidence is separately
+read at delivery. Primary odd-geometry/Hecke dependencies remain unchecked;
+all PM-H hypotheses OPEN. Classical tools cover these local operations.
+
 ## Implicit representation generation and relation transport
 
 Complete proofs: [representation transport](research/mechanisms/REPRESENTATION_TRANSPORT.md).

@@ -1,0 +1,7 @@
+p=2: 32 squarefree monic inputs checked
+p=3: 81 squarefree monic inputs checked
+p=5: 125 squarefree monic inputs checked
+p=7: 49 squarefree monic inputs checked
+r>p boundary: r=3,p=2; maximum scalar minimal degree=2; joint readout succeeds
+split-input control: p=101,n=6,F=I; separator minimal degree=6; history=[(0, 1), (1, 6), (0, 6), (0, 6), (0, 6), (0, 6)]
+PASS: 287 exhaustive squarefree inputs plus two boundary controls; all exact identities verified

@@ -218,3 +218,35 @@ jobs:
         run: |
           python3 tools/implicit_independent_c.py > /tmp/implicit-independent-c.log
           diff -u research/experiments/implicit-independent-c.log /tmp/implicit-independent-c.log
+      - name: Replay known-label factor readout
+        run: |
+          python3 tools/factor_readout.py > /tmp/factor-readout.json
+          diff -u research/experiments/factor-readout.json /tmp/factor-readout.json
+      - name: Replay conditional orientation construction
+        run: |
+          python3 tools/orientation_readout.py > /tmp/orientation-readout.json
+          diff -u research/experiments/orientation-readout.json /tmp/orientation-readout.json
+      - name: Replay adaptive discrete readout
+        run: |
+          python3 tools/dynamic_readout.py > /tmp/dynamic-readout.json
+          diff -u research/experiments/dynamic-readout.json /tmp/dynamic-readout.json
+      - name: Independently check quotient and scalar-label certificates
+        run: |
+          python3 tools/factor_independent_a.py > /tmp/factor-independent-a.log
+          diff -u research/experiments/factor-independent-a.log /tmp/factor-independent-a.log
+      - name: Independently check supplied readout families
+        run: |
+          python3 tools/factor_independent_b.py > /tmp/factor-independent-b.log
+          diff -u research/experiments/factor-independent-b.log /tmp/factor-independent-b.log
+      - name: Independently challenge factor and primary hypotheses
+        run: |
+          python3 tools/factor_independent_c.py > /tmp/factor-independent-c.log
+          diff -u research/experiments/factor-independent-c.log /tmp/factor-independent-c.log
+      - name: Cross-check factor readout with separate exact oracles
+        run: |
+          python3 tools/factor_oracle_audit.py > /tmp/factor-oracle-audit.log
+          diff -u research/experiments/factor-oracle-audit.log /tmp/factor-oracle-audit.log
+      - name: Independently audit high-primary orientation masks
+        run: |
+          python3 tools/orientation_high_primary_audit.py > /tmp/orientation-high-primary.json
+          diff -u research/experiments/orientation-high-primary.json /tmp/orientation-high-primary.json

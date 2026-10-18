@@ -1,0 +1,42 @@
+{
+  "digit_levels": 5,
+  "factor": [
+    96,
+    1
+  ],
+  "label": 0,
+  "maximum_nonempty_masks": 6,
+  "modulus": [
+    24,
+    47,
+    35,
+    87,
+    1
+  ],
+  "orientation": [
+    63,
+    0,
+    77,
+    51,
+    88,
+    19,
+    74,
+    82,
+    72,
+    13,
+    57,
+    2,
+    68,
+    65,
+    83,
+    59
+  ],
+  "p": 97,
+  "partial_trace": [
+    96,
+    1
+  ],
+  "primary_generator_discovery": "NOT performed",
+  "primehood": "input promise",
+  "supplied_primary_generator": 28
+}

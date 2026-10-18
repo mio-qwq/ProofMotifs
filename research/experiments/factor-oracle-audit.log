@@ -1,0 +1,7 @@
+PASS: 270 squarefree inputs; 3960 binary families
+PASS: nonreduced f=X^2 has complete empty family but reducible leaf X^2
+PASS: nilpotent X != 0 yet X^(p-1)=0 in F5[X]/X^2
+PASS: weakened order-3 u=7 fails source02 digit step j=1 for cube a=8 over F19
+PASS: p=73,q=3,ell=37 without residue test gives U_q=F73^3, not a field
+PASS independent CRT-value oracle: 3992 general finite-label production readouts
+PASS independent point-value oracle: 173 root-free constructor cases, varied 2-valuations, N2/4/6

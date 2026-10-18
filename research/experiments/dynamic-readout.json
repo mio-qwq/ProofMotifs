@@ -1,0 +1,33 @@
+{
+  "contract": "supplied program; not discovery of a distinguishing invariant",
+  "mixed": {
+    "factor": [
+      6,
+      1
+    ],
+    "instruction": 2,
+    "operation": "test",
+    "status": "SPLIT",
+    "tested": [
+      6,
+      1
+    ],
+    "visited": [
+      0,
+      1,
+      2
+    ]
+  },
+  "raw_field_output_control": "return-register is outside the discrete grammar",
+  "same": {
+    "label": "nonzero",
+    "meaning": "all component executions have this discrete label",
+    "status": "COMMON",
+    "visited": [
+      0,
+      1,
+      2,
+      4
+    ]
+  }
+}

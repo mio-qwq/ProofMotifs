@@ -1,0 +1,7 @@
+large-prime mixed-degree case: p=1000000007, n=4, fixed_dimension=3
+observable X^2 generates B; Euler alone: 2 leaves; shifted Euler: 3 exact irreducible leaves
+binary-certificate case: r=9, minimum_bits=4; four supplied bits give9 leaves; first3 give8
+characteristic2 mixed-degree case: n=4, r=3, two binary idempotents give3 leaves
+negative controls: false small-codomain certificate rejected; nonreduced input rejected
+exact counters: {'pow_calls': 36, 'pow_mults': 1358, 'scalar_tests': 62}
+ALL ASSERTIONS PASSED; no loop over F_p, no random choices, no factorization package

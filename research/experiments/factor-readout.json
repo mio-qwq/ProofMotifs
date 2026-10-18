@@ -1,0 +1,102 @@
+{
+  "complete": {
+    "blocks": [
+      [
+        1000000003,
+        1
+      ],
+      [
+        1000000006,
+        1
+      ],
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "closure_product_offers": 6,
+    "fixed_dimension": 3,
+    "modulus": [
+      4,
+      1000000002,
+      5,
+      1000000002,
+      1
+    ],
+    "observable_algebra_dimension": 3,
+    "p": 1000000007,
+    "primehood": "input promise; not independently tested",
+    "status": "COMPLETE",
+    "tests": [
+      {
+        "labels": [
+          1000000006,
+          1
+        ],
+        "poly": [
+          764705888,
+          235294119,
+          764705889,
+          235294119
+        ]
+      },
+      {
+        "labels": [
+          1000000006,
+          0,
+          1
+        ],
+        "poly": [
+          666666671,
+          833333339,
+          666666672,
+          833333339
+        ]
+      }
+    ]
+  },
+  "contract": "supplied finite-label tests; no field scan or discovery",
+  "nonreduced_control": "X^2 rejected by squarefree validation",
+  "partial": {
+    "blocks": [
+      [
+        1,
+        0,
+        1
+      ],
+      [
+        4,
+        1000000002,
+        1
+      ]
+    ],
+    "closure_product_offers": 2,
+    "fixed_dimension": 3,
+    "modulus": [
+      4,
+      1000000002,
+      5,
+      1000000002,
+      1
+    ],
+    "observable_algebra_dimension": 2,
+    "p": 1000000007,
+    "primehood": "input promise; not independently tested",
+    "status": "PARTIAL",
+    "tests": [
+      {
+        "labels": [
+          1000000006,
+          1
+        ],
+        "poly": [
+          764705888,
+          235294119,
+          764705889,
+          235294119
+        ]
+      }
+    ]
+  }
+}

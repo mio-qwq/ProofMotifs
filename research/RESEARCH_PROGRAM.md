@@ -27,7 +27,25 @@ transporting a mechanism while preserving its actual hypotheses. These remain
 candidates; new mathematics and better synthesis with known mathematics are
 separate possible outcomes.
 
-## Latest: a genuine implicit-generation operation is already classical
+## Latest: discovery is not effective readout
+
+FACTOR_READOUT.md records a genuinely frozen unread-family142 transfer
+failure before proof exposure. Raw quotient/Frobenius generation is legal,
+but does not itself supply uniform factor readout. Known-label tests have
+an exact COMPLETE/PARTIAL interface; discovering a complete binary family
+is polynomial-time equivalent to squarefree factoring. A conditional tensor
+orientation constructor actually synthesizes a selector from supplied full
+primary data; a classical adaptive compiler extracts factors from divergent
+DISCRETE control outputs, not arbitrary field-valued outputs. Root/A/C read
+Poonen's original conditional family/discovery comparison. These strengthen
+existing-method coverage, not PM-H4/H5 success or a missing universal theory.
+
+Next stop this calibration: compare107/157/142's actual discovery inputs,
+architecture/oracle costs and legality, seeking a resource-preserving
+discovery transfer. No more field tables, q neighbors or certificate renaming.
+All macro hypotheses remain OPEN; the central objective above is unchanged.
+
+## Previous: a genuine implicit-generation operation is already classical
 
 REPRESENTATION_TRANSPORT.md closes the bounded mixed-q-seed gate with an
 all-series nonfaithfulness identity and safe constant-size relation transport.

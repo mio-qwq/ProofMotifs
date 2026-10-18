@@ -1,5 +1,47 @@
 # Recovery handoff
 
+## Latest: representation-to-readout gate and classical adaptive bridge
+
+Read research/mechanisms/FACTOR_READOUT.md and
+docs/reviews/FACTOR_READOUT_CHECKPOINT.md before older next-step entries.
+Public freeze765fa48b0eb907c4c6fc30541dbfafc42ca9d29c preceded family142
+statement access; public outcome3a7ffa9098fd024ff44df3aa0704f4faab4ed143
+saved direct transfer FAILURE before proof access. Legal quotient/Frobenius
+representation does not itself supply uniform complete factor readout.
+
+Four scoped readout results now give known-small-label validation and exact
+complete/partial gcd partitions, sharp binary-generator length and factoring-
+equivalent synthesis, rank/label collision controls, and a classical dynamic
+compiler with transcript-only discrete outputs. A root-free tensor orientation
+constructor supplies an actual selector conditionally on checked full2-primary
+data, equivalent to a supplied quadratic nonresidue. Its masks/ordinary trace
+and even-degree integer obstruction are not high-order cancellation merely
+because p-1 appears. Unit corner, odd-cycle, half-mask, nonreduced and invalid
+output-grammar controls preserve the limits. Existing methods directly cover
+these operations; no new universal tool or held-out success follows.
+
+195 local unit tests and53 deterministic replay blocks passed (45historical,
+8new). Actual hosted CI is NOT inferred; read the subsequent delivery receipt.
+Three explicitly configured GPT-6.1 Sol/Ultra child tasks supplied independent
+A/B math and a separate C adversary across phases; review-file count is not
+researcher count. Main model/effort remains unverified from readable runtime
+settings. Poonen original §§2–5 was actually read by root/A/C, not B; Shoup
+primary coverage and unsuccessful original Berlekamp retrieval are disclosed.
+Source142 odd geometry, full complexity dependency closure and companion
+Hecke theorem remain UNCHECKED; no headline acceptance/refutation is claimed.
+
+Next: stop factorization calibration and compare107/157/142 DISCOVERY
+contracts at equal input/cost. Identify what can be generated from original
+input and what separator/architecture/arithmetic oracle is being supplied.
+Seek a resource-preserving theorem transporting discovery, not merely an
+already found certificate. Freeze any new external test before access.
+Do not resume q-seed variants, field tables, odd-curve/zero-free optimization
+or generic kernel renaming. PM-H1..H5 all OPEN; macro objective unchanged.
+Last verified delivery predecessor for this pending mathematical tree:
+3a7ffa9098fd024ff44df3aa0704f4faab4ed143, tree465126b0322def525343c1084597ec7b4acabec4.
+Resolve actual latest ref and subsequent math/CI receipt independently.
+
+
 ## Latest: implicit representation generation and closed mixed-seed gate
 
 Delivery verified: mathematical commit28b025bc6bf203e3a48ed30d47a01da485ac3555,

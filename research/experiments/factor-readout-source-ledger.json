@@ -1,0 +1,119 @@
+{
+  "read_date": "2026-10-19 Asia/Singapore",
+  "scope": "bounded primary comparison; not strongest-as-of-2026 exhaustive audit or headline validation",
+  "target": {
+    "repository": "openai/math",
+    "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+    "family": "142",
+    "base_path": "preprints/Deterministic-Polynomial-Factorization-over-Prime-Fields-October-4-2026/build/",
+    "pdf_blob": "473cfb01c2dc52d82c2cebbd9aaaf6e15521dc61",
+    "files": [
+      {
+        "path": "sections/00-introduction.tex",
+        "blob": "24bb00b878eac7882bfb3cbb862acf1903cf2693",
+        "root_read": "lines1-130 before decision; no proof access until outcome3a7ffa9",
+        "C_read": "all230 lines"
+      },
+      {
+        "path": "sections/01-table.tex",
+        "blob": "d7d4be3c1fe9d0d0043568ffcdfaa70fb52ff5ab",
+        "C_read": "all224 lines elementary audit",
+        "root_read": "dependency comparison via C, not full source"
+      },
+      {
+        "path": "sections/02-finite-fields.tex",
+        "blob": "714682cbb142309e1fb8d7dc119cb5f48d7cf72b",
+        "root_read": "simultaneous execution/primary digits lines1-105 and root/exact even-split passages; local even proof reproduced",
+        "C_read": "all273 lines"
+      },
+      {
+        "path": "sections/07-odd-split.tex",
+        "blob": "395cc0430fd71cf06f24ae1e5f58c80bc8d40734",
+        "root_read": "dependency/algorithm passages",
+        "C_read": "all244 lines, dependent geometry/norm/divisor not closed"
+      },
+      {
+        "path": "sections/08-driver.tex",
+        "blob": "4e5bbd81999a603d8ce4488d8b84a93b2602b5c0",
+        "root_read": "all222 lines",
+        "C_read": "all222 lines"
+      },
+      {
+        "path": "sections/09-complexity.tex",
+        "blob": "193697981fd7ee57af1398992eb04fd7462f9df7",
+        "root_read": "resource accounting passages, not full dependency audit",
+        "C_read": "keyword-selected only"
+      },
+      {
+        "path": "sections/10-analytic.tex",
+        "blob": "21081c288d68760167d2d94a34247ba61240dddf",
+        "root_read": "lines1-110 imported theorem/explicit formula/auxiliary consequence",
+        "C_read": "all179 lines dependency isolation only; companion UNCHECKED"
+      }
+    ],
+    "unchecked": [
+      "sections03/04/06 dependency closure",
+      "complete odd-degree geometry",
+      "full resource-dependency closure",
+      "imported companion Hecke theorem",
+      "headline correctness/novelty/provenance"
+    ]
+  },
+  "sources": [
+    {
+      "id": "P1",
+      "author": "Elwyn R. Berlekamp",
+      "title": "Factoring Polynomials Over Finite Fields",
+      "year": 1967,
+      "doi": "10.1002/j.1538-7305.1967.tb03174.x",
+      "url": "https://www.nokia.com/bell-labs/publications-and-media/publications/factoring-polynomials-over-finite-fields/",
+      "actual_read": "original-host abstract/first-page introductory extract only; root/A/C; full original body unavailable",
+      "failures": "Wiley/AMS/Bell volume mirror errors; no content inferred"
+    },
+    {
+      "id": "P2",
+      "author": "Elwyn R. Berlekamp",
+      "title": "Factoring Polynomials Over Large Finite Fields",
+      "year": 1970,
+      "doi": "10.1090/S0025-5718-1970-0276200-X",
+      "url": "https://www.ams.org/mcom/1970-24-111/S0025-5718-1970-0276200-X/S0025-5718-1970-0276200-X.pdf",
+      "actual_read": "original abstract; A search-retrieved printedp727 excerpt only; full direct PDF403, NOT fully read"
+    },
+    {
+      "id": "P3",
+      "author": "Victor Shoup",
+      "title": "On the deterministic complexity of factoring polynomials over finite fields",
+      "version": "Wisconsin TR782 July21 1988",
+      "url": "https://ftp.cs.wisc.edu/pub/techreports/1988/TR782.pdf",
+      "actual_read": "A printedpp1-5 /PDFpp3-7 via stream/OCR; character-sum proof not fully checked; root did not independently read scan"
+    },
+    {
+      "id": "P4",
+      "author": "Victor Shoup",
+      "title": "On the deterministic complexity of factoring polynomials over finite fields",
+      "version": "author-hosted preprint corresponding IPL33 1990 pp261-267",
+      "url": "https://shoup.net/papers/detfac.pdf",
+      "actual_read": "C visually pp1-6; root fetched corrupted text/screenshots placeholders and DOES NOT claim visual body reading",
+      "use": "stronger deterministic same-input benchmark than full-field scalar scan; no current-best claim"
+    },
+    {
+      "id": "P5",
+      "author": "Lajos Ronyai",
+      "title": "Factoring polynomials over finite fields",
+      "year": 1988,
+      "doi": "10.1016/0196-6774(88)90029-6",
+      "actual_read": "A primary publication abstract only, not article body",
+      "use": "supplied quadratic-nonresidue even split interface; no full proof priority audit"
+    },
+    {
+      "id": "P6",
+      "author": "Bjorn Poonen",
+      "title": "Using zeta functions to factor polynomials over finite fields",
+      "version": "undated author-hosted7-page PDF retrieved2026-10-19; no invented version number",
+      "url": "https://math.mit.edu/~poonen/papers/fq-factoring-ams1.pdf",
+      "actual_read": "root/A/C actual coherent primary text §§2-5, lines25-202 /PDFpp1-5; root also inspected heuristic/limits thereafter; B did NOT read source",
+      "use": "arithmetic zero-query dynamic evaluation, conditional HypothesisZ, supplied auxiliary family vs discovery, program dovetail; NOT unconditional family theorem or varying-presentation uniformity"
+    }
+  ],
+  "separation": "classical methods; exact implementation; independent AI proof/code review; no human review/Lean/priority/AI causal evidence"
+}

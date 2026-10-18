@@ -20,6 +20,13 @@ Use `research/ongoing` for research checkpoints. Keep `main` as the stable basel
 
 ## Research cycle
 
+Current recovery gate: read FACTOR_READOUT.md and its checkpoint before
+older next-step entries. Family142 is now exposed, with public pre-proof
+transfer failure; do not reuse it as unread or drift into factor/field tables.
+Prioritize original-input representation/selector DISCOVERY contracts and
+resource-preserving transfer, not merely certificate validation. Discrete
+readout, unit/corner, reducedness and auxiliary-input costs are explicit.
+
 Select one precise question; check nearest prior art; develop a proof or a counterexample; run exact tests; perform adversarial review; record limitations; update recovery files; commit and verify the remote SHA; choose the next question. After two cycles without new verifiable information, review the direction. Maintain short-, medium- and long-horizon work.
 
 ## Collaboration
