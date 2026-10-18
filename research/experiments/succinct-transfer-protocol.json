@@ -1,0 +1,39 @@
+{
+  "schema": "proofmotifs-succinct-transfer-v1",
+  "date_local": "2026-10-19",
+  "timezone": "Asia/Singapore",
+  "recovered_head": "02f93534f2e2eea93742919af044a0a67b45c390",
+  "research_question": "Can a succinct linear transition structure generate an exact bounded cancellation-test representation without tabulating all words, and does that operation match a previously unread external problem's available input?",
+  "selected_external_family": {
+    "repository": "openai/math",
+    "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+    "family_id": "116",
+    "title": "Uniform black-box noncommutative identity testing across characteristics",
+    "selected_manuscript": "preprints/Uniform-Matrix-Hitting-Points-in-Every-Positive-Characteristic-October-4-2026/uniform-matrix-hitting-points-positive-characteristic.pdf",
+    "scope_doc": "lean/docs/116.md",
+    "selection_rule": "Targeted title-level selection for succinct cancellation/identity testing after inspecting only the existing metadata inventory; take the first listed manuscript in family116.",
+    "prior_exposure": "At freeze, the coordinator has read only family metadata and catalogue titles for116, not its source, proof, scope document or theorem statements. Existing corpus-level README/history metadata remain previously inspected.",
+    "limits": "One targeted external source, not a representative sample, model-training holdout, capability experiment, historical novelty test or headline certification. Prior model knowledge cannot be excluded. Record any accidental proof exposure."
+  },
+  "fixed_candidate_operation": {
+    "input": "Exact field K; alphabet size n; succinct matrices describing either a fixed-length layered noncommutative branching program or a finite linear representation lambda A_w gamma.",
+    "construction": "Generate reachable row-space bases by incremental exact span closure, retaining a word for each accepted basis row and local closure coefficients. Do not expand every word into a feature table.",
+    "outputs": "A directly verified nonzero word/coefficient or a finite invariant-span/closure certificate proving every permitted coefficient zero. State width, length, field and bit-cost assumptions.",
+    "baselines": ["Exact reachable-space/weighted-automata equivalence", "Existing noncommutative ABP identity testing", "Full explicit word expansion only for finite verification controls"],
+    "not_claimed": "A new general linear-algebra algorithm or conversion of an arbitrary black-box formula into a supplied white-box transition representation."
+  },
+  "source_exposure_order": [
+    "Save and publish this protocol before fetching the selected manuscript or scope contents.",
+    "Inspect theorem statements and available-input contract; record exact paths/blobs/line ranges.",
+    "Develop the fixed operation independently and record its success/failure against the statement-level input contract.",
+    "Only after that comparison is saved, inspect relevant source proofs/dependencies and adjudicate the transfer."
+  ],
+  "acceptance": {
+    "mathematics": "Complete field-sensitive proof, exact positive/negative certificates, polynomial representation-size bound where claimed, and independent mathematical plus adversarial review.",
+    "transfer": "Count a match only if the external problem supplies or legitimately yields the required representation with its promised resources; distinguish a local compatible lemma from the full headline.",
+    "failure": "A white-box/black-box, coefficient/field, uniformity, size or oracle mismatch is a recorded failed transfer, not repaired by silently changing the target.",
+    "novelty": "Compare primary weighted-automata and noncommutative PIT sources; classify known tools honestly."
+  },
+  "computation_controls": ["Nonzero word extraction", "Zero polynomial with canceling path contributions", "Field-specialization rank change", "Closure-certificate corruption", "Small independent full-expansion crosscheck", "A succinct exponential-word family without explicit expansion"],
+  "notification_scope": "Substantive research results only; no external correspondence or publication beyond routine authorized repository checkpoints."
+}
