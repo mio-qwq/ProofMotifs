@@ -1,11 +1,20 @@
 # Recovery handoff
 
 Read AGENTS, STATUS, ROADMAP, CLAIMS and fresh remote refs before writing.
-Last verified remote mathematical checkpoint: `8544a0fa66d2e643bf7fb20adaff13a422cd7ed9`.
+Last verified remote mathematical checkpoint: `c899ec028f582cff09df3f211755765cc8e9b5e8`.
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
 ## Primary recovery instruction
+
+Latest verified mathematicsc899ec028f582cff09df3f211755765cc8e9b5e8 has
+tree7446fe11acbb33ca6df9ea7bd26e75a3fbb17b7b. Actual CI39156854792/
+job117761745644 completed/success, unit step and all35 replay blocks.
+144 local tests passed; CI_SUCCINCT_CHECKPOINT.json records precise scope.
+The shell git fetch encountered CONNECT403; approved connector delivery/ref/
+tree/CI checks succeeded. The matching unsigned commit object was restored
+locally only after exact SHA equality, without changing network permissions
+or extracting credentials. Fresh remote reads remain mandatory on recovery.
 
 Read SUCCINCT_CANCELLATION.md and SUCCINCT_CHECKPOINT.md first. Recovery in
 this window found only main and research/ongoing, remote02f9353, clean matching

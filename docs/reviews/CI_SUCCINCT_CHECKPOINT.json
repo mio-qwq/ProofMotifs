@@ -1,0 +1,280 @@
+{
+  "schema": "proofmotifs-ci-receipt-v1",
+  "date_local": "2026-10-19",
+  "mathematical_commit": "c899ec028f582cff09df3f211755765cc8e9b5e8",
+  "mathematical_tree": "7446fe11acbb33ca6df9ea7bd26e75a3fbb17b7b",
+  "parent_commit": "2b8dd9e15462030b944fa220b8587e81a8e1e60f",
+  "remote_ref_observed_before_receipt": "c899ec028f582cff09df3f211755765cc8e9b5e8",
+  "main_unchanged": "063f99f67aba436c11feeb8157c1689bd8e82961",
+  "run": {
+    "id": 39156854792,
+    "url": "https://github.com/mio-qwq/ProofMotifs/actions/runs/39156854792",
+    "head_sha": "c899ec028f582cff09df3f211755765cc8e9b5e8",
+    "status": "completed",
+    "conclusion": "success",
+    "created_at": "2026-10-18T19:01:43Z",
+    "updated_at": "2026-10-18T19:02:22Z"
+  },
+  "job": {
+    "id": 117761745644,
+    "name": "exact",
+    "status": "completed",
+    "conclusion": "success",
+    "run_id": 39156854792,
+    "logs_url": null,
+    "steps": [
+      {
+        "name": "Set up job",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 1
+      },
+      {
+        "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 2
+      },
+      {
+        "name": "Unit tests",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 3
+      },
+      {
+        "name": "Replay deterministic experiments",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 4
+      },
+      {
+        "name": "Replay ternary classification",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 5
+      },
+      {
+        "name": "Replay preserver classification experiments",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 6
+      },
+      {
+        "name": "Replay constructive witness experiments",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 7
+      },
+      {
+        "name": "Replay generator witness experiments",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 8
+      },
+      {
+        "name": "Replay nonadditive preserver experiments",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 9
+      },
+      {
+        "name": "Replay incidence rank certificates",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 10
+      },
+      {
+        "name": "Replay color certificate with independent arithmetic",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 11
+      },
+      {
+        "name": "Replay Freiman completion controls",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 12
+      },
+      {
+        "name": "Replay cyclotomic incidence controls",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 13
+      },
+      {
+        "name": "Replay Fourier incidence spectra",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 14
+      },
+      {
+        "name": "Replay polynomial cyclic certificate",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 15
+      },
+      {
+        "name": "Replay two-subspace obstruction",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 16
+      },
+      {
+        "name": "Replay single-orbit certificates",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 17
+      },
+      {
+        "name": "Independently check connected-orbit polynomial gcd",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 18
+      },
+      {
+        "name": "Independently check nonlinear trace separator",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 19
+      },
+      {
+        "name": "Replay linearized odd-degree seed certificate",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 20
+      },
+      {
+        "name": "Independently check odd-degree field and trace witness",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 21
+      },
+      {
+        "name": "Replay normal-character basecase certificate",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 22
+      },
+      {
+        "name": "Replay normal-character bound arithmetic",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 23
+      },
+      {
+        "name": "Replay normal quartic boundary",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 24
+      },
+      {
+        "name": "Independently check normal obstructions and quartic witness",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 25
+      },
+      {
+        "name": "Replay construction and interaction certificates",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 26
+      },
+      {
+        "name": "Replay triangle grammar and failed transfer",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 27
+      },
+      {
+        "name": "Independently check damaged construction hypotheses",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 28
+      },
+      {
+        "name": "Independently interpolate and check the hole Gram",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 29
+      },
+      {
+        "name": "Replay costed feature repair",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 30
+      },
+      {
+        "name": "Independently check repair masks and coefficient bounds",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 31
+      },
+      {
+        "name": "Cross-check independent repair solvers",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 32
+      },
+      {
+        "name": "Replay separate monomial discovery calibration",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 33
+      },
+      {
+        "name": "Replay exact succinct word certificates",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 34
+      },
+      {
+        "name": "Replay path-aware rational jet bounds",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 35
+      },
+      {
+        "name": "Independently check DAG paths and characteristic parsing",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 36
+      },
+      {
+        "name": "Replay bounded constant-field algebra certificates",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 37
+      },
+      {
+        "name": "Independently check finite-algebra jet obstructions",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 38
+      },
+      {
+        "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 76
+      },
+      {
+        "name": "Complete job",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 77
+      }
+    ]
+  },
+  "verified_scope": {
+    "local_unit_tests": 144,
+    "hosted_unit_step": "completed/success; workflow runs same unittest discovery",
+    "deterministic_replay_blocks": 35,
+    "new_replay_blocks": 5,
+    "formalization": "NOT_STARTED",
+    "human_review": false,
+    "novelty": "not established; classical/source-derived synthesis",
+    "frozen_family116_transfer": "FAILED; input and quantifier mismatch preserved"
+  },
+  "local_git_transport_note": "Direct git fetch failed CONNECT tunnel403, not retried or bypassed. Approved GitHub connector verified ref/tree/CI. Local unsigned commit object was reconstructed from connector metadata and accepted only on exact SHA match; local branch updated expected-predecessor only. No credentials extracted or permissions changed.",
+  "manifest_scope": "succinct-sha256.txt belongs to mathematical commit; not regenerated for this metadata-only receipt."
+}

@@ -1,10 +1,16 @@
 # Current research status
 
 Updated: 2026-10-19 (Asia/Singapore). Branch: `research/ongoing`; `main` remains the stable baseline.
-Last remotely verified mathematical checkpoint: `8544a0fa66d2e643bf7fb20adaff13a422cd7ed9`.
+Last remotely verified mathematical checkpoint: `c899ec028f582cff09df3f211755765cc8e9b5e8`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
 ## Controlling research priority: AI success, cancellation and tool need
+
+Delivery verified: mathematical commitc899ec028f582cff09df3f211755765cc8e9b5e8,
+tree7446fe11acbb33ca6df9ea7bd26e75a3fbb17b7b. Actual run39156854792 and
+job117761745644 completed/success; unit step and all35 replay blocks passed.
+144 local tests passed. Exact receipt: CI_SUCCINCT_CHECKPOINT.json. The
+containing metadata-only receipt does not replace the mathematical manifest.
 
 Newest continuation: research/mechanisms/SUCCINCT_CANCELLATION.md. A genuinely
 unread title-selected family116 target was frozen publicly at2b8dd9e before
