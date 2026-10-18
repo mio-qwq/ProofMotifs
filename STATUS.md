@@ -3,7 +3,7 @@
 Checkpoint: linear generator test and restricted-oracle lower bound, 2026-10-18. Coordinator: PM-ROOT-20261018.
 
 Stable branch: `main`. Unified research branch: `research/ongoing`.
-Last remotely verified predecessor: `a434475c0863a80e79ebadc98ae563c07a20253c`. Resolve the live ref for the containing checkpoint; no file predicts its own future SHA.
+Last remotely verified predecessor: `8836e29869569f3098c20a961f202e9df46d8db3`. Resolve the live ref for the containing checkpoint; no file predicts its own future SHA.
 
 ## Current verified work
 
@@ -28,7 +28,7 @@ PM-THEOREM-0008 proves at least floor(m/2) queries necessary for deterministic d
 
 Four task-scoped AI researchers independently challenged proof, construction, access model, prior art and code. All have returned handoffs; none remains asserted to run. Task A accepted the saved manuscript/code and independently replayed all 12 new tests. See docs/reviews/FOURTH_CYCLE.md. Shared finite-field arithmetic remains a common dependency; no Lean or human peer review is claimed.
 
-Remote commit a434475c delivered the exact previous mathematical tree, and hosted CI 39105407423 passed every verification step. Its receipt is persisted. The new generator checkpoint requires a separate hosted run. Ordinary terminal Git push lacks credentials; authorized GitHub API tree/commit/ref writes work and are verified. No Lean/Lake/Elan tool is available.
+Remote commit a434475c delivered the exact previous mathematical tree, and hosted CI 39105407423 passed every verification step. Its receipt is persisted. The generator checkpoint 8836e298 passed hosted run 39105897724, job 117611547104: all 41 tests and five deterministic replay steps succeeded. Its receipt is in docs/reviews/CI_GENERATOR_CHECKPOINT.json; this containing receipt checkpoint changes state/evidence records only. Ordinary terminal Git push lacks credentials; authorized GitHub API tree/commit/ref writes work and are verified. No Lean/Lake/Elan tool is available.
 
 ## Scheduling and next decision
 

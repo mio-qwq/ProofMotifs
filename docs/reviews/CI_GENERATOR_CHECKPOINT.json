@@ -1,0 +1,17 @@
+{
+  "commit": "8836e29869569f3098c20a961f202e9df46d8db3",
+  "tree": "afb1531b6718ee7e8fd03c5fe3737037610f7503",
+  "run_id": 39105897724,
+  "job_id": 117611547104,
+  "url": "https://github.com/mio-qwq/ProofMotifs/actions/runs/39105897724",
+  "conclusion": "success",
+  "successful_verification_steps": [
+    "Unit tests",
+    "Replay deterministic experiments",
+    "Replay ternary classification",
+    "Replay preserver classification experiments",
+    "Replay constructive witness experiments",
+    "Replay generator witness experiments"
+  ],
+  "scope": "41 tests and all five deterministic replays; no Lean, historical priority or human-review certification."
+}

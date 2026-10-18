@@ -1,6 +1,6 @@
 # Recovery handoff
 
-Read AGENTS, STATUS, ROADMAP, CLAIMS, then fresh remote refs, recent commits and working tree. Last remotely verified predecessor: a434475c0863a80e79ebadc98ae563c07a20253c. Resolve the live containing commit independently. Preserve unexpected changes and never force-push.
+Read AGENTS, STATUS, ROADMAP, CLAIMS, then fresh remote refs, recent commits and working tree. Last remotely verified predecessor: 8836e29869569f3098c20a961f202e9df46d8db3. Resolve the live containing commit independently. Preserve unexpected changes and never force-push.
 
 ## Mathematical state and exact notation
 
@@ -61,4 +61,4 @@ Only ProofMotifs/research/ongoing is writable under this charter; main remains s
 
 ## Delivery resolution
 
-The user explicitly authorized immediate public pushing on 2026-10-18. Terminal Git push then failed for missing credentials, not an approval rejection. The authorized GitHub API delivered the exact original mathematical tree 6275963256aaa91b47b37ff082fdec2da0dd4066 as remote a434475c0863a80e79ebadc98ae563c07a20253c. Hosted run 39105407423, job 117610052289, passed all verification steps. Previous local commits 310b87a / e8b2051 remain in the saved bundle; their mathematical files are synchronized and the old blocker is superseded. The containing generator checkpoint must verify its own remote tree, ref and CI. The enabled 90-minute task was updated to use current remote recovery and no longer wait for already received authorization.
+The user explicitly authorized immediate public pushing on 2026-10-18. Terminal Git push then failed for missing credentials, not an approval rejection. The authorized GitHub API delivered the exact original mathematical tree 6275963256aaa91b47b37ff082fdec2da0dd4066 as remote a434475c0863a80e79ebadc98ae563c07a20253c. Hosted run 39105407423, job 117610052289, passed all verification steps. Previous local commits 310b87a / e8b2051 remain in the saved bundle; their mathematical files are synchronized and the old blocker is superseded. The generator checkpoint 8836e298 was verified with tree afb1531b6718ee7e8fd03c5fe3737037610f7503 and successful CI run 39105897724, job 117611547104, including all five replay steps and the 41-test suite. See docs/reviews/CI_GENERATOR_CHECKPOINT.json. The containing receipt checkpoint changes only state/evidence records. The enabled 90-minute task was updated to use current remote recovery and no longer wait for already received authorization.
