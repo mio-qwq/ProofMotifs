@@ -38,3 +38,7 @@ jobs:
         run: |
           python3 tools/generator_witness.py > /tmp/generator-results.json
           diff -u research/experiments/generator-results.json /tmp/generator-results.json
+      - name: Replay nonadditive preserver experiments
+        run: |
+          python3 tools/nonadditive_preservers.py > /tmp/nonadditive-results.json
+          diff -u research/experiments/nonadditive-results.json /tmp/nonadditive-results.json
