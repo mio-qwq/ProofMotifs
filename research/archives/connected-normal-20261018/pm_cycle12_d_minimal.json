@@ -1,0 +1,720 @@
+{
+  "schema": 1,
+  "scope": {
+    "degrees": [
+      5,
+      6,
+      7,
+      8,
+      10,
+      16
+    ],
+    "field_enumeration": false,
+    "fixed_direct_witnesses": true,
+    "infinite_existence_from_computation_claim": false,
+    "primitive_X_or_discrete_logs_required": false,
+    "row_code_or_all_frequency_claim": false
+  },
+  "task": "PM-CYCLE12-D-minimal",
+  "witnesses": [
+    {
+      "N": 121,
+      "Rabin": {
+        "X_pow_q": 3,
+        "proper_degree_gcd_checks": [
+          {
+            "gcd": [
+              1
+            ],
+            "prime_divisor_m": 5,
+            "remainder": 33
+          }
+        ]
+      },
+      "a": 211,
+      "a_coefficients": [
+        1,
+        1,
+        2,
+        1,
+        2
+      ],
+      "b": 151,
+      "b_coefficients": [
+        1,
+        2,
+        1,
+        2,
+        1
+      ],
+      "character_powers_y_minus_1_y_y_plus_1": [
+        2,
+        2,
+        2
+      ],
+      "m": 5,
+      "modulus": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "normality": {
+        "conjugates": [
+          4,
+          28,
+          165,
+          180,
+          228
+        ],
+        "determinant": 2,
+        "rank": 5
+      },
+      "q": 243,
+      "subgroup_certificate": {
+        "N_factorization_with_multiplicity": [
+          11,
+          11
+        ],
+        "a_b_pow_N": [
+          1,
+          1
+        ],
+        "a_generates_S": true,
+        "b_generates_S": true,
+        "joint_generation": true,
+        "maximal_subgroup_exclusions": [
+          {
+            "a_power": 76,
+            "b_power": 191,
+            "prime_divisor_N": 11
+          }
+        ]
+      },
+      "y": 4,
+      "y_coefficients": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "N": 364,
+      "Rabin": {
+        "X_pow_q": 3,
+        "proper_degree_gcd_checks": [
+          {
+            "gcd": [
+              1
+            ],
+            "prime_divisor_m": 2,
+            "remainder": 212
+          },
+          {
+            "gcd": [
+              1
+            ],
+            "prime_divisor_m": 3,
+            "remainder": 195
+          }
+        ]
+      },
+      "a": 715,
+      "a_coefficients": [
+        1,
+        1,
+        1,
+        2,
+        2,
+        2
+      ],
+      "b": 376,
+      "b_coefficients": [
+        1,
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "character_powers_y_minus_1_y_y_plus_1": [
+        2,
+        2,
+        2
+      ],
+      "m": 6,
+      "modulus": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "normality": {
+        "conjugates": [
+          288,
+          302,
+          434,
+          322,
+          462,
+          458
+        ],
+        "determinant": 2,
+        "rank": 6
+      },
+      "q": 729,
+      "subgroup_certificate": {
+        "N_factorization_with_multiplicity": [
+          2,
+          2,
+          7,
+          13
+        ],
+        "a_b_pow_N": [
+          1,
+          1
+        ],
+        "a_generates_S": true,
+        "b_generates_S": true,
+        "joint_generation": true,
+        "maximal_subgroup_exclusions": [
+          {
+            "a_power": 2,
+            "b_power": 2,
+            "prime_divisor_N": 2
+          },
+          {
+            "a_power": 721,
+            "b_power": 571,
+            "prime_divisor_N": 7
+          },
+          {
+            "a_power": 207,
+            "b_power": 383,
+            "prime_divisor_N": 13
+          }
+        ]
+      },
+      "y": 288,
+      "y_coefficients": [
+        0,
+        0,
+        2,
+        1,
+        0,
+        1
+      ]
+    },
+    {
+      "N": 1093,
+      "Rabin": {
+        "X_pow_q": 3,
+        "proper_degree_gcd_checks": [
+          {
+            "gcd": [
+              1
+            ],
+            "prime_divisor_m": 7,
+            "remainder": 33
+          }
+        ]
+      },
+      "a": 348,
+      "a_coefficients": [
+        0,
+        2,
+        2,
+        0,
+        1,
+        1,
+        0
+      ],
+      "b": 662,
+      "b_coefficients": [
+        2,
+        1,
+        1,
+        0,
+        2,
+        2,
+        0
+      ],
+      "character_powers_y_minus_1_y_y_plus_1": [
+        1,
+        1,
+        1
+      ],
+      "m": 7,
+      "modulus": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "normality": {
+        "conjugates": [
+          16,
+          784,
+          772,
+          1645,
+          1184,
+          657,
+          808
+        ],
+        "determinant": 2,
+        "rank": 7
+      },
+      "q": 2187,
+      "subgroup_certificate": {
+        "N_factorization_with_multiplicity": [
+          1093
+        ],
+        "a_b_pow_N": [
+          1,
+          1
+        ],
+        "a_generates_S": true,
+        "b_generates_S": true,
+        "joint_generation": true,
+        "maximal_subgroup_exclusions": [
+          {
+            "a_power": 348,
+            "b_power": 662,
+            "prime_divisor_N": 1093
+          }
+        ]
+      },
+      "y": 16,
+      "y_coefficients": [
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "N": 3280,
+      "Rabin": {
+        "X_pow_q": 3,
+        "proper_degree_gcd_checks": [
+          {
+            "gcd": [
+              1
+            ],
+            "prime_divisor_m": 2,
+            "remainder": 3970
+          }
+        ]
+      },
+      "a": 1721,
+      "a_coefficients": [
+        2,
+        0,
+        2,
+        0,
+        0,
+        1,
+        2,
+        0
+      ],
+      "b": 1224,
+      "b_coefficients": [
+        0,
+        0,
+        1,
+        0,
+        0,
+        2,
+        1,
+        0
+      ],
+      "character_powers_y_minus_1_y_y_plus_1": [
+        2,
+        2,
+        2
+      ],
+      "m": 8,
+      "modulus": [
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "normality": {
+        "conjugates": [
+          40,
+          922,
+          2525,
+          612,
+          4143,
+          4914,
+          5444,
+          1811
+        ],
+        "determinant": 2,
+        "rank": 8
+      },
+      "q": 6561,
+      "subgroup_certificate": {
+        "N_factorization_with_multiplicity": [
+          2,
+          2,
+          2,
+          2,
+          5,
+          41
+        ],
+        "a_b_pow_N": [
+          1,
+          1
+        ],
+        "a_generates_S": true,
+        "b_generates_S": false,
+        "joint_generation": true,
+        "maximal_subgroup_exclusions": [
+          {
+            "a_power": 2,
+            "b_power": 2,
+            "prime_divisor_N": 2
+          },
+          {
+            "a_power": 5234,
+            "b_power": 1,
+            "prime_divisor_N": 5
+          },
+          {
+            "a_power": 3649,
+            "b_power": 1417,
+            "prime_divisor_N": 41
+          }
+        ]
+      },
+      "y": 40,
+      "y_coefficients": [
+        1,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "N": 29524,
+      "Rabin": {
+        "X_pow_q": 3,
+        "proper_degree_gcd_checks": [
+          {
+            "gcd": [
+              1
+            ],
+            "prime_divisor_m": 2,
+            "remainder": 49153
+          },
+          {
+            "gcd": [
+              1
+            ],
+            "prime_divisor_m": 5,
+            "remainder": 19689
+          }
+        ]
+      },
+      "a": 3019,
+      "a_coefficients": [
+        1,
+        1,
+        2,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "b": 6010,
+      "b_coefficients": [
+        1,
+        2,
+        1,
+        0,
+        2,
+        0,
+        2,
+        2,
+        0,
+        0
+      ],
+      "character_powers_y_minus_1_y_y_plus_1": [
+        2,
+        2,
+        2
+      ],
+      "m": 10,
+      "modulus": [
+        2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "normality": {
+        "conjugates": [
+          49,
+          21169,
+          3815,
+          35045,
+          54965,
+          18768,
+          22553,
+          57471,
+          8395,
+          43256
+        ],
+        "determinant": 1,
+        "rank": 10
+      },
+      "q": 59049,
+      "subgroup_certificate": {
+        "N_factorization_with_multiplicity": [
+          2,
+          2,
+          11,
+          11,
+          61
+        ],
+        "a_b_pow_N": [
+          1,
+          1
+        ],
+        "a_generates_S": true,
+        "b_generates_S": false,
+        "joint_generation": true,
+        "maximal_subgroup_exclusions": [
+          {
+            "a_power": 2,
+            "b_power": 1,
+            "prime_divisor_N": 2
+          },
+          {
+            "a_power": 16145,
+            "b_power": 52969,
+            "prime_divisor_N": 11
+          },
+          {
+            "a_power": 35959,
+            "b_power": 1737,
+            "prime_divisor_N": 61
+          }
+        ]
+      },
+      "y": 49,
+      "y_coefficients": [
+        1,
+        1,
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "N": 21523360,
+      "Rabin": {
+        "X_pow_q": 3,
+        "proper_degree_gcd_checks": [
+          {
+            "gcd": [
+              1
+            ],
+            "prime_divisor_m": 2,
+            "remainder": 3
+          }
+        ]
+      },
+      "a": 24337191,
+      "a_coefficients": [
+        0,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        1,
+        1,
+        0,
+        1,
+        2,
+        0,
+        0,
+        2,
+        1
+      ],
+      "b": 33794036,
+      "b_coefficients": [
+        2,
+        2,
+        2,
+        0,
+        0,
+        2,
+        0,
+        2,
+        2,
+        0,
+        2,
+        1,
+        0,
+        0,
+        1,
+        2
+      ],
+      "character_powers_y_minus_1_y_y_plus_1": [
+        2,
+        2,
+        2
+      ],
+      "m": 16,
+      "modulus": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "normality": {
+        "conjugates": [
+          33417082,
+          23592559,
+          6462070,
+          11084275,
+          1549303,
+          10676932,
+          10078651,
+          20687335,
+          17277292,
+          36541546,
+          8073913,
+          10889362,
+          1372153,
+          10656976,
+          9881794,
+          34878532
+        ],
+        "determinant": 2,
+        "rank": 16
+      },
+      "q": 43046721,
+      "subgroup_certificate": {
+        "N_factorization_with_multiplicity": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          5,
+          17,
+          41,
+          193
+        ],
+        "a_b_pow_N": [
+          1,
+          1
+        ],
+        "a_generates_S": true,
+        "b_generates_S": false,
+        "joint_generation": true,
+        "maximal_subgroup_exclusions": [
+          {
+            "a_power": 2,
+            "b_power": 1,
+            "prime_divisor_N": 2
+          },
+          {
+            "a_power": 1062965,
+            "b_power": 1,
+            "prime_divisor_N": 5
+          },
+          {
+            "a_power": 20054906,
+            "b_power": 23187314,
+            "prime_divisor_N": 17
+          },
+          {
+            "a_power": 5433238,
+            "b_power": 9572680,
+            "prime_divisor_N": 41
+          },
+          {
+            "a_power": 34040328,
+            "b_power": 12356194,
+            "prime_divisor_N": 193
+          }
+        ]
+      },
+      "y": 33417082,
+      "y_coefficients": [
+        1,
+        0,
+        2,
+        1,
+        2,
+        1,
+        2,
+        0,
+        2,
+        2,
+        1,
+        2,
+        2,
+        2,
+        0,
+        2
+      ]
+    }
+  ]
+}

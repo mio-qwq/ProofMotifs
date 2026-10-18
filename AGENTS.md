@@ -1,5 +1,17 @@
 # Research operating protocol
 
+## Primary objective
+
+The controlling program is `research/RESEARCH_PROGRAM.md`: investigate whether
+repeated exact higher-order cancellation in AI proofs reveals a missing
+reusable mathematical tool, and develop/test such an instrument if a precise
+gap survives comparison with existing theory. Investigate why specified AI
+systems succeed and whether cancellation is load-bearing as supporting questions.
+Treat these as testable questions, not premises. Topic selection and scheduled
+recovery must prioritize their evidence, prior art, operational mechanisms and
+held-out transfer. Finite-field classifications and orbit searches are supporting
+work; they are not the project's overall objective.
+
 ## Ownership and recovery
 
 ProofMotifs has one coordinating researcher and one unified plan. Recover by reading AGENTS, STATUS, HANDOFF, ROADMAP and CLAIMS, then inspecting the actual remote refs, recent commits and working tree. Never infer successful execution from narrative alone.

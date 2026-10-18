@@ -1,0 +1,400 @@
+{
+  "read_date": "2026-10-18",
+  "repository": "openai/math",
+  "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "current_main_observed": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "observed_current_main_committed_at": "2026-10-12T21:55:24Z",
+  "sources": [
+    {
+      "id": "B01",
+      "path": "README.md",
+      "blob_sha": "50feb63d396138f30dc1ff1e0af121d0263bf5a3",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/README.md",
+      "read_lines": [
+        1,
+        52
+      ],
+      "line_count": 52,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B02",
+      "path": "history.md",
+      "blob_sha": "693874f398905b1bc59e01b898b223ae9956bfc2",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/history.md",
+      "read_lines": [
+        1,
+        32
+      ],
+      "line_count": 32,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B03",
+      "path": "CONTENTS.md",
+      "blob_sha": "2c68c086fff36a5806c936ad1659cf1a8d0b6dd9",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/CONTENTS.md",
+      "read_lines": [
+        1,
+        9143
+      ],
+      "line_count": 9143,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B04",
+      "path": "lean/formalization.yaml",
+      "blob_sha": "275eee8cfab7ce49d3a5e88f02cbb8f28fe6fee6",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/formalization.yaml",
+      "read_lines": [
+        [
+          969,
+          972
+        ],
+        [
+          1777,
+          1778
+        ]
+      ],
+      "line_count": 1784,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B05",
+      "path": "lean/ComparatorChallenges/README.md",
+      "blob_sha": "8ce7be24bf62c66104be5f733d168301ead4e4f3",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/ComparatorChallenges/README.md",
+      "read_lines": "complete",
+      "line_count": 29,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B06",
+      "path": "lean/OAI/RingTheory/DirectFiniteness/Pairing.lean",
+      "blob_sha": "44ccf572cb0b56403716cce53ff54479d761692c",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/RingTheory/DirectFiniteness/Pairing.lean",
+      "read_lines": [
+        1,
+        289
+      ],
+      "line_count": 289,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B07",
+      "path": "preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/03-pairing.tex",
+      "blob_sha": "f77a972f6e99d6c7f312c802b7a5b8b59de5a184",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/03-pairing.tex",
+      "read_lines": [
+        1,
+        106
+      ],
+      "line_count": 106,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B08",
+      "path": "preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/02-criterion.tex",
+      "blob_sha": "69f49023ce062692a06675d7d4abc29a458e6eac",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/A-Counterexample-to-Kaplanskys-Direct-Finiteness-Conjecture-in-Characteristic-Two-September-23-2026/build/sections/02-criterion.tex",
+      "read_lines": [
+        1,
+        480
+      ],
+      "line_count": 480,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B09",
+      "path": "lean/docs/197.md",
+      "blob_sha": "4fea1727a756f9d11ae5470f840000ce1bf70cf2",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/docs/197.md",
+      "read_lines": [
+        1,
+        37
+      ],
+      "line_count": 37,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B10",
+      "path": "lean/OAI/Analysis/DiskMaximal/Cancellation.lean",
+      "blob_sha": "8a3ed37e0ed0d4864ba4cd45940e38bcc07f16a1",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Analysis/DiskMaximal/Cancellation.lean",
+      "read_lines": [
+        1,
+        125
+      ],
+      "line_count": 807,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B11",
+      "path": "lean/docs/085.md",
+      "blob_sha": "35bcafd8efebe1e753fc05b01f14865ba32eba2f",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/docs/085.md",
+      "read_lines": [
+        1,
+        19
+      ],
+      "line_count": 19,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B12",
+      "path": "lean/OAI/Analysis/DiskMaximal/Main.lean",
+      "blob_sha": "f4d88e76418655d765acc511326e95b2ae1050c8",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Analysis/DiskMaximal/Main.lean",
+      "read_lines": "complete",
+      "line_count": 174,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B13",
+      "path": "lean/ComparatorChallenges/DiskMaximal.json",
+      "blob_sha": "ef06ce599f0421fe512d137ad33779bd9e94672c",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/ComparatorChallenges/DiskMaximal.json",
+      "read_lines": "complete",
+      "line_count": 15,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B14",
+      "path": "lean/ComparatorChallenges/KaplanskyFinitelyPresented.json",
+      "blob_sha": "24d978aa6f9357ca3be7f5e52091760c77e98e07",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/ComparatorChallenges/KaplanskyFinitelyPresented.json",
+      "read_lines": "complete",
+      "line_count": 15,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B15",
+      "path": "lean/OAI/Combinatorics/Order/ChainToggle.lean",
+      "blob_sha": "26db7e393285534002aa405344afe1444b7ea839",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/Order/ChainToggle.lean",
+      "read_lines": [
+        1,
+        163
+      ],
+      "line_count": 163,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B16",
+      "path": "lean/OAI/GroupTheory/PChains/FinsetCancellation.lean",
+      "blob_sha": "d6a740c2e2b971d1efc761f89d9d5f75879ccdd6",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/GroupTheory/PChains/FinsetCancellation.lean",
+      "read_lines": [
+        1,
+        49
+      ],
+      "line_count": 49,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B17",
+      "path": "lean/OAI/LinearAlgebra/MatrixMultiplication/AuxiliarySeparation/Separation/Fourier.lean",
+      "blob_sha": "881c9ecfbf1101b5f5d75f997e30efc6171f3a2b",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/LinearAlgebra/MatrixMultiplication/AuxiliarySeparation/Separation/Fourier.lean",
+      "read_lines": [
+        1,
+        70
+      ],
+      "line_count": 70,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B18",
+      "path": "lean/OAI/LinearAlgebra/MatrixMultiplication/AuxiliarySeparation/Separation/FiniteProjection.lean",
+      "blob_sha": "585d246122aebba1c7fec25f180c2fab16e0c92c",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/LinearAlgebra/MatrixMultiplication/AuxiliarySeparation/Separation/FiniteProjection.lean",
+      "read_lines": [
+        1,
+        194
+      ],
+      "line_count": 194,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B19",
+      "path": "lean/OAI/LinearAlgebra/MatrixMultiplication/AuxiliarySeparation/Separation/SquareWeights.lean",
+      "blob_sha": "2592d0adba3c73d7d8925262e8e2568c79656c1d",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/LinearAlgebra/MatrixMultiplication/AuxiliarySeparation/Separation/SquareWeights.lean",
+      "read_lines": "complete",
+      "line_count": 116,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B20",
+      "path": "lean/docs/107.md",
+      "blob_sha": "b80de2d2cbef9b933a637978c6ea79a394a89b72",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/docs/107.md",
+      "read_lines": [
+        1,
+        20
+      ],
+      "line_count": 20,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B21",
+      "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/02-geometry.tex",
+      "blob_sha": "615530e1f2e5052afd794b3e0719ce1c28553d23",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/02-geometry.tex",
+      "read_lines": [
+        1,
+        322
+      ],
+      "line_count": 322,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B22",
+      "path": "preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/03-distributions.tex",
+      "blob_sha": "e1078d63fdcbcde436a021b5345534b66a66ca36",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/A-counterexample-to-Hadwigers-conjecture-September-23-2026/build/sections/03-distributions.tex",
+      "read_lines": [
+        1,
+        251
+      ],
+      "line_count": 251,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B23",
+      "path": "lean/OAI/Combinatorics/HadwigerCounterexample/Main.lean",
+      "blob_sha": "0b8b8d46203e289c68f117b10916c28cc0573e23",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/Combinatorics/HadwigerCounterexample/Main.lean",
+      "read_lines": "complete",
+      "line_count": 129,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B24",
+      "path": "lean/docs/157.md",
+      "blob_sha": "20bff8f685912f4bbb837e4c5942e3814ba1bb7d",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/docs/157.md",
+      "read_lines": [
+        1,
+        22
+      ],
+      "line_count": 22,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B25",
+      "path": "lean/OAI/GroupTheory/Thompson/FiniteCorrelationBoundary.lean",
+      "blob_sha": "0f28d5e2f547075fc154a1b83d258cf4fb6f3c94",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/GroupTheory/Thompson/FiniteCorrelationBoundary.lean",
+      "read_lines": [
+        1,
+        88
+      ],
+      "line_count": 88,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B26",
+      "path": "lean/OAI/GroupTheory/Thompson/FiniteBoundary.lean",
+      "blob_sha": "8b1706934e140ef67657f46f01c59e80db56d18d",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/GroupTheory/Thompson/FiniteBoundary.lean",
+      "read_lines": [
+        1,
+        64
+      ],
+      "line_count": 64,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B27",
+      "path": "lean/OAI/GroupTheory/Thompson/AnalyticConstruction.lean",
+      "blob_sha": "51ce7a5dd2c6f31d25da5cb0289c59816ba32b69",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/GroupTheory/Thompson/AnalyticConstruction.lean",
+      "read_lines": [
+        1,
+        134
+      ],
+      "line_count": 134,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B28",
+      "path": "lean/OAI/GroupTheory/Thompson/Main.lean",
+      "blob_sha": "e75c76192edeffdadb156a278ae0df5c0a85adee",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/lean/OAI/GroupTheory/Thompson/Main.lean",
+      "read_lines": [
+        1,
+        83
+      ],
+      "line_count": 83,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B29",
+      "path": "preprints/Incompressible-Box-Transport-and-Finite-Computation-October-6-2026/build/introduction.tex",
+      "blob_sha": "d3d9117d1d341a0523590cb2d248e422ec6cbefa",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Incompressible-Box-Transport-and-Finite-Computation-October-6-2026/build/introduction.tex",
+      "read_lines": "complete",
+      "line_count": 174,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B30",
+      "path": "preprints/Incompressible-Box-Transport-and-Finite-Computation-October-6-2026/build/torus-routing.tex",
+      "blob_sha": "42d13725693fbe7a5b84fbbcbc335824b73162e1",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Incompressible-Box-Transport-and-Finite-Computation-October-6-2026/build/torus-routing.tex",
+      "read_lines": [
+        1,
+        278
+      ],
+      "line_count": 366,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B31",
+      "path": "preprints/Incompressible-Box-Transport-and-Finite-Computation-October-6-2026/build/clocks.tex",
+      "blob_sha": "1aa909f39fc3b9417de71af92a75e89262535518",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Incompressible-Box-Transport-and-Finite-Computation-October-6-2026/build/clocks.tex",
+      "read_lines": [
+        1,
+        141
+      ],
+      "line_count": 141,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    },
+    {
+      "id": "B32",
+      "path": "preprints/Algebraicity-of-Weil-classes-on-split-abelian-eightfolds-September-18-2026/README.md",
+      "blob_sha": "c7c9b6abcde71135b68582a318a23111b996494b",
+      "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Algebraicity-of-Weil-classes-on-split-abelian-eightfolds-September-18-2026/README.md",
+      "read_lines": "complete",
+      "line_count": 20,
+      "inspection": "source read, not compiled, not full dependency closure audit"
+    }
+  ],
+  "arxiv": {
+    "id": "XIE1",
+    "url": "https://arxiv.org/html/2610.17090v1",
+    "version": "2610.17090v1",
+    "sections": [
+      "abstract",
+      "1",
+      "2.4",
+      "3",
+      "4",
+      "7",
+      "8.3.2-8.4.1",
+      "10",
+      "11"
+    ],
+    "web_source_ids": [
+      "turn106view0",
+      "turn107view0",
+      "turn107view1",
+      "turn107view2",
+      "turn125view0",
+      "turn125view1"
+    ],
+    "not_compiled": true
+  }
+}

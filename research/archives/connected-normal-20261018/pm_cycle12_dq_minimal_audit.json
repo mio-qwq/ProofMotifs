@@ -1,0 +1,531 @@
+{
+  "all_checks_passed": true,
+  "arithmetic": "ordinary polynomial/list arithmetic over F3; standard library only",
+  "certificates": [
+    {
+      "N": 121,
+      "N_trial_factorization": [
+        [
+          11,
+          2
+        ]
+      ],
+      "a_b_square_power_checks": true,
+      "a_encoded": 211,
+      "all_supplied_numerical_fields_match": true,
+      "b_encoded": 151,
+      "connected_generation_certified": true,
+      "equal_nonzero_characters": [
+        2,
+        2,
+        2
+      ],
+      "m": 5,
+      "maximal_subgroup_exclusions": [
+        {
+          "a_power_encoded": 76,
+          "at_least_one_not_one": true,
+          "b_power_encoded": 191,
+          "exponent_N_over_p": 11,
+          "prime": 11
+        }
+      ],
+      "modulus_ascending": [
+        1,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      "normal_conjugates_encoded": [
+        4,
+        28,
+        165,
+        180,
+        228
+      ],
+      "normal_determinant": 2,
+      "normal_rank": 5,
+      "q": 243,
+      "rabin_final_x_power_equals_x": true,
+      "rabin_proper_divisor_gcds": [
+        {
+          "gcd": [
+            1
+          ],
+          "prime_divisor_of_degree": 5
+        }
+      ],
+      "ratio_identities_and_distinct_seed": true,
+      "y_encoded": 4
+    },
+    {
+      "N": 364,
+      "N_trial_factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          7,
+          1
+        ],
+        [
+          13,
+          1
+        ]
+      ],
+      "a_b_square_power_checks": true,
+      "a_encoded": 715,
+      "all_supplied_numerical_fields_match": true,
+      "b_encoded": 376,
+      "connected_generation_certified": true,
+      "equal_nonzero_characters": [
+        2,
+        2,
+        2
+      ],
+      "m": 6,
+      "maximal_subgroup_exclusions": [
+        {
+          "a_power_encoded": 2,
+          "at_least_one_not_one": true,
+          "b_power_encoded": 2,
+          "exponent_N_over_p": 182,
+          "prime": 2
+        },
+        {
+          "a_power_encoded": 721,
+          "at_least_one_not_one": true,
+          "b_power_encoded": 571,
+          "exponent_N_over_p": 52,
+          "prime": 7
+        },
+        {
+          "a_power_encoded": 207,
+          "at_least_one_not_one": true,
+          "b_power_encoded": 383,
+          "exponent_N_over_p": 28,
+          "prime": 13
+        }
+      ],
+      "modulus_ascending": [
+        2,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "normal_conjugates_encoded": [
+        288,
+        302,
+        434,
+        322,
+        462,
+        458
+      ],
+      "normal_determinant": 2,
+      "normal_rank": 6,
+      "q": 729,
+      "rabin_final_x_power_equals_x": true,
+      "rabin_proper_divisor_gcds": [
+        {
+          "gcd": [
+            1
+          ],
+          "prime_divisor_of_degree": 2
+        },
+        {
+          "gcd": [
+            1
+          ],
+          "prime_divisor_of_degree": 3
+        }
+      ],
+      "ratio_identities_and_distinct_seed": true,
+      "y_encoded": 288
+    },
+    {
+      "N": 1093,
+      "N_trial_factorization": [
+        [
+          1093,
+          1
+        ]
+      ],
+      "a_b_square_power_checks": true,
+      "a_encoded": 348,
+      "all_supplied_numerical_fields_match": true,
+      "b_encoded": 662,
+      "connected_generation_certified": true,
+      "equal_nonzero_characters": [
+        1,
+        1,
+        1
+      ],
+      "m": 7,
+      "maximal_subgroup_exclusions": [
+        {
+          "a_power_encoded": 348,
+          "at_least_one_not_one": true,
+          "b_power_encoded": 662,
+          "exponent_N_over_p": 1,
+          "prime": 1093
+        }
+      ],
+      "modulus_ascending": [
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "normal_conjugates_encoded": [
+        16,
+        784,
+        772,
+        1645,
+        1184,
+        657,
+        808
+      ],
+      "normal_determinant": 2,
+      "normal_rank": 7,
+      "q": 2187,
+      "rabin_final_x_power_equals_x": true,
+      "rabin_proper_divisor_gcds": [
+        {
+          "gcd": [
+            1
+          ],
+          "prime_divisor_of_degree": 7
+        }
+      ],
+      "ratio_identities_and_distinct_seed": true,
+      "y_encoded": 16
+    },
+    {
+      "N": 3280,
+      "N_trial_factorization": [
+        [
+          2,
+          4
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          41,
+          1
+        ]
+      ],
+      "a_b_square_power_checks": true,
+      "a_encoded": 1721,
+      "all_supplied_numerical_fields_match": true,
+      "b_encoded": 1224,
+      "connected_generation_certified": true,
+      "equal_nonzero_characters": [
+        2,
+        2,
+        2
+      ],
+      "m": 8,
+      "maximal_subgroup_exclusions": [
+        {
+          "a_power_encoded": 2,
+          "at_least_one_not_one": true,
+          "b_power_encoded": 2,
+          "exponent_N_over_p": 1640,
+          "prime": 2
+        },
+        {
+          "a_power_encoded": 5234,
+          "at_least_one_not_one": true,
+          "b_power_encoded": 1,
+          "exponent_N_over_p": 656,
+          "prime": 5
+        },
+        {
+          "a_power_encoded": 3649,
+          "at_least_one_not_one": true,
+          "b_power_encoded": 1417,
+          "exponent_N_over_p": 80,
+          "prime": 41
+        }
+      ],
+      "modulus_ascending": [
+        2,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "normal_conjugates_encoded": [
+        40,
+        922,
+        2525,
+        612,
+        4143,
+        4914,
+        5444,
+        1811
+      ],
+      "normal_determinant": 2,
+      "normal_rank": 8,
+      "q": 6561,
+      "rabin_final_x_power_equals_x": true,
+      "rabin_proper_divisor_gcds": [
+        {
+          "gcd": [
+            1
+          ],
+          "prime_divisor_of_degree": 2
+        }
+      ],
+      "ratio_identities_and_distinct_seed": true,
+      "y_encoded": 40
+    },
+    {
+      "N": 29524,
+      "N_trial_factorization": [
+        [
+          2,
+          2
+        ],
+        [
+          11,
+          2
+        ],
+        [
+          61,
+          1
+        ]
+      ],
+      "a_b_square_power_checks": true,
+      "a_encoded": 3019,
+      "all_supplied_numerical_fields_match": true,
+      "b_encoded": 6010,
+      "connected_generation_certified": true,
+      "equal_nonzero_characters": [
+        2,
+        2,
+        2
+      ],
+      "m": 10,
+      "maximal_subgroup_exclusions": [
+        {
+          "a_power_encoded": 2,
+          "at_least_one_not_one": true,
+          "b_power_encoded": 1,
+          "exponent_N_over_p": 14762,
+          "prime": 2
+        },
+        {
+          "a_power_encoded": 16145,
+          "at_least_one_not_one": true,
+          "b_power_encoded": 52969,
+          "exponent_N_over_p": 2684,
+          "prime": 11
+        },
+        {
+          "a_power_encoded": 35959,
+          "at_least_one_not_one": true,
+          "b_power_encoded": 1737,
+          "exponent_N_over_p": 484,
+          "prime": 61
+        }
+      ],
+      "modulus_ascending": [
+        2,
+        1,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "normal_conjugates_encoded": [
+        49,
+        21169,
+        3815,
+        35045,
+        54965,
+        18768,
+        22553,
+        57471,
+        8395,
+        43256
+      ],
+      "normal_determinant": 1,
+      "normal_rank": 10,
+      "q": 59049,
+      "rabin_final_x_power_equals_x": true,
+      "rabin_proper_divisor_gcds": [
+        {
+          "gcd": [
+            1
+          ],
+          "prime_divisor_of_degree": 2
+        },
+        {
+          "gcd": [
+            1
+          ],
+          "prime_divisor_of_degree": 5
+        }
+      ],
+      "ratio_identities_and_distinct_seed": true,
+      "y_encoded": 49
+    },
+    {
+      "N": 21523360,
+      "N_trial_factorization": [
+        [
+          2,
+          5
+        ],
+        [
+          5,
+          1
+        ],
+        [
+          17,
+          1
+        ],
+        [
+          41,
+          1
+        ],
+        [
+          193,
+          1
+        ]
+      ],
+      "a_b_square_power_checks": true,
+      "a_encoded": 24337191,
+      "all_supplied_numerical_fields_match": true,
+      "b_encoded": 33794036,
+      "connected_generation_certified": true,
+      "equal_nonzero_characters": [
+        2,
+        2,
+        2
+      ],
+      "m": 16,
+      "maximal_subgroup_exclusions": [
+        {
+          "a_power_encoded": 2,
+          "at_least_one_not_one": true,
+          "b_power_encoded": 1,
+          "exponent_N_over_p": 10761680,
+          "prime": 2
+        },
+        {
+          "a_power_encoded": 1062965,
+          "at_least_one_not_one": true,
+          "b_power_encoded": 1,
+          "exponent_N_over_p": 4304672,
+          "prime": 5
+        },
+        {
+          "a_power_encoded": 20054906,
+          "at_least_one_not_one": true,
+          "b_power_encoded": 23187314,
+          "exponent_N_over_p": 1266080,
+          "prime": 17
+        },
+        {
+          "a_power_encoded": 5433238,
+          "at_least_one_not_one": true,
+          "b_power_encoded": 9572680,
+          "exponent_N_over_p": 524960,
+          "prime": 41
+        },
+        {
+          "a_power_encoded": 34040328,
+          "at_least_one_not_one": true,
+          "b_power_encoded": 12356194,
+          "exponent_N_over_p": 111520,
+          "prime": 193
+        }
+      ],
+      "modulus_ascending": [
+        2,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "normal_conjugates_encoded": [
+        33417082,
+        23592559,
+        6462070,
+        11084275,
+        1549303,
+        10676932,
+        10078651,
+        20687335,
+        17277292,
+        36541546,
+        8073913,
+        10889362,
+        1372153,
+        10656976,
+        9881794,
+        34878532
+      ],
+      "normal_determinant": 2,
+      "normal_rank": 16,
+      "q": 43046721,
+      "rabin_final_x_power_equals_x": true,
+      "rabin_proper_divisor_gcds": [
+        {
+          "gcd": [
+            1
+          ],
+          "prime_divisor_of_degree": 2
+        }
+      ],
+      "ratio_identities_and_distinct_seed": true,
+      "y_encoded": 33417082
+    }
+  ],
+  "input_sha256": "71b890a429704ee97908d8317bd8a1801e6e7613957e08c481824bff7d3aa119",
+  "scope_degrees": [
+    5,
+    6,
+    7,
+    8,
+    10,
+    16
+  ],
+  "search_performed": false,
+  "task": "PM-CYCLE12-DQ-MINIMAL-AUDIT"
+}

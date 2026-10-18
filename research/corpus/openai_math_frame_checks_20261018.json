@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-18",
+  "repository": "openai/math",
+  "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+  "contents_git_blob": "2c68c086fff36a5806c936ad1659cf1a8d0b6dd9",
+  "contents_sha256": "cc7c0b8a1cdedd845a777e77cf682657308503daf8346c1349e06e9259d063c2",
+  "frame_sha256": "7736dbe579d10cf4333fd0ad260eed00f949541f3fa25d84f13d7c57c2f22e30",
+  "parser_sha256": "ffaf5043d2f801540e8f96998a2bb2ba457f31c696942fd5e917482c18f6f157",
+  "counts": {"families": 372, "manuscript_rows": 719, "unique_manuscript_paths": 719, "scope_doc_links": 242},
+  "parser_boundary_checks_passed": true,
+  "exact_source_blob_verified": true,
+  "full_offline_replay_passed": true,
+  "canonical_frame_byte_identical_to_replay": true,
+  "integration_note": "Original subtask frame had one extra blank line. Canonical stored frame is the complete Python replay, with identical metadata and a new documented byte hash. Parser usage path was adjusted on integration.",
+  "mechanism_sample_selected": false,
+  "domain_labels_assigned": false,
+  "human_controls_verified": false,
+  "prevalence_estimated": false,
+  "new_model_experiment_executed": false,
+  "upstream_lean_recompiled": false,
+  "commands": [
+    "python tools/replay_ai_math_frame.py --self-test",
+    "python tools/replay_ai_math_frame.py /tmp/pm_macro_contents.md > /tmp/pm_macro_frame_integrated_replay.json",
+    "diff -u research/corpus/openai_math_frame_20261018.json /tmp/pm_macro_frame_integrated_replay.json"
+  ]
+}

@@ -1,9 +1,18 @@
 # Research roadmap
 
-Current next operation: PM-QUESTION-0001, the existence of one cyclic edge
-orbit spanning the square-set incidence code in every degree m>=3. Check
-cyclic-code/trinomial-gcd precedents first; preserve the exact F_81 bad-orbit
-control. Earlier entries below record the chronological research decisions.
+Current priority: execute `research/RESEARCH_PROGRAM.md`. Investigate whether
+repeated exact higher-order cancellations in AI proofs reveal a missing
+mathematical instrument that could systematically handle a class of problems.
+Compare mechanisms and their discovery steps in families197,107,157 against
+existing tools, identify a precise gap, then develop and challenge a candidate
+theorem/tool with a new target. Capability/selection audits, the codebook and
+neutral sampling support this mathematical task; they do not replace it or
+block it while attempt-level data are missing.
+
+PM-QUESTION-0001 and PM-QUESTION-0002 remain supporting questions. Preserve the
+pending connected-normal proof and certificates; further degree/orbit work is
+deferred unless it contributes directly to the macro program. Earlier entries
+below record chronological decisions rather than supersede this priority.
 
 SC-011 now supplies a polynomial-only Bezout certificate reducing one F_243
 test system to 121 edges. Its equal-kernel/different-group example prevents

@@ -4,6 +4,32 @@ Updated: 2026-10-18. Branch: `research/ongoing`; `main` remains the stable basel
 Last remotely verified mathematical checkpoint: `bf3bbf5cd39b6059694d3abbb7d7bb3e9b2aa994`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
+## Controlling research priority: AI success, cancellation and tool need
+
+The primary objective is now explicit in `research/RESEARCH_PROGRAM.md` and
+supersedes narrower next-step entries below. PM-H1 through PM-H5 separately test
+verified capability, mechanism prevalence, causal utility, existing-tool gaps
+and the value of a candidate instrument. All are open. No corpus-wide or
+AI-versus-human conclusion follows from targeted examples.
+
+Current work is a primary-source/selection audit, nearest-tool comparison,
+operational annotation protocol and independent challenge. Existing finite-field
+results remain accepted within their recorded scope. The connected-normal
+derivation and six exact witnesses have separate reviews but have not completed
+coordinator manuscript acceptance or a new integrated CI; preserve them as
+pending supporting evidence and do not silently promote PM-QUESTION-0002.
+
+The first macro checkpoint now includes four independent task views, a separate
+mathematical adversarial acceptance, 32 primary source records, a complete
+372-family/719-path metadata frame and an exact offline parser replay. The
+classical pairing-to-analysis adapter and augmentation/moment boundary are
+proved in mechanisms/UNIFICATION_BOUNDARIES.md; they do not establish a new
+tool or explain AI success. All120 production tests passed. Read
+docs/reviews/MACRO_RESEARCH_CHECKPOINT.md and corpus/CANCELLATION_CODEBOOK.md.
+Next: compare the construction/certificate steps in families197,107,157 against
+existing tools and isolate a precise residual operation. Sampling is supporting;
+no matched-control or causal experiment has been performed.
+
 ## Latest accepted continuation: SC-015
 
 Fresh complete Git and GitHub branch reads recovered10c06a5, with only

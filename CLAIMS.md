@@ -2,6 +2,21 @@
 
 Proof, computation, formalization, independent review and novelty are separate fields. Project statement numbers do not certify historical novelty.
 
+## Primary macro hypotheses
+
+Definitions and required evidence: [research program](research/RESEARCH_PROGRAM.md).
+All five remain OPEN; this is a research agenda, not a completed preregistration.
+
+| ID | Question | Current evidence limit |
+| --- | --- | --- |
+| PM-H1 | Reliable AI mathematical capability, including why-now comparisons | Selected releases are not attempt-level success rates; statement/proof audits and resource comparisons are required |
+| PM-H2 | Recurring cancellation and enrichment relative to matched work | Targeted calibration cases do not estimate prevalence or AI-specific enrichment |
+| PM-H3 | Causal utility of an explicit mechanism under controlled conditions | A mechanism in a final proof is not an intervention or evidence about all causes of capability |
+| PM-H4 | Precise gap beyond established mathematical tools | Original theorem/hypothesis comparisons are required; a failed search is not a gap proof |
+| PM-H5 | Additional value of a candidate instrument | Held-out results against fixed existing-tool/resource baselines remain outstanding |
+
+## Supporting mathematical claims
+
 | ID | Statement | Mathematics | Computation | Formalization | Independent review | Novelty |
 | --- | --- | --- | --- | --- | --- | --- |
 | PM-THEOREM-0001 | Binomial convolution and leading-order criterion | PROVED_MANUALLY | Exhaustive small-field pairs; rational tests | NOT_STARTED | Outstanding | Level 0, classical |

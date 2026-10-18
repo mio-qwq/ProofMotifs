@@ -5,6 +5,21 @@ Last verified remote mathematical checkpoint: `bf3bbf5cd39b6059694d3abbb7d7bb3e9
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
+## Primary recovery instruction
+
+Resume `research/RESEARCH_PROGRAM.md` before any older next-step paragraph.
+The central questions concern verified AI mathematical capability, whether
+structural cancellation explains a meaningful part of it, and whether an
+operational new tool is warranted after exact comparison with existing work.
+PM-H1 through PM-H5 remain open. Prioritize a mathematical comparison of the
+line-sum, Fourier-filter and bilinear-triangle mechanisms in families197,107,157
+and their construction steps, using the nearest established tools as baselines.
+Seek a specific reusable operation and a proved new conclusion. Source audits
+and neutral sampling support, rather than replace, this mathematical task.
+Finite-field orbit work is supporting, not the default
+research direction. Preserve the pending connected-normal proof/certificates
+without claiming a newly integrated theorem or hosted CI.
+
 ## Latest accepted continuation: SC-015
 
 Recovered actual10c06a57d5b4795c69fec819c832f141a0c8e863, no newer remote

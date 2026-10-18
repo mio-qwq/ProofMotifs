@@ -4,6 +4,13 @@
 
 ProofMotifs investigates reusable mathematical proof mechanisms and the exact conditions under which cancellation survives composition and changes of representation. It does not assume that superficially similar proofs share a new underlying theory.
 
+The [primary research program](research/RESEARCH_PROGRAM.md) investigates whether
+repeated exact higher-order cancellations in AI proofs expose a missing reusable
+mathematical tool, and tries to extract and test such an instrument against
+established theory. Capability and mechanism studies support that question.
+These hypotheses remain open. The finite-field
+results below provide calibration and supporting mathematics.
+
 [Claims](CLAIMS.md) · [Current status](STATUS.md) · [Roadmap](ROADMAP.md) · [Reproduction](REPRODUCIBILITY.md) · [Prior art](research/literature/INITIAL_REVIEW.md)
 
 ## Research checkpoints
