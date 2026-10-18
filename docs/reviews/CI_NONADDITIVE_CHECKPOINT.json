@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "repository": "mio-qwq/ProofMotifs",
+  "branch": "research/ongoing",
+  "mathematical_commit": "f172123bd60e27bccbea31fb335994418d95d5d9",
+  "verified_commit": "b82c344012c4af879f6e6e4d7a5320efb77d4f8b",
+  "verified_tree": "28a95a4788b11d03cba85ae1d9d97f3decd78902",
+  "workflow_run_id": 39108039870,
+  "workflow_job_id": 117618028562,
+  "workflow_url": "https://github.com/mio-qwq/ProofMotifs/actions/runs/39108039870",
+  "status": "completed",
+  "conclusion": "success",
+  "steps": [
+    "Unit tests",
+    "Replay deterministic experiments",
+    "Replay ternary classification",
+    "Replay preserver classification experiments",
+    "Replay constructive witness experiments",
+    "Replay generator witness experiments",
+    "Replay nonadditive preserver experiments"
+  ],
+  "notes": [
+    "The hosted suite included all 46 unit tests.",
+    "The new nonadditive result JSON was regenerated and compared byte-for-byte.",
+    "Hosted CI is execution evidence, not human review, Lean verification, or historical-priority evidence."
+  ]
+}

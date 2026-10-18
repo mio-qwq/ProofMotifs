@@ -66,6 +66,8 @@ Exact small fields: F_9 has four quotient vertices, no edges, Aut=S_4 and 384 fu
 
 Reproduce with `python -m unittest discover -s tests -v` and `python tools/nonadditive_preservers.py`. The expected files are research/experiments/nonadditive-results.json and nonadditive-tests.log; hashes are in nonadditive-SHA256.json. Current local suite: 46 tests.
 
+Remote SC-008 mathematical commit: `f172123bd60e27bccbea31fb335994418d95d5d9`. Workflow-extension commit `b82c344012c4af879f6e6e4d7a5320efb77d4f8b` passed hosted run 39108039870, job 117618028562, including the new nonadditive replay. The persisted receipt is docs/reviews/CI_NONADDITIVE_CHECKPOINT.json. Resolve the live containing receipt commit separately because a file cannot name its own future SHA.
+
 ## Operational recovery
 
 Only ProofMotifs/research/ongoing is writable under this charter; main remains stable. Direct clone succeeded in this window; earlier DNS failure is historical, not a permanent assumption. Check both Git and connector access afresh. Nonforced connector updates with expected predecessor remain a fallback. The existing 90-minute scheduled task was actually re-enabled and its unified coordinator/short-task/adversarial-review instructions updated. The stored first start is 2026-10-18 07:14:59 UTC (15:14:59 Asia/Singapore). No future run or continuous between-run process is asserted. No license decision, DOI, correspondence or final paper release has been made.

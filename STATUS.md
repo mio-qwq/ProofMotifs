@@ -42,6 +42,8 @@ Three new task-scoped AI researchers independently examined SC-007 prior art, th
 
 Remote commit a434475c delivered the exact previous mathematical tree, and hosted CI 39105407423 passed every verification step. Its receipt is persisted. The generator checkpoint 8836e298 passed hosted run 39105897724, job 117611547104: all 41 tests and five deterministic replay steps succeeded. Its receipt is in docs/reviews/CI_GENERATOR_CHECKPOINT.json; this containing receipt checkpoint changes state/evidence records only. Ordinary terminal Git push lacks credentials; authorized GitHub API tree/commit/ref writes work and are verified. No Lean/Lake/Elan tool is available.
 
+SC-008's mathematical tree was delivered as remote `f172123bd60e27bccbea31fb335994418d95d5d9`. The workflow extension `b82c344012c4af879f6e6e4d7a5320efb77d4f8b` passed hosted run 39108039870, job 117618028562: all 46 tests and every deterministic replay step succeeded, including byte-for-byte regeneration of the nonadditive result JSON. The receipt is docs/reviews/CI_NONADDITIVE_CHECKPOINT.json. This containing receipt checkpoint changes only state/evidence records.
+
 ## Scheduling and next decision
 
 The existing 90-minute task was found disabled and successfully re-enabled on 2026-10-18; its stored first future start remains 15:14:59 Asia/Shanghai. No future execution has yet been observed. Every window reads live remote state before writing. Unified coordinator ownership, independent mathematical views, adversarial review and checkpoint requirements are in AGENTS and the task instructions. This does not imply computation between invocations.
