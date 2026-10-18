@@ -1,7 +1,7 @@
 # Recovery handoff
 
 Read AGENTS, STATUS, ROADMAP, CLAIMS and fresh remote refs before writing.
-Last verified remote mathematical checkpoint: `aca4bff2caf13c501c880f397f6cb750ea4295b2`.
+Last verified remote mathematical checkpoint: `8544a0fa66d2e643bf7fb20adaff13a422cd7ed9`.
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
@@ -29,6 +29,14 @@ combinatorial-degeneration integer programming already constructs this type
 of composition-compatible weight. A new tool claim needs a residual operation
 or transfer/cost gain beyond that and sparse feature selection. No new
 small-field scans, repeated panel scans or unsupported held-out claim.
+
+Verified mathematical delivery8544a0fa66d2e643bf7fb20adaff13a422cd7ed9 has
+tree82255e5d011846223309d6b04f781618a35e4b58. Fresh run39149592299 and
+job117740317629 records both show completed/success; unit step and all30
+replay blocks succeeded. See CI_FEATURE_REPAIR_CHECKPOINT.json. Resolve the
+actual latest remote ref, including this receipt, before resuming; no file
+names its own future commit. The math manifest is not regenerated for this
+metadata-only receipt.
 
 New continuation to read first: research/mechanisms/CONSTRUCTION_CONTRACTS.md
 and docs/reviews/CONSTRUCTION_CHECKPOINT.md. Four locally proved/independently

@@ -140,3 +140,18 @@ including combinatorial degeneration and polynomial synthesis. Do not repeat
 small panel masks or treat a provided candidate list as invention from the
 problem itself. PM-H1..H5 remain open; archived connected-normal and old
 orbit-existence questions retain their previous supporting status.
+
+## Verified hosted delivery
+
+Mathematical commit8544a0fa66d2e643bf7fb20adaff13a422cd7ed9 was created as a
+child of5a70bf8d8b5105d9eb08a4df2eb0dc1be2be4e7c. Local/API tree equality:
+82255e5d011846223309d6b04f781618a35e4b58. A fresh expected-parent read preceded
+the ordinary non-force ref update; fresh commit/ref reads matched afterward.
+Main remained063f99f67aba436c11feeb8157c1689bd8e82961 and no branch was added.
+
+Actual run39149592299 and job117740317629 were inspected after completion:
+both success, every step success, unit tests and all30 replay blocks. The four
+new blocks contain eight Python discovery/check commands. Exact job and scope
+record: CI_FEATURE_REPAIR_CHECKPOINT.json. The local127-unit-test count and
+hosted unit-step result are recorded as distinct evidence. No Lean/human
+review, performance theorem or source-headline certification is inferred.

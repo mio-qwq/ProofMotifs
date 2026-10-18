@@ -1,7 +1,7 @@
 # Current research status
 
 Updated: 2026-10-19 (Asia/Singapore). Branch: `research/ongoing`; `main` remains the stable baseline.
-Last remotely verified mathematical checkpoint: `aca4bff2caf13c501c880f397f6cb750ea4295b2`.
+Last remotely verified mathematical checkpoint: `8544a0fa66d2e643bf7fb20adaff13a422cd7ed9`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
 ## Controlling research priority: AI success, cancellation and tool need
@@ -34,6 +34,14 @@ feature-selection and polynomial-synthesis methods at equal information.
 Do not repeat these five small panels or call bounded sparse separation a
 new tool. All macro hypotheses remain open. Last verified predecessor remains
 5a70bf8d8b5105d9eb08a4df2eb0dc1be2be4e7c until this tree's delivery is read back.
+
+Delivery read back: mathematical commit8544a0fa66d2e643bf7fb20adaff13a422cd7ed9,
+matching local/API tree82255e5d011846223309d6b04f781618a35e4b58. Actual
+CI39149592299/job117740317629 completed/success: unit step and all30 replay
+blocks, including four new blocks/eight scripts. Exact scope/step receipt:
+docs/reviews/CI_FEATURE_REPAIR_CHECKPOINT.json. The containing evidence
+checkpoint changes recovery metadata only; the SHA256 manifest belongs to
+the preceding mathematical commit.
 
 New mathematical continuation: CONSTRUCTION_CONTRACTS.md proves four exact
 construction/composition criteria. Fixed-phase positive local selection has

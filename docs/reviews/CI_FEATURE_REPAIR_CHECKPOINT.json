@@ -1,0 +1,274 @@
+{
+  "schema": "proofmotifs-ci-receipt-v1",
+  "date_utc": "2026-10-18",
+  "repository": "mio-qwq/ProofMotifs",
+  "branch": "research/ongoing",
+  "mathematical_commit": "8544a0fa66d2e643bf7fb20adaff13a422cd7ed9",
+  "tree": "82255e5d011846223309d6b04f781618a35e4b58",
+  "parent": "5a70bf8d8b5105d9eb08a4df2eb0dc1be2be4e7c",
+  "delivery": {
+    "force": false,
+    "expected_parent_checked": true,
+    "local_api_tree_equal": true,
+    "main_unchanged": "063f99f67aba436c11feeb8157c1689bd8e82961"
+  },
+  "run": {
+    "id": 39149592299,
+    "url": "https://github.com/mio-qwq/ProofMotifs/actions/runs/39149592299",
+    "status": "completed",
+    "conclusion": "success",
+    "started_at": "2026-10-18T17:26:28Z",
+    "updated_at": "2026-10-18T17:27:09Z"
+  },
+  "job": {
+    "id": 117740317629,
+    "name": "exact",
+    "status": "completed",
+    "conclusion": "success",
+    "run_id": 39149592299,
+    "logs_url": null,
+    "steps": [
+      {
+        "name": "Set up job",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 1
+      },
+      {
+        "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 2
+      },
+      {
+        "name": "Unit tests",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 3
+      },
+      {
+        "name": "Replay deterministic experiments",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 4
+      },
+      {
+        "name": "Replay ternary classification",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 5
+      },
+      {
+        "name": "Replay preserver classification experiments",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 6
+      },
+      {
+        "name": "Replay constructive witness experiments",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 7
+      },
+      {
+        "name": "Replay generator witness experiments",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 8
+      },
+      {
+        "name": "Replay nonadditive preserver experiments",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 9
+      },
+      {
+        "name": "Replay incidence rank certificates",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 10
+      },
+      {
+        "name": "Replay color certificate with independent arithmetic",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 11
+      },
+      {
+        "name": "Replay Freiman completion controls",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 12
+      },
+      {
+        "name": "Replay cyclotomic incidence controls",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 13
+      },
+      {
+        "name": "Replay Fourier incidence spectra",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 14
+      },
+      {
+        "name": "Replay polynomial cyclic certificate",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 15
+      },
+      {
+        "name": "Replay two-subspace obstruction",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 16
+      },
+      {
+        "name": "Replay single-orbit certificates",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 17
+      },
+      {
+        "name": "Independently check connected-orbit polynomial gcd",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 18
+      },
+      {
+        "name": "Independently check nonlinear trace separator",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 19
+      },
+      {
+        "name": "Replay linearized odd-degree seed certificate",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 20
+      },
+      {
+        "name": "Independently check odd-degree field and trace witness",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 21
+      },
+      {
+        "name": "Replay normal-character basecase certificate",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 22
+      },
+      {
+        "name": "Replay normal-character bound arithmetic",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 23
+      },
+      {
+        "name": "Replay normal quartic boundary",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 24
+      },
+      {
+        "name": "Independently check normal obstructions and quartic witness",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 25
+      },
+      {
+        "name": "Replay construction and interaction certificates",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 26
+      },
+      {
+        "name": "Replay triangle grammar and failed transfer",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 27
+      },
+      {
+        "name": "Independently check damaged construction hypotheses",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 28
+      },
+      {
+        "name": "Independently interpolate and check the hole Gram",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 29
+      },
+      {
+        "name": "Replay costed feature repair",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 30
+      },
+      {
+        "name": "Independently check repair masks and coefficient bounds",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 31
+      },
+      {
+        "name": "Cross-check independent repair solvers",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 32
+      },
+      {
+        "name": "Replay separate monomial discovery calibration",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 33
+      },
+      {
+        "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 66
+      },
+      {
+        "name": "Complete job",
+        "status": "completed",
+        "conclusion": "success",
+        "number": 67
+      }
+    ]
+  },
+  "evidence_scope": {
+    "local_unit_tests": 127,
+    "hosted_unit_step": "completed/success",
+    "prior_replay_blocks": 26,
+    "new_replay_blocks": 4,
+    "total_replay_blocks": 30,
+    "new_python_replay_commands": 8,
+    "independently_checked_primary_masks": 134,
+    "primary_certificates": 25,
+    "primary_adaptive_cuts": 20,
+    "separate_stack_crosschecks": 336,
+    "coefficient_bound_cases": 756,
+    "independent_monomial_cuts": 180
+  },
+  "limits": {
+    "classical_methods": true,
+    "independent_ai_review": true,
+    "human_peer_review": false,
+    "new_lean_build": false,
+    "historical_novelty_claim": false,
+    "external_heldout_transfer": false,
+    "general_runtime_speedup_claim": false,
+    "macro_hypotheses_solved": false
+  },
+  "notes": [
+    "Primary optimizer chooses optional blocks from a supplied finite dictionary; it does not invent arbitrary representations.",
+    "Optimality replay includes binary-master lower bounds, not just primal/dual local certificates.",
+    "The independent monomial control shows no adaptive oracle-count advantage.",
+    "Hosted CI checks project Python proofs/certificates/replays, not source-paper headline theorems.",
+    "The SHA256 manifest belongs to the mathematical commit before this receipt's metadata changes."
+  ]
+}
