@@ -1,6 +1,6 @@
 # Recovery handoff
 
-Read AGENTS, STATUS, ROADMAP and CLAIMS; inspect live remote refs and recent commits. The last fetched predecessor is 87f227b150df9a32ca398bb047323ecaad0c64e5. The containing checkpoint's SHA is resolved from the branch, not predicted here. Preserve unexpected changes and use expected-predecessor non-forced writes.
+Read AGENTS, STATUS, ROADMAP and CLAIMS; inspect live remote refs and recent commits. The last fetched predecessor is 037ea1c17f711f73f823737a19c1c0dfa67e4b68 (complete mathematical checkpoint). The containing checkpoint's SHA is resolved from the branch, not predicted here. Preserve unexpected changes and use expected-predecessor non-forced writes.
 
 ## Current mathematics
 
@@ -27,7 +27,7 @@ python tools/order_preservers.py
 
 The current 20-test suite passed. Expected deterministic JSON and hashes are in research/experiments. Counts: 66,281 baseline pairs; 5,606 saturated tuples; 20,439 ternary triples; 439 normalized additive bijections; 63,921 preserver label comparisons. Accepted maps are checked on all triples; rejected maps stop at a witness. Normalize by T(1)=1 only because scalar preservation is proved. A separate discrete-log multiplication check covers all 729 F_27 products. No independent mathematical author review or Lean run exists.
 
-First hosted CI run 39100933546 for 87f227b succeeded, with job 117596877400 confirming both test and deterministic replay steps. The next commit's hosted run needs a fresh fetch. A scheduled 90-minute recovery task was created; no continuous inter-run computation is implied.
+First hosted CI run 39100933546 for 87f227b succeeded, with job 117596877400 confirming both test and deterministic replay steps. The complete mathematical checkpoint 037ea1c also passed hosted run 39102950233, job 117602787653: unit tests and all three replay steps were fetched as successful. Its receipt is CI_SECOND_CHECKPOINT.json. The containing final checkpoint changes only state/evidence records. A scheduled 90-minute recovery task was created; no continuous inter-run computation is implied.
 
 ## Provenance and safe transport
 

@@ -1,0 +1,20 @@
+{
+  "commit": "037ea1c17f711f73f823737a19c1c0dfa67e4b68",
+  "completed_at": "2026-10-18T06:08:09Z",
+  "conclusion": "success",
+  "job_id": 117602787653,
+  "observed_steps": {
+    "Replay deterministic experiments": "success",
+    "Replay preserver classification experiments": "success",
+    "Replay ternary classification": "success",
+    "Unit tests": "success"
+  },
+  "repository": "mio-qwq/ProofMotifs",
+  "run_id": 39102950233,
+  "schema": 1,
+  "scope": "Complete mathematical checkpoint; exact Python tests and replay only, not Lean or independent mathematical review.",
+  "status": "completed",
+  "tree": "a8bd20d992074a9b7d151d293a5c4e160ddda614",
+  "url": "https://github.com/mio-qwq/ProofMotifs/actions/runs/39102950233",
+  "verification": "Run and job metadata actually fetched through GitHub API. Local and uploaded Git tree SHA matched."
+}

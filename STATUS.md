@@ -3,7 +3,7 @@
 Checkpoint: ternary classification and additive-preserver cycle, 2026-10-18. Coordinator: PM-ROOT-20261018.
 
 Stable branch: `main` (governance baseline). Research branch: `research/ongoing`.
-Last remotely verified predecessor: `87f227b150df9a32ca398bb047323ecaad0c64e5`. Resolve the live ref for the containing commit; no self-referential future SHA is claimed.
+Last remotely verified predecessor: `037ea1c17f711f73f823737a19c1c0dfa67e4b68` (the complete mathematical checkpoint). Resolve the live ref for the containing commit; no self-referential future SHA is claimed.
 
 ## Results
 
@@ -16,7 +16,7 @@ SC-004: four-difference formulas remain unverified working targets, deferred in 
 
 20 current unit tests passed. Baseline checks: 66,281 weight pairs, 5,606 saturated tuples, 40,000 Lucas comparisons. Ternary checks: 20,439 triples and exact coefficients through degree 7. Preserver checks: all 439 normalized additive bijections across F_3/F_9/F_27; 63,921 before/after comparisons and 20,421 parameter-identity checks. A second F_27 multiplication algorithm agrees on 729 products; one F_81 non-preserver is checked.
 
-Hosted CI succeeded for predecessor 87f227b, run 39100933546; both unit and replay steps were fetched as successful. This is not independent mathematical review. The containing checkpoint's CI status must be fetched separately.
+Hosted CI succeeded for the complete mathematical checkpoint 037ea1c, run 39102950233, job 117602787653. Unit tests and all three deterministic experiment replay steps were actually fetched as successful. See docs/reviews/CI_SECOND_CHECKPOINT.json. This final state-only checkpoint changes no mathematical proof, test or experiment source. CI is not independent mathematical review or Lean verification.
 
 ## Boundaries and recovery
 
