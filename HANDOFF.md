@@ -1,7 +1,7 @@
 # Recovery handoff
 
 Read AGENTS, STATUS, ROADMAP, CLAIMS and fresh remote refs before writing.
-Last verified remote mathematical checkpoint: `f363f13cc3adfc9dc0b14c6e486e7754c3ba5ac5`.
+Last verified remote mathematical checkpoint: `bf3bbf5cd39b6059694d3abbb7d7bb3e9b2aa994`.
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
@@ -28,8 +28,13 @@ full9. No exact sparse dimension or connected-normal counterexample claimed.
 A/C independently derived the count, D supplied polynomial basecases, B
 quartic structure/boundary, E independent proof and arithmetic audit. The
 120-test suite passed, sc015-tests.log. Five deterministic outputs match;
-sc015-SHA256.json records this mathematical snapshot. Verify its actual
-new hosted run after delivery, distinct from the previous f363f13 run.
+sc015-SHA256.json records this mathematical snapshot. Mathematical commit
+bf3bbf5cd39b6059694d3abbb7d7bb3e9b2aa994 has matching local/remote tree
+bf00fa99d42cae65b28af7848e0229c3fa187db5. Fresh hosted
+run39135880794/job117700173606 reads confirmed success: unit tests and
+all22 deterministic replays passed. Receipt: CI_NORMAL_PATTERN_CHECKPOINT.json.
+This containing receipt checkpoint changes evidence/recovery only; the
+manifest belongs to the mathematical tree before these metadata changes.
 
 Next: PM-QUESTION0002, connected normal filtered parameters for every m>=5.
 Force a=(y+1)/y of orderN if a suitable rational-image sieve is available;

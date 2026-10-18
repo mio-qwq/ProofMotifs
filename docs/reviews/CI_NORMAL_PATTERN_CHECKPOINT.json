@@ -1,0 +1,190 @@
+{
+  "repository": "mio-qwq/ProofMotifs",
+  "branch": "research/ongoing",
+  "mathematical_commit": "bf3bbf5cd39b6059694d3abbb7d7bb3e9b2aa994",
+  "tree": "bf00fa99d42cae65b28af7848e0229c3fa187db5",
+  "predecessor": "10c06a57d5b4795c69fec819c832f141a0c8e863",
+  "verified_at_utc": "2026-10-18 14:26:05 UTC",
+  "run_id": 39135880794,
+  "run_url": "https://github.com/mio-qwq/ProofMotifs/actions/runs/39135880794",
+  "status": "completed",
+  "conclusion": "success",
+  "jobs": [
+    {
+      "id": 117700173606,
+      "name": "exact",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 39135880794,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Unit tests",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Replay deterministic experiments",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Replay ternary classification",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Replay preserver classification experiments",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Replay constructive witness experiments",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Replay generator witness experiments",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Replay nonadditive preserver experiments",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Replay incidence rank certificates",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10
+        },
+        {
+          "name": "Replay color certificate with independent arithmetic",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11
+        },
+        {
+          "name": "Replay Freiman completion controls",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12
+        },
+        {
+          "name": "Replay cyclotomic incidence controls",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 13
+        },
+        {
+          "name": "Replay Fourier incidence spectra",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 14
+        },
+        {
+          "name": "Replay polynomial cyclic certificate",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 15
+        },
+        {
+          "name": "Replay two-subspace obstruction",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 16
+        },
+        {
+          "name": "Replay single-orbit certificates",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 17
+        },
+        {
+          "name": "Independently check connected-orbit polynomial gcd",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 18
+        },
+        {
+          "name": "Independently check nonlinear trace separator",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 19
+        },
+        {
+          "name": "Replay linearized odd-degree seed certificate",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 20
+        },
+        {
+          "name": "Independently check odd-degree field and trace witness",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 21
+        },
+        {
+          "name": "Replay normal-character basecase certificate",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 22
+        },
+        {
+          "name": "Replay normal-character bound arithmetic",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 23
+        },
+        {
+          "name": "Replay normal quartic boundary",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 24
+        },
+        {
+          "name": "Independently check normal obstructions and quartic witness",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 25
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 50
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 51
+        }
+      ]
+    }
+  ],
+  "local_unit_tests": 120,
+  "deterministic_replay_steps": 22,
+  "verification_method": "Fresh run and job endpoint reads at actual mathematical SHA; matching local/remote tree; every step completed successfully.",
+  "limits": "Classical manual proofs and independent AI/software checks, no human review, Lean, certified novelty, general connected-normal or full-code single-orbit existence claim."
+}
