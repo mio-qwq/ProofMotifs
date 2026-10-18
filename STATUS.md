@@ -1,7 +1,7 @@
 # Current research status
 
 Updated: 2026-10-18. Branch: `research/ongoing`; `main` remains the stable baseline.
-Last remotely verified checkpoint: `21999eb36433620d4557f01627f8ff53fc5a9fa7`.
+Last remotely verified mathematical checkpoint: `1da34c83c3b528d745c96e23834e570cdddae0de`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
 ## Current mathematical result
@@ -78,8 +78,12 @@ and two-subspace-results.json. The two-subspace program uses direct F3
 coordinates, enumerates only the eight-point component, and derives large
 group orders from the written theorem. Source/report/review hashes are in
 sc012-SHA256.json. Mathematical and code reviews are preserved in the
-EIGHTH_CYCLE audit documents. New hosted CI must be read at the actual new
-mathematical commit after delivery; no Lean or human review is claimed.
+EIGHTH_CYCLE audit documents. Mathematical commit 1da34c83c3b528d745c96e23834e570cdddae0de was delivered
+with matching tree 0a3ef95f9f7c27f3f54e9a90f5b3884a625d26be. Fresh reads
+confirmed hosted run39117122857/job117645060777 success: the unit suite
+and all13 deterministic replay steps passed. Receipt:
+docs/reviews/CI_SPARSE_SUBSPACE_CHECKPOINT.json. The containing receipt
+checkpoint changes evidence/recovery only. No Lean or human review is claimed.
 
 ## Acceptance of recovered work
 

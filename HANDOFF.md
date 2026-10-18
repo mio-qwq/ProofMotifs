@@ -1,7 +1,7 @@
 # Recovery handoff
 
 Read AGENTS, STATUS, ROADMAP, CLAIMS and fresh remote refs before writing.
-Last verified remote checkpoint: `21999eb36433620d4557f01627f8ff53fc5a9fa7`.
+Last verified remote mathematical checkpoint: `1da34c83c3b528d745c96e23834e570cdddae0de`.
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
@@ -75,7 +75,12 @@ current new-file manifest; old manifests describe historical source versions.
 Recovered21999eb was accepted through a74-test replay, both exact report
 diffs, allSC010 manifest hashes and fresh run39113374667/job117634030262
 reads. Audits and task ledger are in EIGHTH_CYCLE.md and its three full audit
-files. New containing mathematical CI still needs its own verification.
+files. Mathematical commit1da34c83c3b528d745c96e23834e570cdddae0de has matching
+local/remote tree0a3ef95f9f7c27f3f54e9a90f5b3884a625d26be. Hosted
+run39117122857/job117645060777 passed all89 tests and all13 replay
+steps; fresh run/job reads were inspected. See
+docs/reviews/CI_SPARSE_SUBSPACE_CHECKPOINT.json. The containing receipt
+checkpoint changes evidence/recovery only.
 
 ## Why the general proof works
 
