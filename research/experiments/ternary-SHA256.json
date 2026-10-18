@@ -1,0 +1,13 @@
+{
+  "commands_actually_run": true,
+  "files": {
+    "research/experiments/ternary-results.json": "5ad6eb676e4a46031b086a39e7d67c6c365a19880e84f229612d35ad6916c7a9",
+    "research/experiments/ternary-tests.log": "52f23f3889c5917fcc885b89c22d0ffd70b70ae830223300c3d4520220185566",
+    "tests/test_ternary.py": "76772cf9951cc93469aa943368b56ed5557fb3a4c57853e7b56e888c3e01e214",
+    "tools/cancellation.py": "b1ac3f361c72037216b1b1a9c2af2524d0d526cb5cd57a49cb292d4fc47b45aa",
+    "tools/ternary_differences.py": "56575ac7b074edc261ca6d230e1a680b5cb862d2c96002caf4beef9ecfd19c30",
+    "workstreams/SC-003/RESULTS.md": "052bb29e0eef8c7f0d4167e9c2d1fbda86873e37aff86d3efd39405a31c85451"
+  },
+  "python": "3.13.5",
+  "schema": 1
+}

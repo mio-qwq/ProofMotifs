@@ -44,3 +44,13 @@ PM-THEOREM-0002: finite-group fiber counting plus subspace-polynomial interpolat
 The prospective ternary unsaturated classification in SC-003 has an exact computational lead and a short symbolic route. Its precise prior-art comparison remains open: **Novelty not yet established.** A short derivation is useful for the project but does not itself imply a publishable new theorem.
 
 No result in this review establishes a new universal theory, statistical predominance of cancellation in AI proofs, or a successful held-out cross-domain discovery.
+
+## Second-cycle additions and stronger overlap warning
+
+The original HTML of [Drapal-Vojtechovsky, arXiv:1509.05707v1](https://arxiv.org/html/1509.05707v1) was inspected at section 2.1, Lemma 3.1, Theorem 4.8 and Corollary 4.11. It already defines the precise inclusion-exclusion defect and develops the p-degree mechanism, including the noninvertibility of factorials. SC-003 is not an invention of combinatorial polarization. The exact order classification and rank-only counterexample may be a useful packaged consequence, but priority is unverified.
+
+The abstract of [arXiv:1410.4095](https://arxiv.org/abs/1410.4095) confirms pre-existing higher-order differentiation over general finite fields. Full-text comparison remains outstanding.
+
+The original [Yip, arXiv:2407.21362, section 1](https://arxiv.org/html/2407.21362) was inspected for the Carlitz-McConnel preserver context. Its hypotheses restrict difference quotients to a multiplicative subgroup or a suitable direction set. SC-005 instead requires preservation of ordinary moment order of ternary differences by an additive bijection. The conclusion's scalar-Frobenius form is certainly not new as a general phenomenon. It is not yet established whether the specific cancellation-order condition and F_9 exception are already covered elsewhere. A proof using classical tools does not settle this historical question.
+
+Searches combining additive maps, conic preservation, finite fields, third differences and cancellation order returned substantial noise as well as these relevant sources. No unsuccessful exact-string search is treated as evidence of novelty. The full theorem-to-theorem implication check, especially finite-geometry and preserver literature, is the next priority for PM-THEOREM-0004.

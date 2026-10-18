@@ -1,0 +1,14 @@
+{
+  "commands_actually_run": true,
+  "files": {
+    "research/experiments/preserver-results.json": "2d59bb9e0a7668c6802c530d18896b9f89e8b5f6ad417323cedb1b8402271680",
+    "research/experiments/preserver-tests.log": "5cc39067312b366614c117b068083cbe2e232bfe7dcba0be8df809402490748f",
+    "tests/test_preservers.py": "36ab3f03f4049ffc8ec23f69fbea80f3f5398c24097829a14fd7c986eddb1608",
+    "tools/cancellation.py": "b1ac3f361c72037216b1b1a9c2af2524d0d526cb5cd57a49cb292d4fc47b45aa",
+    "tools/order_preservers.py": "609af39e2e1cbb7ca4a44123fe0774d693679eeb0ee16fb58883d3a7df3b6f2d",
+    "tools/ternary_differences.py": "56575ac7b074edc261ca6d230e1a680b5cb862d2c96002caf4beef9ecfd19c30",
+    "workstreams/SC-005/RESULTS.md": "7a9877dd667f1304d639ee97b975e27f6c21bb9c3f0b070ee80895683855c1cb"
+  },
+  "python": "3.13.5",
+  "schema": 1
+}

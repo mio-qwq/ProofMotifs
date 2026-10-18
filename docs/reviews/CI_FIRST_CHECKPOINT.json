@@ -1,0 +1,18 @@
+{
+  "commit": "87f227b150df9a32ca398bb047323ecaad0c64e5",
+  "completed_at": "2026-10-18T05:33:07Z",
+  "conclusion": "success",
+  "job_id": 117596877400,
+  "observed_steps": {
+    "Replay deterministic experiments": "success",
+    "Unit tests": "success"
+  },
+  "repository": "mio-qwq/ProofMotifs",
+  "run_id": 39100933546,
+  "schema": 1,
+  "scope": "Hosted replay of the first checkpoint only; not Lean or independent mathematical review.",
+  "status": "completed",
+  "tree": "056677f78c3eccf5295037fb2b0d385bfaf58068",
+  "url": "https://github.com/mio-qwq/ProofMotifs/actions/runs/39100933546",
+  "verification": "Run and job metadata actually fetched through GitHub API."
+}

@@ -1,0 +1,19 @@
+test_bad_parameters (test_cancellation.ExactCancellationTests.test_bad_parameters) ... ok
+test_characteristic_two_annihilation (test_cancellation.ExactCancellationTests.test_characteristic_two_annihilation) ... ok
+test_field_axioms (test_cancellation.ExactCancellationTests.test_field_axioms) ... ok
+test_finite_order_jump (test_cancellation.ExactCancellationTests.test_finite_order_jump) ... ok
+test_missing_analytic_hypothesis (test_cancellation.ExactCancellationTests.test_missing_analytic_hypothesis) ... ok
+test_moment_map_injective (test_cancellation.ExactCancellationTests.test_moment_map_injective) ... ok
+test_no_carry (test_cancellation.ExactCancellationTests.test_no_carry) ... ok
+test_odd_characteristic_jump (test_cancellation.ExactCancellationTests.test_odd_characteristic_jump) ... ok
+test_rational_characteristic_zero (test_cancellation.ExactCancellationTests.test_rational_characteristic_zero) ... ok
+test_zero_and_empty_directions (test_cancellation.ExactCancellationTests.test_zero_and_empty_directions) ... ok
+test_degenerate_cases (test_ternary.TernaryTests.test_degenerate_cases) ... ok
+test_field27_axioms (test_ternary.TernaryTests.test_field27_axioms) ... ok
+test_rank_three_counterexample (test_ternary.TernaryTests.test_rank_three_counterexample) ... ok
+test_symbolic (test_ternary.TernaryTests.test_symbolic) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.131s
+
+OK

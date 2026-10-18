@@ -1,25 +1,29 @@
 # Project status
 
-Checkpoint: first mathematical cycle, 2026-10-18. Coordinator: PM-ROOT-20261018.
+Checkpoint: ternary classification and additive-preserver cycle, 2026-10-18. Coordinator: PM-ROOT-20261018.
 
-Stable baseline: `main`. Unified research branch: `research/ongoing`.
-Last remotely verified predecessor: `063f99f67aba436c11feeb8157c1689bd8e82961` (governance baseline). Resolve the live ref for this checkpoint's actual commit.
+Stable branch: `main` (governance baseline). Research branch: `research/ongoing`.
+Last remotely verified predecessor: `87f227b150df9a32ca398bb047323ecaad0c64e5`. Resolve the live ref for the containing commit; no self-referential future SHA is claimed.
 
-## Completed
+## Results
 
-SC-001: complete written proof of the characteristic-free convolution identity and exact leading-order criterion; exact F_2 annihilation and F_4 finite-jump counterexamples. Classified Level 0.
-SC-002: complete written proof of the saturated-difference/subspace dichotomy and exact order p^d-1, with Moore-determinant leading coefficient. Classified Level 0.
-Ten unit tests passed. Exhaustive checks cover all 66,281 weight pairs over F_2/F_3/F_4, 5,606 saturated direction tuples over five fields, and 40,000 Lucas comparisons. Logs, deterministic JSON and source hashes are in research/experiments.
-Five pinned pilot source cards, three detailed mechanism comparisons, withdrawal-date distinction and a candidate-specific literature review are recorded. No prevalence estimate is made.
+SC-001 and SC-002: written classical convolution/moment and saturated-subspace proofs, Level 0.
+SC-003: complete written characteristic-three triple classification (orders 5, 7 or infinity); explicit same-field, same-rank, same-proper-order counterexample. Novelty unverified.
+SC-005: complete written classification of additive bijections preserving all ternary cancellation orders on F_{3^m}. For m!=2 they are exactly lambda*x^{3^j}; F_9 is exceptional and admits all 48 additive bijections. Novelty unverified, independent review and Lean outstanding.
+SC-004: four-difference formulas remain unverified working targets, deferred in favor of the more structural preserver question.
 
-## Active work
+## Actual verification
 
-SC-003: unsaturated triple differences in characteristic three. Search found independent direction triples in the same F_27 with ordinary moment orders 5 and 7. The exact classification, persisted witnesses, expanded tests and focused novelty review are the next cycle; this lead is not yet a registered completed theorem.
+20 current unit tests passed. Baseline checks: 66,281 weight pairs, 5,606 saturated tuples, 40,000 Lucas comparisons. Ternary checks: 20,439 triples and exact coefficients through degree 7. Preserver checks: all 439 normalized additive bijections across F_3/F_9/F_27; 63,921 before/after comparisons and 20,421 parameter-identity checks. A second F_27 multiplication algorithm agrees on 729 products; one F_81 non-preserver is checked.
 
-## Verification boundaries
+Hosted CI succeeded for predecessor 87f227b, run 39100933546; both unit and replay steps were fetched as successful. This is not independent mathematical review. The containing checkpoint's CI status must be fetched separately.
 
-No callable subagent interface, no independent researcher review and no local Lean/Lake/Elan compiler. Exact algorithms share a field implementation. GitHub connector works; direct container Git networking does not. A pinned CI workflow is provided but a remote successful run has not yet been observed. No project-wide license has been selected. No formal paper release or DOI exists for this work.
+## Boundaries and recovery
 
-## Next operation
+No genuine subagent interface or local Lean/Lake/Elan compiler was available. Same-coordinator sequential reviews are labeled accordingly. GitHub connector writes work; container GitHub DNS failed. No project license, DOI, external correspondence or final paper release was enacted. Five targeted source cards are not a representative corpus.
 
-Prove the ternary formula M_5=-abc(a^2+b^2+c^2), M_7=-abc(a^2b^2+a^2c^2+b^2c^2), and classify the double-zero case; verify with an independent subset-expansion algorithm. Save a second research checkpoint after checking the F_27 witnesses.
+A 90-minute scheduled research invocation is enabled; first future run not yet observed. It does not imply continuous work between calls. See docs/RECOVERY_SCHEDULING.md.
+
+## Highest-priority next tasks
+
+Audit SC-005 against finite-field preserver literature, and obtain a genuinely independent or formal review when available. Then construct a rejecting ternary witness for non-scalar-Frobenius maps using the conic parameter family; compare with existing linearized-polynomial tests before claiming algorithmic novelty. Do not merely expand SC-004 coefficients for activity's sake.

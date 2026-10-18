@@ -22,3 +22,11 @@ jobs:
         run: |
           python3 tools/run_experiments.py > /tmp/startup-results.json
           diff -u research/experiments/startup-results.json /tmp/startup-results.json
+      - name: Replay ternary classification
+        run: |
+          python3 tools/ternary_differences.py > /tmp/ternary-results.json
+          diff -u research/experiments/ternary-results.json /tmp/ternary-results.json
+      - name: Replay preserver classification experiments
+        run: |
+          python3 tools/order_preservers.py > /tmp/preserver-results.json
+          diff -u research/experiments/preserver-results.json /tmp/preserver-results.json

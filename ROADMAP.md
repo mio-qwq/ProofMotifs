@@ -24,3 +24,9 @@ Do not spend multiple cycles renaming kernels or annihilators. If known algebra 
 ## Empirical study
 
 The targeted startup cases cannot estimate prevalence. A future 20-family / 10-control sample must be selected before mechanism annotation, from a pinned complete catalogue, with discipline matching, exclusion logs, family-level units, and held-out targets. Verify actual authorship and AI involvement of controls. No statistics or coverage percentages are promised by the startup sample.
+
+## Evidence-driven update after SC-003 and SC-005
+
+The ternary order classification is written and tested. It refutes rank-only certificates. A stronger follow-up classified additive order-preserving bijections with an essential F_9 exception. The main immediate priority is now an audit of this precise theorem against preserver literature, followed by a constructive rejecting-witness procedure. Four-difference expansion (SC-004) is deferred, with its unverified formulas preserved.
+
+Do not treat this as a new universal method. The next increase in research value must be a verified improvement, a genuinely new application, a sharp obstruction, or a well-supported nontrivial comparison with prior results. A 90-minute scheduled recovery invocation exists; every window must read live state before further work.

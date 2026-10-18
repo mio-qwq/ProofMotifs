@@ -1,0 +1,197 @@
+{
+  "F27_witnesses": [
+    {
+      "directions": [
+        1,
+        3,
+        9
+      ],
+      "invariants": [
+        5,
+        25,
+        1
+      ],
+      "moments_0_through_8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        6,
+        0,
+        7,
+        9
+      ],
+      "order": 5,
+      "span_size": 27,
+      "support": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          9,
+          1
+        ],
+        [
+          10,
+          2
+        ],
+        [
+          12,
+          2
+        ],
+        [
+          13,
+          1
+        ]
+      ]
+    },
+    {
+      "directions": [
+        1,
+        3,
+        15
+      ],
+      "invariants": [
+        23,
+        0,
+        14
+      ],
+      "moments_0_through_8": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        5,
+        25
+      ],
+      "order": 7,
+      "span_size": 27,
+      "support": [
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          1
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          9,
+          2
+        ],
+        [
+          10,
+          1
+        ],
+        [
+          15,
+          1
+        ],
+        [
+          16,
+          2
+        ]
+      ]
+    }
+  ],
+  "arithmetic": "exact characteristic three",
+  "fields": [
+    {
+      "modulus": [
+        0,
+        1
+      ],
+      "nonzero_single_line_cases": 8,
+      "normalized_rank_three": {
+        "5": 0,
+        "7": 0
+      },
+      "ordered_triples": 27,
+      "orders": {
+        "5": 0,
+        "7": 0,
+        "infinity": 27
+      },
+      "q": 3,
+      "zero_direction_cases": 19
+    },
+    {
+      "modulus": [
+        1,
+        0,
+        1
+      ],
+      "nonzero_single_line_cases": 32,
+      "normalized_rank_three": {
+        "5": 0,
+        "7": 0
+      },
+      "ordered_triples": 729,
+      "orders": {
+        "5": 480,
+        "7": 0,
+        "infinity": 249
+      },
+      "q": 9,
+      "zero_direction_cases": 217
+    },
+    {
+      "modulus": [
+        1,
+        2,
+        0,
+        1
+      ],
+      "nonzero_single_line_cases": 104,
+      "normalized_rank_three": {
+        "5": 408,
+        "7": 24
+      },
+      "ordered_triples": 19683,
+      "orders": {
+        "5": 16848,
+        "7": 624,
+        "infinity": 2211
+      },
+      "q": 27,
+      "zero_direction_cases": 2107
+    }
+  ],
+  "randomized": false,
+  "schema": 1,
+  "symbolic_degrees_checked": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ]
+}

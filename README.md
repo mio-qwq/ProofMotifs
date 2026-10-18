@@ -2,28 +2,31 @@
 
 **Structural Cancellation, Proof Mechanisms, and Cross-Domain Mathematical Discovery**
 
-ProofMotifs investigates reusable mathematical proof mechanisms, beginning with structural cancellation and the conditions under which it survives composition and transfer between problems.
+ProofMotifs investigates reusable mathematical proof mechanisms and the exact conditions under which cancellation survives composition and changes of representation. It does not assume that superficially similar proofs share a new underlying theory.
 
-The project does not assume that superficially similar cancellations share a new underlying theory. Classical results, candidate extensions, counterexamples, computational evidence, formal verification, and originality are assessed separately.
+[Claims](CLAIMS.md) · [Current status](STATUS.md) · [Roadmap](ROADMAP.md) · [Reproduction](REPRODUCIBILITY.md) · [Prior art](research/literature/INITIAL_REVIEW.md)
 
-## Research focus
+## Research checkpoints
 
-The initial workstream studies weighted discrete functionals, vanishing moments, and the exact cancellation order of additive convolution in characteristic zero and positive characteristic. Literature checks precede originality claims.
+The unified `research/ongoing` branch contains current research. `main` is the stable governance baseline. All results below have written proofs and exact computational checks; none has been Lean-verified or independently reviewed by a separate mathematician.
 
-## Project status
+| Workstream | Result | Originality status |
+| --- | --- | --- |
+| SC-001 | Leading moment of additive convolution and characteristic-sensitive failure of order additivity | Classical reproduction |
+| SC-002 | Saturated differences, finite additive subspaces and Moore leading coefficient | Classical reproduction |
+| SC-003 | Ternary first differences in characteristic three have finite order 5 or 7; rank and proper orders do not determine the outcome | Novelty not established |
+| SC-005 | Additive bijections preserving every ternary cancellation order on F_{3^m}: scalar-Frobenius maps except for F_9, where all 48 additive bijections qualify | Novelty not established |
 
-Repository initialization: 18 October 2026. No new theorem or completed formalization is claimed in this baseline. Research records and reproducibility materials are being established on the unified `research/ongoing` branch; `main` is the stable baseline.
+The current verification system uses exact arithmetic and deterministic enumeration, including a separate F_27 multiplication algorithm. The first research checkpoint was replayed successfully on GitHub Actions. CI success is not human peer review or proof-assistant verification; each run's commit and scope are recorded explicitly.
 
-## Research integrity
+## Research scope
 
-AI systems make substantive contributions to this project's research, exposition, and software. Automated checks are not human peer review. Written proof, exact computation, formal verification, and novelty are recorded independently. Third-party sources remain attributed and are not redistributed as a bulk corpus.
+The initial focus is finite-support moment functionals, positive-characteristic differences, failure of under-specified transfer certificates, and exact structure-preserving maps. The source corpus currently contains targeted calibration cases, not a representative sample of AI-generated or human mathematics. No statistical predominance of cancellation or universal new framework is claimed.
+
+## Integrity and provenance
+
+AI systems make substantive contributions to research, exposition and software in this project. Mathematical correctness, finite computation, formalization, independent review and historical priority are assessed separately. Classical tools are credited; failed proposals and exceptions remain in the record. Third-party sources are pinned and linked rather than republished as a bulk corpus.
 
 ## Licensing
 
-No project-wide license has been selected. This initialization does not relicense any third-party work. A code/documentation licensing proposal will be maintained separately for approval.
-
-## First research checkpoint
-
-[Claim register](CLAIMS.md) · [Research status](STATUS.md) · [Reproduction](REPRODUCIBILITY.md) · [Prior-art review](research/literature/INITIAL_REVIEW.md)
-
-The unified research branch contains written proofs of the classical leading-moment convolution criterion and saturated subspace-difference formula, exact counterexamples to unrestricted order additivity, and deterministic finite-field checks. They are classified as **Level 0 reproduction**, not new discoveries. A characteristic-three unsaturated case is under active investigation. No Lean verification or independent mathematical review has been completed.
+No project-wide license has been selected. Original software and mathematical documentation have a separate licensing proposal pending approval. Third-party rights remain unchanged. There is no final academic paper release or DOI associated with this startup checkpoint.
