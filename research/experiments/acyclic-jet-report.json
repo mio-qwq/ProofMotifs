@@ -1,0 +1,36 @@
+{
+  "classification": "classical DAG degree bound plus faithful regular representation",
+  "not_claimed": "minimal jets, speedup over strongest classical baseline, or new theory",
+  "panels": [
+    {
+      "h": 2,
+      "naive_repeated_global_denominator_bound": 5,
+      "path_aware_jet_bound": 3,
+      "paths_0_to_h": 2
+    },
+    {
+      "h": 4,
+      "naive_repeated_global_denominator_bound": 17,
+      "path_aware_jet_bound": 5,
+      "paths_0_to_h": 8
+    },
+    {
+      "h": 8,
+      "naive_repeated_global_denominator_bound": 65,
+      "path_aware_jet_bound": 9,
+      "paths_0_to_h": 128
+    },
+    {
+      "h": 16,
+      "naive_repeated_global_denominator_bound": 257,
+      "path_aware_jet_bound": 17,
+      "paths_0_to_h": 32768
+    },
+    {
+      "h": 32,
+      "naive_repeated_global_denominator_bound": 1025,
+      "path_aware_jet_bound": 33,
+      "paths_0_to_h": 2147483648
+    }
+  ]
+}

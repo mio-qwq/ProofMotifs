@@ -6,6 +6,29 @@ Resolve the live containing commit independently; no file names its own future S
 
 ## Controlling research priority: AI success, cancellation and tool need
 
+Newest continuation: research/mechanisms/SUCCINCT_CANCELLATION.md. A genuinely
+unread title-selected family116 target was frozen publicly at2b8dd9e before
+source access; statement-level failure was saved before proof exposure.
+Reachable-span closure is explicitly classical weighted-automata/white-box
+ABP PIT and does not meet the target's p,n,s-only uniform matrix interface.
+The released proof instead uses independent word encoding, a uniform
+Casoratian order bound and faithful finite-jet descent. A source-derived
+general DAG rational-tuple compiler is proved and implemented with common-
+factor, characteristic, insufficient-jet and cycle boundaries. It preserves
+f(V), not injectivity of the original free polynomial map. No new tool,
+successful frozen transfer, priority or AI-causality result is claimed.
+Further structural result: fixed faithful jets exist exactly for finite-
+dimensional unital evaluation algebras over the constant field K. A bounded
+word-closure implementation constructs degree-certified jets or a verified
+dimension-budget obstruction, not an infinitude verdict. This includes
+cyclic finite algebras and excludes a misleading K(t)-rank shortcut.
+Read SUCCINCT_CHECKPOINT.md for actual verification and next operation.
+
+Next: compare full q-difference multiplicity theorems against the displayed
+all-characteristic regular-system order bound, then specify a bounded legal
+operator-map synthesis problem at equal information. Family116 is now read;
+do not reuse it as unseen. No further small-field or finite-mask calibration.
+
 Latest mathematical continuation: FEATURE_REPAIR.md and FEATURE_REPAIR_CHECKPOINT.md.
 The next operation has an exact finite implementation: choose minimum-cost
 optional features, rather than recover coefficients of a supplied residual.

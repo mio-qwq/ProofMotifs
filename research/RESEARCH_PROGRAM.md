@@ -169,6 +169,23 @@ After two cycles without new evidence, reassess the hypothesis or direction.
 
 ## Recovery
 
+19 October succinct continuation: a public protocol froze unread family116
+and reachable-span generation before target access. Statement-level analysis
+saved a failed white-box/uniform-input transfer before proof exposure. Exact
+classical automata coverage was confirmed in primary sources. The released
+proof shows a different combination: independent word encoding, uniform
+Casoratian first-survivor bound, and degree-controlled finite-jet descent.
+SUCCINCT_CANCELLATION.md proves a general common-DAG rational-tuple compiler
+and records cycle/characteristic/cost boundaries. This is source-derived
+classical synthesis, not pre-proof transfer success or a missing-tool result.
+The following finite-algebra criterion gives the exact structural boundary:
+fixed faithful jets for all evaluations iff the unital constant-field algebra
+is finite-dimensional, with a bounded K-word/degree certificate constructor.
+K(t)-rank, a jet plateau and separate generator relations are not substitutes.
+Next compare full q-difference multiplicity papers, then make faithful-map
+discovery an explicit bounded grammar/cost problem rather than assuming the
+representation. Family116 is no longer an unread target. Keep PM-H1–H5 open.
+
 19 October construction continuation: FEATURE_REPAIR.md proves and implements
 costed finite-dictionary selection with exact primal/dual and master-optimality
 certificates. Static initial-ray hitting fails; minimum cost embeds set cover;

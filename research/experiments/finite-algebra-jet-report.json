@@ -1,0 +1,118 @@
+{
+  "scalar_t": [
+    {
+      "D": 1,
+      "status": "rank_budget_exceeded",
+      "independent_words": 2,
+      "max_word_length": 1
+    },
+    {
+      "D": 2,
+      "status": "rank_budget_exceeded",
+      "independent_words": 3,
+      "max_word_length": 2
+    },
+    {
+      "D": 4,
+      "status": "rank_budget_exceeded",
+      "independent_words": 5,
+      "max_word_length": 4
+    },
+    {
+      "D": 8,
+      "status": "rank_budget_exceeded",
+      "independent_words": 9,
+      "max_word_length": 8
+    }
+  ],
+  "polynomial_idempotent": {
+    "d": 2,
+    "b": 1,
+    "E": 2,
+    "words": [
+      [],
+      [
+        0
+      ]
+    ]
+  },
+  "joint_nilpotents": {
+    "each_generator_square_zero": true,
+    "D": 5,
+    "independent_words": 6,
+    "status": "rank_budget_exceeded"
+  },
+  "delayed_nilpotent": {
+    "M": 17,
+    "d": 2,
+    "required_E": 18,
+    "jet_ranks_E_1_through_M_plus_1": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ]
+  },
+  "delta_1_minus_t": {
+    "d": 2,
+    "b": 1,
+    "E": 2
+  },
+  "rational_conjugate_M2": {
+    "d": 4,
+    "b": 2,
+    "E": 7,
+    "words": [
+      [],
+      [
+        0
+      ],
+      [
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ]
+  },
+  "finite_algebra_budget_too_small": {
+    "true_dimension": 4,
+    "D": 3,
+    "status": "rank_budget_exceeded",
+    "independent_words": 4
+  },
+  "finite_field_controls": {
+    "all_F2_constant_2x2_two_generator_tuples": 256,
+    "dimension_distribution": {
+      "1": 4,
+      "2": 84,
+      "3": 72,
+      "4": 96
+    },
+    "all_degree_at_most_2_idempotent_offdiagonals_F2_F3": 35,
+    "rational_and_delayed_controls_F2_F3": 6
+  },
+  "malformed_rejected": {
+    "t_dependent_scalar": "closure coefficients must be constant field scalars",
+    "wrong_constant": "coefficient identity",
+    "false_jet_order": "jet bound",
+    "fake_K_t_closure_of_scalar_t": "closure coefficients must be constant field scalars"
+  },
+  "delta_zero_at_origin_rejected": true,
+  "status": "ALL EXACT FINITE-ALGEBRA CHECKS PASSED"
+}

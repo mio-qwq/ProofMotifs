@@ -7,6 +7,31 @@ never force-push. Unified branch: `research/ongoing`; main stays stable.
 
 ## Primary recovery instruction
 
+Read SUCCINCT_CANCELLATION.md and SUCCINCT_CHECKPOINT.md first. Recovery in
+this window found only main and research/ongoing, remote02f9353, clean matching
+workspace and no live child execution. Public protocol2b8dd9e froze unread
+family116 before contents; the saved statement comparison correctly predicts
+a white-box/uniform-input mismatch. Three new scoped GPT-6.1-Sol/Ultra tasks
+independently proved/reproduced the classical span certificate, checked exact
+word controls and audited target proof/primary art. Root's later DAG finite-
+jet compiler is source-derived, not a successful pre-proof transfer or new
+theory. Its resource bounds count expanded degrees/E, not binary exponents
+alone; composition must preserve a common DAG. Main runtime model/effort has
+not been verified by a readable configuration; child settings are not evidence
+of the root setting.
+The later PM-SUCCINCT0004 removes DAG as a necessary condition: finite jets
+are faithful for all evaluations iff the generated constant-field algebra
+is finite-dimensional. Exact K-word closure under a supplied dimension budget
+certifies E=1+(d-1)b or only D+1 independent words. A long jet-rank plateau,
+individual generator nilpotence and K(t)-linear closure are all insufficient.
+Scalar extension retains a fresh transcendental parameter.
+
+Next mathematical action: exact full-paper comparison of the regular q-shift
+order estimate with q-difference multiplicity literature; then bounded faithful
+operator-map discovery with declared grammar/budget and a same-input classical
+baseline. Do not merely optimize the new bound or replay family116 as unread.
+Resolve latest actual remote head/CI rather than relying on historical SHAs.
+
 Read FEATURE_REPAIR.md and FEATURE_REPAIR_CHECKPOINT.md before the older
 construction next-step entries. The finite-dictionary operation now has an
 exact minimum-cost selector/trade algorithm, a failed static-ray shortcut,

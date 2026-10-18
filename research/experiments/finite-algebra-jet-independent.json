@@ -1,0 +1,16 @@
+{
+  "checks": 220,
+  "examples": [
+    "cyclic-support idempotent",
+    "dimension-two arbitrary jet delay",
+    "individually nilpotent infinite joint algebra"
+  ],
+  "fields": [
+    0,
+    2,
+    3,
+    5,
+    7
+  ],
+  "result": "PASS"
+}

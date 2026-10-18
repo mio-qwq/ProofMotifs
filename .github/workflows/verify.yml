@@ -156,3 +156,23 @@ jobs:
           diff -u research/experiments/feature-repair-monomial-report.json /tmp/feature-repair-monomial-report.json
           python3 tools/feature_repair_monomial_check.py > /tmp/feature-repair-monomial-check.json
           diff -u research/experiments/feature-repair-monomial-check.json /tmp/feature-repair-monomial-check.json
+      - name: Replay exact succinct word certificates
+        run: |
+          python3 tools/reachable_series.py > /tmp/reachable-series-report.json
+          diff -u research/experiments/reachable-series-report.json /tmp/reachable-series-report.json
+      - name: Replay path-aware rational jet bounds
+        run: |
+          python3 tools/acyclic_jet.py --demo > /tmp/acyclic-jet-report.json
+          diff -u research/experiments/acyclic-jet-report.json /tmp/acyclic-jet-report.json
+      - name: Independently check DAG paths and characteristic parsing
+        run: |
+          python3 tools/acyclic_jet_independent.py > /tmp/acyclic-jet-independent.json
+          diff -u research/experiments/acyclic-jet-independent.json /tmp/acyclic-jet-independent.json
+      - name: Replay bounded constant-field algebra certificates
+        run: |
+          python3 tools/finite_algebra_jet.py > /tmp/finite-algebra-jet-report.json
+          diff -u research/experiments/finite-algebra-jet-report.json /tmp/finite-algebra-jet-report.json
+      - name: Independently check finite-algebra jet obstructions
+        run: |
+          python3 tools/finite_algebra_jet_independent.py > /tmp/finite-algebra-jet-independent.json
+          diff -u research/experiments/finite-algebra-jet-independent.json /tmp/finite-algebra-jet-independent.json

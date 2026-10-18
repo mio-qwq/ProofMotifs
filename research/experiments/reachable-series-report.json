@@ -1,0 +1,175 @@
+{
+  "small_expansion": {
+    "models": 384,
+    "word_coefficients": 11136,
+    "fields": [
+      "Q",
+      "F2",
+      "F3",
+      "F5"
+    ],
+    "dimensions": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "max_depth": "r+1",
+    "zero": 86,
+    "nonzero": 298
+  },
+  "all_binary_two_state_two_letter_inputs": {
+    "models": 4096,
+    "word_coefficients": 61440,
+    "through_length": 3,
+    "zero": 1984,
+    "nonzero": 2112
+  },
+  "cancellation": {
+    "rank": 2,
+    "basis_words": [
+      "",
+      "x"
+    ],
+    "xy_nonzero_path_contributions": [
+      "1",
+      "-1"
+    ],
+    "full_zero_coefficients_through_length_6": 127
+  },
+  "specialization": {
+    "Q": {
+      "rank": 2,
+      "decision": "nonzero",
+      "witness": "x"
+    },
+    "F2": {
+      "rank": 1,
+      "decision": "zero",
+      "witness": null
+    },
+    "F3": {
+      "rank": 2,
+      "decision": "nonzero",
+      "witness": "x"
+    }
+  },
+  "malformed_certificates_rejected": {
+    "wrong_closure_scalar": "closure identity",
+    "omitted_letter": "closure alphabet",
+    "false_initial_containment": "initial containment",
+    "forged_reachable_row": "basis word provenance",
+    "missing_closure_row": "closure height",
+    "forged_output": "output identity",
+    "field_mismatch": "version/field",
+    "rational_basis_reused_after_rank_drop": "dependent basis",
+    "annihilating_rows_but_not_closed": "closure identity",
+    "false_nonzero_witness": "witness coefficient",
+    "dependent_rows": "dependent basis"
+  },
+  "scalar_black_box_boundary": {
+    "polynomial": "xy-yx over F3",
+    "nonzero_formal_coefficients": {
+      "xy": 1,
+      "yx": 2
+    },
+    "all_9_scalar_values": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "decision": "nonzero"
+  },
+  "implicit_exponential_word_family": {
+    "degree": 96,
+    "states": 97,
+    "alphabet": 2,
+    "field": "F2",
+    "nonzero_degree_D_words": "79228162514264337593543950336",
+    "input_matrix_entries": 18818,
+    "basis_rows": 97,
+    "row_offers": 195,
+    "closure_scalars": 18818,
+    "witness_length": 96,
+    "witness_coefficient": 1,
+    "full_large_expansion_performed": false,
+    "small_full_expansion_controls": [
+      {
+        "degree": 0,
+        "nonzero_words": 1,
+        "all_words_checked": 3
+      },
+      {
+        "degree": 1,
+        "nonzero_words": 2,
+        "all_words_checked": 7
+      },
+      {
+        "degree": 2,
+        "nonzero_words": 4,
+        "all_words_checked": 15
+      },
+      {
+        "degree": 3,
+        "nonzero_words": 8,
+        "all_words_checked": 31
+      },
+      {
+        "degree": 4,
+        "nonzero_words": 16,
+        "all_words_checked": 63
+      },
+      {
+        "degree": 5,
+        "nonzero_words": 32,
+        "all_words_checked": 127
+      },
+      {
+        "degree": 6,
+        "nonzero_words": 64,
+        "all_words_checked": 255
+      },
+      {
+        "degree": 7,
+        "nonzero_words": 128,
+        "all_words_checked": 511
+      }
+    ]
+  },
+  "edge_cases": {
+    "cases": [
+      {
+        "field": "Q",
+        "rank": 0,
+        "decision": "zero",
+        "witness": null
+      },
+      {
+        "field": "Q",
+        "rank": 1,
+        "decision": "zero",
+        "witness": null
+      },
+      {
+        "field": "Q",
+        "rank": 1,
+        "decision": "nonzero",
+        "witness": ""
+      },
+      {
+        "field": "F2",
+        "rank": 1,
+        "decision": "nonzero",
+        "witness": ""
+      }
+    ],
+    "undefined_denominator_specialization_rejected": true
+  },
+  "status": "ALL EXACT CHECKS PASSED"
+}

@@ -1,0 +1,17 @@
+{
+  "corrected_parser_checks": 16,
+  "fields": [
+    0,
+    2,
+    3,
+    5,
+    7
+  ],
+  "instances": 80,
+  "parallel_edges": true,
+  "random_polynomial_checks": 640,
+  "result": "PASS",
+  "seed": 11631,
+  "shared_non_coprime_denominators": true,
+  "word_checks": 1408
+}

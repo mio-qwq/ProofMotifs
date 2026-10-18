@@ -9,6 +9,20 @@ theorem/tool with a new target. Capability/selection audits, the codebook and
 neutral sampling support this mathematical task; they do not replace it or
 block it while attempt-level data are missing.
 
+Newest continuation: SUCCINCT_CANCELLATION.md records a public pre-proof
+family116 freeze and an honest failed transfer: explicit transition closure
+does not construct a formula-independent hitting tuple. Classical automata/
+ncABP methods cover the frozen operation. Released-source inspection isolates
+uniform word encoding, first-survivor order control and finite-jet descent;
+a general DAG denominator/jet compiler is a proved source-derived synthesis,
+not a held-out prediction or novel theory. Next compare full q-multiplicity
+papers, then bound the legal representation-discovery grammar and baseline.
+The subsequent finite-algebra iff criterion and bounded K-word generator
+also handle cycles, with exact degree budgets and dimension-obstruction
+certificates. They preserve a supplied evaluation algebra, not discover an
+injective auxiliary map from raw problem input; keep that distinction central.
+Do not repeat existing word/path panels or optimize constants without use.
+
 19Oct continuation: the bounded feature-repair operation is now specified,
 proved and implemented with exact optimality/failure certificates. Read
 FEATURE_REPAIR.md. General sparse separation, adaptive Benders cuts and

@@ -1,0 +1,130 @@
+{
+  "date_local": "2026-10-19",
+  "purpose": "Exact overlap and exposure boundaries; no absence-of-search novelty argument",
+  "sources": [
+    {
+      "id": "T116",
+      "kind": "pinned primary source",
+      "revision": "1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "source_files": [
+        {
+          "path": "preprints/Uniform-Matrix-Hitting-Points-in-Every-Positive-Characteristic-October-4-2026/build/sections/construction.tex",
+          "blob": "1f8cca2bd8dca8026b18dbc332617465a23af9d9",
+          "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Uniform-Matrix-Hitting-Points-in-Every-Positive-Characteristic-October-4-2026/build/sections/construction.tex"
+        },
+        {
+          "path": "preprints/Uniform-Matrix-Hitting-Points-in-Every-Positive-Characteristic-October-4-2026/build/sections/introduction.tex",
+          "blob": "4a798efdc42349bfbe378eede3862750b5cd91b7",
+          "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Uniform-Matrix-Hitting-Points-in-Every-Positive-Characteristic-October-4-2026/build/sections/introduction.tex"
+        },
+        {
+          "path": "preprints/Uniform-Matrix-Hitting-Points-in-Every-Positive-Characteristic-October-4-2026/build/sections/order.tex",
+          "blob": "ab18a99256085b49fddba4c4d8ee2963016733de",
+          "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Uniform-Matrix-Hitting-Points-in-Every-Positive-Characteristic-October-4-2026/build/sections/order.tex"
+        },
+        {
+          "path": "preprints/Uniform-Matrix-Hitting-Points-in-Every-Positive-Characteristic-October-4-2026/build/sections/systems.tex",
+          "blob": "ac918c8eb6ea0603b8509377c98697454da26a02",
+          "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Uniform-Matrix-Hitting-Points-in-Every-Positive-Characteristic-October-4-2026/build/sections/systems.tex"
+        },
+        {
+          "path": "preprints/Uniform-Matrix-Hitting-Points-in-Every-Positive-Characteristic-October-4-2026/build/sections/words.tex",
+          "blob": "882cb46e0e824041ecddcd051aa97a20d96cd050",
+          "url": "https://github.com/openai/math/blob/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Uniform-Matrix-Hitting-Points-in-Every-Positive-Characteristic-October-4-2026/build/sections/words.tex"
+        }
+      ],
+      "exposure": "Root first saw introduction lines1-44 after publicfreeze2b8dd9e, saved statementdecision, then read words/systems/order/construction. ReviewerC read all five only after release. No Lean/scope audited.",
+      "status": "Displayed local proof-chain inspected; headline formalization and historical novelty not certified"
+    },
+    {
+      "id": "K2020",
+      "url": "https://arxiv.org/pdf/2009.01217",
+      "title": "Notes on Equivalence and Minimization of Weighted Automata",
+      "version": "arXiv2009.01217v1 (2Sep2020)",
+      "read": "Algorithms1-2; Propositions2.1-2.2; forward-conjugate section3",
+      "overlap": "Exact reachable-word basis, cubic arithmetic, r-1 witness, closure intertwining",
+      "qualification": "Primary author exposition explicitly reproduces known results, not original priority"
+    },
+    {
+      "id": "KMOWW2011",
+      "url": "https://www.cs.ox.ac.uk/andrzej.murawski/papers/cav11.pdf",
+      "title": "Language Equivalence for Probabilistic Automata",
+      "read": "Section2.1/Figure1 printedpp4-5",
+      "overlap": "Dual worklist basis and cubic arithmetic",
+      "qualification": "Numerical real implementation does not supply exact positive-characteristic orthogonality"
+    },
+    {
+      "id": "RS2005",
+      "url": "https://www.cs.tau.ac.il/~shpilka/publications/RazShpilka_PIT.pdf",
+      "doi": "10.1007/s00037-005-0188-8",
+      "read": "Section1.1; Lemma2; Claim3; Theorem4, author numbering",
+      "overlap": "Explicitly white-box noncommutative formula/ABP PIT"
+    },
+    {
+      "id": "T1992",
+      "url": "https://epubs.siam.org/doi/10.1137/0221017",
+      "read": "Publisher abstract only",
+      "qualification": "Full paper inaccessible; no invented theorem numbering"
+    },
+    {
+      "id": "S1961",
+      "url": "https://www.sciencedirect.com/science/article/pii/S001999586180020X",
+      "doi": "10.1016/S0019-9958(61)80020-X",
+      "read": "Located via primary later papers; original fullscan retrieval failed",
+      "qualification": "Not independently original-proof audited"
+    },
+    {
+      "id": "CS2012",
+      "url": "https://singer.math.ncsu.edu/papers/YAAMA1465.pdf",
+      "read": "ReviewerC Section2.3 Proposition2.10",
+      "overlap": "Rational q-orbit summability obstruction",
+      "qualification": "Characteristic-zero hypotheses; not identical all-characteristic special-case theorem"
+    },
+    {
+      "id": "DDMS2011",
+      "url": "https://arxiv.org/pdf/1101.4497",
+      "version": "v3",
+      "read": "ReviewerC Theorem1 and minimal-relation proof",
+      "qualification": "Differential/characteristiczero, not identical shift theorem"
+    },
+    {
+      "id": "BD2010",
+      "url": "https://mathexp.eu/dumas/publications/Bostan_Dumas_2010_WLI.pdf",
+      "read": "ReviewerC Lemmas2-3; root opened original",
+      "qualification": "Ordinary Wronskian requires characteristiczero; shift replacement is substantive"
+    },
+    {
+      "id": "BertrandSlides2007",
+      "url": "https://webusers.imj-prg.fr/~daniel.bertrand/Recherche/rpdf/MOCKBA_07.pdf",
+      "read": "ReviewerC slides10-13; root opened original",
+      "qualification": "January2007 slides, NOT2010/2012 journal paper; complex analytic/system-dependent bounds"
+    },
+    {
+      "id": "Bertrand2010_2012",
+      "url": "https://www.mathnet.ru/eng/fpm1334",
+      "doi": "10.1007/s10958-012-0652-3",
+      "read": "Metadata/lead only; root page fetch internalerror",
+      "qualification": "Full theorem comparison pending"
+    },
+    {
+      "id": "Moura2003",
+      "doi": "10.1023/A:1022155217548",
+      "title": "Bounds for the Vanishing Order for Solutions of a Linear Differential System",
+      "read": "Pinned target bibliography; full article not retrieved",
+      "qualification": "Do not confuse with her separate hyperelliptic preprint"
+    },
+    {
+      "id": "MouraHyperelliptic2003",
+      "url": "https://arxiv.org/pdf/math/0312323",
+      "version": "v1",
+      "read": "Root Section2 Theorem1 and Wronskian/rational-row sketch printedpp3-5",
+      "qualification": "Different paper from cited JDCS2003; complex differential setting, not all-characteristic q-shift comparison"
+    },
+    {
+      "id": "Bertrand2007chapter",
+      "title": "Multiplicity estimates for q-difference operators",
+      "read": "Bibliographic lead only: Diophantine Geometry CRMSeries4 pp65-71",
+      "qualification": "No full-paper read or overlap asserted"
+    }
+  ]
+}

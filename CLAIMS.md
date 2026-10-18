@@ -15,6 +15,25 @@ All five remain OPEN; this is a research agenda, not a completed preregistration
 | PM-H4 | Precise gap beyond established mathematical tools | Original theorem/hypothesis comparisons are required; a failed search is not a gap proof |
 | PM-H5 | Additional value of a candidate instrument | Held-out results against fixed existing-tool/resource baselines remain outstanding |
 
+## Succinct cancellation and uniformity gate
+
+Proofs: [succinct interfaces](research/mechanisms/SUCCINCT_CANCELLATION.md).
+Protocol freeze2b8dd9e precedes selected source access; statement decision
+precedes proof exposure. Correctness, frozen transfer and novelty are separate.
+
+| ID | Conclusion | Evidence and limits |
+| --- | --- | --- |
+| PM-SUCCINCT0001 | Supplied r-state exact transitions generate a reachable word basis and local invariant certificate; a nonzero coefficient has witness length<=r-1 | PROVED_MANUALLY, two independent AI views + adversary, exact tests; explicitly classical automata/white-box ncABP PIT, not a new tool |
+| PM-SUCCINCT0002 | Deterministic coefficient-query testing of singleton length-D series with D+1 states needs all n^D words in worst case | Elementary adversary proof; coefficient-query oracle only, not a matrix-evaluation lower bound |
+| PM-SUCCINCT0003 | A supplied common-DAG rational tuple admits a path-computed denominator and E-jet regular-representation compiler preserving f(V) for all extension-field polynomials | Complete proof + independent A/C review and exact rational/prime controls; source-derived, expanded-degree/output-sensitive cost, no minimality or faithful free-word encoding claim |
+| PM-SUCCINCT0004 | A regular rational tuple has a fixed faithful jet for all evaluations iff its generated unital K-algebra is finite-dimensional; supplied dimension/degree budgets yield bounded K-word closure and E=1+(d-1)b | Complete iff/certificate/construction proof; independent A/C challenge + B implementation; K not K(t), fresh formal parameter under scalar extension, no unpromised finiteness decision or novelty claim |
+| PM-TRANSFER116 | Frozen reachable-span operation meets selected source's uniform p,n,s-only input contract | FAILED: particular transitions/formula are not supplied; recorded before target proof exposure; no target theorem refutation |
+
+Family116 source proof was inspected, not machine-compiled; no whole-headline
+formal certification or historical originality established. Infinite-order
+shift, regular invertible fundamental matrix and denominator budgets are
+load-bearing. PM-H1–H5 remain OPEN. New code/reviews are not human review.
+
 ## Construction and composition contracts
 
 Complete statements/proofs: [construction contracts](research/mechanisms/CONSTRUCTION_CONTRACTS.md).
