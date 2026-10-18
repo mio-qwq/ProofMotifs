@@ -1,0 +1,46 @@
+{
+  "even_parity_ranks_char2": [
+    8,
+    8
+  ],
+  "full_scalar_ranks": {
+    "2": [
+      8,
+      9
+    ],
+    "3": [
+      9,
+      9
+    ],
+    "5": [
+      9,
+      9
+    ],
+    "7": [
+      9,
+      9
+    ]
+  },
+  "no_hole_law": {
+    "diagonal_identity": true,
+    "distinct_injective_maps": 3,
+    "holes": 0,
+    "symmetric_nondegenerate_T": true,
+    "witness_pairs_tested": 48
+  },
+  "realized_nonsymmetric_triangle": true,
+  "realized_odd_characteristic_triangles": [
+    3,
+    5,
+    7
+  ],
+  "scope": "local triangle interface and six-row grammar only",
+  "without_sharing_ranks_char2": [
+    9,
+    9
+  ],
+  "without_symmetry_ranks_char2": [
+    9,
+    9
+  ]
+}

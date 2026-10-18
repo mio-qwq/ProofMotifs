@@ -14,6 +14,17 @@ pending connected-normal proof and certificates; further degree/orbit work is
 deferred unless it contributes directly to the macro program. Earlier entries
 below record chronological decisions rather than supersede this priority.
 
+Construction comparison completed: read CONSTRUCTION_CONTRACTS.md. Four precise
+criteria now show which local readouts, hole geometries, characteristic/parity
+interfaces and finite integral gradings permit the required residual. The
+all-product criterion distinguishes a one-copy coefficient trick from a
+composition-stable selector. Known separation/interpolation/NulLA methods
+cover these principles. Next investigate bounded representation repair and
+its measured/proved cost against those same baselines; do not call it a new
+tool without added value. Freeze an unread transfer target before attempting
+it. The64 local architectures and modified phase coefficient3 are calibration,
+not held-out results. Macro hypotheses remain open.
+
 SC-011 now supplies a polynomial-only Bezout certificate reducing one F_243
 test system to 121 edges. Its equal-kernel/different-group example prevents
 recovering combinatorial symmetries from the code alone. SC-012 supplies an

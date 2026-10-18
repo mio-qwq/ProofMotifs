@@ -116,3 +116,19 @@ jobs:
         run: |
           python3 tools/normal_pattern_independent_check.py > /tmp/normal-pattern-independent-check.json
           diff -u research/experiments/normal-pattern-independent-check.json /tmp/normal-pattern-independent-check.json
+      - name: Replay construction and interaction certificates
+        run: |
+          python3 tools/construction_contracts.py > /tmp/construction-contracts.json
+          diff -u research/experiments/construction-contracts.json /tmp/construction-contracts.json
+      - name: Replay triangle grammar and failed transfer
+        run: |
+          python3 tools/triangle_contracts.py > /tmp/triangle-contracts.json
+          diff -u research/experiments/triangle-contracts.json /tmp/triangle-contracts.json
+      - name: Independently check damaged construction hypotheses
+        run: |
+          python3 tools/construction_boundary_check.py > /tmp/construction-boundary-check.json
+          diff -u research/experiments/construction-boundary-check.json /tmp/construction-boundary-check.json
+      - name: Independently interpolate and check the hole Gram
+        run: |
+          python3 tools/construction_independent_field.py > /tmp/construction-independent-field.json
+          diff -u research/experiments/construction-independent-field.json /tmp/construction-independent-field.json

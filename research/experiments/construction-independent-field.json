@@ -1,0 +1,23 @@
+{
+  "barycentric_weights": [
+    2,
+    6,
+    5,
+    7,
+    6
+  ],
+  "independent_field_arithmetic": "bit convolution plus brute inverse",
+  "independently_interpolated_line_grams": 72,
+  "moments": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "punctured_gram": "I5",
+  "ranks": [
+    5,
+    4
+  ]
+}

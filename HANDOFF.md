@@ -7,6 +7,29 @@ never force-push. Unified branch: `research/ongoing`; main stays stable.
 
 ## Primary recovery instruction
 
+New continuation to read first: research/mechanisms/CONSTRUCTION_CONTRACTS.md
+and docs/reviews/CONSTRUCTION_CHECKPOINT.md. Four locally proved/independently
+challenged construction contracts replace the previous compare-three-sources
+next step. They classify positive local scopes, hole evaluation geometry,
+triangle grammar and all-product integral grading stability. The nearest
+general principles are already facial-set separation, interpolation,
+degree-bounded NulLA and Gordan's alternative. No new universal tool, causal
+AI explanation, historical priority or held-out success is claimed.
+
+Freshly recovered predecessor44d83247bae4deb1f6369c7d150f00801393c547 had only
+main and research/ongoing and a clean workspace. Resolve newer real refs and
+CI before assuming this text names the live head. New scripts and four CI
+replays have exact outputs;120 unit tests passed locally. The checkpoint
+records actual commands and evidence boundaries. Pending connected-normal
+material remains pending, without new theorem promotion.
+
+Next: operational representation repair, with fixed locality, composition,
+phase count/period and synthesis degree/cost. Benchmark existing exact
+LP/NulLA/interpolation on the same supplied information. The unresolved
+operation is choosing useful representations/auxiliary objects, not solving
+an already supplied coefficient system. Select/freeze a previously unread
+target before any held-out claim;64 graph scopes/c3 are calibration.
+
 Latest verified macro checkpoint:2972e186d95ed60f5731bdb45167bd8ecc56556f,
 tree99b59aabf41d995869c13de6e7187c2adf75b1f5. CI39139767580/job117711598203
 is successful; see CI_MACRO_PROGRAM_CHECKPOINT.json for the exact limited

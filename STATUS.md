@@ -6,6 +6,34 @@ Resolve the live containing commit independently; no file names its own future S
 
 ## Controlling research priority: AI success, cancellation and tool need
 
+New mathematical continuation: CONSTRUCTION_CONTRACTS.md proves four exact
+construction/composition criteria. Fixed-phase positive local selection has
+a complete64-interaction-graph classification (57 feasible/7 obstructed).
+Hole Gram synthesis requires actual evaluation geometry, not degree/count
+alone. The triangle's six-contraction grammar is complete only with its
+characteristic/parity interface; even distinct injective maps and nondegenerate
+symmetric T can have no holes. Finite integral selection is stable in every
+independent product iff its multigrading admits a positive scalar collapse.
+The last result explains why a single-copy signed/interior coefficient
+selector can fail on products while nonnegative zero-defect selection persists.
+All are classical-tool applications, not proof that a new tool is required.
+
+Primary sources, two independent mathematical views, separate adversarial
+acceptance and exact positive/negative certificates are saved under
+docs/reviews/CONSTRUCTION_*.md and research/experiments/construction-*.json.
+120 unit tests passed; four new replay steps now cover these interfaces.
+Current hosted CI is not inferred from local success; resolve actual head/run
+and its receipt separately. Last verified predecessor is
+44d83247bae4deb1f6369c7d150f00801393c547, tree3ffabfb73a5ce21562d22c1bf4114b8235cc4c85.
+
+Next mathematical operation: compare a bounded representation-repair search
+against exact facial-set LP/NulLA/interpolation baselines while preserving
+all-product stability and local readout/resource costs. The source phases,
+square and interpolation geometry are currently supplied by hand. Freeze a
+previously unread target before testing transfer; the64 graphs and c3
+perturbation are calibration. Do not restart old finite-field orbit scans or
+report any macro hypothesis solved.
+
 Macro checkpoint2972e186d95ed60f5731bdb45167bd8ecc56556f is remotely verified
 with tree99b59aabf41d995869c13de6e7187c2adf75b1f5. Hosted run39139767580,
 job117711598203 completed successfully: unit tests and22 historical replays.

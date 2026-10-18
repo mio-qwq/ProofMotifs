@@ -169,6 +169,18 @@ After two cycles without new evidence, reassess the hypothesis or direction.
 
 ## Recovery
 
+Completed construction gate (18 October 2026): CONSTRUCTION_CONTRACTS.md
+contains PM-CONSTRUCTION-0001..0004, with complete proofs, primal/dual exact
+checks and independent adversarial review. The fixed-phase interaction graph,
+actual hole geometry, triangle observable arithmetic and all-product integral
+grading each impose sharp conditions. The general principles are already
+covered by established separation, interpolation and NulLA methods. This
+narrows the next operational target to choosing/repairing a useful legal
+representation and preserving it under the intended composition, rather than
+merely solving its supplied coefficient equations. Existing-tool cost and
+input parity, plus an unread target frozen before testing, remain necessary
+before claiming additional value. All five hypotheses remain open.
+
 Read this program with AGENTS, STATUS, HANDOFF, ROADMAP and CLAIMS, and inspect
 fresh remote refs and the worktree. One coordinator integrates scoped
 independent researchers and adversarial review. Research/review tasks request

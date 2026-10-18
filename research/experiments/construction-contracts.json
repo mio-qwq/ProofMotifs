@@ -1,0 +1,504 @@
+{
+  "coefficient_synthesis": [
+    {
+      "M": 7,
+      "exact_phase_tuples": 147,
+      "integer_scale": 1,
+      "matrix_shape": [
+        15,
+        20
+      ],
+      "max_exponent": 9,
+      "phase_coefficient": 2,
+      "terms": [
+        {
+          "coefficient": 1,
+          "component": "A",
+          "powers": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": 1,
+          "component": "B",
+          "powers": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient": -1,
+          "component": "B",
+          "powers": [
+            0,
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": -1,
+          "component": "C",
+          "powers": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "coefficient": 1,
+          "component": "P",
+          "powers": [
+            0,
+            1,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "M": 7,
+      "exact_phase_tuples": 107,
+      "integer_scale": 3,
+      "matrix_shape": [
+        15,
+        20
+      ],
+      "max_exponent": 12,
+      "phase_coefficient": 3,
+      "terms": [
+        {
+          "coefficient": 3,
+          "component": "A",
+          "powers": [
+            2,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": 2,
+          "component": "B",
+          "powers": [
+            0,
+            1,
+            1,
+            0
+          ]
+        },
+        {
+          "coefficient": -3,
+          "component": "B",
+          "powers": [
+            0,
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "coefficient": -2,
+          "component": "C",
+          "powers": [
+            0,
+            1,
+            0,
+            1
+          ]
+        },
+        {
+          "coefficient": 2,
+          "component": "P",
+          "powers": [
+            0,
+            1,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ],
+  "hole_geometry": {
+    "bad_holes": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        0
+      ]
+    ],
+    "bad_left_kernel": [
+      2,
+      6,
+      5,
+      7,
+      6
+    ],
+    "bad_moments_0_through_4": [
+      0,
+      0,
+      0,
+      0,
+      1
+    ],
+    "d": 3,
+    "evaluation_ranks": [
+      5,
+      4
+    ],
+    "full_affine_lines_checked": 72,
+    "good_holes": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "m": 5,
+    "modulus_bits": 11,
+    "n": 2,
+    "punctured_Gram": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "q": 8
+  },
+  "interaction_graph_classification": {
+    "architectures": 64,
+    "balanced_trade_obstructions": [
+      {
+        "edges": [],
+        "target_trade": [
+          [
+            1,
+            1,
+            3,
+            3
+          ],
+          [
+            2,
+            2,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "edges": [
+          [
+            1,
+            3
+          ]
+        ],
+        "target_trade": [
+          [
+            1,
+            1,
+            3,
+            3
+          ],
+          [
+            2,
+            2,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "edges": [
+          [
+            1,
+            2
+          ]
+        ],
+        "target_trade": [
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "edges": [
+          [
+            0,
+            3
+          ]
+        ],
+        "target_trade": [
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "edges": [
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "target_trade": [
+          [
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            3,
+            3
+          ]
+        ]
+      },
+      {
+        "edges": [
+          [
+            0,
+            2
+          ]
+        ],
+        "target_trade": [
+          [
+            1,
+            1,
+            3,
+            3
+          ],
+          [
+            2,
+            2,
+            1,
+            1
+          ]
+        ]
+      },
+      {
+        "edges": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            3
+          ]
+        ],
+        "target_trade": [
+          [
+            1,
+            1,
+            3,
+            3
+          ],
+          [
+            2,
+            2,
+            1,
+            1
+          ]
+        ]
+      }
+    ],
+    "finite_support_check_M": 7,
+    "general_scope": "all M>=3, by written proof",
+    "quadratic_primal_certificates": 57,
+    "variable_order": [
+      "g",
+      "h",
+      "u",
+      "v"
+    ]
+  },
+  "scope": "fixed local architectures, not headline theorems or AI causality",
+  "status": "exact_classical_baseline",
+  "tensor_stability": {
+    "bad_multigrading": [
+      [
+        1,
+        0
+      ],
+      [
+        -1,
+        1
+      ],
+      [
+        0,
+        -1
+      ]
+    ],
+    "bad_product_multiplicities": [
+      1,
+      1,
+      1
+    ],
+    "collapsed_defects": [
+      1,
+      1,
+      1
+    ],
+    "positive_multigrading": [
+      [
+        1,
+        0
+      ],
+      [
+        -1,
+        2
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "positive_separator": [
+      1,
+      1
+    ],
+    "scope": "explicit primal/dual examples; general equivalence proved in manuscript",
+    "shifted_target_degree": 12,
+    "two_factor_shifted_degrees_M7": [
+      5,
+      7
+    ],
+    "two_factor_signed_defect": [
+      -1,
+      1
+    ],
+    "two_factor_square_defects": [
+      1,
+      1
+    ]
+  },
+  "unary_obstruction": {
+    "Laurent_escape_exponents": [
+      -1,
+      1
+    ],
+    "M_below_3_is_vacuous": true,
+    "off_target": [
+      [
+        1,
+        2,
+        3,
+        1
+      ],
+      [
+        2,
+        1,
+        1,
+        3
+      ]
+    ],
+    "target": [
+      [
+        1,
+        1,
+        3,
+        3
+      ],
+      [
+        2,
+        2,
+        1,
+        1
+      ]
+    ],
+    "unary_marginals_equal": true
+  }
+}

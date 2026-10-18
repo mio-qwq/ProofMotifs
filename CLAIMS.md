@@ -15,6 +15,25 @@ All five remain OPEN; this is a research agenda, not a completed preregistration
 | PM-H4 | Precise gap beyond established mathematical tools | Original theorem/hypothesis comparisons are required; a failed search is not a gap proof |
 | PM-H5 | Additional value of a candidate instrument | Held-out results against fixed existing-tool/resource baselines remain outstanding |
 
+## Construction and composition contracts
+
+Complete statements/proofs: [construction contracts](research/mechanisms/CONSTRUCTION_CONTRACTS.md).
+These are Level 0 classical-tool applications and restricted classifications,
+not a demonstrated missing universal theory or historical novelty claim.
+
+| ID | Precise conclusion | Evidence and limits |
+| --- | --- | --- |
+| PM-CONSTRUCTION-0001 | For fixed phase u-v+2(g-h)=0 and M>=3, positive zero-target local pair weights exist iff their graph contains gh or uv or two incident cross edges; exactly57 of64 scopes work | Parametric primal/dual proof; exact64-scope replay; source107 degree2 optimum only within this contract; Laurent/interior-coefficient/extra-phase escapes retained |
+| PM-CONSTRUCTION-0002 | At 2d<=q-2 and output dimension equal to hole count, prescribed punctured Gram -I is equivalent to surjective hole evaluation; d+2 collinear versus explicit noncollinear holes separate identical budgets | Parametric cardinal/barycentric proof; independent F8 rank5/4,72line and Gram replay; no regular incidence or rectangular-output theorem |
+| PM-CONSTRUCTION-0003 | Characteristic-two sharing and symmetric bilinear contractions force triangle parity sum0; exact six-row certificate space is1D only in characteristic2 | Independent algebraic views and raw degree-one NulLA identity; exact ranks, realized symmetry/characteristic failures, distinct-map zero-hole control; no supersaturation or headline theorem |
+| PM-CONSTRUCTION-0004 | A finite integral grading with target weight0 selects all independent products iff an integral linear functional makes every off-target weight strictly positive | Two independent proof reviews and separate adversary; explicit positive/negative certificates; rationality, finiteness and full product support essential; classical Gordan alternative |
+
+For all four: PROVED_MANUALLY within the displayed scope; local exact checks
+are corroboration, not infinite enumeration. Independent AI views A/B and
+separate adversary C accepted the respective proofs; coordinator integrated
+their objections. Formalization NOT_STARTED; no human review or held-out
+transfer. PM-H1 through PM-H5 remain OPEN.
+
 ## Supporting mathematical claims
 
 | ID | Statement | Mathematics | Computation | Formalization | Independent review | Novelty |
