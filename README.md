@@ -24,6 +24,8 @@ The unified `research/ongoing` branch contains current research. `main` is the s
 | SC-011 | A polynomial-only certificate reduces F_243 checks to one 121-edge orbit; equal incidence kernels can have automorphism orders 121 and 605 | Classical cyclic-code infrastructure and a precise boundary example |
 | SC-012 | An infinite two-subspace subgroup family has an extra order-two kernel mode while every automorphism still extends linearly | Classical structural boundary; no historical-first claim |
 
+| SC-013 | Single-orbit generation requires connectivity, but F_729 has a connected orbit with an explicit nonlinear trace mode; certified positive instances through degree 8 | Classical coding/component tools; general existence and novelty remain unresolved |
+
 The current verification system uses exact arithmetic and deterministic enumeration, including a separate F_27 multiplication algorithm. The first research checkpoint was replayed successfully on GitHub Actions. CI success is not human peer review or proof-assistant verification; each run's commit and scope are recorded explicitly.
 
 ## Research scope

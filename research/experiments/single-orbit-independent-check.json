@@ -1,0 +1,86 @@
+{
+  "engine": "independent ordinary coefficient-list polynomial division; no project/B imports",
+  "field_modulus": [
+    2,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "primitive_x_full_cycle": 728,
+  "rows": [
+    {
+      "seed": [
+        0,
+        25,
+        311
+      ],
+      "index": 1,
+      "gcd_degree": 13,
+      "gcd_coefficients_ascending": [
+        2,
+        2,
+        0,
+        1,
+        2,
+        0,
+        2,
+        0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "seed": [
+        0,
+        5,
+        255
+      ],
+      "index": 1,
+      "gcd_degree": 7,
+      "gcd_coefficients_ascending": [
+        2,
+        2,
+        2,
+        2,
+        1,
+        0,
+        2,
+        1
+      ]
+    }
+  ],
+  "complete_censuses": [
+    {
+      "m": 3,
+      "orbits": 1
+    },
+    {
+      "m": 4,
+      "orbits": 3
+    },
+    {
+      "m": 5,
+      "orbits": 10
+    },
+    {
+      "m": 6,
+      "orbits": 30
+    }
+  ],
+  "trace_witness": {
+    "seed_translates_checked": 364,
+    "seed_violations": 0,
+    "omitted_edge_values": [
+      0,
+      0,
+      1
+    ]
+  }
+}

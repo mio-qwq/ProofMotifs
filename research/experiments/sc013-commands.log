@@ -1,0 +1,32 @@
+$ python tools/single_orbit_search.py > research/experiments/single-orbit-report.json
+exit=0
+
+$ python tools/single_orbit_search.py --check research/experiments/single-orbit-report.json > research/experiments/single-orbit-verification.json
+exit=0
+
+$ python tools/single_orbit_independent_check.py > research/experiments/single-orbit-independent-check.json
+exit=0
+
+$ python tools/single_orbit_trace_check.py > research/experiments/single-orbit-trace-check.json
+exit=0
+
+$ python -c "import tools.single_orbit_search"
+exit=0
+
+$ python tools/single_orbit_independent_check.py > research/experiments/single-orbit-independent-check.json
+exit=0
+
+$ python -m unittest discover -s tests -v > research/experiments/sc013-tests.log 2>&1
+exit=0; 102 tests passed (see complete test log)
+
+$ python tools/single_orbit_search.py | compare saved research/experiments/single-orbit-report.json
+exit=0; byte-identical
+
+$ python tools/single_orbit_search.py --check research/experiments/single-orbit-report.json | compare saved research/experiments/single-orbit-verification.json
+exit=0; byte-identical
+
+$ python tools/single_orbit_independent_check.py | compare saved research/experiments/single-orbit-independent-check.json
+exit=0; byte-identical
+
+$ python tools/single_orbit_trace_check.py | compare saved research/experiments/single-orbit-trace-check.json
+exit=0; byte-identical

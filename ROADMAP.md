@@ -116,3 +116,27 @@ separate normality theorem. Do not optimize the threshold or enumerate more
 small subgroups without a natural application. A compact formalization of the
 abstract completion-to-affinity lemma remains the preferred alternative once
 a real Lean toolchain exists.
+
+
+## Update after the single-orbit obstruction
+
+SC-013 proves connectivity necessary by component-wise affine functions and
+refutes its sufficiency in F_729 with a degree-six extra Fourier orbit. The
+explicit trace function Tr(u^34) separates a sparse orbit equation system from
+a true omitted edge. Positive certificates through m=8 do not solve
+PM-QUESTION-0001; exhaustive classification was performed only for m=3..6.
+
+Next mathematical operation: for seed parameter a in S with b=-1-a in S,
+define the forbidden set B_k by 1+a^k+(-1-a)^k=0 for each nonaffine
+Frobenius frequency orbit. Determine whether the union of these B_k can cover
+all connected seeds. Seek a genuine simultaneous factor-avoidance theorem
+or a complete field-level covering certificate, rather than exchanging
+forall k exists a with exists a forall k. First compare the exact unit
+criterion in SINGLE_ORBIT_GATE_20261018.md with cyclic-code literature.
+Classical principal-ideal generation alone does not preserve weight three.
+
+Do not extend the degree table without a specific structural test. If the
+factor-covering route yields no new checkable information for two cycles,
+redirect to a compact completion-to-affinity formalization with a working
+compiler or a genuinely held-out cancellation application. Preserve the
+known sparse/full automorphism distinction and the subgroup endpoint caveat.

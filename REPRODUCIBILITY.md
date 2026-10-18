@@ -116,7 +116,7 @@ separately before reporting its hosted status.
 
 ## Cyclic certificate and two-subspace continuation
 
-The latest 89-test run is saved as research/experiments/sc012-tests.log.
+The historical 89-test run is saved as research/experiments/sc012-tests.log.
 The recovered SC-010 increment also has a fresh 74-test acceptance log and
 exact byte-identical Fourier/cyclotomic report replays. New checks are:
 
@@ -137,3 +137,30 @@ The vector-coordinate obstruction enumerates only an eight-point component;
 its larger group orders follow from the proved wreath formula. Old manifests
 belong to their historical commits; sc012-SHA256.json records the new files.
 Neither software checks nor hosted CI imply Lean, human review or originality.
+
+
+## Single-orbit connectivity obstruction
+
+The latest integrated run has 102 passing tests, including 13 new tests with
+corrupted-certificate and incomplete-scan controls. See sc013-tests.log.
+
+```sh
+python tools/single_orbit_search.py > /tmp/single-orbit-report.json
+diff -u research/experiments/single-orbit-report.json /tmp/single-orbit-report.json
+python tools/single_orbit_search.py --check research/experiments/single-orbit-report.json > /tmp/single-orbit-verification.json
+diff -u research/experiments/single-orbit-verification.json /tmp/single-orbit-verification.json
+python tools/single_orbit_independent_check.py > /tmp/single-orbit-independent-check.json
+diff -u research/experiments/single-orbit-independent-check.json /tmp/single-orbit-independent-check.json
+python tools/single_orbit_trace_check.py > /tmp/single-orbit-trace-check.json
+diff -u research/experiments/single-orbit-trace-check.json /tmp/single-orbit-trace-check.json
+```
+
+The main search uses bitplane F3 polynomial division, checked by existing
+coefficient-list Bezout arithmetic and direct field-root counts. It imports
+SC-011 arithmetic, so it is not independent of every project module. The
+two additional checks import no project modules: E uses ordinary polynomial
+long division; A independently multiplies six-coefficient field vectors.
+E also independently reconstructs every normalized orbit and gcd degree for m=3..6; neither independent checker claims a complete scan for m=7,8. The
+full scans stop at m=6; m=7,8 provide selected positive certificates only.
+The command log and sc013-SHA256.json preserve execution and file scope.
+No formal proof-assistant or human review is implied.

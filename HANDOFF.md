@@ -5,6 +5,38 @@ Last verified remote mathematical checkpoint: `1da34c83c3b528d745c96e23834e570cd
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
+## Latest accepted continuation: SC-013
+
+Recovered e35f0dfcb8e5446be3e0840d54c8f89e9967b34e after fresh Git and
+GitHub reads of all branches (main and research/ongoing only). No unseen
+external increment or conflicting working changes was found at recovery.
+
+PM-THEOREM-0017: for E={1,a,b}, H=<a,b>, F_3(H)=F_(3^d), the seed-orbit
+components are tH and kernel dimension is at least [S:H]*(d+1). If H<S
+this exceeds m+1, so connectivity is necessary for full row-code generation.
+
+PM-COUNTEREXAMPLE-0007: over F_729=F_3[X]/(X^6+X+2), gamma=X^2,
+the connected seed {0,25,311} has kernel 13 rather than 7. Its extra
+frequency orbit starts at 34. Tr(u^34) satisfies every one of its 364
+scaled equations but has values 0,0,1 on the true edge {0,5,255}.
+Independent ordinary polynomial gcd and coordinate trace programs confirm
+the certificate without importing the search implementation.
+
+The complete orbit scans cover m=3..6 (1,3,10,30 orbits). Good orbits are
+certified for m=3..8, but m=7,8 stop at the first good seed. General
+existence remains OPEN. The next operation is a simultaneous spectral-factor
+avoidance argument or an all-seed covering obstruction, not more positive
+small-field tables. Read SC-013/RESULTS.md, COMPUTATION.md,
+NINTH_CYCLE.md and SINGLE_ORBIT_GATE_20261018.md.
+
+The integrated local suite passed 102 tests; log sc013-tests.log. New
+reports, independent-check outputs and command log are in research/experiments;
+sc013-SHA256.json records this checkpoint's source/evidence hashes. The
+current mathematical checkpoint's hosted CI must be read at its actual SHA
+after delivery; a prior successful run does not certify the new tree.
+Classical tools, finite evidence, independent AI review, historical novelty,
+human review and Lean remain separate.
+
 ## Strongest accepted statements
 
 C(a,b,c) is the ordinary-moment order of the convolution of three first
@@ -135,7 +167,7 @@ python tools/cyclotomic_incidence.py > /tmp/cyclotomic-incidence-results.json
 diff -u research/experiments/cyclotomic-incidence-results.json /tmp/cyclotomic-incidence-results.json
 ```
 
-All 74 integrated tests passed; log research/experiments/sc010-tests.log.
+The historical SC-010 suite passed 74 tests; log research/experiments/sc010-tests.log.
 The workflow replays all historical reports plus the SC-009 and SC-010 reports.
 Mathematical commit 029a65ff5920f6f9bc05e5102ee3cd5d2f545154 was delivered
 with matching local/remote tree 4afcd66a268a42f18f4fd4f7f8a09ebaba5a5298.
@@ -167,14 +199,12 @@ predecessor string was corrected to 2e990a70585e0fd7230a2c8b47d34627722a011b.
 
 ## Exact next operation and limits
 
-Continue PM-QUESTION-0001: for every m>=3, does some single multiplicative
-orbit of square zero-sum triples span the complete row code? First compare
-cyclic-code/trinomial-gcd literature, then prove existence with explicit
-hypotheses or find a counterexample. m=3,4,5 have positive instances; an
-arbitrary orbit can already fail inF_81. Do not confuse equal row code with
-equal hypergraph automorphisms. The infinite two-axis family is a negative
-control for overextending square-subgroup arguments. No unmotivated subgroup
-tables or threshold polishing; formalize a small core only with a real compiler.
+Continue PM-QUESTION-0001 through simultaneous spectral-factor avoidance.
+Use the precise B_k forbidden sets in ROADMAP; distinguish collective ideal
+generation from a unit seed quotient. Positive instances m=3..8 and the
+connected m=6 failure are controls, not an infinite theorem. Preserve equal
+row-code versus equal-automorphism distinctions and the SC-010 stabilizer
+endpoint. No unmotivated tables or threshold polishing.
 
 One full publicly extracted Zhihu answer was read via Parallel Search; not
 all33 answers or comments. The evidence gate rejects universal cancellation

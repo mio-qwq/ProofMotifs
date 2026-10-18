@@ -4,6 +4,38 @@ Updated: 2026-10-18. Branch: `research/ongoing`; `main` remains the stable basel
 Last remotely verified mathematical checkpoint: `1da34c83c3b528d745c96e23834e570cdddae0de`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
+## Latest accepted continuation: SC-013
+
+Recovered e35f0dfcb8e5446be3e0840d54c8f89e9967b34e after fresh Git and
+GitHub reads of all branches (main and research/ongoing only). No unseen
+external increment or conflicting working changes was found at recovery.
+
+PM-THEOREM-0017: for E={1,a,b}, H=<a,b>, F_3(H)=F_(3^d), the seed-orbit
+components are tH and kernel dimension is at least [S:H]*(d+1). If H<S
+this exceeds m+1, so connectivity is necessary for full row-code generation.
+
+PM-COUNTEREXAMPLE-0007: over F_729=F_3[X]/(X^6+X+2), gamma=X^2,
+the connected seed {0,25,311} has kernel 13 rather than 7. Its extra
+frequency orbit starts at 34. Tr(u^34) satisfies every one of its 364
+scaled equations but has values 0,0,1 on the true edge {0,5,255}.
+Independent ordinary polynomial gcd and coordinate trace programs confirm
+the certificate without importing the search implementation.
+
+The complete orbit scans cover m=3..6 (1,3,10,30 orbits). Good orbits are
+certified for m=3..8, but m=7,8 stop at the first good seed. General
+existence remains OPEN. The next operation is a simultaneous spectral-factor
+avoidance argument or an all-seed covering obstruction, not more positive
+small-field tables. Read SC-013/RESULTS.md, COMPUTATION.md,
+NINTH_CYCLE.md and SINGLE_ORBIT_GATE_20261018.md.
+
+The integrated local suite passed 102 tests; log sc013-tests.log. New
+reports, independent-check outputs and command log are in research/experiments;
+sc013-SHA256.json records this checkpoint's source/evidence hashes. The
+current mathematical checkpoint's hosted CI must be read at its actual SHA
+after delivery; a prior successful run does not certify the new tree.
+Classical tools, finite evidence, independent AI review, historical novelty,
+human review and Lean remain separate.
+
 ## Current mathematical result
 
 SC-009 completes the finite-field arbitrary ternary-order preserver classification.
@@ -101,7 +133,7 @@ full predecessor string was corrected: its actual predecessor was
 
 ## Actual verification
 
-All 74 tests passed in the integrated local suite; current log:
+The historical SC-010 integrated suite passed 74 tests; its log:
 research/experiments/sc010-tests.log. New deterministic reports record exact
 rank minors and kernel vectors, full color traces and an independent arithmetic
 receipt, and completion-gadget checks. F_27/F_81 cover all 780/28,880 nontrivial
@@ -159,13 +191,10 @@ embedding, Freiman extension and Paley/Carlitz theory are close but do not
 directly imply the induced-square incidence kernel. This bounded outcome does
 not establish priority. See `INCIDENCE_VALUE_GATE_20261018.md`.
 
-Next precise target is PM-QUESTION-0001: does every m>=3 admit at least
-one square-multiplication edge orbit spanning the full incidence row code?
-Express the question as a trinomial gcd, compare cyclic-code precedents
-first, and distinguish existence from the refuted claim that any orbit works.
-Known positive cases m=3,4,5 and the F_81 bad seed must remain controls.
-Select a proof route or a counterexample; do not generate more subgroup
-tables or optimize SC-010 constants without a mathematical purpose.
+PM-QUESTION-0001 remains open after the SC-013 gate and obstruction. Known
+positive cases now cover m=3..8; connectivity is necessary and insufficient.
+The immediate mathematical task is the factor-avoidance/covering problem
+stated in ROADMAP, not a repeated discovery of old checkpoints.
 
 ## Scheduling and delivery
 

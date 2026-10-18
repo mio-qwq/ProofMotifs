@@ -74,3 +74,17 @@ jobs:
         run: |
           python3 tools/two_subspace_obstruction.py > /tmp/two-subspace-results.json
           diff -u research/experiments/two-subspace-results.json /tmp/two-subspace-results.json
+      - name: Replay single-orbit certificates
+        run: |
+          python3 tools/single_orbit_search.py > /tmp/single-orbit-report.json
+          diff -u research/experiments/single-orbit-report.json /tmp/single-orbit-report.json
+          python3 tools/single_orbit_search.py --check research/experiments/single-orbit-report.json > /tmp/single-orbit-verification.json
+          diff -u research/experiments/single-orbit-verification.json /tmp/single-orbit-verification.json
+      - name: Independently check connected-orbit polynomial gcd
+        run: |
+          python3 tools/single_orbit_independent_check.py > /tmp/single-orbit-independent-check.json
+          diff -u research/experiments/single-orbit-independent-check.json /tmp/single-orbit-independent-check.json
+      - name: Independently check nonlinear trace separator
+        run: |
+          python3 tools/single_orbit_trace_check.py > /tmp/single-orbit-trace-check.json
+          diff -u research/experiments/single-orbit-trace-check.json /tmp/single-orbit-trace-check.json
