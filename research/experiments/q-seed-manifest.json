@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-19 Asia/Singapore",
+  "expected_predecessor": "a51579c527972fe46634108515395876e6b72cba",
+  "predecessor_tree": "54b587108bdf7df6dc44487b6def36e3e6d5366f",
+  "scope": "Manual proofs plus independent AI review and exact code controls; not Lean/human review/novelty/heldout success",
+  "local_verification": {
+    "unit_tests": 156,
+    "status": "PASS",
+    "deterministic_replay_blocks": 39,
+    "replays_status": "PASS",
+    "new_replay_blocks": 4,
+    "workflow": ".github/workflows/verify.yml"
+  },
+  "files": {
+    ".github/workflows/verify.yml": "0d10e4b426008b478e66027b5913e9d7395e6f01ec9334e5400e5b03cba2e1e7",
+    "CLAIMS.md": "bff22021089e5f0b3e5215d6f73da29f2a852bbc27cb023943bfe7cc4b793bf6",
+    "HANDOFF.md": "7816b450f5e90418da23f53386dc356e4572522d9951e948e7ec2eaf3fcefbac",
+    "ROADMAP.md": "b925a9014c8b3a96309e73ab0d006b3c122b2ca6bf5e5667ce7b53cfbde202c3",
+    "STATUS.md": "b6716d7eb89d79a3d34808b2b8dedafa629db90557203eba940bb557e14c1f00",
+    "research/RESEARCH_PROGRAM.md": "9ec0f18d2d3f8546d3a4fe832cfbd9d80aaa55a5bd44335403dcbcce86527a79",
+    "docs/reviews/Q_POLYNOMIAL_C_ADVERSARIAL.md": "2176555f117364d225cac6aaac2c3dfe55a144a0536d6ede45176837ca3e9ca9",
+    "docs/reviews/Q_SEED_A_PRIORART.md": "0a0de30f8a2e4385cbe52ec641dedeb767b8d28e5c1fdc96400cbdeeedd537d5",
+    "docs/reviews/Q_SEED_B_THEORY.md": "af426eda22b5fb9a6ffe72b90e1eeaedcd5876ed2ae84e6a562f69623351cb43",
+    "docs/reviews/Q_SEED_CHECKPOINT.md": "5f01377c1dcf78a3f7a3894562a7708a9e335ffe343bf29571c16bc6b6b1f9c9",
+    "docs/reviews/Q_SEED_C_ADVERSARIAL.md": "1138179d89b4a30a442525e794db5eb73e5f2658cf33085bbadd8b7405b06d85",
+    "docs/reviews/Q_SEED_D_SECOND_VIEW.md": "aa7b654d1203ccc490f3b00ecfe6aab6cf95c9ce68776e3cfdcdd7fef2bf9f81",
+    "research/experiments/q-polynomial-independent.json": "38c9dcb6dd75c77c66ab2c5e9b36f6cab9762e1be4399a77dae165ea8e133a59",
+    "research/experiments/q-polynomial-report.json": "2478fcdb1a74bf7ec46a63123bf42079371791c7dfa5abd602de03859091acbb",
+    "research/experiments/q-seed-commands.sh": "f419cd3bce09a0dc7f1b6e1a8a0a38a1cfbe107c632edeba908d2c8e6fbd32e8",
+    "research/experiments/q-seed-independent.json": "976fb851d2744b45ac124e7a932cc4ee95791dcbf3dac7ac895e5e994cdf3c0a",
+    "research/experiments/q-seed-replays.log": "dc9f99c4747d4a97335a1c81e8b27da47eadb3975110b4977cbe35f85d269ddd",
+    "research/experiments/q-seed-report.json": "4f178904a70741717d7b1e4b53a36a1b493efcc7033e3fd11db6dc07dcb41526",
+    "research/experiments/q-seed-source-ledger.json": "451bbf14a42f45e3ceafb6e656293a1870eaf47bca9b4b0a4cdbbd855f9fc8bc",
+    "research/experiments/q-seed-tests.log": "c2a8357d7eea6e98768e38cf896398f3035022114ca86fe2dedc804a5d9ea90d",
+    "research/mechanisms/Q_WORD_SEED_SYNTHESIS.md": "627c223d4ec4ac7fcaef663c42e552dc3a00f8e74c80fce57b9e663388e0dafe",
+    "tests/test_q_polynomial_obstruction.py": "99ad7bcfcd022f3af6bd251d05658a8c9ee8781e78123300c704fc93714d4776",
+    "tests/test_q_seed_synthesis.py": "18d91635a887eb229ac695463678a56f6b65fa451eaa01377869dbef5d642b53",
+    "tools/q_polynomial_independent.py": "0bfd83aa841eb7fc5ea348aa26c30fb7f762e8af56a7db848962b8a1d8be75ba",
+    "tools/q_polynomial_obstruction.py": "5739446d4672fee5de30866eff2743f4b1a62d5bb2d833c9ea97dbd43b85d1fa",
+    "tools/q_seed_independent.py": "b7ef4547912bfd377019bbd54faa12231ef27844cbe8cdd686159eca17c96fda",
+    "tools/q_seed_synthesis.py": "c1319720283f1d058ff1e78e38cba9899e98b270d08bc32e9822f49b3030da59"
+  },
+  "models": {
+    "children": "4 actual explicit gpt-6.1-sol / ultra tasks, fork none",
+    "root": "not verified from readable runtime configuration"
+  },
+  "hosted_ci": "NOT_YET_VERIFIED in mathematical manifest; see subsequent receipt"
+}

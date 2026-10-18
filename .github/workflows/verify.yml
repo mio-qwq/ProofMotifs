@@ -176,3 +176,19 @@ jobs:
         run: |
           python3 tools/finite_algebra_jet_independent.py > /tmp/finite-algebra-jet-independent.json
           diff -u research/experiments/finite-algebra-jet-independent.json /tmp/finite-algebra-jet-independent.json
+      - name: Replay exact q-seed dictionary synthesis
+        run: |
+          python3 tools/q_seed_synthesis.py > /tmp/q-seed-report.json
+          diff -u research/experiments/q-seed-report.json /tmp/q-seed-report.json
+      - name: Independently check q-residues and positive characteristic
+        run: |
+          python3 tools/q_seed_independent.py > /tmp/q-seed-independent.json
+          diff -u research/experiments/q-seed-independent.json /tmp/q-seed-independent.json
+      - name: Replay polynomial-seed operator obstructions
+        run: |
+          python3 tools/q_polynomial_obstruction.py > /tmp/q-polynomial-report.json
+          diff -u research/experiments/q-polynomial-report.json /tmp/q-polynomial-report.json
+      - name: Independently check quantum-plane identities
+        run: |
+          python3 tools/q_polynomial_independent.py > /tmp/q-polynomial-independent.json
+          diff -u research/experiments/q-polynomial-independent.json /tmp/q-polynomial-independent.json

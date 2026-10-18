@@ -5,6 +5,38 @@ Last verified remote mathematical checkpoint: `c899ec028f582cff09df3f211755765cc
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
+## Latest recovery: q-seed synthesis and polynomial grammar obstruction
+
+Read Q_SEED_CHECKPOINT.md and Q_WORD_SEED_SYNTHESIS.md first. Fresh recovery
+found exactly main and research/ongoing, matching a51579c and a clean workspace,
+with no overlapping old child execution. Four task-scoped GPT-6.1-Sol/Ultra
+researchers supplied original-paper comparison, two independent math views
+and separate adversarial/code checks; root accepted after resolving helper,
+validation-order and certificate-format observations. Main model settings
+remain unverified, not inferred from child configuration.
+
+Full q prior-art comparison is materially stronger: AMV2007 already covers
+arbitrary characteristic; Bertrand2010 actual q proof sections were read.
+The source unit-fundamental hypothesis is stronger than regular singularity,
+and old independent-component assumptions are not automatic. These boundaries
+do not establish novelty or that old methods cannot derive the explicit bound.
+Bertrand2007 chapter and original MouraJDCS2003 remain inaccessible full texts.
+
+PM-QSEED0001..0006 give a strong word/residue iff, strict strong-versus-basic
+counterexample, exact raw dictionary selection, full polynomial-grammar
+obstruction and exact quantum-plane presentation for z,z^2. Polynomial seeds
+on >=2 letters cannot work even for ordinary K-faithfulness; nonzero unary
+seeds do. Q prototypes, raw rational independent checks, genuine F3(t) tests,
+universal Z[q,T] identities and negative certificates are saved.156 tests
+passed locally;39 deterministic replay blocks are now configured. Read actual
+hosted CI receipt separately; do not infer it from local status.
+
+Next only a bounded structural test of J_z,J_(z/(1-z)) at the weaker target,
+preceded by primary free-subalgebra literature comparison. Strong-rank failure
+is not ordinary impossibility, and finite ranks are not a proof. If no gain,
+return to197/107/157 representation discovery with resource/composition
+constraints. PM-H1..H5 OPEN. No new external held-out target consumed.
+
 ## Primary recovery instruction
 
 Latest verified mathematicsc899ec028f582cff09df3f211755765cc8e9b5e8 has

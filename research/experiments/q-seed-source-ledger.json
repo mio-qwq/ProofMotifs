@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-19 Asia/Singapore",
+  "scope": "Read ranges, not whole-paper audits or originality proofs. Earlier succinct ledger remains historical.",
+  "sources": [
+    {
+      "id": "amv2007",
+      "title": "On Siegel–Shidlovskii's theory for q-difference equations",
+      "authors": "M. Amou, T. Matala-aho, K. Väänänen",
+      "version": "Acta Arithmetica127(4),2007,309–335",
+      "url": "https://www.impan.pl/shop/en/publication/transaction/download/product/83675",
+      "read": "§2 pp310–312; relevant §3–4 pp313–317 including Thm2.1 and Lem4.1; note p334. Primary full PDF, relevant ranges root independently read.",
+      "conclusion": "Any characteristic and infinite-order q already covered, with independent components and system-dependent constant; not a novelty gap."
+    },
+    {
+      "id": "bertrand2010",
+      "title": "Multiplicity and vanishing lemmas in differential and difference algebra",
+      "version": "FPM16(5),2010,19–30; original Russian journal PDF",
+      "url": "https://www.mathnet.ru/php/getFT.phtml?jrnid=fpm&option_lang=eng&paperid=1334&what=fullt",
+      "read": "Intro p21; complete q sections4–5 pp24–28; Thm4.1/Cor4.1 and effectivity statement p27. Root read q theorem/proof ranges.",
+      "conclusion": "Complex 0<|q|<1 regular-singular/quasi-unipotent; rL+c(system), effectivity not known there."
+    },
+    {
+      "id": "bertrand2012translation",
+      "version": "JMS180(5),2012,542–549",
+      "url": "https://link.springer.com/article/10.1007/s10958-012-0652-3",
+      "read": "Publisher abstract/references/translation metadata only; English full text NOT obtained.",
+      "conclusion": "Do not claim separately audited English theorem pagination."
+    },
+    {
+      "id": "bertrand2007chapter",
+      "title": "Multiplicity estimates for q-difference operators",
+      "version": "CRMSeries4,2007,65–71",
+      "url": "https://toc.library.ethz.ch/objects/pdf/e01_978-88-7642-206-5_01.pdf",
+      "read": "Actual book contents scan read by reviewerA; chapter FULL TEXT NOT obtained.",
+      "conclusion": "Title variants in bibliography not counted as separate proof reads."
+    },
+    {
+      "id": "moura_jdcs2003",
+      "version": "JDCS9(1),2003,73–88",
+      "url": "https://link.springer.com/article/10.1023/A:1022155217548",
+      "read": "Publisher metadata/abstract; full original NOT obtained.",
+      "conclusion": "Cannot attribute exact constants/theorem numbers or substitute separate hyperelliptic paper."
+    },
+    {
+      "id": "moura_hyperelliptic",
+      "title": "On the multiplicity of the hyperelliptic integrals",
+      "version": "arXiv:math/0312323v1,17Dec2003",
+      "url": "https://arxiv.org/pdf/math/0312323",
+      "read": "§2 pp3–6; relevant references pp17–18, reviewerA; distinct paper.",
+      "conclusion": "Explains differential Wronskian baseline; not direct access to JDCS article."
+    },
+    {
+      "id": "chen_singer2012",
+      "title": "Residues and telescopers for bivariate rational functions",
+      "version": "AAM49,2012,111–133; DOI10.1016/j.aam.2012.04.003",
+      "url": "https://singer.math.ncsu.edu/papers/YAAMA1465.pdf",
+      "read": "§2 assumptions p113; §2.3 pp116–118, Def2.7,Lem2.9,Prop2.10, root andA.",
+      "conclusion": "Characteristic-zero rational q-summability by weighted q-discrete residues plus infinity; normalization explains our split-pole sums."
+    },
+    {
+      "id": "schneider2008",
+      "title": "Parameterized Telescoping Proves Algebraic Independence of Sums",
+      "version": "arXiv:0808.2596v1,19Aug2008",
+      "url": "https://arxiv.org/pdf/0808.2596",
+      "read": "§2 pp2–3; §3 Thm3.1 and proof pp4–5; characteristic-zero footnote; root andA.",
+      "conclusion": "Established telescoping/independent-sum framework; not identical recursive-word theorem. Karr1981 cited there, original not read."
+    },
+    {
+      "id": "edmonds1971",
+      "title": "Matroids and the greedy algorithm",
+      "version": "Mathematical Programming1,1971,127–136",
+      "url": "https://link.springer.com/article/10.1007/BF01584082",
+      "read": "Publisher metadata/abstract ONLY; full original subscription access unavailable.",
+      "conclusion": "Classical weighted-matroid baseline; full independent exchange proof given locally, not attributed as original proof read."
+    },
+    {
+      "id": "smith2013",
+      "title": "Free subalgebras of the skew polynomial rings k[x,y][t;sigma] and k[x±1,y±1][t;sigma]",
+      "version": "arXiv:1308.1694v1,7Aug2013",
+      "url": "https://arxiv.org/pdf/1308.1694",
+      "read": "§1.1–1.5 pp1–3, root andB; finite-GK obstruction §1.5.3 and exponential word growth §1.5.4.",
+      "conclusion": "Classical growth mechanism and warning that Ore extensions/localizations can contain free subalgebras. No exact-realization priority audit."
+    },
+    {
+      "id": "benkart_roby1998",
+      "title": "Down-Up Algebras",
+      "version": "arXiv:math/9803159v1,12Mar1998",
+      "url": "https://arxiv.org/pdf/math/9803159",
+      "read": "§1 pp3–4 definitions R1/R2 and quantum-plane example, root andC.",
+      "conclusion": "Two relations required; our superficially matching companion is false. Quantum plane is classical."
+    },
+    {
+      "id": "source116",
+      "version": "openai/math revision1581d4cbdd69a0faf34b2089614fe2a814316a6a",
+      "url": "https://github.com/openai/math/tree/1581d4cbdd69a0faf34b2089614fe2a814316a6a/preprints/Uniform-Matrix-Hitting-Points-in-Every-Positive-Characteristic-October-4-2026",
+      "read": "Already read calibration. words.tex all164lines blob882cb46e0e824041ecddcd051aa97a20d96cd050; order.tex all156lines blobab18a99256085b49fddba4c4d8ee2963016733de. ReviewerA reread; not held-out.",
+      "conclusion": "Supplied source word mechanism, explicit unit-fundamental bound. No successful unseen transfer."
+    }
+  ],
+  "not_claimed": [
+    "absence of literature match proves novelty",
+    "all-characteristic q-multiplicity is new",
+    "all papers fully read",
+    "new cancellation theory or AI causal explanation"
+  ]
+}

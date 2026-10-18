@@ -1,0 +1,210 @@
+{
+  "classification": "polynomial seed grammar cannot encode a free algebra on two or more letters",
+  "explicit_BA_minus_2AB_minus_A3": [
+    [
+      [
+        1,
+        0
+      ],
+      1
+    ],
+    [
+      [
+        0,
+        1
+      ],
+      -2
+    ],
+    [
+      [
+        0,
+        0,
+        0
+      ],
+      -1
+    ]
+  ],
+  "false_companion_relation_rejected": true,
+  "generic_symbolic_certificates": [
+    {
+      "contract": "zero operator on all Q[[z]], q=2, not just value on1",
+      "coordinate_bound": 49,
+      "degree_bound": 2,
+      "terms": [
+        [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "2"
+        ],
+        [
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "-3"
+        ],
+        [
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "1"
+        ]
+      ],
+      "word_length": 6,
+      "words_examined": 5
+    },
+    {
+      "contract": "zero operator on all Q[[z]], q=2, not just value on1",
+      "coordinate_bound": 49,
+      "degree_bound": 2,
+      "terms": [
+        [
+          [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "-1"
+        ],
+        [
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "3/2"
+        ],
+        [
+          [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          "1/2"
+        ],
+        [
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "-1/2"
+        ],
+        [
+          [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "-3/2"
+        ],
+        [
+          [
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "1"
+        ]
+      ],
+      "word_length": 6,
+      "words_examined": 7
+    },
+    {
+      "contract": "zero operator on all Q[[z]], q=2, not just value on1",
+      "coordinate_bound": 1,
+      "degree_bound": 1,
+      "terms": [
+        [
+          [
+            0
+          ],
+          "2/3"
+        ],
+        [
+          [
+            1
+          ],
+          "1"
+        ]
+      ],
+      "word_length": 1,
+      "words_examined": 2
+    },
+    {
+      "contract": "zero operator on all Q[[z]], q=2, not just value on1",
+      "coordinate_bound": 1,
+      "degree_bound": 1,
+      "terms": [
+        [
+          [
+            0
+          ],
+          "1"
+        ]
+      ],
+      "word_length": 1,
+      "words_examined": 1
+    }
+  ],
+  "homogeneous_cubic": [
+    [
+      [
+        0,
+        0,
+        1
+      ],
+      2
+    ],
+    [
+      [
+        0,
+        1,
+        0
+      ],
+      -3
+    ],
+    [
+      [
+        1,
+        0,
+        0
+      ],
+      1
+    ]
+  ],
+  "not_claimed": "arbitrary rational seeds fail, or a new theorem of quantum algebra"
+}

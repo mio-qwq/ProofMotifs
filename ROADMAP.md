@@ -1,5 +1,21 @@
 # Research roadmap
 
+Newest gate completed: Q_WORD_SEED_SYNTHESIS.md and Q_SEED_CHECKPOINT.md.
+Actual full q-multiplicity papers show more existing coverage, not a missing
+all-characteristic theory. Exact residue geometry supplies a bounded strong
+representation-selector with conventional matroid optimality. A whole cheap
+polynomial-seed grammar is now excluded by a quadratic-growth theorem; the
+z,z^2 example is identified exactly as a quantum plane after generator repair.
+This is useful structure for auxiliary-map choice, not evidence that a new
+universal cancellation tool exists.156 local tests and four new replay blocks
+support the new manual proofs; scope/novelty remain separate.
+
+Next bounded gate is weaker operator faithfulness for J_z,J_(z/(1-z)), first
+compared with primary free-subalgebra criteria. Do not mistake strong residue
+rank1 or finite sampled word ranks for an answer. Then resume cross-mechanism
+representation discovery if this gate adds no reusable insight. No old field
+scans, further small dictionary panels or constant optimization as a default.
+
 Current priority: execute `research/RESEARCH_PROGRAM.md`. Investigate whether
 repeated exact higher-order cancellations in AI proofs reveal a missing
 mathematical instrument that could systematically handle a class of problems.

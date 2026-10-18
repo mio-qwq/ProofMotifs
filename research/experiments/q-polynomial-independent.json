@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "universal_Z_q_T_cubic_remainder": {},
+  "universal_Z_q_T_mixed_relation_remainder": {},
+  "universal_Z_q_T_PBW_formula_cases": 25,
+  "q2_cubic_monomials_checked": 20,
+  "q2_cubic_operator_matrix_rank": 7,
+  "q2_nonmonomial_length6": {
+    "word_count": 64,
+    "ambient_bound": 49,
+    "actual_exact_rank": 22
+  },
+  "down_up_companion_on_1": "2/1395*z^5 (NONZERO)",
+  "root_generic_certificates_independently_checked": [
+    {
+      "length": 6,
+      "terms": 3,
+      "words_examined": 5,
+      "coordinate_bound": 49
+    },
+    {
+      "length": 6,
+      "terms": 6,
+      "words_examined": 7,
+      "coordinate_bound": 49
+    },
+    {
+      "length": 1,
+      "terms": 2,
+      "words_examined": 2,
+      "coordinate_bound": 1
+    },
+    {
+      "length": 1,
+      "terms": 1,
+      "words_examined": 1,
+      "coordinate_bound": 1
+    }
+  ],
+  "root_corrupted_identity_rejected": true,
+  "unary_order2_leading_orders": [
+    2,
+    4,
+    6,
+    8,
+    10,
+    12,
+    14
+  ]
+}

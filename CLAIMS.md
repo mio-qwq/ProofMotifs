@@ -15,6 +15,26 @@ All five remain OPEN; this is a research agenda, not a completed preregistration
 | PM-H4 | Precise gap beyond established mathematical tools | Original theorem/hypothesis comparisons are required; a failed search is not a gap proof |
 | PM-H5 | Additional value of a candidate instrument | Held-out results against fixed existing-tool/resource baselines remain outstanding |
 
+## Q-word seed discovery and polynomial grammar boundary
+
+Proofs: [q-seed contracts](research/mechanisms/Q_WORD_SEED_SYNTHESIS.md).
+Independent views B/D, adversary C, prior-art A; root integration and exact
+code checks. No human review, Lean, historical originality or unseen transfer.
+
+| ID | Scoped conclusion | Status and limit |
+| --- | --- | --- |
+| PM-QSEED0001 | Recursive q-word K(z)-independence iff seed classes are K-independent modulo Delta K(z) | PROVED_MANUALLY, every characteristic, infinite-order q; source-derived/classical-style, not priority-certified |
+| PM-QSEED0002 | Exact seed z gives unary K-faithfulness despite strong-rank zero | Exact counterexample to using strong rank as necessary for ordinary faithfulness |
+| PM-QSEED0003 | Split rational zero-at0 seeds are summable iff all normalized orbit/order residues vanish | Complete proof/antidifferences; Chen–Singer characteristic-zero baseline, no historical novelty inference |
+| PM-QSEED0004 | Raw finite split-rational dictionary admits exact minimum-cost strongly word-free subset or rank/repair certificate | Classical residue extraction + weighted linear matroid; verified split factors and effective orbit test, not arbitrary representation discovery |
+| PM-QSEED0005 | >=2 polynomial seeds never give a free K-operator algebra; unary nonzero seed does; at most quadratic filtered growth | Complete all-series/characteristic-free proof, polynomial-size identity constructor in expanded degree; classical growth obstruction |
+| PM-QSEED0006 | J_z,J_(z^2) generate precisely a quantum plane after C=B+A^2 | Complete normal-basis proof; false down-up companion explicitly refuted; no named-algebra novelty claim |
+| PM-QSEED-NEXT | Weaker K-operator faithfulness of J_z,J_(z/(1-z)) | PROJECT_OPEN; strong-rank1 does not settle it, not claimed historically open |
+
+156 local unit tests; four new deterministic replays configured. Hosted run
+receipt checked separately. PM-H1..H5 remain OPEN: these theorems narrow a
+discovery grammar, not establish a new general tool or explain AI capability.
+
 ## Succinct cancellation and uniformity gate
 
 Proofs: [succinct interfaces](research/mechanisms/SUCCINCT_CANCELLATION.md).

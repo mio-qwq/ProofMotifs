@@ -27,6 +27,26 @@ transporting a mechanism while preserving its actual hypotheses. These remain
 candidates; new mathematics and better synthesis with known mathematics are
 separate possible outcomes.
 
+## Latest operational finding (19 October 2026)
+
+Read Q_WORD_SEED_SYNTHESIS.md and Q_SEED_CHECKPOINT.md. The q-word case now
+has a complete strong seed-class criterion and exact finite rational-dictionary
+selection, explicitly covered by residue/matroid mechanisms. Its weaker
+operator target is different: one exact polynomial seed can be faithful,
+but every polynomial alphabet of size>=2 fails by a proved quadratic-growth
+obstruction. The z,z^2 operator algebra is exactly a quantum plane after a
+triangular generator change. This is a useful grammar-exclusion operation,
+not a novel general principle. Full original q-multiplicity comparison also
+finds arbitrary-characteristic coverage in AMV2007. Thus the current evidence
+strengthens the classical baseline rather than PM-H4/H5 success.
+
+The remaining discovery issue is choosing useful representation grammars
+under resource/composition constraints from actual problem input. One bounded
+weaker-target gate for J_z,J_(z/(1-z)) may sharpen this; it must not become
+an unlimited neighboring-special-case stream. Resume197/107/157 synthesis
+if it produces no general operation. No unseen transfer or AI causal evidence
+has been obtained. Central mathematical objective above remains controlling.
+
 ## Central questions
 
 1. Which reported AI mathematical successes survive statement, proof,

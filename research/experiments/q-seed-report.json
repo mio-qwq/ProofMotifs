@@ -1,0 +1,309 @@
+{
+  "classification": "classical rational q-residues + minimum-weight linear matroid; strong contract only",
+  "example": {
+    "basis": [
+      1,
+      3,
+      4
+    ],
+    "columns": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "1",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ],
+      [
+        "0",
+        "0",
+        "0"
+      ]
+    ],
+    "contract": "strong K(z)-word-freeness, not necessity for basic K-faithfulness",
+    "cost": "9",
+    "decompositions": [
+      {
+        "poly": [
+          "0"
+        ],
+        "terms": [
+          {
+            "alpha": "3",
+            "coefficient": "1",
+            "order": 1
+          }
+        ]
+      },
+      {
+        "poly": [
+          "0"
+        ],
+        "terms": [
+          {
+            "alpha": "6",
+            "coefficient": "1",
+            "order": 1
+          }
+        ]
+      },
+      {
+        "poly": [
+          "0"
+        ],
+        "terms": [
+          {
+            "alpha": "3",
+            "coefficient": "1",
+            "order": 1
+          },
+          {
+            "alpha": "6",
+            "coefficient": "-1",
+            "order": 1
+          }
+        ]
+      },
+      {
+        "poly": [
+          "0"
+        ],
+        "terms": [
+          {
+            "alpha": "3",
+            "coefficient": "1",
+            "order": 2
+          }
+        ]
+      },
+      {
+        "poly": [
+          "0"
+        ],
+        "terms": [
+          {
+            "alpha": "3",
+            "coefficient": "1",
+            "order": 1
+          },
+          {
+            "alpha": "5",
+            "coefficient": "1",
+            "order": 1
+          }
+        ]
+      },
+      {
+        "poly": [
+          "0"
+        ],
+        "terms": [
+          {
+            "alpha": "5",
+            "coefficient": "1",
+            "order": 1
+          }
+        ]
+      },
+      {
+        "poly": [
+          "0",
+          "1"
+        ],
+        "terms": []
+      }
+    ],
+    "quotient_rank": 3,
+    "repairs": [
+      {
+        "basis_coordinates": [
+          "1",
+          "0",
+          "0"
+        ],
+        "seed": 0,
+        "telescoper": {
+          "poly": [
+            "0"
+          ],
+          "terms": [
+            {
+              "alpha": "6",
+              "coefficient": "1",
+              "order": 1
+            }
+          ]
+        }
+      },
+      {
+        "basis_coordinates": [
+          "1",
+          "0",
+          "0"
+        ],
+        "seed": 1,
+        "telescoper": {
+          "poly": [
+            "0"
+          ],
+          "terms": []
+        }
+      },
+      {
+        "basis_coordinates": [
+          "0",
+          "0",
+          "0"
+        ],
+        "seed": 2,
+        "telescoper": {
+          "poly": [
+            "0"
+          ],
+          "terms": [
+            {
+              "alpha": "6",
+              "coefficient": "1",
+              "order": 1
+            }
+          ]
+        }
+      },
+      {
+        "basis_coordinates": [
+          "0",
+          "1",
+          "0"
+        ],
+        "seed": 3,
+        "telescoper": {
+          "poly": [
+            "0"
+          ],
+          "terms": []
+        }
+      },
+      {
+        "basis_coordinates": [
+          "0",
+          "0",
+          "1"
+        ],
+        "seed": 4,
+        "telescoper": {
+          "poly": [
+            "0"
+          ],
+          "terms": []
+        }
+      },
+      {
+        "basis_coordinates": [
+          "-1",
+          "0",
+          "1"
+        ],
+        "seed": 5,
+        "telescoper": {
+          "poly": [
+            "0"
+          ],
+          "terms": [
+            {
+              "alpha": "6",
+              "coefficient": "-1",
+              "order": 1
+            }
+          ]
+        }
+      },
+      {
+        "basis_coordinates": [
+          "0",
+          "0",
+          "0"
+        ],
+        "seed": 6,
+        "telescoper": {
+          "poly": [
+            "0",
+            "1"
+          ],
+          "terms": []
+        }
+      }
+    ],
+    "rows": [
+      [
+        "3",
+        1
+      ],
+      [
+        "3",
+        2
+      ],
+      [
+        "5",
+        1
+      ]
+    ],
+    "selected": [
+      1,
+      3,
+      4
+    ],
+    "status": "selected",
+    "target_rank": 3
+  },
+  "not_claimed": "finite prefix or finite matrix hitting point, new theory, or held-out success",
+  "same_input_exhaustive_control": [
+    {
+      "feasible_subsets": 1,
+      "minimum_cost": 0,
+      "r": 0
+    },
+    {
+      "feasible_subsets": 5,
+      "minimum_cost": "2",
+      "r": 1
+    },
+    {
+      "feasible_subsets": 9,
+      "minimum_cost": "5",
+      "r": 2
+    },
+    {
+      "feasible_subsets": 5,
+      "minimum_cost": "9",
+      "r": 3
+    },
+    {
+      "feasible_subsets": 0,
+      "minimum_cost": null,
+      "r": 4
+    }
+  ]
+}

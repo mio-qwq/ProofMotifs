@@ -4,6 +4,35 @@ Updated: 2026-10-19 (Asia/Singapore). Branch: `research/ongoing`; `main` remains
 Last remotely verified mathematical checkpoint: `c899ec028f582cff09df3f211755765cc8e9b5e8`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
+## Newest mathematical continuation: q-seed discovery and obstruction
+
+Read research/mechanisms/Q_WORD_SEED_SYNTHESIS.md and docs/reviews/Q_SEED_CHECKPOINT.md
+before older next-step entries. Actual full-paper comparison finds arbitrary-
+characteristic q-multiplicity already in AMV2007; Bertrand2010 q-sections
+are no longer slides-only. No historical novelty gap follows.
+
+Six scoped results now separate strong rational-word independence from weaker
+K-operator faithfulness. Raw split-rational dictionaries yield exact minimum-
+cost strong seed selection and rational difference certificates via established
+q-residues/matroids. More importantly, every polynomial-seed grammar on at
+least two letters fails even the weaker operator target: the generated algebra
+has at most quadratic growth; a polynomial-size exact identity constructor
+certifies the obstruction. J_z,J_(z^2) generate a quantum plane after a
+triangular generator change, with full normal-basis proof and a preserved
+false down-up-companion counterexample. All-characteristic proofs are manual;
+prototypes use Q,q=2 plus independent F3(t) controls. No new universal tool,
+held-out success, human review, Lean or AI-causality result is claimed.
+
+156 local tests passed; four new deterministic blocks bring the workflow to39.
+Hosted delivery verification is recorded separately after the actual run.
+Main runtime model/effort remains unreadable; four actual child tasks were
+explicitly GPT-6.1 Sol/Ultra. PM-H1..H5 remain OPEN.
+
+Next bounded gate: ordinary K-operator faithfulness of J_z,J_(z/(1-z)),
+with primary free-subalgebra/Ore comparisons. Strong residue rank1 is not
+an answer. One structural proof/obstruction attempt, then return to the macro
+cross-mechanism discovery problem if no reusable gain; no word-rank scans.
+
 ## Controlling research priority: AI success, cancellation and tool need
 
 Delivery verified: mathematical commitc899ec028f582cff09df3f211755765cc8e9b5e8,
