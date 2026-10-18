@@ -7,6 +7,12 @@ never force-push. Unified branch: `research/ongoing`; main stays stable.
 
 ## Primary recovery instruction
 
+Latest verified macro checkpoint:2972e186d95ed60f5731bdb45167bd8ecc56556f,
+tree99b59aabf41d995869c13de6e7187c2adf75b1f5. CI39139767580/job117711598203
+is successful; see CI_MACRO_PROGRAM_CHECKPOINT.json for the exact limited
+scope. Read the actual current ref as usual. The historical mathematical
+checkpoint above remains a different evidence category.
+
 Resume `research/RESEARCH_PROGRAM.md` before any older next-step paragraph.
 The central questions concern verified AI mathematical capability, whether
 structural cancellation explains a meaningful part of it, and whether an

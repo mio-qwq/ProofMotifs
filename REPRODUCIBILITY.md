@@ -1,5 +1,19 @@
 # Reproducibility
 
+## Macro cancellation program checkpoint, 18 October 2026
+
+The local production suite passed120 tests. The metadata-only frame parser
+`tools/replay_ai_math_frame.py` independently verifies the frozen CONTENTS Git
+blob, parses372 families/719 unique manuscript paths/242 scope links and
+reproduces `research/corpus/openai_math_frame_20261018.json` byte-for-byte.
+Retrieve the exact source URL in that JSON; the third-party body is not
+redistributed. Run the parser with `--self-test` and then the local source path.
+Checks and hashes: `openai_math_frame_checks_20261018.json` in research/corpus.
+Hosted run39139767580 at2972e18 passed the unchanged regression workflow;
+the new frame parser replay was local. Its success does not validate upstream
+headline theorems or the macro hypotheses. Chronological counts below belong
+to their original checkpoints. Full report: MACRO_RESEARCH_CHECKPOINT.md.
+
 Latest checkpoint: SC-012, **89 passing tests**. Counts in the chronological
 sections below describe their original checkpoints. The newest report,
 certificate and independent-arithmetic commands are at the end.

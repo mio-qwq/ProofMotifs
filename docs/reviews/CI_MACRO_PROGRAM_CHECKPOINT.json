@@ -1,0 +1,154 @@
+{
+  "checkpoint": "2972e186d95ed60f5731bdb45167bd8ecc56556f",
+  "tree": "99b59aabf41d995869c13de6e7187c2adf75b1f5",
+  "parent": "c6a1dec3e1032f9c45cafdb9efc2cfe01f37719d",
+  "branch": "research/ongoing",
+  "run_id": 39139767580,
+  "run_url": "https://github.com/mio-qwq/ProofMotifs/actions/runs/39139767580",
+  "run_status": "completed",
+  "run_conclusion": "success",
+  "job_id": 117711598203,
+  "job_conclusion": "success",
+  "unit_suite_local_count": 120,
+  "historical_deterministic_replay_steps": 22,
+  "new_metadata_parser_replayed_locally": true,
+  "new_metadata_parser_in_hosted_workflow": false,
+  "scope": "Repository regression CI; not upstream theorem verification, macro-hypothesis validation, human review, Lean verification or novelty certification.",
+  "steps": [
+    {
+      "name": "Set up job",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Unit tests",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay deterministic experiments",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay ternary classification",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay preserver classification experiments",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay constructive witness experiments",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay generator witness experiments",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay nonadditive preserver experiments",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay incidence rank certificates",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay color certificate with independent arithmetic",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay Freiman completion controls",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay cyclotomic incidence controls",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay Fourier incidence spectra",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay polynomial cyclic certificate",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay two-subspace obstruction",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay single-orbit certificates",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Independently check connected-orbit polynomial gcd",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Independently check nonlinear trace separator",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay linearized odd-degree seed certificate",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Independently check odd-degree field and trace witness",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay normal-character basecase certificate",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay normal-character bound arithmetic",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Replay normal quartic boundary",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Independently check normal obstructions and quartic witness",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+      "status": "completed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Complete job",
+      "status": "completed",
+      "conclusion": "success"
+    }
+  ]
+}

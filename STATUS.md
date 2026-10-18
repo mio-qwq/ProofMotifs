@@ -6,6 +6,12 @@ Resolve the live containing commit independently; no file names its own future S
 
 ## Controlling research priority: AI success, cancellation and tool need
 
+Macro checkpoint2972e186d95ed60f5731bdb45167bd8ecc56556f is remotely verified
+with tree99b59aabf41d995869c13de6e7187c2adf75b1f5. Hosted run39139767580,
+job117711598203 completed successfully: unit tests and22 historical replays.
+The new corpus parser's full source-byte replay was local, not added to this
+hosted workflow. Receipt: docs/reviews/CI_MACRO_PROGRAM_CHECKPOINT.json.
+
 The primary objective is now explicit in `research/RESEARCH_PROGRAM.md` and
 supersedes narrower next-step entries below. PM-H1 through PM-H5 separately test
 verified capability, mechanism prevalence, causal utility, existing-tool gaps
