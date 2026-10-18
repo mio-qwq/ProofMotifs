@@ -46,3 +46,13 @@ Long term remains a substantive result or transfer with documented distance from
 SC-007 reduces the defect-value bound to 2m-3 with a supplied power basis. A transvection adversary proves floor(m/2) queries necessary for deterministic decision from Q values alone. The asymptotic order is therefore linear in that restricted oracle model. Do not continue searching for a quadratic lower bound or imply a lower bound for direct access to T: its m basis images already determine it.
 
 The next gate is a value and prior-art review of this exact oracle problem, rather than polishing constants indefinitely. Investigate whether useful additional structure remains when additivity is removed, beginning with the unavoidable independent sign choices on opposite pairs. Any proposed arbitrary-permutation classification must account for those symmetries and should be compared with finite-geometric and quadratic-residue preserver results. Until examined, that is a research target, not an accepted theorem. Keep actual formalization and a genuinely new application as medium-term alternatives.
+
+## Update after the arbitrary-preserver quotient cycle
+
+The independent-sign obstruction is now proved. Arbitrary preservers do not become additive: the exact group is a sign kernel over the automorphism group of the 3-uniform zero-sum hypergraph on nonzero squares. F_9 and F_27 are classified exactly, while the general semilinear quotient statement remains PM-CONJECTURE-0002.
+
+The SC-007 prior-art/value gate is closed: retain the deterministic exact Q-only Theta(m) result as a supporting proposition, not a standalone optimal-testing theorem. No further constant optimization is planned without a natural application.
+
+The full F_81 quotient automorphism group is now computed exactly: all 160 automorphisms are square-scalings composed with Frobenius. Together with F_27 this verifies the conjecture in degrees 3 and 4, but does not prove it generally. Immediate priority: obtain a scalable F_243 certificate or a structural theorem through restricted Freiman automorphisms and cyclotomic/additive design literature. The projective square embedding is already present in Buratti-Nakic (2024), so novelty can only lie in the size-three relation, its automorphism classification, or a new cancellation application.
+
+Stop or redirect after two cycles if the general group is covered by known design theory or no verifiable structural invariant emerges. Preserve the quotient theorem and negative sign example as useful boundary results. Formalization and a genuinely held-out application remain medium-term alternatives.

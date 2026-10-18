@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "algorithm": "SHA256",
+  "files": {
+    "tools/nonadditive_preservers.py": "65e1f1504a88f392be6e96e916ecbb44290ec5fd1427dcd8c58e3f3ab13042da",
+    "tests/test_nonadditive_preservers.py": "3882afd2b1424bb8bcce86e1fcc4595600b507e8badff490aaa38e899cda4981",
+    "research/experiments/nonadditive-results.json": "c4d766568c1f9a6049564131f303b9d7ccb9a14e39acab978819ce5c3b17449e",
+    "research/experiments/nonadditive-tests.log": "0ff34cdd08ce49ae0250bcf6faf06691fd536aa1bd418a301621ba04f2378973"
+  }
+}

@@ -1,6 +1,6 @@
 # Recovery handoff
 
-Read AGENTS, STATUS, ROADMAP, CLAIMS, then fresh remote refs, recent commits and working tree. Last remotely verified predecessor: 8836e29869569f3098c20a961f202e9df46d8db3. Resolve the live containing commit independently. Preserve unexpected changes and never force-push.
+Read AGENTS, STATUS, ROADMAP, CLAIMS, then fresh remote refs, recent commits and working tree. Last remotely verified predecessor: 2e990a7c00899321dc202e3f6c083b3181481c67. Resolve the live containing commit independently. Preserve unexpected changes and never force-push.
 
 ## Mathematical state and exact notation
 
@@ -50,10 +50,21 @@ diff -u research/experiments/generator-results.json /tmp/generator-results.json
 
 ## Exact next mathematical operations
 
-1. Read research/literature/GENERATOR_TEST_AUDIT_20261018.md and the preserver audit. The generator-image/defining-relation principle and full-cone scalar-automorphism conclusion are classical. Historical priority of the exact Q-only oracle statement, conic packaging and F9 exception remains unverified. Search that precise statement in primary sources; absence of matches is not originality.
-2. A linear upper/lower order is now proved in the restricted deterministic Q model. Do NOT keep pursuing the obsolete quadratic lower-bound target or imply optimality for direct T access. Decide whether sharper constants have enough value before allocating another cycle.
-3. For a broader structural target, investigate arbitrary permutations only after checking unavoidable independent signs on opposite pairs. T(x)^2=x^2 pointwise suggests immediate nonadditive preservers, so additivity cannot be silently inferred. Begin with an exact small-field negative example and precise quotient relation, compare finite-geometric/quadratic-residue preserver theory, and retain it as a target until proved and reviewed.
-4. Genuine formalization or a new held-out application remain alternatives when they offer higher value. SC004 remains deferred. Maintain separate proof, AI-review, human-review, Lean and originality fields.
+1. Read workstreams/SC-008/RESULTS.md, docs/reviews/FIFTH_CYCLE.md and research/literature/NONADDITIVE_AUDIT_20261018.md. The independent-sign obstruction and quotient theorem are complete; do not try to recover additivity from the original labels.
+2. PM-CONJECTURE-0002 asks whether every H_K automorphism is `u -> s*u^(3^j)` for m>=3. Full exact computations now establish it in F_27 and F_81. Next improve the enumerator/certificate for F_243 or derive a structural reduction; a first bounded F_243 attempt exceeded 30 seconds and was terminated with no result.
+3. Compare the exact 3-uniform square zero-sum hypergraph with restricted Freiman automorphisms, cyclotomic hypergraphs and additive designs. Buratti-Nakic's square embedding is classical background; their blocks have size four in PG(3,3), not the project's size-three relation.
+4. SC-007's Theta(m) result is retained only in deterministic exact Q-only access. Do not optimize constants without an external application, and do not imply direct-T or randomized optimality.
+5. Genuine formalization or a held-out application remain alternatives if the general hypergraph classification is covered or stalls. SC004 remains deferred. Maintain separate proof, computation, AI-review, human-review, Lean and originality fields.
+
+## SC-008 exact state
+
+For q>3, every arbitrary ternary-order preserver fixes zero, is odd, and induces an automorphism on `S=(K^*)^2`. Define H_K to have distinct zero-sum triples of S as edges. Then `Pres(C)=C_2^((q-1)/2) semidirect Aut(H_K)`. The proof uses SC-003 to show that nonzero labels are infinity for one square class, 7 for a distinct zero-sum triple, and 5 otherwise.
+
+The independent sign map swapping only 1 and -1 in F_27 is a complete negative example to additivity. It was compared on all 27^3 ordered triples. The quotient degree is `(q-6-3eta)/8`, eta=(-1)^m, and the edge count is `(q-1)(q-6-3eta)/48`.
+
+Exact small fields: F_9 has four quotient vertices, no edges, Aut=S_4 and 384 full preservers. F_27 has 13 quotient vertices and 13 edges; exhaustive forced-third backtracking gives 39 automorphisms, identical to square-scaling/Frobenius actions, and 319488 full preservers. F_81 has 40 vertices and 120 edges; the same complete enumerator gives exactly 160 automorphisms, again the semilinear actions, and 175921860444160 full preservers.
+
+Reproduce with `python -m unittest discover -s tests -v` and `python tools/nonadditive_preservers.py`. The expected files are research/experiments/nonadditive-results.json and nonadditive-tests.log; hashes are in nonadditive-SHA256.json. Current local suite: 46 tests.
 
 ## Operational recovery
 
