@@ -1,7 +1,7 @@
 # Current research status
 
 Updated: 2026-10-18. Branch: `research/ongoing`; `main` remains the stable baseline.
-Last remotely verified predecessor: `bfe32279b502fd07ec646d4a7f173808d0ad8a2a`.
+Last remotely verified predecessor: `029a65ff5920f6f9bc05e5102ee3cd5d2f545154`.
 Resolve the live containing commit independently; no file names its own future SHA.
 
 ## Current mathematical result
@@ -63,8 +63,12 @@ Actual independent AI tasks A/B/C/D/E and coordinator decisions are recorded
 in docs/reviews/SIXTH_CYCLE.md; E's complete proof audit is preserved separately.
 A counting subtask that was interrupted is not counted as a completed review.
 No Lean/Lake/Elan tool is installed; no formal-verification claim is made.
-The new workflow includes all deterministic reports. Its hosted result must
-be checked at the actual new commit after delivery.
+The mathematical tree was delivered as 029a65ff5920f6f9bc05e5102ee3cd5d2f545154,
+with local/remote tree 4afcd66a268a42f18f4fd4f7f8a09ebaba5a5298. Hosted run
+39109178633, job 117621402329, passed the unit suite and all nine replay
+steps. The fresh run and job endpoints agree. The receipt is
+docs/reviews/CI_INCIDENCE_CHECKPOINT.json. The containing receipt checkpoint
+changes only recovery metadata and evidence, not mathematics or source code.
 
 Prior successful mathematical CI: a434475c/run39105407423 (SC-006),
 8836e298/run39105897724 (SC-007), b82c344/run39108039870 (SC-008).

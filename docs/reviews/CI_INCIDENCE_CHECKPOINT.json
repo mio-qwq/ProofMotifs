@@ -1,0 +1,109 @@
+{
+  "schema": 1,
+  "mathematical_commit": "029a65ff5920f6f9bc05e5102ee3cd5d2f545154",
+  "tree_sha": "4afcd66a268a42f18f4fd4f7f8a09ebaba5a5298",
+  "workflow_run": 39109178633,
+  "workflow_url": "https://github.com/mio-qwq/ProofMotifs/actions/runs/39109178633",
+  "status": "completed",
+  "conclusion": "success",
+  "created_at": "2026-10-18T07:50:32Z",
+  "updated_at": "2026-10-18T07:50:52Z",
+  "jobs": [
+    {
+      "id": 117621402329,
+      "name": "exact",
+      "status": "completed",
+      "conclusion": "success",
+      "run_id": 39109178633,
+      "logs_url": null,
+      "steps": [
+        {
+          "name": "Set up job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 1
+        },
+        {
+          "name": "Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 2
+        },
+        {
+          "name": "Unit tests",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 3
+        },
+        {
+          "name": "Replay deterministic experiments",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 4
+        },
+        {
+          "name": "Replay ternary classification",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 5
+        },
+        {
+          "name": "Replay preserver classification experiments",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 6
+        },
+        {
+          "name": "Replay constructive witness experiments",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 7
+        },
+        {
+          "name": "Replay generator witness experiments",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 8
+        },
+        {
+          "name": "Replay nonadditive preserver experiments",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 9
+        },
+        {
+          "name": "Replay incidence rank certificates",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 10
+        },
+        {
+          "name": "Replay color certificate with independent arithmetic",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 11
+        },
+        {
+          "name": "Replay Freiman completion controls",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 12
+        },
+        {
+          "name": "Post Run actions/checkout@11d5960a326750d5838078e36cf38b85af677262",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 24
+        },
+        {
+          "name": "Complete job",
+          "status": "completed",
+          "conclusion": "success",
+          "number": 25
+        }
+      ]
+    }
+  ],
+  "local_tests": 65,
+  "scope": "SC009 all-degree written proof, exact rank/color/completion checks and historical deterministic replays; CI is not Lean, human review or priority certification"
+}

@@ -1,7 +1,7 @@
 # Recovery handoff
 
 Read AGENTS, STATUS, ROADMAP, CLAIMS and fresh remote refs before writing.
-Last verified remote predecessor: `bfe32279b502fd07ec646d4a7f173808d0ad8a2a`.
+Last verified remote predecessor: `029a65ff5920f6f9bc05e5102ee3cd5d2f545154`.
 Resolve the containing live head separately. Preserve unexpected work;
 never force-push. Unified branch: `research/ongoing`; main stays stable.
 
@@ -84,8 +84,13 @@ diff -u research/experiments/freiman-completion-results.json /tmp/freiman-comple
 ```
 
 All 65 integrated tests passed; log research/experiments/sc009-tests.log.
-The workflow replays all historical reports plus all SC-009 reports. Check
-its actual new run after delivery. Hashes: sc009-SHA256.json. Negative tests
+The workflow replays all historical reports plus all SC-009 reports.
+Mathematical commit 029a65ff5920f6f9bc05e5102ee3cd5d2f545154 was delivered
+with matching local/remote tree 4afcd66a268a42f18f4fd4f7f8a09ebaba5a5298.
+Hosted run39109178633/job117621402329 passed the full suite and all nine
+replay steps; fresh run/job reads were inspected. See
+docs/reviews/CI_INCIDENCE_CHECKPOINT.json. The containing receipt checkpoint
+changes evidence/recovery metadata only. Hashes: sc009-SHA256.json. Negative tests
 reject missing edges, unsafe color splits and altered Frobenius data; exact
 F_9 functions and missing completions witness the true exception.
 
